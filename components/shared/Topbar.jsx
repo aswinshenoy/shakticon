@@ -1,14 +1,19 @@
 import React from 'react';
 import styled from "@emotion/styled";
+import Fade from 'react-reveal/Fade';
 
 const Header = styled.header`
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5000;
     align-items: center;
     justify-content: space-between;
     background: rgb(30,30,30);
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #F50057;
     height: 64px;
-    width: 100%;
     img {
         height: 50px;
     }
@@ -78,25 +83,39 @@ const Topbar = () => {
             </div>
             <div className="col-6 d-none d-md-flex align-items-center">
                 <nav>
-                    <a href="#about">About</a>
-                    <a href="#">Events</a>
-                    <a href="#">Speakers</a>
-                    <a href="#">Schedule</a>
-                    <a href="#faq">FAQ</a>
+                    <Fade delay={0}>
+                        <a href="#about">About</a>
+                    </Fade>
+                    <Fade delay={200}>
+                        <a href="#">Events</a>
+                    </Fade>
+                    <Fade delay={450}>
+                        <a href="#">Speakers</a>
+                    </Fade>
+                    <Fade delay={650}>
+                        <a href="#">Schedule</a>
+                    </Fade>
+                    <Fade delay={750}>
+                        <a href="#faq">FAQ</a>
+                    </Fade>
                 </nav>
             </div>
             <div className="col-3 d-none d-md-flex align-items-center">
-                <a className="register-button" href="#">Register</a>
-                {socialMedia.map((s) =>
-                    <a
-                        href={s.url}
-                        target="_blank" rel="nofollow noreferrer"
-                        className="social-icon"
-                        title="follow on social media"
-                        aria-label="follow on social media"
-                    >
-                        <i className={s.icon} aria-hidden="true" />
-                    </a>
+                <Fade left>
+                    <a className="register-button" href="#">Register</a>
+                </Fade>
+                {socialMedia.map((s, index) =>
+                    <Fade right delay={index*200}>
+                        <a
+                            href={s.url}
+                            target="_blank" rel="nofollow noreferrer"
+                            className="social-icon"
+                            title="follow on social media"
+                            aria-label="follow on social media"
+                        >
+                            <i className={s.icon} aria-hidden="true" />
+                        </a>
+                    </Fade>
                 )}
             </div>
         </div>
