@@ -1,0 +1,33 @@
+{
+  "name": "shakti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "export": "next export",
+    "dev": "next",
+    "start": "next start -p 80",
+    "deploy": "next build && next start -p 80",
+    "dev-deploy": "next build && next start",
+    "build-export": "npm run build && npm run export"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
+    "@zeit/next-source-maps": "0.0.3",
+    "emotion": "^11.0.0",
+    "next": "^10.0.4",
+    "next-compose-plugins": "^2.2.1",
+    "next-offline": "^5.0.3",
+    "next-optimized-images": "^2.6.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@zeit/next-css": "^1.0.1"
+  }
+}
