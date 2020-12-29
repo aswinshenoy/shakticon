@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "@emotion/styled";
+import Fade from 'react-reveal/Fade';
 
 const CoverContainer = styled.section`
     background-image: ${({bg}) => `url(${bg})` };
@@ -43,17 +44,23 @@ const LandingCover = () => {
     return <CoverContainer bg={require('../../images/shakti_bg.png')}>
     <CoverWrap>
         <div className="container text-center px-2">
-            <h1 className="font-weight-bold">Shakti 21</h1>
-            <h2>
-                CyberSecurity Conference, Trainings & Competition,
-                <span>Exclusively for Women.</span>
-            </h2>
-            <div className="d-flex justify-content-center mt-3">
-                <p style={{ maxWidth: '600px' }}>
-                    Organized by India's No.1 Ranked Women Cyber Security Team - team Shakti,
-                    in-association with team bi0s, Blackhoodie & Amrita Center for CyberSecurity.
-                </p>
-            </div>
+            <Fade left>
+                <h1 className="font-weight-bold">Shakti 21</h1>
+            </Fade>
+            <Fade right>
+                <h2>
+                    CyberSecurity Conference, Trainings & Competition,
+                    <span>Exclusively for Women.</span>
+                </h2>
+            </Fade>
+            <Fade up>
+                <div className="d-flex justify-content-center mt-3">
+                    <p style={{ maxWidth: '600px' }}>
+                        Organized by India's No.1 Ranked Women Cyber Security Team - team Shakti,
+                        in-association with team bi0s, Blackhoodie & Amrita Center for CyberSecurity.
+                    </p>
+                </div>
+            </Fade>
         </div>
     </CoverWrap>
     </CoverContainer>

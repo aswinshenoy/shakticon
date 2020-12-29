@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from "next/head";
-
+import config from 'react-reveal/globals';
 
 import '../../styles/bootstrap.min.css';
 import '../../styles/styles.css';
@@ -12,6 +12,7 @@ const seoTags = {
 };
 
 const Base = ({ children, meta }) => {
+    config({ ssrFadeout: true });
 
     const title = `${meta && meta.title ? `${meta.title} |` : ''} ${seoTags.siteName} - ${seoTags.tagLine}`;
     const GoogleAnalyticsID = null;

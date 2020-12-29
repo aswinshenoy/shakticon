@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import styled from "@emotion/styled";
+import Fade from "react-reveal/Fade";
 
 const FAQContainer = styled.section`
       background: #222640;
@@ -31,7 +32,7 @@ const FAQQuestionContainer = styled.div`
 
 const QuestionCard = ({ question, answer }) => {
 
-    const [isOpen, setOpen] = useState(true);
+    const [isOpen, setOpen] = useState(false);
 
     return <FAQQuestionContainer>
         <button onClick={() => setOpen(!isOpen)}>
@@ -82,7 +83,11 @@ const FAQSection = () => {
         <div className="container p-2">
             <h3>FAQ</h3>
             <div style={{ maxWidth: '800px' }}>
-                {questions.map((q) => <QuestionCard {...q} />)}
+                {questions.map((q, index) =>
+                    <Fade up delay={index*300}>
+                        <QuestionCard {...q} />
+                    </Fade>
+                )}
             </div>
         </div>
     </FAQContainer>

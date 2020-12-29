@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "@emotion/styled";
+import Fade from 'react-reveal/Fade';
 
 const AboutContainer = styled.div`
     padding: 8vh 0;
@@ -49,36 +50,40 @@ const AboutShaktiCon = () => {
     return <AboutContainer id="about">
         <div className="container-lg px-1">
             <div className="row mx-0">
-                <div className="col-md-8 px-3">
-                    <div>
-                        <h2>What is <span>Shakti 21</span>?</h2>
-                        <div style={{ maxWidth: '650px' }}>
-                            <p>
-                                Shakti21 is a series of programmes with a goal to excite, train and support women from all over the
-                                globe to develop critical skills in the area of cyber security. It features multiple training workshops,
-                                talks, seminars and hacking contests spanned over 3 months, and is organized by Team Shakti along with
-                                the support of team bi0s and Blackhoodie.
-                            </p>
-                            <p>
-                                The training and talks will be beginner friendly, engaging and will inspire their curiosity.
-                                At the end of the programme, a Women Only Jeopardy-style CTF contest with a set of interesting challenges
-                                shall be organized to test the learnings, that can be solved individually or as a team by the participants.
-                            </p>
-                            <p>
-                                In addition, all the participants will be provided with plenty of resources for learning, including free
-                                access to premium learning platforms, practice challenges, videos and write ups.
-                            </p>
+                <Fade left>
+                    <div className="col-md-8 px-3">
+                        <div>
+                            <h2>What is <span>Shakti 21</span>?</h2>
+                            <div style={{ maxWidth: '650px' }}>
+                                <p>
+                                    Shakti21 is a series of programmes with a goal to excite, train and support women from all over the
+                                    globe to develop critical skills in the area of cyber security. It features multiple training workshops,
+                                    talks, seminars and hacking contests spanned over 3 months, and is organized by Team Shakti along with
+                                    the support of team bi0s and Blackhoodie.
+                                </p>
+                                <p>
+                                    The training and talks will be beginner friendly, engaging and will inspire their curiosity.
+                                    At the end of the programme, a Women Only Jeopardy-style CTF contest with a set of interesting challenges
+                                    shall be organized to test the learnings, that can be solved individually or as a team by the participants.
+                                </p>
+                                <p>
+                                    In addition, all the participants will be provided with plenty of resources for learning, including free
+                                    access to premium learning platforms, practice challenges, videos and write ups.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </Fade>
                 <div className="col-md-4 d-flex align-items-center justify-content-end px-3">
                     <div>
                         <h5 className="mb-3">End-to-End Programme for <span className="d-inline-block">Women in Cyber-Security</span></h5>
                         {components.map((c, index) =>
-                            <ConfComponent>
-                                <h4><span>{index+1}.</span> {c.title}</h4>
-                                <p>{c.label}</p>
-                            </ConfComponent>
+                            <Fade delay={index*500}>
+                                <ConfComponent>
+                                    <h4><span>{index+1}.</span> {c.title}</h4>
+                                    <p>{c.label}</p>
+                                </ConfComponent>
+                            </Fade>
                         )}
                     </div>
                 </div>

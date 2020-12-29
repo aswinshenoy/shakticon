@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "@emotion/styled";
+import Fade from 'react-reveal/Fade';
 
 const GoalsContainer = styled.div`
     background: #222;
@@ -61,10 +62,12 @@ const EventGoals = () => {
         <div className="container" style={{ maxWidth: '1333px' }}>
             <h2>Our Goals</h2>
             <div className="row mx-0">
-                {goals.map((g) =>
+                {goals.map((g, index) =>
                     <GoalCard className="col-md-6 col-lg-3 p-2">
-                        <img alt="illustration" src={g.cover} />
-                        <p>{g.text}</p>
+                        <Fade up={index%2===0} down={index%2!==0} delay={index*350}>
+                            <img alt="illustration" src={g.cover} />
+                            <p>{g.text}</p>
+                        </Fade>
                     </GoalCard>
                 )}
             </div>
