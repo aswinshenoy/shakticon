@@ -41,7 +41,7 @@ const CoverWrap = styled.div`
 
 const LandingCover = () => {
 
-    return <CoverContainer bg={require('../../images/shakti_bg.png')}>
+    return <CoverContainer bg={require('../../images/shakti_bg.jpg')}>
     <CoverWrap>
         <div className="container text-center px-2">
             <Fade left>

@@ -41,19 +41,19 @@ const EventGoals = () => {
 
     const goals = [
         {
-            "cover": require('../../images/covers/women_hands.png'),
+            "cover": require('../../images/covers/women_cut_barriers.jpg'),
             "text": "Create a comfortable space & platform to encourage women to women communication and shared learning",
         },
         {
-            "cover": require('../../images/covers/women_group.png'),
+            "cover": require('../../images/covers/women_dark_bg.jpg'),
             "text": "Discussions on the benefits and relevance of cybersecurity, and the role of next generation of girls in making the world a safer place"
         },
         {
-            "cover": require('../../images/covers/women_fight.png'),
+            "cover": require('../../images/covers/women_flag.jpg'),
             "text": "Encourage participation of women in CTF contests by getting them familiarized  with it."
         },
         {
-            "cover": require('../../images/covers/women_hug.png'),
+            "cover": require('../../images/covers/women_connections.jpg'),
             "text": "Facilitate knowledge transfers and foster connections amongst participants"
         }
     ]
