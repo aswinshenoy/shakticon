@@ -37,6 +37,12 @@ const CoverWrap = styled.div`
           font-style: italic;
        }
     }
+    p {
+      span {
+        font-weight: 600;
+        color: #FFD600;
+      }
+    }
 `
 
 const LandingCover = () => {
@@ -55,9 +61,9 @@ const LandingCover = () => {
             </Fade>
             <Fade up>
                 <div className="d-flex justify-content-center mt-3">
-                    <p style={{ maxWidth: '600px' }}>
-                        Organized by India's No.1 Ranked Women Cyber Security Team - team Shakti,
-                        in-association with team bi0s, Blackhoodie & Amrita Center for CyberSecurity.
+                    <p style={{ maxWidth: '700px' }}>
+                        Organized by India's No.1 Ranked Women Cyber Security Team - <span>team Shakti</span>,
+                        in-association with <span>team bi0s</span>, <span>Blackhoodie</span> & <span>Amrita Center for CyberSecurity</span>.
                     </p>
                 </div>
             </Fade>

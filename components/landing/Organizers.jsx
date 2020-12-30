@@ -79,12 +79,16 @@ const EventOrganizers = () => {
                         </div>
                         <div className="col-6 col-md-4 d-flex justify-content-center align-items-center p-1">
                             <Fade up>
-                                <img alt="black hoodie" src={require('../../images/black_hoodie_logo.PNG')} />
+                                <a href="https://blackhoodie.re/" className="plain-link" target="_blank">
+                                    <img alt="black hoodie" src={require('../../images/black_hoodie_logo.PNG')} />
+                                </a>
                             </Fade>
                         </div>
                         <div className="col-12 col-md-4 d-flex align-items-center justify-content-center p-1">
                             <Fade down>
-                                <img alt="Amrita Center for CybserSecurity Systems & Network" src={require('../../images/amrita_cyber.png')} />
+                                <a href="https://www.amrita.edu/center/cyber-security" className="plain-link" target="_blank">
+                                    <img alt="Amrita Center for CybserSecurity Systems & Network" src={require('../../images/amrita_cyber.png')} />
+                                </a>
                             </Fade>
                         </div>
                     </div>
