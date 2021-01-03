@@ -74,7 +74,7 @@ const EventSponsors = () => {
                         </Fade>
                         <Fade left>
                             <div>
-                                <a href="mailto:sponsorship@shakticon.in">Sponsor Us</a>
+                                <a href="mailto:mail@shakticon.com">Sponsor Us</a>
                             </div>
                         </Fade>
                     </div>
