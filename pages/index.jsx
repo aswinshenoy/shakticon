@@ -10,6 +10,7 @@ import EventOrganizers from "../components/landing/Organizers";
 import Topbar from "../components/shared/Topbar";
 import FAQSection from "../components/landing/FAQ";
 import FooterArea from "../components/landing/Footer";
+import ProgrammePhases from "../components/landing/phases";
 
 
 export default () => {
@@ -18,6 +19,7 @@ export default () => {
       <Topbar />
       <LandingCover />
       <AboutShaktiCon />
+      <ProgrammePhases />
       <EventGoals />
       <EventSponsors />
       <EventOrganizers />

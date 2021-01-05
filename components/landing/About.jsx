@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 const AboutContainer = styled.div`
     padding: 8vh 0;
     background: #09091F;
-    color: white;
+    color: #EEE;
     h2 {
         font-size: calc(1.3rem + 1.5vw);
         font-weight: 600;
@@ -26,6 +26,7 @@ const ConfComponent = styled.div`
     }
     p {
        font-size: 13px;
+       color: #AAA;
     }
 `;
 

@@ -6,12 +6,12 @@ const GoalsContainer = styled.div`
     background: #222;
     padding: 5vh 0;
     h2 {
-        font-size: calc(1.5rem + 1vw);
+        font-size: calc(1.5rem + 2vw);
         text-align: center;
         color: #F50057;
         font-weight: 600;
         padding: 1.5rem 0;
-        margin-bottom: 0;
+        margin-bottom: 2vw;
     }
 `;
 
