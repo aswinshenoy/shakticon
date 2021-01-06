@@ -10,7 +10,8 @@ import EventOrganizers from "../components/landing/Organizers";
 import Topbar from "../components/shared/Topbar";
 import FAQSection from "../components/landing/FAQ";
 import FooterArea from "../components/landing/Footer";
-import ProgrammePhases from "../components/landing/phases";
+import ProgrammePhases from "../components/landing/Timeline";
+import Resources from "../components/landing/Resources";
 
 
 export default () => {
@@ -24,6 +25,7 @@ export default () => {
       <EventSponsors />
       <EventOrganizers />
       <FAQSection />
+      <Resources />
       <FooterArea />
   </Base>;
 

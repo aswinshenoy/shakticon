@@ -102,6 +102,9 @@ const Topbar = () => {
                     <Fade delay={750}>
                         <a href="#faq">FAQ</a>
                     </Fade>
+                    <Fade delay={750}>
+                        <a href="#resources">Resources</a>
+                    </Fade>
                 </nav>
             </div>
             <div className="col-3 d-none d-md-flex align-items-center">
