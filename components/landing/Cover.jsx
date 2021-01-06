@@ -3,10 +3,11 @@ import styled from "@emotion/styled";
 import Fade from 'react-reveal/Fade';
 
 const CoverContainer = styled.section`
-    background-image: ${({bg}) => `url(${bg})` };
+    background: linear-gradient(36deg, rgba(0,0,0,0.4) 0%, rgba(46,0,37,0.8) 37%, rgba(254,0,100,0.4) 51%, rgba(0,0,0,0.9) 100%),linear-gradient(51deg, rgba(82,55,15,1) 0%, rgba(71,83,0,1) 40%, rgba(0,50,124,1) 100%);
     background-size: cover;
-    background-position: center;
     color: white;
+    position: relative;
+    overflow: hidden;
 `;
 
 const CoverWrap = styled.div`
@@ -30,17 +31,18 @@ const CoverWrap = styled.div`
        text-align: center;
        font-size: calc(1.35rem + 1vw);
        text-shadow: 2px 3px 4px rgba(0,0,0,0.5);
+       color: #EEE;
        span {
-          color: #F50057;
           display: block;
           font-weight: 900;
           font-style: italic;
        }
     }
     p {
+      color: #BBB;
       span {
         font-weight: 600;
-        color: #FFD600;
+        color: #fd7e14;
       }
     }
 `

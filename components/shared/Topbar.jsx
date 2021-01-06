@@ -11,11 +11,15 @@ const Header = styled.header`
     z-index: 5000;
     align-items: center;
     justify-content: space-between;
-    background: rgb(30,30,30);
+    background: rgb(20,20,30);
     border-bottom: 1px solid #F50057;
     height: 64px;
     img {
         height: 50px;
+        filter: brightness(10%) invert(1);
+        &:hover {
+           filter: none!important;
+        }
     }
     nav {
        a {
@@ -78,7 +82,7 @@ const Topbar = () => {
         <div className="row w-100 mx-0">
             <div className="col-3 d-flex justify-content-md-end">
                 <a href="/">
-                    <img height="30px" width="auto" src={require('../../images/logo.svg')} alt="Ashwin Shenoy" />
+                    <img height="30px" draggable="false" width="auto" src={require('../../images/logo.svg')} alt="Team Shakti" />
                 </a>
             </div>
             <div className="col-6 d-none d-md-flex align-items-center">

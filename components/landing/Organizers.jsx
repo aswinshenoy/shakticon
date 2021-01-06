@@ -23,9 +23,12 @@ const OrganizersSection = styled.section`
      p {
         font-size: 12px;
      }
+     .logo {
+         width: 220px;
+     }
      .supporters_logos {
           img {
-            width: 200px;
+            width: 180px;
             max-width: 100%;
             margin-right: 10px;
           }
@@ -41,7 +44,7 @@ const EventOrganizers = () => {
                 <div className="col-md-6 order-md-1 order-2 text-center">
                     <Fade>
                         <a href="https://amrita.edu" target="_blank" rel="noreferrer nofollow">
-                            <img className="p-2 logo" alt="Amrita Vishwa Vidyapeetham" src={require('../../images/amrita_logo_dark.png')} />
+                            <img className="p-2 logo" draggable="false" alt="Amrita Vishwa Vidyapeetham" src={require('../../images/amrita_logo_dark.png')} />
                         </a>
                         <h4>India's No.1 Ranked Private University</h4>
                         <p>
@@ -55,7 +58,7 @@ const EventOrganizers = () => {
                 <div className="col-md-6 order-md-1 order-2 text-center">
                     <Fade>
                         <a href="https://teamshakti.in/" target="_blank" rel="noreferrer nofollow">
-                            <img className="p-2 logo" alt="Team Shakti" src={require('../../images/teamshakti.svg')} />
+                            <img className="p-2 logo" draggable="false" alt="Team Shakti" src={require('../../images/teamshakti.svg')} />
                         </a>
                         <h4>India's No.1 Ranked Women CTF Team</h4>
                         <p>
@@ -73,21 +76,21 @@ const EventOrganizers = () => {
                         <div className="col-6 col-md-4 d-flex align-items-center justify-content-center p-1">
                             <Fade down>
                                 <a href="https://bi0s.in" className="plain-link" target="_blank">
-                                    <img alt="team bi0s" src={require('../../images/team_bi0s.png')} />
+                                    <img alt="team bi0s" draggable="false" src={require('../../images/team_bi0s.png')} />
                                 </a>
                             </Fade>
                         </div>
                         <div className="col-6 col-md-4 d-flex justify-content-center align-items-center p-1">
                             <Fade up>
                                 <a href="https://blackhoodie.re/" className="plain-link" target="_blank">
-                                    <img alt="black hoodie" src={require('../../images/black_hoodie_logo.PNG')} />
+                                    <img alt="black hoodie" draggable="false" src={require('../../images/black_hoodie_logo.PNG')} />
                                 </a>
                             </Fade>
                         </div>
                         <div className="col-12 col-md-4 d-flex align-items-center justify-content-center p-1">
                             <Fade down>
                                 <a href="https://www.amrita.edu/center/cyber-security" className="plain-link" target="_blank">
-                                    <img alt="Amrita Center for CybserSecurity Systems & Network" src={require('../../images/amrita_cyber.png')} />
+                                    <img alt="Amrita Center for CybserSecurity Systems & Network" draggable="false" src={require('../../images/amrita_cyber.png')} />
                                 </a>
                             </Fade>
                         </div>
@@ -95,7 +98,7 @@ const EventOrganizers = () => {
                 </div>
             </div>
         </div>
-        <img src={require('../../images/amritapuri_illustration.png')} alt="amritapuri" />
+        <img src={require('../../images/amritapuri_illustration.png')} draggable="false" alt="amritapuri" />
     </OrganizersSection>;
 
 };

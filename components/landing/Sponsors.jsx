@@ -25,9 +25,12 @@ const SponsorsSection = styled.section`
 const SponsorContainer = styled.div`
     background: white;
     padding: 1rem;
-    border-radius: 12px;
+    border-radius: 12px 0 0 12px;
     width: 100%;
-    transform: translateX(10vw);
+    transform: translateX(5vmax);
+    @media (min-width: 768px) {
+      border-radius: 12px!important;
+    }
     h4 {
         font-size: calc(1.3rem + 1.5vw);
         color: #F50057;
@@ -36,6 +39,7 @@ const SponsorContainer = styled.div`
 `;
 
 const SponsorIcon = styled.div`
+    font-size: calc(0.8rem + 0.35vw);
     img {
         max-width: 100%;
     }
@@ -82,10 +86,10 @@ const EventSponsors = () => {
                 <div className="col-md-8 d-flex justify-content-end px-2 py-4">
                     <SponsorContainer>
                         <Fade right>
-                            <h4 className="my-3">Our Sponsors</h4>
+                            <h4 className="mb-2">Our Sponsors</h4>
                             <div className="row my-2 mx-0">
                                 {sponsors.map((s) =>
-                                    <div className="col-6 col-md-4 px-1">
+                                    <div className="col-md-4 p-1">
                                         <SponsorIcon>
                                             <div>{s.title}</div>
                                             <img alt={s.name} draggable="false" src={s.logo} style={{ width: s.size }} />
