@@ -26,8 +26,12 @@ const FooterArea = () => {
             "url": "mailto:teamshakti06@gmail.com"
         },
         {
+            "icon": "fab fa-instagram",
+            "url": "https://instagram.com/shakticon"
+        },
+        {
             "icon": "fab fa-twitter",
-            "url": "https://twitter.com/teamshakti06"
+            "url": "https://twitter.com/shakticon"
         },
         {
             "icon": "fa fa-flag",
