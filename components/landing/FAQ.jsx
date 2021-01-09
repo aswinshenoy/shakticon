@@ -50,6 +50,20 @@ const FAQSection = () => {
 
     const questions = [
         {
+            "question": "How can I register?",
+            "answer": <>
+                Whenever there is an upcoming event, it will be updated in the events section. There will be an option to signup for different events separately.
+            </>
+        },
+        {
+            "question": "How is the verification done?",
+            "answer": <>
+                As this is a women only program, to participate in trainings or any events,
+                there will be a verification process. You will get more details regarding this
+                once you sign up for our events.
+            </>
+        },
+        {
             "question": "I am totally new to cybersecurity, can I take part?",
             "answer": "YES, anyone who is new to cybersecurity can take part. No prior skills needed. You only need to come armed with curiosity, patience and enthusiasm to learn"
         },

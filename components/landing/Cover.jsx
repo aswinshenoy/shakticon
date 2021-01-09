@@ -45,6 +45,21 @@ const CoverWrap = styled.div`
         color: #fd7e14;
       }
     }
+    .register-button {
+        padding: 8px 16px;
+        border-radius: 3px;
+        font-size: 22px;
+        background: white;
+        color: #F50057;
+        text-decoration: none!important;
+        transition: all 0.35s linear;
+        &:hover {
+           background: #F50057;
+           color: white;
+           transition: all 0.35s linear;
+        }
+        margin-right: 5px;
+    }
 `
 
 const LandingCover = () => {
@@ -63,10 +78,20 @@ const LandingCover = () => {
             </Fade>
             <Fade up>
                 <div className="d-flex justify-content-center mt-3">
-                    <p style={{ maxWidth: '700px' }}>
-                        Organized by India's No.1 Ranked Women Cyber Security Team - <span>team Shakti</span>,
-                        in-association with <span>team bi0s</span>, <span>Blackhoodie</span> & <span>Amrita Center for CyberSecurity</span>.
-                    </p>
+                    <div>
+                        <p style={{ maxWidth: '700px' }}>
+                            Organized by India's No.1 Ranked Women Cyber Security Team - <span>team Shakti</span>,
+                            in-association with <span>team bi0s</span>, <span>Blackhoodie</span> & <span>Amrita Center for CyberSecurity</span>.
+                        </p>
+                        <div className="py-2">
+                            <a
+                                className="register-button" target="_blank" rel="noreferrer nofollow"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSeiITkqpmhPRHWQspiLt27hDV2nFlwW9QoyzyFZVjM5YmSqwg/viewform"
+                            >
+                                Register For Training <i className="fa fa-chevron-right ml-2" />
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </Fade>
         </div>

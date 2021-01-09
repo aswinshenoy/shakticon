@@ -61,6 +61,7 @@ const ProgrammePhases = () => {
                 {
                     "title": "Beginner-Level Training",
                     "description": "Basic CybserSecurity Training, introducing participants to Web Security & Exploitation, Assembly, Digital Forensics, Reverse Engineering ",
+                    "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSeiITkqpmhPRHWQspiLt27hDV2nFlwW9QoyzyFZVjM5YmSqwg/viewform"
                 },
             ],
         },
@@ -114,8 +115,14 @@ const ProgrammePhases = () => {
                             <Fade up delay={500*i}>
                                 <div className="pt-4">
                                     <h5>{e.title}</h5>
+                                    {e.registerURL &&
+                                        <a href={e.registerURL} target="_blank" rel="noreferrer nofollow" className="text-light my-1 d-inline-block plain-link">
+                                            Register Now <i className="fa fa-chevron-right ml-1"/>
+                                        </a>
+                                    }
                                     {e.date && <div className="date"><i className="far fa-calendar-alt mr-1" /> {e.date}</div>}
                                     <p>{e.description}</p>
+
                                 </div>
                             </Fade>
                         )}

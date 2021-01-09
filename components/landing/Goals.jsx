@@ -65,7 +65,7 @@ const EventGoals = () => {
                 {goals.map((g, index) =>
                     <GoalCard className="col-md-6 col-lg-3 p-2">
                         <Fade up={index%2===0} down={index%2!==0} delay={index*350}>
-                            <img alt="illustration" src={g.cover} />
+                            <img alt="illustration" draggable="false" src={g.cover} />
                             <p>{g.text}</p>
                         </Fade>
                     </GoalCard>
