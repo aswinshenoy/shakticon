@@ -94,8 +94,8 @@ const ProgrammePhases = () => {
             "timeline": "March 2021 - April 2021",
             "events": [
                 {
-                    "title": "ShaktiCon",
-                    "description": "Flagship CyberSecurity Conference exclusively for Women, that will feature talks, panel-discussions, seminars etc.",
+                    "title": "Final Summit",
+                    "description": "2-day CyberSecurity Conference exclusively for Women, that will feature talks, panel-discussions, seminars etc.",
                 },
                 {
                     "title": "ShaktiCTF",

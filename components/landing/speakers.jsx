@@ -23,15 +23,17 @@ const SpeakerCard = styled.div`
     padding: 0 0.75rem;
     border-radius: 20px;
     height: 100%;
-    margin: 10px 0;
     display: flex;
     flex-direction: column;
     flex: 1 1;
     user-select: none;
     transition: all 0.5s ease;
+    width: 300px;
+    max-width: 60vw;
+    margin: 10px min(2.5vmin,16px);
     border: ${({ isTrainer }) => isTrainer ? `2px solid #9C27B0` : `2px solid #C51162` };
     &:hover {
-       transform: translateY(-5px);
+       transform: translateY(-8px);
        transition: all 0.5s ease;
        border-radius: 10px;
        img {
@@ -45,6 +47,7 @@ const SpeakerCard = styled.div`
       border-radius: 100vw;
       margin-bottom: 1rem;
       transition: all 0.7s ease;
+      display: block;
     }
     h3 {
        font-size: calc(1.25rem + 0.25vw);
@@ -130,47 +133,74 @@ const ConferenceSpeakers = () => {
             "links": {
                 "linkedin": "https://www.linkedin.com/in/sanjumisra/"
             }
-        }
+        },
+        {
+            "name": "Dr. Krishnasree Achuthan",
+            "designation": "Director",
+            "company": "Amrita Center of Cyber Security",
+            "image": require('../../images/speakers/dr_krishnasree.jpg'),
+        },
+        {
+            "name": "Vipin Pavithran",
+            "designation": "Founder & Chief Mentor",
+            "company": "team bi0s, team Shakti & InCTF",
+            "image": require('../../images/speakers/prof_vipin.jpg'),
+            "links": {
+                "linkedin": "https://www.linkedin.com/in/vipin-pavithran/",
+                "twitter": "https://twitter.com/Th3_M3nt0r",
+            }
+        },
+        {
+            "name": "Sreepriya Chalakkal",
+            "designation": "Security Analyst",
+            "company": "Siemens",
+            "image": require('../../images/crew/sreepriya_chechi.jpg'),
+            "links": {
+                "twitter": "https://twitter.com/priyachalakkal",
+                "linkedin": "https://www.linkedin.com/in/sreepriyac/"
+            }
+        },
     ];
 
     return <SpeakersContainer id="speakers">
+
         <h2>Speakers & Trainers</h2>
-        <div className="container px-0" style={{ maxWidth: '800px' }}>
+        <div className="container" style={{ maxWidth: '1200px' }}>
             <ScrollContainer vertical={false} className="scroll-container py-2">
-                <div className="d-flex">
+                <div className="d-flex p-3">
                     {speakers.map((s, index) =>
                         <Fade key={shortid.generate()} className="h-100" delay={150*index}>
-                            <div className="col-md-4 col-8 p-1">
-                                <SpeakerCard isTrainer={s.isTrainer}>
-                                    <div>
-                                        {s.isTrainer ?
-                                            <div className="trainer-badge">Trainer</div>
-                                            : <div className="speaker-badge">Speaker</div>
-                                        }
-                                        <img src={s.image} alt={s.name} draggable="false" />
-                                        <h3>{s.name}</h3>
-                                    </div>
-                                    <div>
-                                        <h4>{s.designation}</h4>
-                                        <h5>{s.company}</h5>
-                                    </div>
-                                    {s.links &&
-                                    <div className="social-media-links">
-                                        {s.links?.twitter &&
-                                        <a href={s.links.twitter} rel="noreferrer nofollow" target="_blank">
-                                            <i className="fab fa-twitter" />
-                                        </a>}
-                                        <a href={s.links.linkedin} rel="noreferrer nofollow" target="_blank">
-                                            <i className="fab fa-linkedin" />
-                                        </a>
-                                        {s.links?.website &&
-                                        <a href={s.links.website} rel="noreferrer nofollow" target="_blank">
-                                            <i className="far fa-globe" />
-                                        </a>}
-                                    </div>
+                            <SpeakerCard isTrainer={s.isTrainer}>
+                                <div>
+                                    {s.isTrainer ?
+                                        <div className="trainer-badge">Trainer</div>
+                                        : <div className="speaker-badge">Speaker</div>
                                     }
-                                </SpeakerCard>
-                            </div>
+                                    <div className="d-flex justify-content-center">
+                                        <img src={s.image} alt={s.name} draggable="false" />
+                                    </div>
+                                    <h3>{s.name}</h3>
+                                </div>
+                                <div>
+                                    <h4>{s.designation}</h4>
+                                    <h5>{s.company}</h5>
+                                </div>
+                                {s.links &&
+                                <div className="social-media-links">
+                                    {s.links?.twitter &&
+                                    <a href={s.links.twitter} rel="noreferrer nofollow" target="_blank">
+                                        <i className="fab fa-twitter" />
+                                    </a>}
+                                    <a href={s.links.linkedin} rel="noreferrer nofollow" target="_blank">
+                                        <i className="fab fa-linkedin" />
+                                    </a>
+                                    {s.links?.website &&
+                                    <a href={s.links.website} rel="noreferrer nofollow" target="_blank">
+                                        <i className="far fa-globe" />
+                                    </a>}
+                                </div>
+                                }
+                            </SpeakerCard>
                         </Fade>
                     )}
                 </div>

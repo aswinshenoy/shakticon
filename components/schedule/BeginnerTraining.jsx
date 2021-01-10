@@ -116,7 +116,7 @@ const BeginnerTraining = ({ }) => {
     return <TrainingModuleWrap id="beginner-training">
         <div className="container-lg p-0">
             <h2>Beginner Training</h2>
-            <p>Beginner level cyber-security training sessions for young women aspirants, conducted by members of team Shakti from 15h of January.</p>
+            <p>Beginner level cyber-security training sessions for young women aspirants, conducted by members of team Shakti from 15th of January.</p>
         </div>
         <ScrollContainer vertical={false} className="scroll-container py-2">
             <div className="d-flex">
