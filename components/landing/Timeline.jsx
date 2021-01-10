@@ -32,14 +32,23 @@ const TimelineWrapper = styled.div`
        margin-bottom: 0;
        color: #BBB;
     }
+    a {
+      text-decoration: none!important;
+      color: #FF4081!important;
+      &:hover {
+         h5 {
+            color: white;
+         }
+      }
+    }
     h5 {
         color: #fd7e14;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         font-size: calc(1rem + 0.25vw);
     }
     .date {
-       color: #EEE;
-       font-size: 13px;
+       color: #DDD;
+       font-size: 14px;
        line-height: 1.2;
        margin-bottom: 10px;
     }
@@ -61,7 +70,8 @@ const ProgrammePhases = () => {
                 {
                     "title": "Beginner-Level Training",
                     "description": "Basic CybserSecurity Training, introducing participants to Web Security & Exploitation, Assembly, Digital Forensics, Reverse Engineering ",
-                    "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSeiITkqpmhPRHWQspiLt27hDV2nFlwW9QoyzyFZVjM5YmSqwg/viewform"
+                    "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSeiITkqpmhPRHWQspiLt27hDV2nFlwW9QoyzyFZVjM5YmSqwg/viewform",
+                    "viewMoreURL": "/schedule#beginner-training"
                 },
             ],
         },
@@ -114,14 +124,24 @@ const ProgrammePhases = () => {
                         {p.events.map((e, i) =>
                             <Fade up delay={500*i}>
                                 <div className="pt-4">
-                                    <h5>{e.title}</h5>
-                                    {e.registerURL &&
-                                        <a href={e.registerURL} target="_blank" rel="noreferrer nofollow" className="text-light my-1 d-inline-block plain-link">
-                                            Register Now <i className="fa fa-chevron-right ml-1"/>
-                                        </a>
+                                    {e.viewMoreURL ?
+                                        <a href={e.viewMoreURL}>
+                                            <h5>{e.title}</h5>
+                                        </a> :
+                                        <h5>{e.title}</h5>
                                     }
                                     {e.date && <div className="date"><i className="far fa-calendar-alt mr-1" /> {e.date}</div>}
                                     <p>{e.description}</p>
+                                    <div className="d-flex mt-2">
+                                        {e.registerURL &&
+                                        <a href={e.registerURL} target="_blank" rel="noreferrer nofollow" className="text-light my-1 mr-3 d-inline-block plain-link">
+                                            Register Now <i className="far fa-chevron-right"/>
+                                        </a>}
+                                        {e.viewMoreURL &&
+                                        <a href={e.viewMoreURL} className="text-light my-1 d-inline-block plain-link">
+                                            View Details <i className="far fa-external-link"/>
+                                        </a>}
+                                    </div>
                                 </div>
                             </Fade>
                         )}
