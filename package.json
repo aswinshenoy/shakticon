@@ -26,7 +26,9 @@
     "next-optimized-images": "^2.6.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-reveal": "^1.2.2"
+    "react-indiana-drag-scroll": "^1.8.0",
+    "react-reveal": "^1.2.2",
+    "shortid": "^2.2.16"
   },
   "devDependencies": {
     "@zeit/next-css": "^1.0.1"

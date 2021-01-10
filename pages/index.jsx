@@ -12,6 +12,7 @@ import FAQSection from "../components/landing/FAQ";
 import FooterArea from "../components/landing/Footer";
 import ProgrammePhases from "../components/landing/Timeline";
 import Resources from "../components/landing/Resources";
+import ConferenceSpeakers from "../components/landing/speakers";
 
 
 export default () => {
@@ -21,6 +22,7 @@ export default () => {
       <LandingCover />
       <AboutShaktiCon />
       <ProgrammePhases />
+      <ConferenceSpeakers />
       <EventGoals />
       <EventSponsors />
       <EventOrganizers />

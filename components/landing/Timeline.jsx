@@ -122,7 +122,6 @@ const ProgrammePhases = () => {
                                     }
                                     {e.date && <div className="date"><i className="far fa-calendar-alt mr-1" /> {e.date}</div>}
                                     <p>{e.description}</p>
-
                                 </div>
                             </Fade>
                         )}
