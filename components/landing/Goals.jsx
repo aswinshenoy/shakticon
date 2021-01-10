@@ -1,17 +1,18 @@
 import React from 'react';
 import styled from "@emotion/styled";
 import Fade from 'react-reveal/Fade';
+import ScrollContainer from "react-indiana-drag-scroll";
 
 const GoalsContainer = styled.div`
     background: #222;
-    padding: 5vh 0;
+    padding: 2vh 0;
     h2 {
         font-size: calc(1.5rem + 2vw);
         text-align: center;
         color: #F50057;
         font-weight: 600;
         padding: 1.5rem 0;
-        margin-bottom: 2vw;
+        margin-bottom: 1rem;
     }
 `;
 
@@ -25,7 +26,7 @@ const GoalCard = styled.div`
       color: #AAA;
       text-align: center;
       margin-top: 13px;
-      font-size: 16px;
+      font-size: 14px;
     }
     transition: all 1s ease;
     &:hover {
@@ -61,16 +62,18 @@ const EventGoals = () => {
     return <GoalsContainer>
         <div className="container" style={{ maxWidth: '1333px' }}>
             <h2>Our Goals</h2>
-            <div className="row mx-0">
-                {goals.map((g, index) =>
-                    <GoalCard className="col-md-6 col-lg-3 p-2">
-                        <Fade up={index%2===0} down={index%2!==0} delay={index*350}>
-                            <img alt="illustration" draggable="false" src={g.cover} />
-                            <p>{g.text}</p>
-                        </Fade>
-                    </GoalCard>
-                )}
-            </div>
+            <ScrollContainer vertical={false} className="scroll-container py-2">
+                <div className="d-flex p-3">
+                    {goals.map((g, index) =>
+                        <GoalCard className="col-9 col-md-6 col-lg-3 p-2">
+                            <Fade up={index%2===0} down={index%2!==0} delay={index*350}>
+                                <img alt="illustration" draggable="false" src={g.cover} />
+                                <p>{g.text}</p>
+                            </Fade>
+                        </GoalCard>
+                    )}
+                </div>
+            </ScrollContainer>
         </div>
     </GoalsContainer>;
 

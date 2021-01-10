@@ -21,9 +21,9 @@ export default () => {
       <Topbar />
       <LandingCover />
       <AboutShaktiCon />
-      <ProgrammePhases />
       <ConferenceSpeakers />
       <EventGoals />
+      <ProgrammePhases />
       <EventSponsors />
       <EventOrganizers />
       <FAQSection />
