@@ -30,7 +30,7 @@ const SpeakerCard = styled.div`
     transition: all 0.5s ease;
     width: 300px;
     max-width: 60vw;
-    margin: 10px min(2.5vmin,16px);
+    margin: 10px min(5vmin, 12px);
     border: ${({ isTrainer }) => isTrainer ? `2px solid #9C27B0` : `2px solid #C51162` };
     &:hover {
        transform: translateY(-8px);

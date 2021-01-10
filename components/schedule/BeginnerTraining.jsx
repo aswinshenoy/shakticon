@@ -11,7 +11,7 @@ const TrainingModuleWrap = styled.section`
     h2 {
        font-size: calc(1.5rem + 1.5vw);
        font-weight: 600;
-       margin-bottom: 2vh;
+       margin-bottom: 0.75rem;
        color: #FFAB00;
        text-align: center;
     }
@@ -21,7 +21,16 @@ const TrainingModuleWrap = styled.section`
       font-size: 14px;
       line-height: 1.5;
       padding: 0.5rem;
-    }
+      margin-bottom: 8px;
+   }
+   a {
+      color: #fd7e14;
+      font-size: 18px;
+      text-decoration: none!important;
+      &:hover {
+        color: white;
+      }
+   }
 `;
 
 const Session = styled.div`
@@ -115,8 +124,16 @@ const BeginnerTraining = ({ }) => {
 
     return <TrainingModuleWrap id="beginner-training">
         <div className="container-lg p-0">
-            <h2>Beginner Training</h2>
+            <h2>Beginner Level Training</h2>
             <p>Beginner level cyber-security training sessions for young women aspirants, conducted by members of team Shakti from 15th of January.</p>
+            <div className="pb-4 text-center">
+                <a
+                    target="_blank" rel="noreferrer nofollow"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSeiITkqpmhPRHWQspiLt27hDV2nFlwW9QoyzyFZVjM5YmSqwg/viewform"
+                >
+                    Register Now <i className="far fa-chevron-right" />
+                </a>
+            </div>
         </div>
         <ScrollContainer vertical={false} className="scroll-container py-2">
             <div className="d-flex">

@@ -92,22 +92,22 @@ const Topbar = () => {
             <div className="col-6 d-none d-md-flex align-items-center">
                 <nav>
                     <Fade delay={0}>
-                        <a href="#about">About</a>
+                        <a href="/#about">About</a>
                     </Fade>
                     <Fade delay={200}>
-                        <a href="#timeline">Events</a>
+                        <a href="/#timeline">Events</a>
                     </Fade>
                     <Fade delay={450}>
-                        <a href="#speakers">Speakers</a>
+                        <a href="/#speakers">Speakers</a>
                     </Fade>
                     <Fade delay={650}>
-                        <a href="#timeline">Schedule</a>
+                        <a href="/schedule">Schedule</a>
                     </Fade>
                     <Fade delay={750}>
-                        <a href="#faq">FAQ</a>
+                        <a href="/#faq">FAQ</a>
                     </Fade>
                     <Fade delay={750}>
-                        <a href="#resources">Resources</a>
+                        <a href="/#resources">Resources</a>
                     </Fade>
                 </nav>
             </div>

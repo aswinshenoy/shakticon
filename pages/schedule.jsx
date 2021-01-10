@@ -4,10 +4,11 @@ import Base from "../components/shared";
 import Topbar from "../components/shared/Topbar";
 import FooterArea from "../components/landing/Footer";
 import BeginnerTraining from "../components/schedule/BeginnerTraining";
+import ProgrammePhases from "../components/landing/Timeline";
 
 const CoverSection = styled.section`
     background: #111;
-    min-height: 30vh;
+    min-height: 10vh;
     display: flex;
     align-items: flex-end;
     padding: 1rem;
@@ -22,9 +23,8 @@ const SchedulePage = () => {
 
     return <Base meta={{ title: 'Event Schedule' }}>
         <Topbar />
-        <CoverSection>
-            <h1>Schedule</h1>
-        </CoverSection>
+        <CoverSection />
+        <ProgrammePhases />
         <BeginnerTraining />
         <FooterArea />
     </Base>;

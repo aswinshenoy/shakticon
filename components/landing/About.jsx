@@ -54,10 +54,10 @@ const AboutShaktiCon = () => {
                 <Fade left>
                     <div className="col-md-8 px-3">
                         <div>
-                            <h2>What is <span>Shakti 21</span>?</h2>
+                            <h2>What is <span>ShaktiCon</span>?</h2>
                             <div style={{ maxWidth: '650px' }}>
                                 <p>
-                                    Shakti21 is a series of programmes with a goal to excite, train and support women from all over the
+                                    ShaktiCon is a series of programmes with a goal to excite, train and support women from all over the
                                     globe to develop critical skills in the area of cyber security. It features multiple training workshops,
                                     talks, seminars and hacking contests spanned over 3 months, and is organized by Team Shakti along with
                                     the support of team bi0s and Blackhoodie.

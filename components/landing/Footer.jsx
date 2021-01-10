@@ -6,6 +6,13 @@ const FooterWrap = styled.div`
     text-align: center;
     padding: 1.5rem;
     color: #999;
+    a {
+       text-decoration: none;
+       color: #AAA;
+       &:hover {
+          color: #F50057;
+       }
+    }
     .social-icon {
         color: #999;
         font-size: 20px;
@@ -57,7 +64,7 @@ const FooterArea = () => {
                     </a>
                 )}
             </div>
-            <div className="py-2">&copy; Team Shakti 2020. All Rights Reserved.</div>
+        <div className="py-2">&copy; <a href="https://teamshakti.in" target="_blank" rel="noreferrer nofollow">Team Shakti</a> 2020. All Rights Reserved.</div>
     </FooterWrap>;
 
 };

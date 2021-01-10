@@ -34,12 +34,11 @@ const TimelineWrapper = styled.div`
     }
     a {
       text-decoration: none!important;
-      color: #FF4081!important;
-      &:hover {
-         h5 {
-            color: white;
-         }
-      }
+      color: #fd7e14!important;
+      border: 1px solid;
+      padding: 3.5px 8px;
+      border-radius: 2px;
+      font-size: 13px;
     }
     h5 {
         color: #fd7e14;
@@ -98,7 +97,7 @@ const ProgrammePhases = () => {
                     "description": "2-day CyberSecurity Conference exclusively for Women, that will feature talks, panel-discussions, seminars etc.",
                 },
                 {
-                    "title": "ShaktiCTF",
+                    "title": "ShaktiCTF - Finals",
                     "description": "Finale of ShaktiCTF - Women-Only Jeopardy Style CTF, organized by the organizers of InCTF",
                 }
             ]
@@ -113,39 +112,37 @@ const ProgrammePhases = () => {
                 </Fade>
             </div>
             {timeline.map((p, index) =>
-                <div className="col-md-4 p-2 p-md-3">
-                    <Fade up delay={150*index}>
-                        <h4>{p.title}</h4>
-                    </Fade>
-                    <Fade left delay={150*index}>
-                        <div className="phase-timeframe">{p.timeline}</div>
-                    </Fade>
-                    <div className="my-1">
-                        {p.events.map((e, i) =>
-                            <Fade up delay={500*i}>
-                                <div className="pt-4">
-                                    {e.viewMoreURL ?
-                                        <a href={e.viewMoreURL}>
-                                            <h5>{e.title}</h5>
-                                        </a> :
+                <div className="col-md-4 p-1 p-md-2">
+                    <div style={{ background: `rgba(130,130,120, 0.2)` }} className="h-100 p-3">
+                        <Fade up delay={150*index}>
+                            <h4>{p.title}</h4>
+                        </Fade>
+                        <Fade left delay={150*index}>
+                            <div className="phase-timeframe">{p.timeline}</div>
+                        </Fade>
+                        <div className="my-1">
+                            {p.events.map((e, i) =>
+                                <Fade up delay={500*i}>
+                                    <div  className="pt-4">
                                         <h5>{e.title}</h5>
-                                    }
-                                    {e.date && <div className="date"><i className="far fa-calendar-alt mr-1" /> {e.date}</div>}
-                                    <p>{e.description}</p>
-                                    <div className="d-flex mt-2">
-                                        {e.registerURL &&
-                                        <a href={e.registerURL} target="_blank" rel="noreferrer nofollow" className="text-light my-1 mr-3 d-inline-block plain-link">
-                                            Register Now <i className="far fa-chevron-right"/>
-                                        </a>}
-                                        {e.viewMoreURL &&
-                                        <a href={e.viewMoreURL} className="text-light my-1 d-inline-block plain-link">
-                                            View Details <i className="far fa-external-link"/>
-                                        </a>}
+                                        {e.date && <div className="date"><i className="far fa-calendar-alt mr-1" /> {e.date}</div>}
+                                        <p>{e.description}</p>
+                                        <div className="d-flex mt-2">
+                                            {e.registerURL &&
+                                            <a href={e.registerURL} target="_blank" rel="noreferrer nofollow" className="text-light my-1 mr-3 d-inline-block plain-link">
+                                                Register Now <i className="far fa-chevron-right"/>
+                                            </a>}
+                                            {e.viewMoreURL &&
+                                            <a href={e.viewMoreURL} className="text-light my-1 d-inline-block plain-link">
+                                                View Details <i className="far fa-external-link"/>
+                                            </a>}
+                                        </div>
                                     </div>
-                                </div>
-                            </Fade>
-                        )}
+                                </Fade>
+                            )}
+                        </div>
                     </div>
+
                 </div>
             )}
 

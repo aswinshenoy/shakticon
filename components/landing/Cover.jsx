@@ -68,7 +68,7 @@ const LandingCover = () => {
     <CoverWrap>
         <div className="container text-center px-2">
             <Fade left>
-                <h1 className="font-weight-bold">Shakti 21</h1>
+                <h1 className="font-weight-bold">ShaktiCon</h1>
             </Fade>
             <Fade right>
                 <h2>
