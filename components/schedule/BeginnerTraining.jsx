@@ -43,8 +43,13 @@ const Session = styled.div`
    height: 100%;
    color: #DDD;
    display: block;
+   width: 330px;
+   max-width: 60vw;
+   margin: 10px 12px;
+   text-align: center;
    @media (min-width: 900px){
       display: flex;
+      text-align: left;
    }
    &:hover {
        transform: translateY(-5px);
@@ -136,19 +141,17 @@ const BeginnerTraining = ({ }) => {
             </div>
         </div>
         <ScrollContainer vertical={false} className="scroll-container py-2">
-            <div className="d-flex">
+            <div className="d-flex p-2">
                 {sessions.map((s, index) =>
                     <Fade delay={index*300} className="h-100">
-                        <div className="col-md-5 col-lg-4 col-xl-3 p-2">
-                            <Session>
-                                <img draggable={false} src={s.trainer.image} alt={s.trainer.name} />
-                                <div className="p-1">
-                                    <h4>{s.trainer.name}</h4>
-                                    <h3>{s.title}</h3>
-                                    <div>{s.date}</div>
-                                </div>
-                            </Session>
-                        </div>
+                        <Session>
+                            <img draggable={false} src={s.trainer.image} alt={s.trainer.name} />
+                            <div className="p-1">
+                                <h4>{s.trainer.name}</h4>
+                                <h3>{s.title}</h3>
+                                <div>{s.date}</div>
+                            </div>
+                        </Session>
                     </Fade>
                 )}
             </div>

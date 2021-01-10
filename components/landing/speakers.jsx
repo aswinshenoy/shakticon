@@ -14,6 +14,18 @@ const SpeakersContainer = styled.div`
         font-weight: 600;
         padding: 1.5rem 0;
     }
+    .scroll-container {
+      &::-webkit-scrollbar{
+          background: rgba(2,2,2,0.5);
+          width: 8px;
+      }
+      ::-webkit-scrollbar-thumb {
+          background: rgba(120,20,150,0.5);
+      }
+      ::-webkit-scrollbar-thumb:hover {
+           background: rgba(120,20,150,0.8);
+      }
+    }
 `
 
 const SpeakerCard = styled.div`
@@ -102,6 +114,15 @@ const ConferenceSpeakers = () => {
 
     const speakers = [
         {
+            "name": "Sanju Misra",
+            "designation": "Chief Information Security Officer (CISO)",
+            "company": "Linde",
+            "image": require('../../images/speakers/sanju_misra.jpg'),
+            "links": {
+                "linkedin": "https://www.linkedin.com/in/sanjumisra/"
+            }
+        },
+        {
             "name": "Maddie Stone",
             "isTrainer": true,
             "designation": "Security Researcher",
@@ -123,15 +144,6 @@ const ConferenceSpeakers = () => {
                 "twitter": "https://twitter.com/barbieauglend",
                 "linkedin": "https://www.linkedin.com/in/barbieauglend/",
                 "website": "https://barbieauglend.re/"
-            }
-        },
-        {
-            "name": "Sanju Misra",
-            "designation": "Chief Information Security Officer (CISO)",
-            "company": "Linde",
-            "image": require('../../images/speakers/sanju_misra.jpg'),
-            "links": {
-                "linkedin": "https://www.linkedin.com/in/sanjumisra/"
             }
         },
         {
@@ -163,11 +175,10 @@ const ConferenceSpeakers = () => {
     ];
 
     return <SpeakersContainer id="speakers">
-
         <h2>Speakers & Trainers</h2>
         <div className="container" style={{ maxWidth: '1200px' }}>
-            <ScrollContainer vertical={false} className="scroll-container py-2">
-                <div className="d-flex p-3">
+            <ScrollContainer vertical={false} hideScrollbars={false} className="scroll-container py-2">
+                <div className="d-flex p-3" style={{ cursor: 'grabbing' }}>
                     {speakers.map((s, index) =>
                         <Fade key={shortid.generate()} className="h-100" delay={150*index}>
                             <SpeakerCard isTrainer={s.isTrainer}>
