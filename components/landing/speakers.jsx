@@ -147,9 +147,29 @@ const ConferenceSpeakers = () => {
             }
         },
         {
+            "name": "Zoey Garvey",
+            "isTrainer": true,
+            "designation": "Software Engineer",
+            "company": "Federal Reserve Bank of San Fransisco",
+            "image": require('../../images/speakers/zoey.jpg'),
+            "links": {
+                "linkedin": "https://www.linkedin.com/in/zoey-garvey-66982b34/"
+            }
+        },
+        // {
+        //     "name": "Allison Marie Naaktgeboren",
+        //     "isTrainer": true,
+        //     "designation": "PHd Student",
+        //     "company": "Portland State University",
+        //     "image": require('../../images/speakers/allison.jpg'),
+        //     "links": {
+        //         "linkedin": "https://www.linkedin.com/in/a-m-naaktgeboren/"
+        //     }
+        // },
+        {
             "name": "Dr. Krishnasree Achuthan",
             "designation": "Director",
-            "company": "Amrita Center of Cyber Security",
+            "company": "Amrita Center for Cyber Security",
             "image": require('../../images/speakers/dr_krishnasree.jpg'),
         },
         {
@@ -180,7 +200,7 @@ const ConferenceSpeakers = () => {
             <ScrollContainer vertical={false} hideScrollbars={false} className="scroll-container py-2">
                 <div className="d-flex p-3" style={{ cursor: 'grabbing' }}>
                     {speakers.map((s, index) =>
-                        <Fade key={shortid.generate()} className="h-100" delay={150*index}>
+                        <Fade key={shortid.generate()} className="h-100" delay={100*index}>
                             <SpeakerCard isTrainer={s.isTrainer}>
                                 <div>
                                     {s.isTrainer ?
@@ -209,8 +229,7 @@ const ConferenceSpeakers = () => {
                                     <a href={s.links.website} rel="noreferrer nofollow" target="_blank">
                                         <i className="far fa-globe" />
                                     </a>}
-                                </div>
-                                }
+                                </div>}
                             </SpeakerCard>
                         </Fade>
                     )}
