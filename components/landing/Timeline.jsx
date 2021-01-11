@@ -19,7 +19,7 @@ const TimelineWrapper = styled.div`
     }
     h4 {
        font-weight: 600;
-       color: #F50057;
+       color: #fd7e14;
        margin-bottom: 5px;
     }
     .phase-timeframe {
@@ -42,7 +42,7 @@ const TimelineWrapper = styled.div`
     }
     h5 {
         color: #fd7e14;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         font-size: calc(1rem + 0.25vw);
     }
     .date {
@@ -115,7 +115,7 @@ const ProgrammePhases = () => {
                 <div className="col-md-4 p-1 p-md-2">
                     <div style={{ background: `rgba(130,130,120, 0.2)` }} className="h-100 p-3">
                         <Fade up delay={150*index}>
-                            <h4>{p.title}</h4>
+                            <h4 className="font-weight-bold">{p.title}</h4>
                         </Fade>
                         <Fade left delay={150*index}>
                             <div className="phase-timeframe">{p.timeline}</div>

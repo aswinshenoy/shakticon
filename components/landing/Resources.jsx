@@ -13,18 +13,18 @@ const ResourcesSection = styled.section`
        text-align: center;
        color: #DDD;
        h4 {
-          font-size: 18px;
+          font-size: calc(1rem + 0.2vw);
           margin-bottom: 5px;
           transition: all 1s ease;
        }
        img {
           max-height: 64px;
           max-width: 100%;
-          margin-bottom: 8px;
+          margin-bottom: 12px;
        }
        p {
           color: #AAA;
-          font-size: 12px;
+          font-size: calc(0.7rem + 0.25vw);
           transition: all 0.5s ease;
        }
        &:hover {

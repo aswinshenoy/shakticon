@@ -75,21 +75,21 @@ const EventOrganizers = () => {
                     <div className="row mx-0 supporters_logos" style={{ maxWidth: '700px' }}>
                         <div className="col-6 col-md-4 d-flex align-items-center justify-content-center p-1">
                             <Fade down>
-                                <a href="https://bi0s.in" className="plain-link" target="_blank">
+                                <a href="https://bi0s.in" className="plain-link" rel="noreferrer nofollow" target="_blank">
                                     <img alt="team bi0s" draggable="false" src={require('../../images/team_bi0s.png')} />
                                 </a>
                             </Fade>
                         </div>
                         <div className="col-6 col-md-4 d-flex justify-content-center align-items-center p-1">
                             <Fade up>
-                                <a href="https://blackhoodie.re/" className="plain-link" target="_blank">
+                                <a href="https://blackhoodie.re/" className="plain-link" rel="noreferrer nofollow" target="_blank">
                                     <img alt="black hoodie" draggable="false" src={require('../../images/black_hoodie_logo.PNG')} />
                                 </a>
                             </Fade>
                         </div>
                         <div className="col-12 col-md-4 d-flex align-items-center justify-content-center p-1">
                             <Fade down>
-                                <a href="https://www.amrita.edu/center/cyber-security" className="plain-link" target="_blank">
+                                <a href="https://www.amrita.edu/center/cyber-security" className="plain-link" rel="noreferrer nofollow" target="_blank">
                                     <img alt="Amrita Center for CybserSecurity Systems & Network" draggable="false" src={require('../../images/amrita_cyber.png')} />
                                 </a>
                             </Fade>
