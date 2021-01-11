@@ -62,22 +62,27 @@ const Topbar = () => {
     const socialMedia = [
         {
             "icon": "far fa-envelope",
+            "title": "Contact us through Email",
             "url": "mailto:teamshakti06@gmail.com"
         },
         {
             "icon": "fab fa-instagram",
+            "title": "Follow our Instagram handle",
             "url": "https://instagram.com/shakticon"
         },
         {
             "icon": "fab fa-twitter",
+            "title": "Follow us on Twitter",
             "url": "https://twitter.com/shakticon"
         },
         {
             "icon": "fa fa-flag",
+            "title": "View our CTFTime ranking",
             "url": "https://ctftime.org/team/61083"
         },
         {
             "icon": "fab fa-github",
+            "title": "View our GitHub",
             "url": "https://github.com/Team-Shakti"
         }
     ];
@@ -126,8 +131,8 @@ const Topbar = () => {
                             href={s.url}
                             target="_blank" rel="nofollow noreferrer"
                             className="social-icon"
-                            title="follow on social media"
-                            aria-label="follow on social media"
+                            title={s.title}
+                            aria-label={s.title}
                         >
                             <i className={s.icon} aria-hidden="true" />
                         </a>
