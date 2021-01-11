@@ -112,14 +112,14 @@ const Topbar = () => {
                 </nav>
             </div>
             <div className="col-3 d-none d-md-flex align-items-center">
-                <Fade left>
-                    <a
-                       className="register-button" target="_blank" rel="noreferrer nofollow"
-                       href="https://docs.google.com/forms/d/e/1FAIpQLSeiITkqpmhPRHWQspiLt27hDV2nFlwW9QoyzyFZVjM5YmSqwg/viewform"
-                    >
-                        Register
-                    </a>
-                </Fade>
+                {/*<Fade left>*/}
+                {/*    <a*/}
+                {/*       className="register-button" target="_blank" rel="noreferrer nofollow"*/}
+                {/*       href="https://docs.google.com/forms/d/e/1FAIpQLSeiITkqpmhPRHWQspiLt27hDV2nFlwW9QoyzyFZVjM5YmSqwg/viewform"*/}
+                {/*    >*/}
+                {/*        Register*/}
+                {/*    </a>*/}
+                {/*</Fade>*/}
                 {socialMedia.map((s, index) =>
                     <Fade right delay={index*200}>
                         <a

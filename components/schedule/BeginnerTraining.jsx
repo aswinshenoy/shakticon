@@ -82,6 +82,7 @@ const BeginnerTraining = ({ }) => {
         {
             "title": "Introduction to CTF",
             "date": "15 January 2021",
+            "duration": "60 mins",
             "trainer": {
                 "name": "Namitha S",
                 "image": require('../../images/crew/namitha.jpg'),
@@ -93,6 +94,7 @@ const BeginnerTraining = ({ }) => {
         {
             "title": "Introduction to Cryptography",
             "date": "22 January 2021",
+            "duration": "60 mins",
             "trainer": {
                 "name": "Meenakshi S L",
                 "image": require('../../images/crew/meenakshi.jpg'),
@@ -105,6 +107,7 @@ const BeginnerTraining = ({ }) => {
         {
             "title": "Introduction to Reverse Engineering",
             "date": "29 January 2021",
+            "duration": "60 mins",
             "trainer": {
                 "name": "Simran Kathpalia",
                 "image": require('../../images/crew/simran.jpg'),
@@ -116,6 +119,7 @@ const BeginnerTraining = ({ }) => {
         {
             "title": "Introduction to Binary Exploitation",
             "date": "05 February 2021",
+            "duration": "60 mins",
             "trainer": {
                 "name": "Sandra Bino",
                 "image": require('../../images/crew/sandhra.jpg'),
@@ -150,6 +154,7 @@ const BeginnerTraining = ({ }) => {
                                 <h4>{s.trainer.name}</h4>
                                 <h3>{s.title}</h3>
                                 <div>{s.date}</div>
+                                <div>{s.duration}</div>
                             </div>
                         </Session>
                     </Fade>

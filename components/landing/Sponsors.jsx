@@ -18,7 +18,7 @@ const SponsorsSection = styled.section`
         margin-bottom: 5px;
     }
     a {
-       color: #F50057;
+       color: #ffc107;
     }
 `;
 
@@ -78,7 +78,9 @@ const EventSponsors = () => {
                         </Fade>
                         <Fade left>
                             <div>
-                                <a href="mailto:mail@shakticon.com">Sponsor Us</a>
+                                <a href="mailto:mail@shakticon.com">
+                                    Sponsor Us <i className="fa fa-chevron-right ml-1" />
+                                </a>
                             </div>
                         </Fade>
                     </div>

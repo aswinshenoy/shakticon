@@ -83,14 +83,14 @@ const LandingCover = () => {
                             Organized by India's No.1 Ranked Women Cyber Security Team - <span>team Shakti</span>,
                             in-association with <span>team bi0s</span>, <span>Blackhoodie</span> & <span>Amrita Center for CyberSecurity</span>.
                         </p>
-                        <div className="py-2">
-                            <a
-                                className="register-button" target="_blank" rel="noreferrer nofollow"
-                                href="https://docs.google.com/forms/d/e/1FAIpQLSeiITkqpmhPRHWQspiLt27hDV2nFlwW9QoyzyFZVjM5YmSqwg/viewform"
-                            >
-                                Register For Training <i className="fa fa-chevron-right ml-2" />
-                            </a>
-                        </div>
+                        {/*<div className="py-2">*/}
+                        {/*    <a*/}
+                        {/*        className="register-button" target="_blank" rel="noreferrer nofollow"*/}
+                        {/*        href="https://docs.google.com/forms/d/e/1FAIpQLSeiITkqpmhPRHWQspiLt27hDV2nFlwW9QoyzyFZVjM5YmSqwg/viewform"*/}
+                        {/*    >*/}
+                        {/*        Register For Training <i className="fa fa-chevron-right ml-2" />*/}
+                        {/*    </a>*/}
+                        {/*</div>*/}
                     </div>
                 </div>
             </Fade>
