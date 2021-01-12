@@ -147,25 +147,35 @@ const ConferenceSpeakers = () => {
             }
         },
         {
+            "name": "Silvia Nerea Anguita",
+            "isTrainer": true,
+            "designation": "Cybersecurity Auditor",
+            "company": "Siemens",
+            "image": require('../../images/speakers/silvia.jpg'),
+            "links": {
+                "linkedin": "https://www.linkedin.com/in/silvia-anguita/"
+            }
+        },
+        {
             "name": "Zoey Garvey",
             "isTrainer": true,
-            "designation": "Software Engineer",
-            "company": "Federal Reserve Bank of San Fransisco",
+            // "designation": "Software Engineer",
+            // "company": "Federal Reserve Bank of San Fransisco",
             "image": require('../../images/speakers/zoey.jpg'),
             "links": {
                 "linkedin": "https://www.linkedin.com/in/zoey-garvey-66982b34/"
             }
         },
-        // {
-        //     "name": "Allison Marie Naaktgeboren",
-        //     "isTrainer": true,
-        //     "designation": "PHd Student",
-        //     "company": "Portland State University",
-        //     "image": require('../../images/speakers/allison.jpg'),
-        //     "links": {
-        //         "linkedin": "https://www.linkedin.com/in/a-m-naaktgeboren/"
-        //     }
-        // },
+        {
+            "name": "Allison Marie Naaktgeboren",
+            "isTrainer": true,
+            "designation": "PHd Student",
+            "company": "Portland State University",
+            "image": require('../../images/speakers/allison.jpg'),
+            "links": {
+                "linkedin": "https://www.linkedin.com/in/a-m-naaktgeboren/"
+            }
+        },
         {
             "name": "Dr. Krishnasree Achuthan",
             "designation": "Director",
@@ -212,10 +222,10 @@ const ConferenceSpeakers = () => {
                                     </div>
                                     <h3>{s.name}</h3>
                                 </div>
-                                <div>
+                                {s.company && <div>
                                     <h4>{s.designation}</h4>
                                     <h5>{s.company}</h5>
-                                </div>
+                                </div>}
                                 {s.links &&
                                 <div className="social-media-links">
                                     {s.links?.twitter &&
