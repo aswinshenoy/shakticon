@@ -14,6 +14,7 @@ import ProgrammePhases from "../components/landing/Timeline";
 import Resources from "../components/landing/Resources";
 import ConferenceSpeakers from "../components/landing/speakers";
 import VolunteerSection from "../components/landing/Volunteer";
+import LandingJoinDiscussion from "../components/landing/JoinDiscussions";
 
 
 export default () => {
@@ -29,6 +30,7 @@ export default () => {
       <EventSponsors />
       <EventOrganizers />
       <FAQSection />
+      <LandingJoinDiscussion />
       <Resources />
       <FooterArea />
   </Base>;

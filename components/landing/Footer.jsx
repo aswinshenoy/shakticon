@@ -49,6 +49,11 @@ const FooterArea = () => {
             "url": "https://ctftime.org/team/61083"
         },
         {
+            "icon": "fab fa-discord",
+            "title": "Join Discord Server",
+            "url": "https://discord.gg/Dv8hEV7vWv"
+        },
+        {
             "icon": "fab fa-github",
             "title": "View our GitHub",
             "url": "https://github.com/Team-Shakti"
