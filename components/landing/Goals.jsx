@@ -47,21 +47,21 @@ const EventGoals = () => {
         },
         {
             "cover": require('../../images/covers/women_dark_bg.jpg'),
-            "text": "Discussions on the benefits and relevance of cybersecurity, and the role of next generation of girls in making the world a safer place"
+            "text": "Promote cybersecurity, and the role of the next generation of women and girls in making the world a safer place"
         },
         {
             "cover": require('../../images/covers/women_flag.jpg'),
-            "text": "Encourage participation of women in CTF contests by getting them familiarized  with it."
+            "text": "Train and upskill women in cybersecurity using CTF as the entry-point."
         },
         {
             "cover": require('../../images/covers/women_connections.jpg'),
-            "text": "Facilitate knowledge transfers and foster connections amongst participants"
+            "text": "Facilitate mentorship, learning, personal growth, career growth, and community amongst the women participants"
         }
     ]
 
     return <GoalsContainer>
         <div className="container" style={{ maxWidth: '1333px' }}>
-            <h2>Our Goals</h2>
+            <h2>Goals</h2>
             <ScrollContainer vertical={false} className="scroll-container py-2">
                 <div className="d-flex p-3">
                     {goals.map((g, index) =>

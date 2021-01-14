@@ -39,11 +39,11 @@ const AboutShaktiCon = () => {
         },
         {
             "title": "CyberSecurity Conference",
-            "label": "Mega conference with talks, panel discussions & keynotes by leading Women in Cyber Security."
+            "label": "Talks, panel discussions & keynotes by leading women in Cyber Security."
         },
         {
             "title": "CTF Hacking Competition",
-            "label": "Women-only CTF hacking contest for showcasing talent, and winning exciting prizes & scholarship."
+            "label": "Women-only CTF hacking contest for showcasing talent, and winning prizes & scholarship."
         }
     ]
 
@@ -63,12 +63,11 @@ const AboutShaktiCon = () => {
                                     the support of team bi0s and Blackhoodie.
                                 </p>
                                 <p>
-                                    The training and talks will be beginner friendly, engaging and will inspire their curiosity.
-                                    At the end of the programme, a Women Only Jeopardy-style CTF contest with a set of interesting challenges
-                                    shall be organized to test the learnings, that can be solved individually or as a team by the participants.
+                                    The training and talks will be beginner friendly, engaging and will inspire curiosity.
+                                    At the end of the programme, a women only jeopardy-style CTF contest.
                                 </p>
                                 <p>
-                                    In addition, all the participants will be provided with plenty of resources for learning, including free
+                                    In addition, all the participants will be provided with resources for learning, including free
                                     access to premium learning platforms, practice challenges, videos and write ups.
                                 </p>
                             </div>

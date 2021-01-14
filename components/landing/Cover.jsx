@@ -13,7 +13,7 @@ const CoverContainer = styled.section`
 const CoverWrap = styled.div`
     backdrop-filter: blur(2px) brightness(0.35);
     width: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;

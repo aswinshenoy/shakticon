@@ -83,6 +83,7 @@ const BeginnerTraining = ({ }) => {
             "title": "Introduction to CTF",
             "date": "15 January 2021",
             "duration": "60 mins",
+            "isClosed": true,
             "trainer": {
                 "name": "Namitha S",
                 "image": require('../../images/crew/namitha.jpg'),
@@ -155,6 +156,7 @@ const BeginnerTraining = ({ }) => {
                                 <h3>{s.title}</h3>
                                 <div>{s.date}</div>
                                 <div>{s.duration}</div>
+                                {s.isClosed && <div className="text-danger">Reg. Closed</div>}
                             </div>
                         </Session>
                     </Fade>
