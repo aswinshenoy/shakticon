@@ -13,6 +13,7 @@ import FooterArea from "../components/landing/Footer";
 import ProgrammePhases from "../components/landing/Timeline";
 import Resources from "../components/landing/Resources";
 import ConferenceSpeakers from "../components/landing/speakers";
+import VolunteerSection from "../components/landing/Volunteer";
 
 
 export default () => {
@@ -23,6 +24,7 @@ export default () => {
       <AboutShaktiCon />
       <ConferenceSpeakers />
       <EventGoals />
+      <VolunteerSection />
       <ProgrammePhases />
       <EventSponsors />
       <EventOrganizers />
