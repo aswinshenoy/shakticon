@@ -45,7 +45,7 @@ const Resources = () => {
     return <ResourcesSection id="resources">
         <div className="container-lg p-2">
             <div className="row mx-0">
-                <div className="col-md-4 p-2">
+                <div className="col-md-6 p-2">
                     <a target="_blank" rel="noreferrer nofollow" href="https://wiki.bi0s.in/">
                         <img draggable="false" src={require('../../images/bios-wiki.png')} alt="bi0s Wiki" />
                         <h4>Learn Using bi0s Wiki <i className="far fa-external-link ml-1" /></h4>
@@ -55,7 +55,7 @@ const Resources = () => {
                         </p>
                     </a>
                 </div>
-                <div className="col-md-4 p-2">
+                <div className="col-md-6 p-2">
                     <a target="_blank" rel="noreferrer nofollow" href="https://traboda.com/">
                         <img draggable="false" src={require('../../images/traboda-logo-light.png')} alt="Traboda" />
                         <h4>Practice Challenges on Traboda <i className="far fa-external-link ml-1" /></h4>
@@ -65,15 +65,15 @@ const Resources = () => {
                         </p>
                     </a>
                 </div>
-                <div className="col-md-4 p-2">
-                    <a target="_blank" rel="noreferrer nofollow" href="https://archive.bi0s.in/">
-                        <img draggable="false" src={require('../../images/bios-archive.png')} alt="bi0s archive" />
-                        <h4>Explore the archives of team bi0s <i className="far fa-external-link ml-1" /></h4>
-                        <p>
-                            Read through challenge writeups from team bi0s members and try out archived challenges from past InCTFs.
-                        </p>
-                    </a>
-                </div>
+                {/*<div className="col-md-4 p-2">*/}
+                {/*    <a target="_blank" rel="noreferrer nofollow" href="https://archive.bi0s.in/">*/}
+                {/*        <img draggable="false" src={require('../../images/bios-archive.png')} alt="bi0s archive" />*/}
+                {/*        <h4>Explore the archives of team bi0s <i className="far fa-external-link ml-1" /></h4>*/}
+                {/*        <p>*/}
+                {/*            Read through challenge writeups from team bi0s members and try out archived challenges from past InCTFs.*/}
+                {/*        </p>*/}
+                {/*    </a>*/}
+                {/*</div>*/}
             </div>
         </div>
     </ResourcesSection>
