@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import Fade from 'react-reveal/Fade';
 
 const DiscussionPortals = styled.a`
-    min-height: 20vmin;
+    min-height: 25vmin;
     padding: 2.5vh 5vw;
     display: flex;
     align-items: center;

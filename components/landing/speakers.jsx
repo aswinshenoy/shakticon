@@ -157,6 +157,22 @@ const ConferenceSpeakers = () => {
             }
         },
         {
+            "name": "Tiffany Bao",
+            "designation": "Assistant Professor",
+            "company": "Arizona State University",
+            "image": require('../../images/speakers/tiffany.jpg'),
+            "links": {
+                "twitter": "http://twitter.com/___tiffanyb___",
+                "website": "https://www.tiffanybao.com/",
+            }
+        },
+        {
+            "name": "Caroline Leman",
+            "isTrainer": true,
+            "designation": "Security Research Engineer",
+            "company": "CEA/DAM",
+        },
+        {
             "name": "Zoey Garvey",
             "isTrainer": true,
             // "designation": "Software Engineer",
@@ -174,6 +190,16 @@ const ConferenceSpeakers = () => {
             "image": require('../../images/speakers/allison.jpg'),
             "links": {
                 "linkedin": "https://www.linkedin.com/in/a-m-naaktgeboren/"
+            }
+        },
+        {
+            "name": "Sreelakshmi Panangatt",
+            "designation": "Security Engineer",
+            "company": "VMware",
+            "image": require('../../images/speakers/sreelakshmi.JPG'),
+            "links": {
+                "linkedin": "https://www.linkedin.com/in/sreelakshmi-panangatt-b67b58105/",
+                "twitter": "https://twitter.com/srlkhmi",
             }
         },
         {
@@ -218,7 +244,7 @@ const ConferenceSpeakers = () => {
                                         : <div className="speaker-badge">Speaker</div>
                                     }
                                     <div className="d-flex justify-content-center">
-                                        <img src={s.image} alt={s.name} draggable="false" />
+                                        {s.image && <img src={s.image} alt={s.name} draggable="false" />}
                                     </div>
                                     <h3>{s.name}</h3>
                                 </div>
@@ -232,9 +258,10 @@ const ConferenceSpeakers = () => {
                                     <a href={s.links.twitter} rel="noreferrer nofollow" target="_blank">
                                         <i className="fab fa-twitter" />
                                     </a>}
+                                    {s.links?.linkedin &&
                                     <a href={s.links.linkedin} rel="noreferrer nofollow" target="_blank">
                                         <i className="fab fa-linkedin" />
-                                    </a>
+                                    </a>}
                                     {s.links?.website &&
                                     <a href={s.links.website} rel="noreferrer nofollow" target="_blank">
                                         <i className="far fa-globe" />
