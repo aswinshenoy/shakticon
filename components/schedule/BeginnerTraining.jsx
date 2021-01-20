@@ -118,6 +118,18 @@ const BeginnerTraining = ({ }) => {
             }
         },
         {
+            "title": "Introduction to Reverse Engineering",
+            "date": "29 January 2021",
+            "duration": "60 mins",
+            "trainer": {
+                "name": "Namitha S",
+                "image": require('../../images/crew/namitha.jpg'),
+                "links": {
+                    "twitter": "https://twitter.com/N4m1th4_01"
+                }
+            }
+        },
+        {
             "title": "Introduction to Binary Exploitation",
             "date": "05 February 2021",
             "duration": "60 mins",
@@ -127,6 +139,20 @@ const BeginnerTraining = ({ }) => {
                 "links": {
                     "twitter": "https://twitter.com/SandhraBino",
                     "linkedin": "https://www.linkedin.com/in/sandra-bino-734433187"
+                }
+            }
+        },
+        {
+            "title": "Introduction to Web Expoitation",
+            "date": "13 February 2021",
+            "duration": "60 mins",
+            "trainer": {
+                "name": "Gopika Subramanium",
+                "image": require('../../images/crew/gopika.jpg'),
+                "links": {
+                    "twitter": "https://twitter.com/m0n574",
+                    "website": "https://m0n574.github.io/",
+                    "linkedin": "https://www.linkedin.com/in/gopika-subramanian-007304b5/"
                 }
             }
         },

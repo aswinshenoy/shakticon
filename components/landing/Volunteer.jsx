@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 
 const VolunteerWrap = styled.section`
     background: #102;
-    padding: 1rem;
+    padding: 3vh 1rem;
     color: #EEE;
     display: flex;
     align-items: center;

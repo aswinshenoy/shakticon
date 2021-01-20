@@ -11,6 +11,9 @@ const AboutContainer = styled.div`
         font-weight: 600;
         margin-bottom: 1.5rem;
     }
+    p {
+       font-size: 16px;
+    }
     span {
         color: #F50057;
     }
@@ -57,18 +60,21 @@ const AboutShaktiCon = () => {
                             <h2>What is <span>ShaktiCon</span>?</h2>
                             <div style={{ maxWidth: '650px' }}>
                                 <p>
-                                    ShaktiCon is a series of programmes with a goal to excite, train and support women from all over the
-                                    globe to develop critical skills in the area of cyber security. It features multiple training workshops,
-                                    talks, seminars and hacking contests spanned over 3 months, and is organized by Team Shakti along with
-                                    the support of team bi0s and Blackhoodie.
+                                    ShaktiCon is a completely free global conference focused on inspiring, training,
+                                    and upskilling women in cybersecurity. ShaktiCon includes keynote sessions,
+                                    training, contests, and workshops. Our pre-conference contest attracted over
+                                    1500 participants from 5 continents in December 2020.
                                 </p>
                                 <p>
-                                    The training and talks will be beginner friendly, engaging and will inspire curiosity.
-                                    At the end of the programme, a women only jeopardy-style CTF contest.
+                                    Born out of an understanding that cultural circumstances do not always encourage
+                                    women to flourish in male dominated fields, ShaktiCon is committed to creating a
+                                    female focused environment to showcase the range of womens talents in cybersecurity.
                                 </p>
                                 <p>
-                                    In addition, all the participants will be provided with resources for learning, including free
-                                    access to premium learning platforms, practice challenges, videos and write ups.
+                                    By doing this we hope to train a new generation of women to be more actively
+                                    engaged in the field and enter the cybersecurity workforce. ShaktiCon is all about
+                                    women role models encouraging young & aspiring women hackers to attain their 
+                                    goals without any fear.
                                 </p>
                             </div>
                         </div>
