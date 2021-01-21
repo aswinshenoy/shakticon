@@ -73,7 +73,7 @@ const AboutShaktiCon = () => {
                                 <p>
                                     By doing this we hope to train a new generation of women to be more actively
                                     engaged in the field and enter the cybersecurity workforce. ShaktiCon is all about
-                                    women role models encouraging young & aspiring women hackers to attain their 
+                                    women role models encouraging young & aspiring women hackers to attain their
                                     goals without any fear.
                                 </p>
                             </div>

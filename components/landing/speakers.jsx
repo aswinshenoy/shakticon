@@ -147,6 +147,17 @@ const ConferenceSpeakers = () => {
             }
         },
         {
+            "isTrainer": true,
+            "name": "Gal Zaban",
+            "designation": "Security Researcher",
+            "company": "Cymotive",
+            "image": require('../../images/speakers/gal.JPG'),
+            "links": {
+                "twitter": "https://twitter.com/0xgalz",
+                "linkedin": "https://www.linkedin.com/in/gal-zaban-02007610b/",
+            }
+        },
+        {
             "name": "Silvia Nerea Anguita",
             "isTrainer": true,
             "designation": "Cybersecurity Auditor",
