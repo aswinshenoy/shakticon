@@ -168,6 +168,16 @@ const ConferenceSpeakers = () => {
             }
         },
         {
+            "name": "Sung Lee",
+            "isTrainer": true,
+            "designation": "Staff Security Architect",
+            "company": "VMware",
+            "image": require('../../images/speakers/sung.JPG'),
+            "links": {
+                "linkedin": "https://www.linkedin.com/in/sylee/",
+            }
+        },
+        {
             "name": "Tiffany Bao",
             "designation": "Assistant Professor",
             "company": "Arizona State University",
@@ -176,6 +186,13 @@ const ConferenceSpeakers = () => {
                 "twitter": "http://twitter.com/___tiffanyb___",
                 "website": "https://www.tiffanybao.com/",
             }
+        },
+        {
+            "name": "Arya M Shankar",
+            "isTrainer": true,
+            "designation": "Product & Solution Security Professional",
+            "company": "Siemens",
+            "image": require('../../images/speakers/arya.JPG')
         },
         {
             "name": "Caroline Leman",
