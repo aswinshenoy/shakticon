@@ -93,12 +93,14 @@ const ProgrammePhases = () => {
             "timeline": "March 2021 - April 2021",
             "events": [
                 {
-                    "title": "Final Summit",
-                    "description": "2-day CyberSecurity Conference exclusively for Women, that will feature talks, panel-discussions, seminars etc.",
+                    "title": "ShaktiCTF - Finals",
+                    "date": "April 3 - 5, 2021",
+                    "description": "Finale of ShaktiCTF - Women-Only Jeopardy Style CTF, organized by the organizers of InCTF",
                 },
                 {
-                    "title": "ShaktiCTF - Finals",
-                    "description": "Finale of ShaktiCTF - Women-Only Jeopardy Style CTF, organized by the organizers of InCTF",
+                    "title": "Final Summit",
+                    "date": "April 9 - 11, 2021",
+                    "description": "3-day CyberSecurity Conference exclusively for Women, that will feature talks, panel-discussions, seminars etc.",
                 }
             ]
         }
