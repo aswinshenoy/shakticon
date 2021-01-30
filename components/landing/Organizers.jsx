@@ -73,6 +73,13 @@ const EventOrganizers = () => {
                 <h5 style={{ fontWeight: 600 }} className="mb-1">Community Partners</h5>
                 <div className="d-flex justify-content-center">
                     <div className="row mx-0 supporters_logos" style={{ maxWidth: '700px' }}>
+                        <div className="col-6 col-md-4 d-flex justify-content-center align-items-center p-1">
+                            <Fade up>
+                                <a href="https://wicys.org/" className="plain-link" rel="noreferrer nofollow" target="_blank">
+                                    <img alt="WiCys" draggable="false" src={require('../../images/wicys.png')} />
+                                </a>
+                            </Fade>
+                        </div>
                         <div className="col-6 col-md-4 d-flex align-items-center justify-content-center p-1">
                             <Fade down>
                                 <a href="https://bi0s.in" className="plain-link" rel="noreferrer nofollow" target="_blank">
@@ -84,6 +91,13 @@ const EventOrganizers = () => {
                             <Fade up>
                                 <a href="https://blackhoodie.re/" className="plain-link" rel="noreferrer nofollow" target="_blank">
                                     <img alt="black hoodie" draggable="false" src={require('../../images/black_hoodie_logo.PNG')} />
+                                </a>
+                            </Fade>
+                        </div>
+                        <div className="col-6 col-md-4 d-flex justify-content-center align-items-center p-1">
+                            <Fade up>
+                                <a href="https://bsidesdelhi.in/" className="plain-link" rel="noreferrer nofollow" target="_blank">
+                                    <img alt="BSides Delhi " draggable="false" src={require('../../images/bsides_delhi.png')} />
                                 </a>
                             </Fade>
                         </div>

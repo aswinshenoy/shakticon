@@ -3,15 +3,16 @@ import styled from "@emotion/styled";
 import Fade from 'react-reveal/Fade';
 
 const CoverContainer = styled.section`
-    background: linear-gradient(36deg, rgba(0,0,0,0.4) 0%, rgba(46,0,37,0.8) 37%, rgba(254,0,100,0.4) 51%, rgba(0,0,0,0.9) 100%),linear-gradient(51deg, rgba(82,55,15,1) 0%, rgba(71,83,0,1) 40%, rgba(0,50,124,1) 100%);
+    background-image: ${() => `url(${require('../../images/coverpic.jpg')})`};
     background-size: cover;
+    background-position: top;
     color: white;
     position: relative;
     overflow: hidden;
 `;
 
 const CoverWrap = styled.div`
-    backdrop-filter: blur(2px) brightness(0.35);
+    backdrop-filter: blur(1px) brightness(0.45);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -68,7 +69,7 @@ const LandingCover = () => {
     <CoverWrap>
         <div className="container text-center px-2">
             <Fade left>
-                <h1 className="font-weight-bold">ShaktiCon</h1>
+                <h1 className="font-weight-bold mb-2">ShaktiCon</h1>
             </Fade>
             <Fade right>
                 <h2>
@@ -79,9 +80,11 @@ const LandingCover = () => {
             <Fade up>
                 <div className="d-flex justify-content-center mt-3">
                     <div>
-                        <p style={{ maxWidth: '700px' }}>
-                            Organized by India's No.1 Ranked Women Cyber Security Team - <span>team Shakti</span>,
-                            in-association with <span>team bi0s</span>, <span>Blackhoodie</span> & <span>Amrita Center for CyberSecurity</span>.
+                        <p style={{ maxWidth: '500px' }}>
+                            ShaktiCon is an annual global conference focused on inspiring, training, and upskilling women in cybersecurity,
+                            <div className="d-inline-block">
+                                organized by <span>Team Shakti</span>, <div className="d-inline-block">India's First & No.1 ranked Women-Only CTF team.</div>
+                            </div>
                         </p>
                         {/*<div className="py-2">*/}
                         {/*    <a*/}
