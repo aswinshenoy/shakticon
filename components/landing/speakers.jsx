@@ -188,6 +188,12 @@ const ConferenceSpeakers = () => {
             }
         },
         {
+            "name": "Sabna Sainudeen",
+            "designation": "President",
+            "company": "(Women in CyberSecurity) WiCyS India ",
+            "image": require('../../images/speakers/sabna.JPG'),
+        },
+        {
             "name": "Arya M Shankar",
             "isTrainer": true,
             "designation": "Product & Solution Security Professional",
