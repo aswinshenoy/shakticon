@@ -5,6 +5,7 @@ import Topbar from "../components/shared/Topbar";
 import FooterArea from "../components/landing/Footer";
 import BeginnerTraining from "../components/schedule/BeginnerTraining";
 import ProgrammePhases from "../components/landing/Timeline";
+import ShaktiTrainings from "../components/schedule/Trainings";
 
 const CoverSection = styled.section`
     background: #111;
@@ -26,6 +27,7 @@ const SchedulePage = () => {
         <CoverSection />
         <ProgrammePhases />
         <BeginnerTraining />
+        <ShaktiTrainings />
         <FooterArea />
     </Base>;
 
