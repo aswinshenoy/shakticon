@@ -62,9 +62,10 @@ const EventOrganizers = () => {
                         </a>
                         <h4>India's No.1 Ranked Women CTF Team</h4>
                         <p>
-                            Team Shakti is a trailblazer of a women-only cybersecurity team from Amrita Vishwa Vidyapeetham’s
-                            Amritapuri Campus that is committed to bridging the gender divide. Although relatively new
-                            to the scene, the team is made up of luminous minds, paving the way for a brighter future.
+                            Team Shakti is a trailblazer of a women-only cybersecurity team mentored by Amrita Center
+                            for Cybersecurity Systems and Networks at Amrita Vishwa Vidyapeetham’s Amritapuri Campus
+                            that is committed to bridging the gender divide. Although relatively new to the scene,
+                            the team is made up of luminous minds, paving the way for a brighter future.
                         </p>
                     </Fade>
                 </div>
