@@ -169,7 +169,6 @@ const ConferenceSpeakers = () => {
         },
         {
             "name": "Sung Lee",
-            "isTrainer": true,
             "designation": "Staff Security Architect",
             "company": "VMware",
             "image": require('../../images/speakers/sung.JPG'),

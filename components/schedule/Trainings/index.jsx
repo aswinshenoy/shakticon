@@ -236,7 +236,7 @@ const ShaktiTrainings = () => {
     return <TrainingModuleWrap id="intermediate-training">
         <div className="container-lg p-0">
             <h2>Featured Trainings</h2>
-            <div className="py-4">
+            <div className="py-4 px-2">
                 {TrainersList.map((t) =>
                     <Fade key={t.slug}>
                         <div className="mb-4">
