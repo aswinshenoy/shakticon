@@ -25,9 +25,9 @@ const CyberSection = styled.section`
 const CyberOrg = styled.div`
     background: white;
     padding: 1rem;
-    margin-right: 1rem;
-    min-width: 300px;
-    max-width: 300px;
+    margin-right: 10px;
+    min-width: 200px;
+    max-width: 75vw;
     height: 100%;
     h4 {
         font-weight: 900;
@@ -58,11 +58,8 @@ const AmritaCenterForCyber = () => {
           "logo": require('../../images/team_bi0s.png'),
           "text": <>
               team bi0s is the India's No.1 ranked CTF team for 4 years running, and was the first
-              CTF team founded in India back in 2007.  It is today a community of passionate college
-              students, who have come together for the cause of making the world a safer place
-              by contributing to the security community while achieving excellence in security
-              research. The club is run by the students themselves, with the help of research
-              scholars, alumni, and faculties.
+              CTF team to formed in India back in 2007. Today, team bi0s is passionate community
+              of over 100 student members, mentored by their seniors, research scholars, alumni and faculty.
           </>
       },
       {
@@ -80,10 +77,9 @@ const AmritaCenterForCyber = () => {
           "tagline": "India's First & Only CTF Contest for School Students",
           "logo": require('../../images/inctfjr_logo.png'),
           "text": <>
-              Amrita InCTF Junior is an annual national level Cybersecurity contest held exclusively for school
+              Amrita InCTF Junior is the first and only national-level CTF contest held exclusively for school
               students in India. Every year the brightest young hackers from all across India participate in this
-              the learn & hack CTF contest, win exciting prizes & kick-start their cyber-security career. Currently,
-              it is the only event of its kind in India.
+              the learn & hack CTF contest, win exciting prizes & kick-start their cyber-security career.
           </>
       },
   ]

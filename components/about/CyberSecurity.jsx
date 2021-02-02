@@ -58,7 +58,7 @@ const CyberSecurityRelevance = () => {
                         <Fade delay={150}>
                             <h1>
                                 <span className="d-md-inline-block">The Industry Needs Women,</span>
-                                <span className="d-md-inline-block">& Also Needs to Open Up For Them.</span>
+                                <span className="d-md-inline-block">& also Needs to Open Up For Them.</span>
                             </h1>
                         </Fade>
                         <Fade delay={300}>

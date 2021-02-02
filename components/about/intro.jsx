@@ -13,19 +13,18 @@ const IntroSectionWrap = styled.section`
     margin-top: 50px;
     h4 {
         text-shadow: 2px 3px 2px rgba(0,0,0,0.5);
+        font-size: calc(1rem + 0.5vw);
     }
     h1 {
         font-weight: 900;
+        font-size: calc(1.5rem + 1.5vw);
         text-transform: uppercase;
         text-shadow: 2px 3px 4px rgba(0,0,0,0.5);
     }
     .wrapper {
-      padding: 5vh 2vw;
+      padding: 5vh 1rem;
       min-height: 80vh;
       background: linear-gradient(to right, rgba(0,0,0,0.35) 20%,  rgba(0,0,0,0.85));
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
     }
     p {
       color: white;
@@ -42,8 +41,8 @@ const IntroSectionWrap = styled.section`
 const ShaktiConIntro = () => {
 
     return <IntroSectionWrap bg={require('../../images/cyberpunk_woman.jpg')}>
-    <div className="wrapper">
-        <div className="p-3" style={{ maxWidth: '720px' }}>
+    <div className="wrapper d-md-flex align-items-center justify-content-end">
+        <div  style={{ maxWidth: '720px' }}>
             <Fade>
                 <h4>What is Shakticon?</h4>
             </Fade>

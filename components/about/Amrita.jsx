@@ -37,8 +37,8 @@ const AboutAmma = styled.div`
 
 const InitiativesCard = styled.div`
     padding: 1rem;
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 250px;
+    max-width: 70vw;
     background: rgba(0,0,30,0.25);
     margin-right: 8px;
     color: #FFF;
