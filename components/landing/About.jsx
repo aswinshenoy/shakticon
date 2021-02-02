@@ -77,6 +77,9 @@ const AboutShaktiCon = () => {
                                     goals without any fear.
                                 </p>
                             </div>
+                            <a href="/about" className="text-warning" style={{ textDecoration: 'none' }}>
+                                Learn More <i className="fa fa-chevron-right" />
+                            </a>
                         </div>
                     </div>
                 </Fade>
