@@ -15,7 +15,7 @@ const Base = ({ children, meta }) => {
     config({ ssrFadeout: true });
 
     const title = `${meta && meta.title ? `${meta.title} |` : ''} ${seoTags.siteName} - ${seoTags.tagLine}`;
-    const GoogleAnalyticsID = null;
+    const GoogleAnalyticsID = 'G-16XVQFQLWQ';
 
     return <React.Fragment>
         <Head>

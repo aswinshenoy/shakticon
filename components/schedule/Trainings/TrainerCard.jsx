@@ -73,11 +73,12 @@ const TrainerCard = ({
                 <div className="p-2">
                     {sessions.map((s) =>
                         <div>
-                            {s.date} - {s.time}
+                            {s.date} {s.time && `- ${s.time}`}
                         </div>
                     )}
                 </div>}
             </div>
+            {trainer.bio &&
             <div className="col-md-4 text-center col-lg-3">
                 <img draggable="false" alt={trainer?.name} src={trainer?.image} />
                 {trainer?.links &&
@@ -95,16 +96,19 @@ const TrainerCard = ({
                         <i className="far fa-globe" />
                     </a>}
                 </div>}
-            </div>
+            </div>}
+            {trainer.bio &&
             <div className="col-md-8 col-lg-9">
+                {trainer.bio &&
                 <div>
                     <div className="font-weight-bold"><i className="far fa-id-card mr-1" /> About {trainer.name}</div>
                     {trainer.bio}
-                </div>
+                </div>}
+                {abstract &&
                 <div>
                     <div className="font-weight-bold"><i className="far fa-info-square mr-1" /> Training Overview</div>
                     <p>{abstract}</p>
-                </div>
+                </div>}
                 {(prerequisite?.length > 0) && <div>
                     <div className="font-weight-bold"><i className="far fa-clipboard-list-check mr-1" />  Prerequisite</div>
                     <ul>
@@ -121,7 +125,7 @@ const TrainerCard = ({
                         )}
                     </ul>
                 </div>}
-            </div>
+            </div>}
         </div>
     </TrainerCardWrap>
 

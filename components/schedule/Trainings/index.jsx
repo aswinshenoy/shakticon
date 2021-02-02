@@ -39,6 +39,25 @@ const ShaktiTrainings = () => {
 
     const TrainersList = [
         {
+            "slug": "network-traffic-analysis",
+            "title": "Network Traffic Analysis",
+            "sessions": [
+                {
+                    "date": "Friday, 19th February",
+                    "time": "",
+                }
+            ],
+            "trainer": {
+                "name": "Silvia Nerea Anguita",
+                "designation": "Cybersecurity Auditor",
+                "company": "Siemens",
+                "image": require('../../../images/speakers/silvia.jpg'),
+                "links": {
+                    "linkedin": "https://www.linkedin.com/in/silvia-anguita/"
+                }
+            },
+        },
+        {
             "slug": "from-n00b-to-l33t",
             "title": "From n00b to l33t",
             "sessions": [
@@ -134,9 +153,8 @@ const ShaktiTrainings = () => {
 
     return <TrainingModuleWrap id="intermediate-training">
         <div className="container-lg p-0">
-            <h2>Intermediate Level Training</h2>
-            <p>Intermediate level cyber-security training sessions conducted by domain experts from prominent organizations from 26th of February.</p>
-            <div className="pb-4">
+            <h2>Featured Trainings</h2>
+            <div className="py-4">
                 {TrainersList.map((t) =>
                     <Fade key={t.slug}>
                         <div className="mb-4">
