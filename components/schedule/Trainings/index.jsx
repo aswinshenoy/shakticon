@@ -159,6 +159,27 @@ const ShaktiTrainings = () => {
                     "date": "Sunday, 28th March",
                 }
             ],
+            "abstract": <>
+                <p>
+                    This training is the shortened version of my original "Reversing and Auditing C++ Binaries", this
+                    course will be a class for security researchers who want to expand their horizons and skills in
+                    reversing C++ binaries.
+                </p>
+                <p>
+                    C++ Binaries are full of mysteries, they have objects, inheritance, templates, vtables and many
+                    more and reverse engineering them is a task on its own. In order to correctly and clearly map a
+                    C++ compiled binary it requires a vast knowledge of C++ Internals.
+                </p>
+                <p>
+                    The training will explain C++ reverse engineering topics including techniques and tools for
+                    dealing with C++ Binaries research. We will start with the identification of basic structures
+                    in C++ and continue with C++ Objects and Inheritance in a binary and how to represent them in IDA.
+                </p>
+                <p>
+                    Afterward, we will also study work methods and design patterns in C++. Finally, we will practice,
+                    fight and untangle deep and modern C++ programs using static and dynamic analysis.
+                </p>
+            </>,
             "trainer": {
                 "name": "Gal Zaban",
                 "designation": "Security Researcher",
@@ -167,7 +188,14 @@ const ShaktiTrainings = () => {
                 "links": {
                     "twitter": "https://twitter.com/0xgalz",
                     "linkedin": "https://www.linkedin.com/in/gal-zaban-02007610b/",
-                }
+                },
+                "bio": <p>
+                    Gal Zaban is a Reverse Engineer with a particular interest in C++ code, currently working as a
+                    Vulnerability Researcher in the Automotive Industry. As part of her journey in understanding the
+                    catacombs of C++, she developed various RE tools for C++ including 'Virtuailor'.
+                    In her spare time when she's not dwelling into low-level research, she designs and sews her
+                    own clothes and plays the Clarinet.
+                </p>
             },
         },
         {

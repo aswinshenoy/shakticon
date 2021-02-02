@@ -66,7 +66,7 @@ const TrainerCard = ({
             <div className="col-md-8 p-2">
                 <h3>{title}</h3>
                 <h4>{trainer?.name}</h4>
-                <h5>{trainer?.designation}, {trainer?.company}</h5>
+                {trainer?.company && <h5>{trainer?.designation}, {trainer?.company}</h5>}
             </div>
             <div className="col-md-4 d-flex text-warning text-md-right text-center justify-content-md-end justify-content-center p-2">
                 {sessions?.length>0 &&

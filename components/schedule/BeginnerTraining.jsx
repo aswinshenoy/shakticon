@@ -80,56 +80,6 @@ const BeginnerTraining = ({ }) => {
 
     const sessions = [
         {
-            "title": "Introduction to CTF",
-            "date": "15 January 2021",
-            "duration": "60 mins",
-            "isClosed": true,
-            "trainer": {
-                "name": "Namitha S",
-                "image": require('../../images/crew/namitha.jpg'),
-                "links": {
-                    "twitter": "https://twitter.com/N4m1th4_01"
-                }
-            }
-        },
-        {
-            "title": "Introduction to Cryptography",
-            "date": "22 January 2021",
-            "duration": "60 mins",
-            "trainer": {
-                "name": "Meenakshi S L",
-                "image": require('../../images/crew/meenakshi.jpg'),
-                "links": {
-                    "twitter": "https://twitter.com/MeenakshiSl1",
-                    "linkedin": "https://www.linkedin.com/in/meenakshisl"
-                }
-            }
-        },
-        {
-            "title": "Introduction to Reverse Engineering",
-            "date": "29 January 2021",
-            "duration": "60 mins",
-            "trainer": {
-                "name": "Simran Kathpalia",
-                "image": require('../../images/crew/simran.jpg'),
-                "links": {
-                    "twitter": "https://twitter.com/SimranKathpalia"
-                }
-            }
-        },
-        {
-            "title": "Introduction to Reverse Engineering",
-            "date": "29 January 2021",
-            "duration": "60 mins",
-            "trainer": {
-                "name": "Namitha S",
-                "image": require('../../images/crew/namitha.jpg'),
-                "links": {
-                    "twitter": "https://twitter.com/N4m1th4_01"
-                }
-            }
-        },
-        {
             "title": "Introduction to Binary Exploitation",
             "date": "05 February 2021",
             "duration": "60 mins",
@@ -156,6 +106,59 @@ const BeginnerTraining = ({ }) => {
                 }
             }
         },
+        {
+            "title": "Introduction to CTF",
+            "date": "15 January 2021",
+            "duration": "60 mins",
+            "isClosed": true,
+            "trainer": {
+                "name": "Namitha S",
+                "image": require('../../images/crew/namitha.jpg'),
+                "links": {
+                    "twitter": "https://twitter.com/N4m1th4_01"
+                }
+            }
+        },
+        {
+            "title": "Introduction to Cryptography",
+            "date": "22 January 2021",
+            "duration": "60 mins",
+            "isClosed": true,
+            "trainer": {
+                "name": "Meenakshi S L",
+                "image": require('../../images/crew/meenakshi.jpg'),
+                "links": {
+                    "twitter": "https://twitter.com/MeenakshiSl1",
+                    "linkedin": "https://www.linkedin.com/in/meenakshisl"
+                }
+            }
+        },
+        {
+            "title": "Introduction to Reverse Engineering",
+            "date": "29 January 2021",
+            "duration": "60 mins",
+            "isClosed": true,
+            "trainer": {
+                "name": "Simran Kathpalia",
+                "image": require('../../images/crew/simran.jpg'),
+                "links": {
+                    "twitter": "https://twitter.com/SimranKathpalia"
+                }
+            }
+        },
+        {
+            "title": "Introduction to Reverse Engineering",
+            "date": "29 January 2021",
+            "duration": "60 mins",
+            "isClosed": true,
+            "trainer": {
+                "name": "Namitha S",
+                "image": require('../../images/crew/namitha.jpg'),
+                "links": {
+                    "twitter": "https://twitter.com/N4m1th4_01"
+                }
+            }
+        }
     ]
 
     return <TrainingModuleWrap id="beginner-training">
