@@ -46,7 +46,7 @@ const ShaktiSpeakers = () => {
                 and what it cannot), and how TM fits into the overall Product Development Lifecycle and Secure
                 Development Lifecycle. This talk will also introduce various threat modeling methodologies.
             </>,
-            "trainer": {
+            "speaker": {
                 "name": "Sung Lee",
                 "designation": "Staff Security Architect",
                 "company": "VMware",

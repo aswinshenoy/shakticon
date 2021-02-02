@@ -262,7 +262,7 @@ const ShaktiTrainings = () => {
                 "name": "Arya M Shankar",
                 "designation": "Product & Solution Security Professional",
                 "company": "Siemens",
-                "image": require('../../images/speakers/arya.JPG'),
+                "image": require('../../../images/speakers/arya.JPG'),
                 "bio": <p>
                     As a Product and Solution Security Professional at Siemens I am currently into Secure Software
                     Development (R&D) and  Cyber Security Analyst roles. Also have experience working in sensitive

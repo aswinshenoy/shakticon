@@ -106,7 +106,7 @@ const SpeakerCard = ({
                 </div>}
                 {abstract &&
                 <div>
-                    <div className="font-weight-bold"><i className="far fa-info-square mr-1" /> Training Overview</div>
+                    <div className="font-weight-bold"><i className="far fa-info-square mr-1" /> Talk Overview</div>
                     <p>{abstract}</p>
                 </div>}
             </div>}
