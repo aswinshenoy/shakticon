@@ -44,7 +44,6 @@ const ShaktiTrainings = () => {
             "sessions": [
                 {
                     "date": "Friday, 19th February",
-                    "time": "",
                 }
             ],
             "trainer": {
@@ -148,7 +147,62 @@ const ShaktiTrainings = () => {
                     </p>
                 </>,
             }
-        }
+        },
+        {
+            "slug": "reversing-cpp-binaries",
+            "title": "Reverse Engineering C++ binaries",
+            "sessions": [
+                {
+                    "date": "Saturday, 20th March",
+                },
+                {
+                    "date": "Sunday, 28th March",
+                }
+            ],
+            "trainer": {
+                "name": "Gal Zaban",
+                "designation": "Security Researcher",
+                "company": "Cymotive",
+                "image": require('../../../images/speakers/gal.JPG'),
+                "links": {
+                    "twitter": "https://twitter.com/0xgalz",
+                    "linkedin": "https://www.linkedin.com/in/gal-zaban-02007610b/",
+                }
+            },
+        },
+        {
+            "slug": "owasp-juice-shop",
+            "title": "OWASP Juice Shop - Web Application Penetration Testing Basics",
+            "sessions": [
+                {
+                    "date": "Sunday, 21st March",
+                }
+            ],
+            "trainer": {
+                "name": "Zoey Garvey",
+                "isTrainer": true,
+                // "designation": "Software Engineer",
+                // "company": "Federal Reserve Bank of San Fransisco",
+                "image": require('../../../images/speakers/zoey.jpg'),
+                "links": {
+                    "linkedin": "https://www.linkedin.com/in/zoey-garvey-66982b34/"
+                }
+            },
+        },
+        {
+            "slug": "understanding-tls-mitm-attacks",
+            "title": "Understanding TLS and MITM Attacks",
+            "sessions": [
+                {
+                    "date": "Saturday, 27th March",
+                }
+            ],
+            "trainer": {
+                "name": "Caroline Leman",
+                "designation": "Security Research Engineer",
+                "company": "CEA/DAM",
+            },
+        },
     ]
 
     return <TrainingModuleWrap id="intermediate-training">
