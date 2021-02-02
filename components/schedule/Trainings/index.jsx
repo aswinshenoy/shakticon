@@ -231,6 +231,47 @@ const ShaktiTrainings = () => {
                 "company": "CEA/DAM",
             },
         },
+        {
+            "slug": "kick-start-to-secure-software-development",
+            "title": "Kick-Start to Secure Software Development.",
+            "sessions": [
+                {
+                    "date": "During Conference",
+                }
+            ],
+            "abstract": <>
+                <p>We read, write and understand Code :)</p>
+                <p>
+                    There is a popular misconception that those who code can develop software. Yes, they can, but not
+                    always secured, reliable and efficient ones. And who would buy it? If someone does, for how long
+                    would it serve!
+                </p>
+                <p>
+                    This training would focus on enlightening about good and bad coding, which is the backbone of
+                    Secure Software Development. Take you through the overall software development architecture,
+                    an in-depth understanding of each stage and a quick peek into adversary entry points. Finally to
+                    the world of secure coding, a vast domain which is least explored and splendid opportunity for
+                    the skilled ones.
+                </p>
+                <p>
+                    If you believe that you deliver good code, you might rethink after the session. If you don’t code,
+                    life would be much easier learning the right things the right way than re-learning later.
+                </p>
+            </>,
+            "trainer": {
+                "name": "Arya M Shankar",
+                "designation": "Product & Solution Security Professional",
+                "company": "Siemens",
+                "image": require('../../images/speakers/arya.JPG'),
+                "bio": <p>
+                    As a Product and Solution Security Professional at Siemens I am currently into Secure Software
+                    Development (R&D) and  Cyber Security Analyst roles. Also have experience working in sensitive
+                    projects for Indian govt. defence organisations(DRDO - R&D). Have 4+ years of experience in
+                    different domain of Cyber Security. Pursued Masters in Cyber Security Systems & Networks with a
+                    bachelors in Computer Science Engineering.
+                </p>
+            },
+        },
     ]
 
     return <TrainingModuleWrap id="intermediate-training">
