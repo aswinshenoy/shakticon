@@ -7,6 +7,7 @@ import FooterArea from "../components/landing/Footer";
 import AmritaCenterForCyber from "../components/about/ACCSN";
 import ShaktiConIntro from "../components/about/intro";
 import EventOrganizers from "../components/about/Organizers";
+import TeamShakti from "../components/about/Shakti";
 
 const AboutPage = () => {
 
@@ -14,6 +15,7 @@ const AboutPage = () => {
         <Topbar />
         <ShaktiConIntro />
         <CyberSecurityRelevance />
+        <TeamShakti />
         <AmritaCenterForCyber />
         <AmritaCommitment />
         <EventOrganizers />

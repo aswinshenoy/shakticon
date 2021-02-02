@@ -90,26 +90,32 @@ const AmritaCenterForCyber = () => {
 
   return <CyberSection>
       <div className="container-lg p-2">
-          <div className="mt-5">
-              <h5 className="mb-0">What is our track record?</h5>
-              <h1>CyberSecurity at Amrita</h1>
-          </div>
+          <Fade>
+              <div className="mt-5">
+                  <h5 className="mb-0">What is our track record?</h5>
+                  <h1>CyberSecurity at Amrita</h1>
+              </div>
+          </Fade>
           <div className="row mx-0">
               <div className="col-md-4 p-2">
+                  <Fade down>
                     <img
                         src={require('../../images/amrita_cyber.png')}
                         draggable="false"
                         alt="Amrita Center for CyberSecurity Systemts & Networks"
                     />
+                  </Fade>
               </div>
               <div className="col-md-8 p-1">
-                  <p>
-                      <b>Amrita Center for Cybersecurity Systems and Networks</b> has pioneered training of professionals and
-                      students and today its ‘bi0s’ team is ranked No. 1 in India and amongst the Top in the world for
-                      ethical ranking. Empowering young women in the field of cybersecurity is one of its core
-                      objectives deriving inspiration from the Chancellor of Amrita Vishwa Vidyapeetham -
-                      Sri Mata Amritanandamayi Devi.
-                  </p>
+                  <Fade up>
+                      <p>
+                          <b>Amrita Center for Cybersecurity Systems and Networks</b> has pioneered training of professionals and
+                          students and today its ‘bi0s’ team is ranked No. 1 in India and amongst the Top in the world for
+                          ethical ranking. Empowering young women in the field of cybersecurity is one of its core
+                          objectives deriving inspiration from the Chancellor of Amrita Vishwa Vidyapeetham -
+                          Sri Mata Amritanandamayi Devi.
+                      </p>
+                  </Fade>
               </div>
           </div>
           <ScrollContainer vertical={false} hideScrollbars={false} className="scroll-container py-2">

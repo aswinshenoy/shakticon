@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "@emotion/styled";
 import YouTube from 'react-youtube';
 import ScrollContainer from "react-indiana-drag-scroll";
+import Reveal from "react-reveal/";
 import Fade from "react-reveal/Fade";
 
 const AmritaCommitmentSection = styled.section`
@@ -36,7 +37,8 @@ const AboutAmma = styled.div`
 
 const InitiativesCard = styled.div`
     padding: 1rem;
-    min-width: 350px;
+    min-width: 300px;
+    max-width: 300px;
     background: rgba(0,0,30,0.25);
     margin-right: 8px;
     color: #FFF;
@@ -99,93 +101,105 @@ const AmritaCommitment = () => {
 
     return <AmritaCommitmentSection>
         <div className="container-lg p-0">
-            <h1>Our commitment to Women’s Empowerment Runs Deep</h1>
+            <Reveal left>
+                <h1>Our commitment to Women’s Empowerment Runs Deep</h1>
+            </Reveal>
             <div className="row mx-0">
                 <div className="col-md-4 d-flex align-items-center p-2">
-                    <AboutAmma>
-                        <h3>
-                            Mata Amritanandamayi Devi (Amma)
-                        </h3>
-                        <img
-                            draggable="false"
-                            src={require('../../images/amma.jpg')}
-                            alt="Mata Amritanandamayi Devi (Amma)"
-                            style={{ maxHeight: '300px' }}
-                        />
-                        <div className="about-amma">
-                            <div>Chancellor, Amrita Vishwa Vidyapeetham </div>
-                            <div>Renowned humanitarian leader and spiritual teacher</div>
-                            <div style={{ fontSize: '120%' }}>United Nations – Gandhi-King Award 2002</div>
-                        </div>
-                    </AboutAmma>
+                    <Fade down>
+                        <AboutAmma>
+                            <h3>
+                                Mata Amritanandamayi Devi (Amma)
+                            </h3>
+                            <img
+                                draggable="false"
+                                src={require('../../images/amma.jpg')}
+                                alt="Mata Amritanandamayi Devi (Amma)"
+                                style={{ maxHeight: '300px' }}
+                            />
+                            <div className="about-amma">
+                                <div>Chancellor, Amrita Vishwa Vidyapeetham </div>
+                                <div>Renowned humanitarian leader and spiritual teacher</div>
+                                <div style={{ fontSize: '120%' }}>United Nations – Gandhi-King Award 2002</div>
+                            </div>
+                        </AboutAmma>
+                    </Fade>
                 </div>
                 <div className="col-md-8 d-flex align-items-center justify-content-center p-2">
-                    <div className="w-100">
-                        <YouTube
-                            videoId="obBtlPVkwlM"
-                            opts={{
-                                width: '100%',
-                                height: '350vh'
-                            }}
-                        />
-                    </div>
+                    <Fade up>
+                        <div className="w-100">
+                            <YouTube
+                                videoId="obBtlPVkwlM"
+                                opts={{
+                                    width: '100%',
+                                    height: '350vh'
+                                }}
+                            />
+                        </div>
+                    </Fade>
                 </div>
             </div>
         </div>
         <div className="container d-flex justify-content-center">
-            <UNESCOChair className="row mx-0">
-                <div className="col-md-4 d-flex align-items-center px-3">
-                    <a href="https://amrita.edu" target="_blank"  className="plain-link" rel="noopener nofollow">
-                        <img
-                            alt="Amrita University"
-                            src={require('../../images/amrita_logo_light.png')}
-                            draggable="false"
-                        />
-                    </a>
-                </div>
-                <div className="col-md-8 px-3">
-                    <blockquote className="mb-0">
-                        Amrita holds India’s First Ever <b>UNESCO Chair on Gender Equality & Women Empowerment</b>
-                    </blockquote>
-                    <a
-                        href="https://en.unesco.org/genderequality/chair/ID1177"
-                        target="_blank"
-                        className="plain-link" style={{ fontSize: '11px' }}
-                    >
-                        View UNESCO Profile <i className="far fa-external-link" />
-                    </a>
-                </div>
-            </UNESCOChair>
-        </div>
-        <ScrollContainer vertical={false} hideScrollbars={false} className="scroll-container py-2">
-            <div className="d-flex p-3" style={{ cursor: 'grabbing' }}>
-                {initiatives.map((i, index) =>
-                    <Fade delay={index*150}>
-                        <InitiativesCard>
-                            {i.logo &&
+            <Fade up>
+                <UNESCOChair className="row mx-0">
+                    <div className="col-md-4 d-flex align-items-center px-3">
+                        <a href="https://amrita.edu" target="_blank"  className="plain-link" rel="noopener nofollow">
+                            <img
+                                alt="Amrita University"
+                                src={require('../../images/amrita_logo_light.png')}
+                                draggable="false"
+                            />
+                        </a>
+                    </div>
+                    <div className="col-md-8 d-flex align-items-center px-3">
+                        <div>
+                            <blockquote className="mb-0">
+                                Amrita holds India’s First Ever <b>UNESCO Chair on Gender Equality & Women Empowerment</b>
+                            </blockquote>
                             <a
-                                href={i.url}
+                                href="https://en.unesco.org/genderequality/chair/ID1177"
                                 target="_blank"
-                                className="d-flex align-items-center justify-content-center plain-link"
-                                style={{ minHeight: '130px' }}
-                                rel="noopener nofollow"
+                                className="plain-link" style={{ fontSize: '11px' }}
                             >
-                                <img src={i.logo} alt={i.title} draggable="false" />
-                            </a>}
-                            <a href={i.url} target="_blank"  className="plain-link" rel="noopener nofollow">
-                                <h4 className="font-weight-bold">{i.title}</h4>
+                                View UNESCO Profile <i className="far fa-external-link" />
                             </a>
-                            <p>{i.text}</p>
-                            <a href={i.url} target="_blank" style={{ fontSize: '14px' }} className="plain-link" rel="noopener nofollow">
-                                <div className="text-warning">
-                                    View Website <i className="fa fa-external-link" />
-                                </div>
-                            </a>
-                        </InitiativesCard>
-                    </Fade>
-                )}
-            </div>
-        </ScrollContainer>
+                        </div>
+                    </div>
+                </UNESCOChair>
+            </Fade>
+        </div>
+        <div className="container-lg px-0 d-flex">
+            <ScrollContainer vertical={false} className="scroll-container py-2">
+                <div className="d-flex p-3" style={{ cursor: 'grabbing' }}>
+                    {initiatives.map((i, index) =>
+                        <Fade delay={index*180}>
+                            <InitiativesCard>
+                                {i.logo &&
+                                <a
+                                    href={i.url}
+                                    target="_blank"
+                                    className="d-flex align-items-center justify-content-center plain-link"
+                                    style={{ minHeight: '130px' }}
+                                    rel="noopener nofollow"
+                                >
+                                    <img src={i.logo} alt={i.title} draggable="false" />
+                                </a>}
+                                <a href={i.url} target="_blank"  className="plain-link" rel="noopener nofollow">
+                                    <h4 className="font-weight-bold">{i.title}</h4>
+                                </a>
+                                <p>{i.text}</p>
+                                <a href={i.url} target="_blank" style={{ fontSize: '14px' }} className="plain-link" rel="noopener nofollow">
+                                    <div className="text-warning">
+                                        View Website <i className="fa fa-external-link" />
+                                    </div>
+                                </a>
+                            </InitiativesCard>
+                        </Fade>
+                    )}
+                </div>
+            </ScrollContainer>
+        </div>
     </AmritaCommitmentSection>
 
 };

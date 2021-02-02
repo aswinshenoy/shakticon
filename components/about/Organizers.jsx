@@ -133,32 +133,38 @@ const EventOrganizers = ({
         <div className="container-lg px-2">
             <h1>ShaktiCon Organizers</h1>
             <VipinSirCard className="row mx-0">
-                <div className="col-md-4 p-2">
-                    <img alt="Vipin Pavithran" draggable="false" src={require('../../images/crew/vipin_sir.jpg')} />
-                </div>
-                <div className="col-md-8 p-2">
-                    <h2 className="text-warning">Vipin Pavithran</h2>
-                    <div className="mb-2" style={{ color: 'white', fontWeight: '600' }}>
-                        <div>Chief Mentor & Founder - team bi0s, amFOSS, team Shakti</div>
-                        <div>Organizer of InCTF & ShaktiCon</div>
+                <Fade left>
+                    <div className="col-md-4 p-2">
+                        <img alt="Vipin Pavithran" draggable="false" src={require('../../images/crew/vipin_sir.jpg')} />
                     </div>
-                    <p>
-                        Vipin Pavithran is an assistant professor at Amrita Center for Cybersecurity Systems and Networks,
-                        Amrita Vishwa Vidyapeetham. Prior to joining Amrita he has worked for 10 years in the software industry.
-                        Being passionate about helping students to develop their talent and to make them reach their potential,
-                        he founded the internationally recognised student clubs- amFOSS, Team bi0s and Team Shakti, and
-                        today mentors over 200 engineering students through these clubs to achieve excellence. His team bi0s
-                        was India's first-ever CTF team when it was formed in 2007, and it was his idea and efforts that resulted
-                        in birth of InCTF in 2010, which was the first-ever CTF contest to be organized in India.
-                    </p>
-                    <div>
-                        <a href="https://twitter.com/Th3_M3nt0r" target="_blank" rel="nofollow noopener">
-                            <i className="fab fa-twitter mr-1" /> Follow on Twitter
-                        </a>
-                        <a href="https://www.linkedin.com/in/vipin-pavithran/" target="_blank">
-                            <i className="fab fa-twitter mr-1" /> Connect on LinkedIn
-                        </a>
-                    </div>
+                </Fade>
+                <div className="col-md-8 d-flex align-items-center p-2">
+                    <Fade right>
+                        <div>
+                            <h2 className="text-warning">Vipin Pavithran</h2>
+                            <div className="mb-2" style={{ color: 'white', fontWeight: '600' }}>
+                                <div>Chief Mentor & Founder - team bi0s, amFOSS, team Shakti</div>
+                                <div>Organizer of InCTF & ShaktiCon</div>
+                            </div>
+                            <p>
+                                Vipin Pavithran is an assistant professor at Amrita Center for Cybersecurity Systems and Networks,
+                                Amrita Vishwa Vidyapeetham. Prior to joining Amrita he has worked for 10 years in the software industry.
+                                Being passionate about helping students to develop their talent and to make them reach their potential,
+                                he founded the internationally recognised student clubs- amFOSS, Team bi0s and Team Shakti, and
+                                today mentors over 200 engineering students through these clubs to achieve excellence. His team bi0s
+                                was India's first-ever CTF team when it was formed in 2007, and it was his idea and efforts that resulted
+                                in birth of InCTF in 2010, which was the first-ever CTF contest to be organized in India.
+                            </p>
+                            <div>
+                                <a href="https://twitter.com/Th3_M3nt0r" target="_blank" rel="nofollow noopener">
+                                    <i className="fab fa-twitter mr-1" /> Follow on Twitter
+                                </a>
+                                <a href="https://www.linkedin.com/in/vipin-pavithran/" target="_blank">
+                                    <i className="fab fa-twitter mr-1" /> Connect on LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </Fade>
                 </div>
             </VipinSirCard>
             <div className="py-3">

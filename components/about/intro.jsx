@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "@emotion/styled";
+import Fade from "react-reveal/Fade";
 
 
 const IntroSectionWrap = styled.section`
@@ -40,22 +41,32 @@ const ShaktiConIntro = () => {
     return <IntroSectionWrap bg={require('../../images/cyberpunk_woman.jpg')}>
     <div className="wrapper">
         <div className="p-2" style={{ maxWidth: '720px' }}>
-            <h4>What is Shakticon?</h4>
-            <h1>Inspiring & Empowering Women in CyberSecurity</h1>
+            <Fade>
+                <h4>What is Shakticon?</h4>
+            </Fade>
+            <Fade delay={200}>
+                <h1>Inspiring & Empowering Women in CyberSecurity</h1>
+            </Fade>
             <div>
-                <p>
-                    ShaktiCon is a free global conference focused on inspiring, training, and upskilling women in cybersecurity.
-                </p>
-                <p>
-                    Born out of an understanding that cultural circumstances do not always encourage women to flourish in male
-                    dominated fields, ShaktiCon is committed to creating a female focused environment to showcase the range of
-                    talented women in cybersecurity.
-                </p>
-                <p>
-                    By doing this we hope to train a new generation of women to be more actively engaged in the field and enter
-                    the cybersecurity workforce. ShaktiCon is <b>all about women role models inspiring & encouraging
-                    young & aspiring women hackers to attain their goals without any fear.</b>
-                </p>
+                <Fade delay={350}>
+                    <p>
+                        ShaktiCon is a free global conference focused on inspiring, training, and upskilling women in cybersecurity.
+                    </p>
+                </Fade>
+                <Fade delay={500}>
+                    <p>
+                        Born out of an understanding that cultural circumstances do not always encourage women to flourish in male
+                        dominated fields, ShaktiCon is committed to creating a female focused environment to showcase the range of
+                        talented women in cybersecurity.
+                    </p>
+                </Fade>
+                <Fade delay={650}>
+                    <p>
+                        By doing this we hope to train a new generation of women to be more actively engaged in the field and enter
+                        the cybersecurity workforce. ShaktiCon is <b>all about women role models inspiring & encouraging
+                        young & aspiring women hackers to attain their goals without any fear.</b>
+                    </p>
+                </Fade>
             </div>
         </div>
     </div>
