@@ -40,6 +40,7 @@ const InitiativesCard = styled.div`
     background: rgba(0,0,30,0.25);
     margin-right: 8px;
     color: #FFF;
+    height: 100%;
     img {
         max-width: 100%;
         margin-bottom: 10px;

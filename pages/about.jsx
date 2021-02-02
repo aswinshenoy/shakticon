@@ -6,6 +6,7 @@ import AmritaCommitment from "../components/about/Amrita";
 import FooterArea from "../components/landing/Footer";
 import AmritaCenterForCyber from "../components/about/ACCSN";
 import ShaktiConIntro from "../components/about/intro";
+import EventOrganizers from "../components/about/Organizers";
 
 const AboutPage = () => {
 
@@ -15,6 +16,7 @@ const AboutPage = () => {
         <CyberSecurityRelevance />
         <AmritaCenterForCyber />
         <AmritaCommitment />
+        <EventOrganizers />
         <FooterArea />
     </Base>;
 

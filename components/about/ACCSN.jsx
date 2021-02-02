@@ -28,6 +28,7 @@ const CyberOrg = styled.div`
     margin-right: 1rem;
     min-width: 300px;
     max-width: 300px;
+    height: 100%;
     h4 {
         font-weight: 900;
         color: #B71C1C;
@@ -90,6 +91,7 @@ const AmritaCenterForCyber = () => {
   return <CyberSection>
       <div className="container-lg p-2">
           <div className="mt-5">
+              <h5 className="mb-0">What is our track record?</h5>
               <h1>CyberSecurity at Amrita</h1>
           </div>
           <div className="row mx-0">
