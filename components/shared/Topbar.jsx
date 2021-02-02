@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import styled from "@emotion/styled";
 import Fade from 'react-reveal/Fade';
+import { disableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
+
+import SideBar from "./SideBar";
 
 const Header = styled.header`
     display: flex;
@@ -21,6 +24,14 @@ const Header = styled.header`
            filter: none!important;
         }
     }
+      button {
+        background: none!important;
+        border: none;
+        i {
+          font-size: 32px;
+          color: white;
+        }
+      }
     nav {
        a {
           font-size: 16px;
@@ -59,6 +70,21 @@ const Header = styled.header`
 
 const Topbar = () => {
 
+    const [showMenu, setShowMenu] = useState(false);
+
+    const topbarRef = useRef()
+
+    const onOpen = () => {
+        const targetElement = document.querySelector(".app");
+        disableBodyScroll(targetElement);
+        setShowMenu(true);
+    };
+
+    const onClose = () => {
+        setShowMenu(false);
+        clearAllBodyScrollLocks();
+    };
+
     const socialMedia = [
         {
             "icon": "far fa-envelope",
@@ -92,61 +118,68 @@ const Topbar = () => {
         }
     ];
 
-    return <Header>
-        <div className="row w-100 mx-0">
-            <div className="col-3 d-flex justify-content-md-end">
-                <a href="/">
-                    <img height="30px" draggable="false" width="auto" src={require('../../images/logo.svg')} alt="Team Shakti" />
-                </a>
+    return <React.Fragment>
+        <Header ref={topbarRef}>
+            <div className="row w-100 mx-0">
+                <div className="col-3 d-flex justify-content-md-end">
+                    <a href="/">
+                        <img height="30px" draggable="false" width="auto" src={require('../../images/logo.svg')} alt="Team Shakti" />
+                    </a>
+                </div>
+                <div className="col-6 d-none d-md-flex align-items-center">
+                    <nav>
+                        <Fade delay={0}>
+                            <a href="/about">About</a>
+                        </Fade>
+                        <Fade delay={200}>
+                            <a href="/#timeline">Events</a>
+                        </Fade>
+                        <Fade delay={450}>
+                            <a href="/#speakers">Speakers</a>
+                        </Fade>
+                        <Fade delay={650}>
+                            <a href="/schedule">Schedule</a>
+                        </Fade>
+                        <Fade delay={750}>
+                            <a href="/#faq">FAQ</a>
+                        </Fade>
+                        <Fade delay={750}>
+                            <a href="/#resources">Resources</a>
+                        </Fade>
+                    </nav>
+                </div>
+                <div className="col-9 d-flex d-md-none align-items-center justify-content-end px-2">
+                    <button onClick={onOpen}>
+                        <i className="far fa-bars" />
+                    </button>
+                </div>
+                <div className="col-3 d-none d-md-flex align-items-center">
+                    {/*<Fade left>*/}
+                    {/*    <a*/}
+                    {/*       className="register-button" target="_blank" rel="noreferrer nofollow"*/}
+                    {/*       href="https://docs.google.com/forms/d/e/1FAIpQLSeiITkqpmhPRHWQspiLt27hDV2nFlwW9QoyzyFZVjM5YmSqwg/viewform"*/}
+                    {/*    >*/}
+                    {/*        Register*/}
+                    {/*    </a>*/}
+                    {/*</Fade>*/}
+                    {socialMedia.map((s, index) =>
+                        <Fade right delay={index*200}>
+                            <a
+                                href={s.url}
+                                target="_blank" rel="nofollow noreferrer"
+                                className="social-icon"
+                                title={s.title}
+                                aria-label={s.title}
+                            >
+                                <i className={s.icon} aria-hidden="true" />
+                            </a>
+                        </Fade>
+                    )}
+                </div>
             </div>
-            <div className="col-6 d-none d-md-flex align-items-center">
-                <nav>
-                    <Fade delay={0}>
-                        <a href="/about">About</a>
-                    </Fade>
-                    <Fade delay={200}>
-                        <a href="/#timeline">Events</a>
-                    </Fade>
-                    <Fade delay={450}>
-                        <a href="/#speakers">Speakers</a>
-                    </Fade>
-                    <Fade delay={650}>
-                        <a href="/schedule">Schedule</a>
-                    </Fade>
-                    <Fade delay={750}>
-                        <a href="/#faq">FAQ</a>
-                    </Fade>
-                    <Fade delay={750}>
-                        <a href="/#resources">Resources</a>
-                    </Fade>
-                </nav>
-            </div>
-            <div className="col-3 d-none d-md-flex align-items-center">
-                {/*<Fade left>*/}
-                {/*    <a*/}
-                {/*       className="register-button" target="_blank" rel="noreferrer nofollow"*/}
-                {/*       href="https://docs.google.com/forms/d/e/1FAIpQLSeiITkqpmhPRHWQspiLt27hDV2nFlwW9QoyzyFZVjM5YmSqwg/viewform"*/}
-                {/*    >*/}
-                {/*        Register*/}
-                {/*    </a>*/}
-                {/*</Fade>*/}
-                {socialMedia.map((s, index) =>
-                    <Fade right delay={index*200}>
-                        <a
-                            href={s.url}
-                            target="_blank" rel="nofollow noreferrer"
-                            className="social-icon"
-                            title={s.title}
-                            aria-label={s.title}
-                        >
-                            <i className={s.icon} aria-hidden="true" />
-                        </a>
-                    </Fade>
-                )}
-            </div>
-        </div>
-    </Header>
-
+        </Header>
+        {showMenu && <SideBar  onClose={onClose} />}
+    </React.Fragment>;
 };
 
 export default Topbar;

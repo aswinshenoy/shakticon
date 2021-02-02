@@ -5,6 +5,9 @@ import Fade from "react-reveal/Fade";
 
 const IntroSectionWrap = styled.section`
     background: ${({ bg}) => bg ? `url(${bg})` : '#333' };
+    @media (max-width: 768px){
+      background: linear-gradient(45deg, rgba(0,0,0,0.4) 0%, rgba(46,0,37,0.8) 37%, rgba(254,0,100,0.4) 51%, rgba(0,0,0,0.9) 100%),linear-gradient(51deg, rgba(82,55,15,1) 0%, rgba(71,83,0,1) 40%, rgba(0,50,124,1) 100%);
+    }
     background-size: cover;
     color: #EEE;
     margin-top: 50px;
@@ -17,16 +20,16 @@ const IntroSectionWrap = styled.section`
         text-shadow: 2px 3px 4px rgba(0,0,0,0.5);
     }
     .wrapper {
-      padding: 8vh 2vw;
+      padding: 5vh 2vw;
       min-height: 80vh;
-      background: linear-gradient(to right, rgba(0,0,0,0.25) 20%,  rgba(0,0,0,0.85));
+      background: linear-gradient(to right, rgba(0,0,0,0.35) 20%,  rgba(0,0,0,0.85));
       display: flex;
       align-items: center;
       justify-content: flex-end;
     }
     p {
       color: white;
-      font-size: 16px;
+      font-size: 14px;
       max-width: 600px;
       text-shadow: 2px 2px 2px rgba(0,0,0,0.25);
       b {
@@ -40,7 +43,7 @@ const ShaktiConIntro = () => {
 
     return <IntroSectionWrap bg={require('../../images/cyberpunk_woman.jpg')}>
     <div className="wrapper">
-        <div className="p-2" style={{ maxWidth: '720px' }}>
+        <div className="p-3" style={{ maxWidth: '720px' }}>
             <Fade>
                 <h4>What is Shakticon?</h4>
             </Fade>
