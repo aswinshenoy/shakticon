@@ -4,14 +4,14 @@ import Fade from "react-reveal/Fade";
 import ScrollContainer from "react-indiana-drag-scroll";
 
 const TrainingModuleWrap = styled.section`
-    background: #112;
+    background: #113;
     color: #eee;
     min-height: 45vh;
     padding: 8vh 2vw;
     h2 {
-       font-size: calc(1.5rem + 1.5vw);
+       font-size: calc(1.35rem + 1.25vw);
        font-weight: 600;
-       margin-bottom: 0.75rem;
+       margin-bottom: 0.35rem;
        color: #FFAB00;
        text-align: center;
     }
@@ -40,7 +40,6 @@ const Session = styled.div`
    border-radius: 10px;
    user-select: none;
    transition: all 0.5s ease;
-   height: 100%;
    color: #DDD;
    display: block;
    width: 330px;
@@ -63,7 +62,7 @@ const Session = styled.div`
    }
    h3 {
       line-height: 1.2;
-      font-size: calc(1rem + 0.25vw);
+      font-size: calc(1rem + 0.15vw);
       margin: 5px 0;
       color: white;
    }

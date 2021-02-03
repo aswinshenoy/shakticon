@@ -8,6 +8,7 @@ const TrainerCardWrap = styled.div`
         font-weight: 600;
         text-transform: uppercase;
         margin-bottom: 5px;
+        font-size: calc(1.12rem + 0.35vw);
     }
     h4 {
         color: #fd7e14;
@@ -21,6 +22,7 @@ const TrainerCardWrap = styled.div`
     p {
         color: #EEE;
         text-align: left;
+        font-size: calc(12px + 0.15vw);
     }
     li {
         color: #EEE;
@@ -72,7 +74,7 @@ const TrainerCard = ({
                 {sessions?.length>0 &&
                 <div className="p-2">
                     {sessions.map((s) =>
-                        <div>
+                        <div style={{ fontSize: 'calc(13px + 0.27vw)'}}>
                             {s.date} {s.time && `- ${s.time}`}
                         </div>
                     )}
@@ -98,7 +100,7 @@ const TrainerCard = ({
                 </div>}
             </div>}
             {trainer.bio &&
-            <div className="col-md-8 col-lg-9">
+            <div className="col-md-8 col-lg-9 px-2">
                 {trainer.bio &&
                 <div>
                     <div className="font-weight-bold"><i className="far fa-id-card mr-1" /> About {trainer.name}</div>

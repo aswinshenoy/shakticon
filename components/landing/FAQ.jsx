@@ -53,7 +53,7 @@ const FAQSection = () => {
             "question": "Who can participate?",
             "answer": <>
                 <p>
-                    This conference is only for women (including non-binary people identifying as women).
+                    This conference is only for women.
                     If you are eligible for prizes in the contest, you will be contacted for identity
                     verification so that the game stays fair for all participants.
                 </p>
@@ -96,7 +96,7 @@ const FAQSection = () => {
             "question": "Why should I take part?",
             "answer": <>
                 <li>Develop hands on skills in cybersecurity.</li>
-                <li>Meet like minded around the world.</li>
+                <li>Meet like minded people around the world.</li>
                 <li>Free workshops.</li>
                 <li>Exciting prizes.</li>
                 <li>Chance to interview with some of our sponsors for cybersecurity job roles.</li>

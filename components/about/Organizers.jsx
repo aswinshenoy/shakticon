@@ -206,10 +206,10 @@ const EventOrganizers = ({
                                 Vipin Pavithran is an assistant professor at Amrita Center for Cybersecurity Systems and Networks,
                                 Amrita Vishwa Vidyapeetham. Prior to joining Amrita he has worked for 10 years in the software industry.
                                 Being passionate about helping students to develop their talent and to make them reach their potential,
-                                he founded the internationally recognised student clubs- amFOSS, Team bi0s and Team Shakti, and
-                                today mentors over 200 engineering students through these clubs to achieve excellence. His team bi0s
-                                was India's first-ever CTF team when it was formed in 2007, and it was his idea and efforts that resulted
-                                in birth of InCTF in 2010, which was the first-ever CTF contest to be organized in India.
+                                he founded the internationally recognised student clubs - amFOSS, Team bi0s and Team Shakti, and
+                                today mentors over 200 engineering students through these clubs to achieve excellence.
+                                team bi0s was India's first-ever CTF team when it was formed in 2007, and it was this team that founded
+                                the InCTF in 2010, which was the first-ever CTF contest to be organized in India.
                             </p>
                             <div>
                                 <a href="https://twitter.com/Th3_M3nt0r" target="_blank" rel="nofollow noopener">

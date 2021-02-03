@@ -11,14 +11,13 @@ const TrainingModuleWrap = styled.section`
     min-height: 45vh;
     padding: 8vh 2vw;
     h2 {
-       font-size: calc(1.5rem + 1.5vw);
+       font-size: calc(1.35rem + 1.25vw);
        font-weight: 600;
        margin-bottom: 0.75rem;
        color: #FFAB00;
        text-align: center;
     }
     p {
-      text-align: center;
       color: #AAA;
       font-size: 14px;
       line-height: 1.5;

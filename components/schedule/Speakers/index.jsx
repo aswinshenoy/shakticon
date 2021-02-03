@@ -9,7 +9,7 @@ const TrainingModuleWrap = styled.section`
     background: #112;
     color: #eee;
     min-height: 45vh;
-    padding: 8vh 2vw;
+    padding: 5vh 2vw;
     h2 {
        font-size: calc(1.5rem + 1.5vw);
        font-weight: 600;
@@ -18,8 +18,7 @@ const TrainingModuleWrap = styled.section`
        text-align: center;
     }
     p {
-      text-align: center;
-      color: #AAA;
+      color: #EEE;
       font-size: 14px;
       line-height: 1.5;
       padding: 0.5rem;
