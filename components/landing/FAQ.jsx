@@ -50,7 +50,22 @@ const FAQSection = () => {
 
     const questions = [
         {
-            "question": "How can I register?",
+            "question": "Who can participate?",
+            "answer": <>
+                <p>
+                    This conference is only for women (including non-binary people identifying as women).
+                    If you are eligible for prizes in the contest, you will be contacted for identity
+                    verification so that the game stays fair for all participants.
+                </p>
+                <p>
+                    We welcome all women (including non-binary people identifying as women) who have the
+                    curiosity to try new things and interest in cybersecurity to take part in this conference.
+                    No previous cybersecurity experience is needed.
+                </p>
+            </>
+        },
+        {
+            "question": "How can you register?",
             "answer": <>
                 Whenever there is an upcoming event, it will be updated in the events section. There will be an option to signup for different events separately.
             </>
@@ -58,9 +73,10 @@ const FAQSection = () => {
         {
             "question": "How is the verification done?",
             "answer": <>
-                As this is a women only program, to participate in trainings or any events,
-                there will be a verification process. You will get more details regarding this
-                once you sign up for our events.
+                As this conference aims at bridging the diversity gap in the field of cybersecurity, there will be a
+                verification process on an individual basis to validate participant’s identity before being allowed
+                to participate in training or any events. You will get more details regarding this once you sign
+                up for our events.
             </>
         },
         {
@@ -68,23 +84,19 @@ const FAQSection = () => {
             "answer": "YES, anyone who is new to cybersecurity can take part. No prior skills needed. You only need to come armed with curiosity, patience and enthusiasm to learn"
         },
         {
-            "question": "Who can participate?",
-            "answer": <>
-                <li>It’s a women only Conference. Anyone who is born female or identifies as women can join. If you are eligible for prizes in the contest, we will ask for an ID proving gender as ‘Female’.</li>
-                <li>Women of any age who have the curiosity to try new things and interest in cybersecurity can take part. No previous cybersecurity experience is needed.</li>
-            </>
-        },
-        {
             "question": "How do I start learning?",
             "answer": <>
-                You can start learning by going through the basics of each category given on bi0s wiki. Also, there are many video lectures you can watch explaining basic challenges on Amrita InCTF Junior . You can also practice challenges on bi0s-archive. Additionally, you can google and find many more resources on any individual topic you are interested in. We encourage lots of independent learning!
+                You can start learning by going through the basics of each category given on bi0s wiki.
+                Also, there are many video lectures you can watch explaining basic challenges on Amrita InCTF Junior .
+                You can also practice challenges on bi0s-archive. Additionally, you can google and find many more
+                resources on any individual topic you are interested in. We encourage lots of independent learning!
             </>
         },
         {
             "question": "Why should I take part?",
             "answer": <>
                 <li>Develop hands on skills in cybersecurity.</li>
-                <li>Meet like minded women around the world.</li>
+                <li>Meet like minded around the world.</li>
                 <li>Free workshops.</li>
                 <li>Exciting prizes.</li>
                 <li>Chance to interview with some of our sponsors for cybersecurity job roles.</li>
