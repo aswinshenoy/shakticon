@@ -46,7 +46,6 @@ const Organizer = styled.div`
   border-radius: 10px;
   user-select: none;
   transition: all 0.5s ease;
-  height: 100%;
   color: #DDD;
   display: block;
   width: 200px;
@@ -88,20 +87,59 @@ const EventOrganizers = ({
 
     const organizersList = [
         {
+            "name": "Shruti Dixit",
+            "image": require('../../images/crew/shruthi.jpg'),
+            "links": {
+                "twitter": "https://twitter.com/rudyerudite",
+                "linkedin": "https://www.linkedin.com/in/shruti-dixit-489047166/"
+            }
+        },
+        {
+            "name": "Geethna T K",
+            "image": require('../../images/crew/geethna.jpg'),
+            "links": {
+                "twitter": "https://twitter.com/GeethnaTk",
+                "linkedin": "https://www.linkedin.com/in/geethna-t-k-a51047166/"
+            }
+        },
+        {
+            "name": "Ashwathi Sasi",
+            "image": require('../../images/crew/ashwathi.jpg'),
+            "links": {
+                "twitter": "https://twitter.com/Ashwathi_sasi",
+                "linkedin": "https://www.linkedin.com/in/ashwathi-sasi-64341a90/"
+            }
+        },
+        {
+            "name": "Sowmya Potluri",
+            "image": require('../../images/crew/sowmya.jpg'),
+            "links": {
+                "twitter": "https://twitter.com/__4lph4__",
+                "linkedin": "https://www.linkedin.com/in/sowmya-potluri-0605a7162/"
+            }
+        },
+        {
+            "name": "Ayushi Sharma",
+            "image": require('../../images/crew/Ayushi.jpg'),
+            "links": {
+                "twitter": "https://twitter.com/AyushiSharmax86",
+                "linkedin": "https://www.linkedin.com/in/ayushi-sharma-8381301b0/"
+            }
+        },
+        {
+            "name": "Nimisha Dughyala",
+            "image": require('../../images/crew/Nimisha.jpg'),
+            "links": {
+                "twitter": "https://twitter.com/nimishadughyala",
+                "linkedin": "https://www.linkedin.com/in/nimisha-dughyala/"
+            }
+        },
+        {
             "name": "Sandra Bino",
             "image": require('../../images/crew/sandhra.jpg'),
             "links": {
                 "twitter": "https://twitter.com/SandhraBino",
                 "linkedin": "https://www.linkedin.com/in/sandra-bino-734433187"
-            }
-        },
-        {
-            "name": "Gopika Subramanium",
-            "image": require('../../images/crew/gopika.jpg'),
-            "links": {
-                "twitter": "https://twitter.com/m0n574",
-                "website": "https://m0n574.github.io/",
-                "linkedin": "https://www.linkedin.com/in/gopika-subramanian-007304b5/"
             }
         },
         {
@@ -113,19 +151,37 @@ const EventOrganizers = ({
             }
         },
         {
+            "name": "Gopika S",
+            "image": require('../../images/crew/gopika.jpg'),
+            "links": {
+                "twitter": "https://twitter.com/m0n574",
+                "linkedin": "https://www.linkedin.com/in/gopika-subramanian-007304b5/"
+            }
+        },
+        {
             "name": "Simran Kathpalia",
             "image": require('../../images/crew/simran.jpg'),
             "links": {
-                "twitter": "https://twitter.com/SimranKathpalia"
+                "twitter": "https://twitter.com/SimranKathpalia",
+                "linkedin": "https://www.linkedin.com/in/simran-kathpalia-31539b1a4/"
             }
         },
         {
             "name": "Namitha S",
             "image": require('../../images/crew/namitha.jpg'),
             "links": {
-                "twitter": "https://twitter.com/N4m1th4_01"
+                "twitter": "https://twitter.com/N4m1th4_01",
+                "linkedin": "https://www.linkedin.com/in/namitha-s-88a493196/"
             }
         },
+        {
+            "name": "Sridevi Krishnan",
+            "image": require('../../images/crew/sridevi.jpg'),
+            "links": {
+                "twitter": "https://twitter.com/SrideviKrishn16",
+                "linkedin": "https://www.linkedin.com/in/sridevi-krishnan/"
+            }
+        }
     ]
 
 
@@ -172,12 +228,12 @@ const EventOrganizers = ({
                 <ScrollContainer vertical={false} className="scroll-container py-2">
                     <div className="d-flex p-2">
                         {organizersList.map((o, index) =>
-                            <Fade delay={index*300} className="h-100">
+                            <Fade delay={index*150} className="h-100">
                                 <Organizer>
                                     <img draggable={false} src={o.image} alt={o.name} />
                                     <div className="p-1">
                                         <h5>{o.name}</h5>
-                                        <div className="social-media-links my-4">
+                                        <div className="social-media-links mt-3">
                                             {o.links?.twitter &&
                                             <a href={o.links.twitter} rel="noreferrer nofollow" target="_blank">
                                                 <i className="fab fa-twitter" />
