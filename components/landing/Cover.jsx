@@ -47,16 +47,17 @@ const CoverWrap = styled.div`
       }
     }
     .register-button {
-        padding: 8px 16px;
+        margin-top: 2vh;
+        display: block;
+        padding: 12px 18px;
         border-radius: 3px;
-        font-size: 22px;
-        background: white;
-        color: #F50057;
+        font-size: 18px;
+        background: #4A148C;
+        color: white;
         text-decoration: none!important;
         transition: all 0.35s linear;
         &:hover {
            background: #F50057;
-           color: white;
            transition: all 0.35s linear;
         }
         margin-right: 5px;
@@ -86,14 +87,14 @@ const LandingCover = () => {
                                 organized by <span>Team Shakti</span>, <div className="d-inline-block">India's First & No.1 ranked Women-Only CTF team.</div>
                             </div>
                         </p>
-                        {/*<div className="py-2">*/}
-                        {/*    <a*/}
-                        {/*        className="register-button" target="_blank" rel="noreferrer nofollow"*/}
-                        {/*        href="https://docs.google.com/forms/d/e/1FAIpQLSeiITkqpmhPRHWQspiLt27hDV2nFlwW9QoyzyFZVjM5YmSqwg/viewform"*/}
-                        {/*    >*/}
-                        {/*        Register For Training <i className="fa fa-chevron-right ml-2" />*/}
-                        {/*    </a>*/}
-                        {/*</div>*/}
+                        <div className="py-4">
+                            <a
+                                className="register-button" target="_blank" rel="noreferrer nofollow"
+                                href="https://discord.gg/Dv8hEV7vWv"
+                            >
+                                Join Discord Server <i className="fab fa-discord ml-2" />
+                            </a>
+                        </div>
                     </div>
                 </div>
             </Fade>
