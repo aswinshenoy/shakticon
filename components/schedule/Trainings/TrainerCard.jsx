@@ -60,7 +60,7 @@ const TrainerCardWrap = styled.div`
 
 
 const TrainerCard = ({
-    slug, title, sessions, abstract, prerequisite, requirements, trainer,
+    slug, title, sessions, abstract, prerequisite, requirements, trainer, registerURL
 }) => {
 
     return <TrainerCardWrap id={slug}>
@@ -71,14 +71,20 @@ const TrainerCard = ({
                 {trainer?.company && <h5>{trainer?.designation}, {trainer?.company}</h5>}
             </div>
             <div className="col-md-4 d-flex text-warning text-md-right text-center justify-content-md-end justify-content-center p-2">
-                {sessions?.length>0 &&
                 <div className="p-2">
-                    {sessions.map((s) =>
-                        <div style={{ fontSize: 'calc(13px + 0.27vw)'}}>
-                            {s.date} {s.time && `- ${s.time}`}
-                        </div>
-                    )}
-                </div>}
+                    {registerURL &&
+                    <a href={registerURL} style={{ background: '#9C27B0', color: 'white' }} className="plain-link px-4 py-2 rounded-0">
+                        Register Now
+                    </a>}
+                    {sessions?.length>0 &&
+                    <div className="mt-2">
+                        {sessions.map((s) =>
+                            <div style={{ fontSize: 'calc(13px + 0.27vw)'}}>
+                                {s.date} {s.time && `- ${s.time}`}
+                            </div>
+                        )}
+                    </div>}
+                </div>
             </div>
             {trainer.bio &&
             <div className="col-md-4 text-center col-lg-3">

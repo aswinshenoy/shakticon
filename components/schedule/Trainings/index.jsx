@@ -43,8 +43,18 @@ const ShaktiTrainings = () => {
             "sessions": [
                 {
                     "date": "Friday, 19th February",
+                    "time": "20:30 - 22:00 IST",
                 }
             ],
+            "abstract": <>
+                This training will introduce you to the basic of traffic analysis. We will see how messages and
+                files are transmitted over the network depending on the protocol being used and see which of
+                them send the data encrypted and which not. The training will explain what are the things you
+                need to focus on when analyzing a traffic dump and what kind of data and information you can get
+                from it. You want to know how to get confidential information sent over the network? Or how an
+                attack looks like from the packets perspective? We will finish the training by analyzing a couple
+                of example so you can get your hand dirty!
+            </>,
             "trainer": {
                 "name": "Silvia Nerea Anguita",
                 "designation": "Cybersecurity Auditor",
@@ -52,8 +62,15 @@ const ShaktiTrainings = () => {
                 "image": require('../../../images/speakers/silvia.jpg'),
                 "links": {
                     "linkedin": "https://www.linkedin.com/in/silvia-anguita/"
-                }
+                },
+                "bio": <>
+                    Silvia Nerea Anguita (@silvianerea_) is a Cybersecurity Auditor at Siemens. On a day to day she
+                    works identifying security vulnerabilities in Siemens infrastructure, products and services.
+                    Prior to that she worked as a penetration tester for 2 years mainly focusing on web and mobile
+                    applications. Studied a bachelors in Computer Science and a masters degree in Cybersecurity.
+                </>
             },
+            "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSejhMQTxn0n3w1IY0gA6q3ybRT0T3khVhkk5ZvYFHRkOO-Okg/viewform"
         },
         {
             "slug": "from-n00b-to-l33t",
