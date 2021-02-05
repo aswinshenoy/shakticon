@@ -26,7 +26,7 @@ const Base = ({ children, meta }) => {
             <meta name="description" content={meta && meta.description ? meta.description : seoTags.description} />
             <meta name="twitter:title" content={title} />
             <meta property="og:title" content={title} />
-            {   meta && meta.image && <meta property="og:image" content={meta.image} /> }
+            {meta && meta.image && <meta property="og:image" content={meta.image} />}
             <meta name="viewport" content="width=device-width, minimum-scale=1, shrink-to-fit=no, initial-scale=1" />
             <link rel="manifest" href="/manifest.json" />
             <link href='/images/icons/icon-72x72.png' rel='icon' type='image/png' sizes='72x72' />

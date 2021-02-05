@@ -89,7 +89,7 @@ const Topbar = () => {
         {
             "icon": "far fa-envelope",
             "title": "Contact us through Email",
-            "url": "mailto:teamshakti06@gmail.com"
+            "url": "mailto:mail@shakticon.com"
         },
         {
             "icon": "fab fa-instagram",
