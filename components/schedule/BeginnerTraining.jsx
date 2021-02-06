@@ -80,7 +80,7 @@ const BeginnerTraining = ({ }) => {
     const sessions = [
         {
             "title": "Introduction to Binary Exploitation",
-            "date": "05 February 2021",
+            "date": "06 February 2021",
             "duration": "60 mins",
             "trainer": {
                 "name": "Sandra Bino",
