@@ -121,21 +121,21 @@ const ShaktiTrainings = () => {
                     "time": "20:30 - 22:30 IST",
                 }
             ],
-            "abstract": <>
-                Ctf players use z3 and angr to save time when solving reverse engineering challenges, however angr is
-                a complex tool and even with tons of very detailed tutorials, the learning path is still very steep.
-                In this class, we are going to solve various challenges and visit different features of angr.
-                If time is available, we will also check manticore and miasm.
-            </>,
-            "prerequisite": [
-                "Be comfortable understanding and writing Python3 code",
-                "Familiarity with x86/x64 assembly"
-            ],
-            "requirements": [
-                "VMware Workstation (at least version 12)  (no VirtualBox)",
-                "At least 8GB of RAM", "At least 40GB of free disk space",
-                "A laptop with administrative privileges"
-            ],
+            // "abstract": <>
+            //     Ctf players use z3 and angr to save time when solving reverse engineering challenges, however angr is
+            //     a complex tool and even with tons of very detailed tutorials, the learning path is still very steep.
+            //     In this class, we are going to solve various challenges and visit different features of angr.
+            //     If time is available, we will also check manticore and miasm.
+            // </>,
+            // "prerequisite": [
+            //     "Be comfortable understanding and writing Python3 code",
+            //     "Familiarity with x86/x64 assembly"
+            // ],
+            // "requirements": [
+            //     "VMware Workstation (at least version 12)  (no VirtualBox)",
+            //     "At least 8GB of RAM", "At least 40GB of free disk space",
+            //     "A laptop with administrative privileges"
+            // ],
             "trainer": {
                 "name": "Thaís Moreira Hamasaki",
                 "designation": "Offensive Security Researcher",
@@ -238,7 +238,7 @@ const ShaktiTrainings = () => {
             "title": "Understanding TLS and MITM Attacks",
             "sessions": [
                 {
-                    "date": "Saturday, 27th March",
+                    "date": "Saturday, 13th March",
                 }
             ],
             "trainer": {
