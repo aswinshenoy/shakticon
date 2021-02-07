@@ -69,8 +69,6 @@ const ProgrammePhases = () => {
                 {
                     "title": "Beginner-Level Training",
                     "description": "Basic CybserSecurity Training, introducing participants to Web Security & Exploitation, Assembly, Digital Forensics, Reverse Engineering ",
-                    "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSeiITkqpmhPRHWQspiLt27hDV2nFlwW9QoyzyFZVjM5YmSqwg/viewform",
-                    "viewMoreURL": "/schedule#beginner-training"
                 },
             ],
         },

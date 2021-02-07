@@ -27,8 +27,8 @@ const SchedulePage = () => {
         <Topbar />
         <CoverSection />
         <ProgrammePhases />
-        <BeginnerTraining />
         <ShaktiTrainings />
+        <BeginnerTraining />
         <ShaktiSpeakers />
         <FooterArea />
     </Base>;

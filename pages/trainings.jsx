@@ -36,8 +36,8 @@ const TrainingsPage = () => {
                 </p>
             </div>
         </TrainingSection>
-        <BeginnerTraining />
         <ShaktiTrainings />
+        <BeginnerTraining />
         <FooterArea />
     </Base>
 

@@ -9,8 +9,9 @@ const OrganizersSection = styled.section`
         width: auto;
         margin-bottom: 16px;
      }
-     img {
+     .partner_logo {
         max-width: 100%;
+        max-height: 150px;
      }
      h3 {
         font-size: calc(1.2rem + 1vw);
@@ -77,35 +78,42 @@ const EventOrganizers = () => {
                         <div className="col-6 col-md-4 d-flex justify-content-center align-items-center p-1">
                             <Fade up>
                                 <a href="https://blackhoodie.re/" className="plain-link" rel="noreferrer nofollow" target="_blank">
-                                    <img alt="black hoodie" draggable="false" src={require('../../images/black_hoodie_logo.PNG')} />
+                                    <img alt="black hoodie" draggable="false" className="partner_logo" src={require('../../images/black_hoodie_logo.PNG')} />
                                 </a>
                             </Fade>
                         </div>
                         <div className="col-6 col-md-4 d-flex justify-content-center align-items-center p-1">
                             <Fade up>
                                 <a href="https://wicys.org/" className="plain-link" rel="noreferrer nofollow" target="_blank">
-                                    <img alt="WiCys" draggable="false" src={require('../../images/wicys.png')} />
+                                    <img alt="WiCys" draggable="false" className="partner_logo" src={require('../../images/wicys.png')} />
                                 </a>
                             </Fade>
                         </div>
                         <div className="col-6 col-md-4 d-flex align-items-center justify-content-center p-1">
                             <Fade down>
                                 <a href="https://bi0s.in" className="plain-link" rel="noreferrer nofollow" target="_blank">
-                                    <img alt="team bi0s" draggable="false" src={require('../../images/team_bi0s.png')} />
+                                    <img alt="team bi0s" draggable="false" className="partner_logo" src={require('../../images/team_bi0s.png')} />
                                 </a>
                             </Fade>
                         </div>
                         <div className="col-6 col-md-4 d-flex justify-content-center align-items-center p-1">
                             <Fade up>
                                 <a href="https://bsidesdelhi.in/" className="plain-link" rel="noreferrer nofollow" target="_blank">
-                                    <img alt="BSides Delhi " draggable="false" src={require('../../images/bsides_delhi.png')} />
+                                    <img alt="BSides Delhi " draggable="false" className="partner_logo" src={require('../../images/bsides_delhi.png')} />
+                                </a>
+                            </Fade>
+                        </div>
+                        <div className="col-6 col-md-4 d-flex align-items-center justify-content-center p-1">
+                            <Fade down>
+                                <a href="https://owasp.org/www-committee-wia/" className="plain-link" rel="noreferrer nofollow" target="_blank">
+                                    <img alt="WIA" draggable="false" className="partner_logo" src={require('../../images/WIA.png')} />
                                 </a>
                             </Fade>
                         </div>
                         <div className="col-12 col-md-4 d-flex align-items-center justify-content-center p-1">
                             <Fade down>
                                 <a href="https://www.amrita.edu/center/cyber-security" className="plain-link" rel="noreferrer nofollow" target="_blank">
-                                    <img alt="Amrita Center for CybserSecurity Systems & Network" draggable="false" src={require('../../images/amrita_cyber.png')} />
+                                    <img alt="Amrita Center for CybserSecurity Systems & Network" className="partner_logo" draggable="false" src={require('../../images/amrita_cyber.png')} />
                                 </a>
                             </Fade>
                         </div>
@@ -113,7 +121,7 @@ const EventOrganizers = () => {
                 </div>
             </div>
         </div>
-        <img src={require('../../images/amritapuri_illustration.png')} draggable="false" alt="amritapuri" />
+        <img src={require('../../images/amritapuri_illustration.png')} style={{ width: '100%', height: 'auto' }} draggable="false" alt="amritapuri" />
     </OrganizersSection>;
 
 };

@@ -293,9 +293,6 @@ const ShaktiTrainings = () => {
     return <TrainingModuleWrap id="intermediate-training">
         <div className="container-lg p-0">
             <h2>Featured Trainings</h2>
-            <div className="pb-4 text-center">
-                Participant registrations are not open yet.
-            </div>
             <div className="py-4 px-2">
                 {TrainersList.map((t) =>
                     <Fade key={t.slug}>
