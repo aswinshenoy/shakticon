@@ -7,6 +7,7 @@ import BeginnerTraining from "../components/schedule/BeginnerTraining";
 import ProgrammePhases from "../components/landing/Timeline";
 import ShaktiTrainings from "../components/schedule/Trainings";
 import ShaktiSpeakers from "../components/schedule/Speakers";
+import LandingNotice from "../components/landing/notice";
 
 const CoverSection = styled.section`
     background: #111;
@@ -25,7 +26,7 @@ const SchedulePage = () => {
 
     return <Base meta={{ title: 'Event Schedule' }}>
         <Topbar />
-        <CoverSection />
+        <LandingNotice />
         <ProgrammePhases />
         <ShaktiTrainings />
         <BeginnerTraining />

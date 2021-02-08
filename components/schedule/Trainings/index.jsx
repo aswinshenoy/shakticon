@@ -34,7 +34,7 @@ const TrainingModuleWrap = styled.section`
    }
 `;
 
-const ShaktiTrainings = () => {
+const ShaktiTrainings = ({ hideTitle = false }) => {
 
     const TrainersList = [
         {
@@ -63,12 +63,12 @@ const ShaktiTrainings = () => {
                 "links": {
                     "linkedin": "https://www.linkedin.com/in/silvia-anguita/"
                 },
-                "bio": <>
+                "bio": <p>
                     Silvia Nerea Anguita (@silvianerea_) is a Cybersecurity Auditor at Siemens. On a day to day she
                     works identifying security vulnerabilities in Siemens infrastructure, products and services.
                     Prior to that she worked as a penetration tester for 2 years mainly focusing on web and mobile
                     applications. Studied a bachelors in Computer Science and a masters degree in Cybersecurity.
-                </>
+                </p>
             },
             "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSejhMQTxn0n3w1IY0gA6q3ybRT0T3khVhkk5ZvYFHRkOO-Okg/viewform"
         },
@@ -225,8 +225,8 @@ const ShaktiTrainings = () => {
             "trainer": {
                 "name": "Zoey Garvey",
                 "isTrainer": true,
-                // "designation": "Software Engineer",
-                // "company": "Federal Reserve Bank of San Fransisco",
+                "designation": "Software Engineer",
+                "company": "Federal Reserve Bank of San Fransisco",
                 "image": require('../../../images/speakers/zoey.jpg'),
                 "links": {
                     "linkedin": "https://www.linkedin.com/in/zoey-garvey-66982b34/"
@@ -241,10 +241,48 @@ const ShaktiTrainings = () => {
                     "date": "Saturday, 13th March",
                 }
             ],
+            "abstract": <>
+                <p>Have you ever wanted to know why Firefox warns you about concretely when the big "THIS PAGE IS UNSECURE" appears ?</p>
+                <p>Well, in this workshop we will be doing what Firefox tries to protect you from: Eavesdropping someone's network.</p>
+                <div>We'll go from theory to practice:</div>
+                <div>How do you get packets supposed to go from a computer to another to come to your machine ?</div>
+                <div>
+                    That's called the Women-In-The-Middle attack, and we'll use Scapy (pre-installed in kali linux) to
+                    do that using a technique called ARP-Spoofiing.
+                </div>
+                <div>
+                    And even if this look fun, you might know that nowadays traffic is encrypted so what can we do with these encrypted packets ?
+                </div>
+                <div>
+                    Firstly we'll go through the basics of TLS, seeing how does your connection gets encrypted and how the trust
+                    between client and server is built : that's the part where certificates signature and verification arrives.
+                </div>
+                <div>
+                    With these basics, we'll see what could go wrong, what happens if you say to firefox "No, I understand the risks and continue" from the attacker's perspective.
+                </div>
+                <div>
+                    I have prepared pair of VMs for each of you and you will be able to really eavesdrop on this small environment - it's really a hands on intro to WITM attacks and network interception.
+                </div>
+                <div>
+                    After this training, you will:
+                </div>
+                <ul>
+                    <li>have performed a WITM attack with Scapy</li>
+                    <li>know how to manually generate TLS certificates</li>
+                    <li>have a better idea of what Burp or ZAP proxy do when they "intercept TLS traffic"</li>
+                    <li>better understand your browser's security messages</li>
+                    <li>have an overview of what TLS is for and what is concretly protects us from</li>
+                </ul>
+            </>,
             "trainer": {
                 "name": "Caroline Leman",
-                "designation": "Security Research Engineer",
-                "company": "CEA/DAM",
+                "designation": "Security Engineer",
+                "company": "ANSSI",
+                "image": require('../../../images/speakers/caroline.JPG'),
+                "bio": <p>
+                    Caroline is a reverse engineer, security enthousiast and feminist. She has been contributing
+                    to miasm (https://github.com/cea-sec/miasm).
+                </p>
             },
         },
         {
@@ -292,7 +330,7 @@ const ShaktiTrainings = () => {
 
     return <TrainingModuleWrap id="intermediate-training">
         <div className="container-lg p-0">
-            <h2>Featured Trainings</h2>
+            {!hideTitle && <h2>Featured Trainings</h2>}
             <div className="py-4 px-2">
                 {TrainersList.map((t) =>
                     <Fade key={t.slug}>

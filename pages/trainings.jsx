@@ -5,10 +5,10 @@ import Base from "../components/shared";
 import FooterArea from "../components/landing/Footer";
 import BeginnerTraining from "../components/schedule/BeginnerTraining";
 import ShaktiTrainings from "../components/schedule/Trainings";
+import LandingNotice from "../components/landing/notice";
 
 const TrainingSection = styled.section`
   min-height: 45vh;
-  margin-top: 64px;
   background: #112;
   color: #eee;
   padding: 8vh 2vw;
@@ -25,18 +25,19 @@ const TrainingSection = styled.section`
 
 const TrainingsPage = () => {
 
-    return <Base meta={{ title: 'Shakti Trainings' }}>
+    return <Base meta={{ title: 'Trainings' }}>
         <Topbar />
+        <LandingNotice />
         <TrainingSection>
             <div>
-                <h1 className="mb-2">Shakti Trainings</h1>
+                <h1 className="mb-2">Trainings</h1>
                 <p style={{ maxWidth: '600px'}}>
                     Workshops & training sessions organized aimed at scouting, nurturing &
                     empowering women talents in the field of cyber-security.
                 </p>
             </div>
         </TrainingSection>
-        <ShaktiTrainings />
+        <ShaktiTrainings hideTitle />
         <BeginnerTraining />
         <FooterArea />
     </Base>

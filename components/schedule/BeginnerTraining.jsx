@@ -79,33 +79,6 @@ const BeginnerTraining = ({ }) => {
 
     const sessions = [
         {
-            "title": "Introduction to Binary Exploitation",
-            "date": "06 February 2021",
-            "duration": "60 mins",
-            "trainer": {
-                "name": "Sandra Bino",
-                "image": require('../../images/crew/sandhra.jpg'),
-                "links": {
-                    "twitter": "https://twitter.com/SandhraBino",
-                    "linkedin": "https://www.linkedin.com/in/sandra-bino-734433187"
-                }
-            }
-        },
-        {
-            "title": "Introduction to Web Expoitation",
-            "date": "13 February 2021",
-            "duration": "60 mins",
-            "trainer": {
-                "name": "Gopika Subramanium",
-                "image": require('../../images/crew/gopika.jpg'),
-                "links": {
-                    "twitter": "https://twitter.com/m0n574",
-                    "website": "https://m0n574.github.io/",
-                    "linkedin": "https://www.linkedin.com/in/gopika-subramanian-007304b5/"
-                }
-            }
-        },
-        {
             "title": "Introduction to CTF",
             "date": "15 January 2021",
             "duration": "60 mins",
@@ -157,21 +130,40 @@ const BeginnerTraining = ({ }) => {
                     "twitter": "https://twitter.com/N4m1th4_01"
                 }
             }
-        }
+        },
+        {
+            "title": "Introduction to Binary Exploitation",
+            "date": "06 February 2021",
+            "duration": "60 mins",
+            "trainer": {
+                "name": "Sandra Bino",
+                "image": require('../../images/crew/sandhra.jpg'),
+                "links": {
+                    "twitter": "https://twitter.com/SandhraBino",
+                    "linkedin": "https://www.linkedin.com/in/sandra-bino-734433187"
+                }
+            }
+        },
+        {
+            "title": "Introduction to Web Expoitation",
+            "date": "13 February 2021",
+            "duration": "60 mins",
+            "trainer": {
+                "name": "Gopika Subramanium",
+                "image": require('../../images/crew/gopika.jpg'),
+                "links": {
+                    "twitter": "https://twitter.com/m0n574",
+                    "website": "https://m0n574.github.io/",
+                    "linkedin": "https://www.linkedin.com/in/gopika-subramanian-007304b5/"
+                }
+            }
+        },
     ]
 
     return <TrainingModuleWrap id="beginner-training">
         <div className="container-lg p-0">
             <h2>Beginner Level Training</h2>
             <p>Beginner level cyber-security training sessions for young women aspirants, conducted by members of team Shakti from 15th of January.</p>
-            <div className="pb-4 text-center">
-                <a
-                    target="_blank" rel="noreferrer nofollow"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSeiITkqpmhPRHWQspiLt27hDV2nFlwW9QoyzyFZVjM5YmSqwg/viewform"
-                >
-                    Register Now <i className="far fa-chevron-right" />
-                </a>
-            </div>
         </div>
         <ScrollContainer vertical={false} className="scroll-container py-2">
             <div className="d-flex p-2">
@@ -184,7 +176,6 @@ const BeginnerTraining = ({ }) => {
                                 <h3>{s.title}</h3>
                                 <div>{s.date}</div>
                                 <div>{s.duration}</div>
-                                {s.isClosed && <div className="text-danger">Reg. Closed</div>}
                             </div>
                         </Session>
                     </Fade>

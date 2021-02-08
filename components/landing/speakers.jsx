@@ -202,14 +202,24 @@ const ConferenceSpeakers = () => {
         {
             "name": "Caroline Leman",
             "isTrainer": true,
-            "designation": "Security Research Engineer",
-            "company": "CEA/DAM",
+            "designation": "Security Engineer",
+            "company": "ANSSI",
+            "image": require('../../images/speakers/caroline.JPG'),
+        },
+        {
+            "name": "Bhavna Soman",
+            "designation": "ML Security Researcher",
+            "company": "Microsoft",
+            "image": require('../../images/speakers/bhavana.JPG'),
+            "links": {
+                "twitter": "https://twitter.com/bsoman3",
+            },
         },
         {
             "name": "Zoey Garvey",
             "isTrainer": true,
-            // "designation": "Software Engineer",
-            // "company": "Federal Reserve Bank of San Fransisco",
+            "designation": "Software Engineer",
+            "company": "Federal Reserve Bank of San Fransisco",
             "image": require('../../images/speakers/zoey.jpg'),
             "links": {
                 "linkedin": "https://www.linkedin.com/in/zoey-garvey-66982b34/"

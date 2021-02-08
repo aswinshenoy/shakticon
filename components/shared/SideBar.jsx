@@ -92,6 +92,8 @@ const SideBar = ({ onClose, darkenOnSidebar }) => {
     const sidebarLinks =  [
         { icon: "far fa-home mr-2", "title": "Home", "href": "/" },
         { icon: "far fa-info-circle mr-2", "title": "About", "href": "/about" },
+        { icon: "far fa-transporter-1 mr-2", "title": "Trainings", "href": "/trainings" },
+        { icon: "far fa-microphone-stand mr-2", "title": "Speakers", "href": "/speakers" },
         { icon: "far fa-calendar-alt mr-2", "title": "Schedule", "href": "/schedule" },
     ];
 
