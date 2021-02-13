@@ -106,7 +106,8 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                     Maddie also spent many years deep in the circuitry and firmware of embedded devices.
                     Maddie really loves reverse engineering and hopes you will too!
                 </p>
-            }
+            },
+            "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSe_wWy9Q8E_CExv_1V5xOiDY3RnjH9FCvG28ljaaWj8FQZEWA/viewform?usp=send_form"
         },
         {
             "slug": "symbolic-execution-angr-for-ctf",
@@ -162,7 +163,8 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                         somewhere offline.
                     </p>
                 </>,
-            }
+            },
+            // "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSfsbh21I5idjva9RpSFEZYhnENiWv-54xZDSvuKwMDP9K4fUA/viewform"
         },
         {
             "slug": "reversing-cpp-binaries",
