@@ -218,7 +218,7 @@ const ConferenceSpeakers = () => {
         {
             "name": "Zoey Garvey",
             "isTrainer": true,
-            "designation": "Software Engineer",
+            "designation": "Consultant Software Engineer",
             "company": "Federal Reserve Bank of San Fransisco",
             "image": require('../../images/speakers/zoey.jpg'),
             "links": {

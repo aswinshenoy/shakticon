@@ -224,15 +224,33 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                     "date": "Sunday, 21st March",
                 }
             ],
+            "abstract": <>
+                This training will introduce you to web application penetration testing on a single page
+                application and get you familiar with some of the OWASP Top 10. We'll start by learning
+                some basics about single page applications and how they're setup, and some of the tools,
+                resources and options for enumerating and attacking web applications.  We'll then move on
+                to learning the basics of SQL injection, XSS, and Broken Access Control, and put those skills
+                into practice attacking the OWASP Juice Shop.  We can explore other topics as time permits.
+                You'll also be able to use the VM for self-guided study after the session is over.
+            </>,
+            "prerequisite": [
+                "A VM will be provided that includes everything necessary for the training. You'll need virtualbox or VMWare.",
+                "Basic familiarity with HTTP, HTML, JavaScript(or another language), SQL and how web servers work will be helpful, but is not required.   We can gauge the class's experience levels at the beginning and go from there."
+            ],
             "trainer": {
                 "name": "Zoey Garvey",
                 "isTrainer": true,
-                "designation": "Software Engineer",
+                "designation": "Consultant Software Engineer",
                 "company": "Federal Reserve Bank of San Fransisco",
                 "image": require('../../../images/speakers/zoey.jpg'),
                 "links": {
                     "linkedin": "https://www.linkedin.com/in/zoey-garvey-66982b34/"
-                }
+                },
+                "bio": <p>
+                    Zoey Garvey has decades of experience coding and building web applications, and more
+                    recently has pivoted to breaking and securing them, as well as contributing web challenges
+                    to various training platforms and CTFs.
+                </p>
             },
         },
         {
