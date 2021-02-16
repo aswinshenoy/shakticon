@@ -110,6 +110,16 @@ const EventOrganizers = () => {
                                 </a>
                             </Fade>
                         </div>
+                        <div className="col-6 col-md-4 d-flex align-items-center justify-content-center p-1">
+                            <Fade down>
+                                <a href="https://www.shehackske.com/" className="plain-link" rel="noreferrer nofollow" target="_blank">
+                                    <img
+                                        style={{ width: 'auto' }}
+                                        alt="She Hacks" draggable="false" className="partner_logo" src={require('../../images/SheHacks.png')}
+                                    />
+                                </a>
+                            </Fade>
+                        </div>
                         <div className="col-12 col-md-4 d-flex align-items-center justify-content-center p-1">
                             <Fade down>
                                 <a href="https://www.amrita.edu/center/cyber-security" className="plain-link" rel="noreferrer nofollow" target="_blank">
