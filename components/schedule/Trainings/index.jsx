@@ -122,21 +122,34 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                     "time": "20:30 - 22:30 IST",
                 }
             ],
-            // "abstract": <>
-            //     Ctf players use z3 and angr to save time when solving reverse engineering challenges, however angr is
-            //     a complex tool and even with tons of very detailed tutorials, the learning path is still very steep.
-            //     In this class, we are going to solve various challenges and visit different features of angr.
-            //     If time is available, we will also check manticore and miasm.
-            // </>,
-            // "prerequisite": [
-            //     "Be comfortable understanding and writing Python3 code",
-            //     "Familiarity with x86/x64 assembly"
-            // ],
-            // "requirements": [
-            //     "VMware Workstation (at least version 12)  (no VirtualBox)",
-            //     "At least 8GB of RAM", "At least 40GB of free disk space",
-            //     "A laptop with administrative privileges"
-            // ],
+            "abstract": <>
+                <p>
+                    Symbolic execution is a powerful tool for code verification, bug hunting and reverse engineering.
+                    In this class, we will dive into the concepts of constraint programming and SMT solvers and how
+                    binary analysis tools, such as angr, integrate these concepts into their frameworks.
+                </p>
+                <p>
+                    It is going to be a very practical class, where we are going to solve various CTF challenges with
+                    the goal of visiting different features of angr.
+                </p>
+                <p>
+                    Most of CTF players use z3 and angr to save time when solving reverse engineering challenge and
+                    that is also the path we are going to take.
+                </p>
+                <p>
+                    If time is available, we will also check manticore and miasm, two other tools with symbolic
+                    execution engines with different features!
+                </p>
+            </>,
+            "prerequisite": [
+                "Be comfortable understanding and writing Python3 code",
+                "Familiarity with x86/x64 assembly"
+            ],
+            "requirements": [
+                "VMware Workstation or Player (at least version 12) (no VirtualBox)",
+                "At least 8GB of RAM", "At least 40GB of free disk space",
+                "A laptop with administrative privileges"
+            ],
             "trainer": {
                 "name": "Thaís Moreira Hamasaki",
                 "designation": "Offensive Security Researcher",
