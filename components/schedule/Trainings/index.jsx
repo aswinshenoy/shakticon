@@ -70,7 +70,7 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                     applications. Studied a bachelors in Computer Science and a masters degree in Cybersecurity.
                 </p>
             },
-            "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSejhMQTxn0n3w1IY0gA6q3ybRT0T3khVhkk5ZvYFHRkOO-Okg/viewform"
+            // "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSejhMQTxn0n3w1IY0gA6q3ybRT0T3khVhkk5ZvYFHRkOO-Okg/viewform"
         },
         {
             "slug": "from-n00b-to-l33t",
@@ -177,7 +177,7 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                     </p>
                 </>,
             },
-            // "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSfsbh21I5idjva9RpSFEZYhnENiWv-54xZDSvuKwMDP9K4fUA/viewform"
+            "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSfsbh21I5idjva9RpSFEZYhnENiWv-54xZDSvuKwMDP9K4fUA/viewform"
         },
         {
             "slug": "reversing-cpp-binaries",
