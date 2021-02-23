@@ -59,6 +59,12 @@ const EventSponsors = () => {
             "title": "Gold Sponsor",
             "size": '180px',
             "logo": require('../../images/sponsors/vmware.png')
+        },
+        {
+            "name": "NotSoSecure",
+            "title": "Prize Sponsor",
+            "size": '110px',
+            "logo": require('../../images/sponsors/notsosecure.png')
         }
     ]
 

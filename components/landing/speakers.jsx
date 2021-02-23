@@ -252,16 +252,6 @@ const ConferenceSpeakers = () => {
             "image": require('../../images/speakers/dr_krishnasree.jpg'),
         },
         {
-            "name": "Vipin Pavithran",
-            "designation": "Founder & Chief Mentor",
-            "company": "team bi0s, team Shakti & InCTF",
-            "image": require('../../images/speakers/prof_vipin.jpg'),
-            "links": {
-                "linkedin": "https://www.linkedin.com/in/vipin-pavithran/",
-                "twitter": "https://twitter.com/Th3_M3nt0r",
-            }
-        },
-        {
             "name": "Sreepriya Chalakkal",
             "designation": "Security Analyst",
             "company": "Siemens",
