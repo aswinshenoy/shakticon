@@ -38,6 +38,20 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
 
     const SpeakersList = [
         {
+            "slug": "keynote",
+            "title": "Keynote",
+            "speaker": {
+                "name": "Rinki Sethi",
+                "designation": "Vice President & CISO",
+                "company": "Twitter",
+                "image": require('../../../images/speakers/rinki_sethi.jpg'),
+                "links": {
+                    "twitter": "https://twitter.com/rinkisethi",
+                    "linkedin": "https://www.linkedin.com/in/rinkisethi"
+                }
+            }
+        },
+        {
             "slug": "threat-modeling",
             "title": "Threat Modeling",
             "abstract": <>

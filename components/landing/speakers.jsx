@@ -114,6 +114,16 @@ const ConferenceSpeakers = () => {
 
     const speakers = [
         {
+            "name": "Rinki Sethi",
+            "designation": "Vice President & CISO",
+            "company": "Twitter",
+            "image": require('../../images/speakers/rinki_sethi.jpg'),
+            "links": {
+                "twitter": "https://twitter.com/rinkisethi",
+                "linkedin": "https://www.linkedin.com/in/rinkisethi"
+            }
+        },
+        {
             "name": "Sanju Misra",
             "designation": "Chief Information Security Officer (CISO)",
             "company": "Linde",
