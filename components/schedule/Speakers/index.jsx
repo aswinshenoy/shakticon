@@ -48,8 +48,37 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 "links": {
                     "twitter": "https://twitter.com/rinkisethi",
                     "linkedin": "https://www.linkedin.com/in/rinkisethi"
-                }
+                },
+                "bio": <>
+                    Rinki Sethi has been vice president and Chief Information Security Officer at Twitter Inc since
+                    September 2020. he was an Information Security Executive at IBM from 2018 to 2019. She has also
+                    worked with companies like Walmart, Intuit, Ebay and others as a CISO and security expert. Sethi
+                    also serves as an advisor to several startups, including LevelOps, Authomize, and Cybersecurity
+                    organizations, including Women in Cybersecurity.
+                </>
             }
+        },
+        {
+            "slug": "from-techlongist-to-board-room",
+            "title": "From Technologist to Board Room...a cybersecurity journey",
+            "abstract": <>
+                Sanju fell into the cyber security field 25 years ago. Her subject matter expertise in
+                security engineering, security analysis then team leader helped to launch her into chief
+                information security officer roles at General Electric Treasury, Praxair and Linde.
+                The skills she gained as a technologist aren’t the same skills required to
+                present to board rooms and have a seat at the table with business leaders. In this session,
+                Sanju will review her career path along with a few stories. She hopes to leave you with her
+                learnings and open up the conversation to your questions.
+            </>,
+            "speaker": {
+                "name": "Sanju Misra",
+                "designation": "Chief Information Security Officer (CISO)",
+                "company": "Linde",
+                "image": require('../../../images/speakers/sanju_misra.jpg'),
+                "links": {
+                    "linkedin": "https://www.linkedin.com/in/sanjumisra/"
+                }
+            },
         },
         {
             "slug": "threat-modeling",
@@ -74,6 +103,39 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     companies, including product development, R&D, standards development, and defining product and
                     business strategy. She received B.S., M.S., and Ph.D. degrees in Computer Science from the
                     University of Maryland, College Park
+                </p>
+            },
+        },
+        {
+            "slug": "privacy-preserving-data-analysis",
+            "title": "Privacy Preserving Data Analysis",
+            "abstract": <>
+                Information sharing brings mutual benefit for governments, military services, corporates, financial
+                organizations,  health centers,  individuals, and even competitors. This benefit is resulted from
+                the additional intelligence that is inferred through collaborative data analysis. Such an intelligence
+                can be used to improve revenues, e.g. through best practice sharing, market basket analysis,
+                preventing loss coming from brand-new potential cyber-threats, analysis of medical data. Independently
+                from the final goal,   information sharing brings issues and drawbacks related to information privacy.
+                Shared information might be sensitive, potentially harming the privacy of physical persons, such as
+                employee records for business applications, or patient records for medical ones. In this talk, we
+                discuss the privacy issues in data sharing and we present the solutions for some specific scenarios
+                in this regard.
+            </>,
+            "speaker": {
+                "name": "Mina Sheikhalishahi",
+                "designation": "Security Researcher",
+                "company": " Eindhoven University of Technology",
+                "image": require('../../../images/speakers/mina_sheikhalishahi.jpg'),
+                "links": {
+                    "linkedin": "https://linkedin.com/in/mina-sheikhalishahi-3184757a",
+                },
+                "bio": <p>
+                    Mina Sheikhalishahireceived her Ph.D. in Computer Science at Laval University, Canada,
+                    in 2016,with a Ph.D. thesis on "Spam Campaign Detection, Analysis andFormalization". She
+                    joined the "Security Group" at Institute forInformatics and Telematics of CNR, Italy as postdoc
+                    in 2016. She visited the Security Group at Delft University in 2018. Currently, she is a
+                    post-doc researcher in the Security Group at Eindhoven University of Technology. Her research
+                    is mainly focused on privacy preserving data analysis.
                 </p>
             },
         },

@@ -236,6 +236,15 @@ const ConferenceSpeakers = () => {
             }
         },
         {
+            "name": "Mina Sheikhalishahi",
+            "designation": "Security Researcher",
+            "company": " Eindhoven University of Technology",
+            "image": require('../../images/speakers/mina_sheikhalishahi.jpg'),
+            "links": {
+                "linkedin": "https://linkedin.com/in/mina-sheikhalishahi-3184757a",
+            },
+        },
+        {
             "name": "Allison Marie Naaktgeboren",
             "isTrainer": true,
             "designation": "PHd Student",
