@@ -74,6 +74,9 @@ const FooterArea = () => {
                     </a>
                 )}
             </div>
+        <div className="py-2" style={{ fontSize: '18px' }}>
+            mail@shakticon.com
+        </div>
         <div className="py-2">&copy; <a href="https://teamshakti.in" target="_blank" rel="noreferrer nofollow">Team Shakti</a> 2020 - 2021. All Rights Reserved.</div>
     </FooterWrap>;
 
