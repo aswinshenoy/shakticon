@@ -50,11 +50,13 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     "linkedin": "https://www.linkedin.com/in/rinkisethi"
                 },
                 "bio": <>
-                    Rinki Sethi has been vice president and Chief Information Security Officer at Twitter Inc since
-                    September 2020. he was an Information Security Executive at IBM from 2018 to 2019. She has also
-                    worked with companies like Walmart, Intuit, Ebay and others as a CISO and security expert. Sethi
+                    Rinki Sethi is a vice president and the Chief Information Security Officer at Twitter Inc.
+                    She was earlier a Information Security Executive at IBM from 2018 to 2019. She has also
+                    worked with companies like Walmart, Intuit, Ebay and others as a CISO and security expert. She
                     also serves as an advisor to several startups, including LevelOps, Authomize, and Cybersecurity
-                    organizations, including Women in Cybersecurity.
+                    organizations, like Women in Cybersecurity. She was recognized by CSO Magazine & Executive Women's
+                    Forum with the "One to Watch" award, and in 2010, lead a team at eBay to receive the
+                    "Information Security Team of the Year" by SC Magazine.
                 </>
             }
         },
@@ -131,7 +133,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 },
                 "bio": <p>
                     Mina Sheikhalishahireceived her Ph.D. in Computer Science at Laval University, Canada,
-                    in 2016,with a Ph.D. thesis on "Spam Campaign Detection, Analysis andFormalization". She
+                    in 2016,with a Ph.D. thesis on "Spam Campaign Detection, Analysis and Formalization". She
                     joined the "Security Group" at Institute forInformatics and Telematics of CNR, Italy as postdoc
                     in 2016. She visited the Security Group at Delft University in 2018. Currently, she is a
                     post-doc researcher in the Security Group at Eindhoven University of Technology. Her research
