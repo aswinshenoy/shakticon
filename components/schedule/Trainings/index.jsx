@@ -107,7 +107,7 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                     Maddie really loves reverse engineering and hopes you will too!
                 </p>
             },
-            "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSe_wWy9Q8E_CExv_1V5xOiDY3RnjH9FCvG28ljaaWj8FQZEWA/viewform?usp=send_form"
+            // "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSe_wWy9Q8E_CExv_1V5xOiDY3RnjH9FCvG28ljaaWj8FQZEWA/viewform?usp=send_form"
         },
         {
             "slug": "symbolic-execution-angr-for-ctf",
@@ -177,7 +177,7 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                     </p>
                 </>,
             },
-            "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSfsbh21I5idjva9RpSFEZYhnENiWv-54xZDSvuKwMDP9K4fUA/viewform"
+            "registerURL": "https://register.shakticon.com/"
         },
         {
             "slug": "reversing-cpp-binaries",
@@ -190,6 +190,7 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                     "date": "Sunday, 28th March",
                 }
             ],
+            "registerURL": "https://register.shakticon.com/",
             "abstract": <>
                 <p>
                     This training is the shortened version of my original "Reversing and Auditing C++ Binaries", this
@@ -220,6 +221,7 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                     "twitter": "https://twitter.com/0xgalz",
                     "linkedin": "https://www.linkedin.com/in/gal-zaban-02007610b/",
                 },
+                "registerURL": "https://register.shakticon.com/",
                 "bio": <p>
                     Gal Zaban is a Reverse Engineer with a particular interest in C++ code, currently working as a
                     Vulnerability Researcher in the Automotive Industry. As part of her journey in understanding the
@@ -237,6 +239,7 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                     "date": "Sunday, 21st March",
                 }
             ],
+            "registerURL": "https://register.shakticon.com/",
             "abstract": <>
                 This training will introduce you to web application penetration testing on a single page
                 application and get you familiar with some of the OWASP Top 10. We'll start by learning
@@ -274,6 +277,7 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                     "date": "Saturday, 13th March",
                 }
             ],
+            "registerURL": "https://register.shakticon.com/",
             "abstract": <>
                 <p>Have you ever wanted to know why Firefox warns you about concretely when the big "THIS PAGE IS UNSECURE" appears ?</p>
                 <p>Well, in this workshop we will be doing what Firefox tries to protect you from: Eavesdropping someone's network.</p>
@@ -326,6 +330,7 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                     "date": "During Conference",
                 }
             ],
+            "registerURL": "https://register.shakticon.com/",
             "abstract": <>
                 <p>We read, write and understand Code :)</p>
                 <p>

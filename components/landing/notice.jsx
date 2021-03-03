@@ -9,7 +9,7 @@ const LandingNotice = () => {
             </div>
             <div className="col-md-4 d-flex justify-content-md-end align-items-center mb-2 mb-md-0 px-2">
                 <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSfsbh21I5idjva9RpSFEZYhnENiWv-54xZDSvuKwMDP9K4fUA/viewform"
+                    href="https://register.shakticon.com/"
                     className="px-3 py-1 shadow rounded-0 btn-primary btn" target="_blank" rel="noreferrer nofollow"
                 >
                     Register Now

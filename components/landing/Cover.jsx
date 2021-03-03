@@ -90,9 +90,9 @@ const LandingCover = () => {
                         <div className="py-4">
                             <a
                                 className="register-button" target="_blank" rel="noreferrer nofollow"
-                                href="https://discord.gg/Dv8hEV7vWv"
+                                href="https://register.shakticon.com"
                             >
-                                Join Discord Server <i className="fab fa-discord ml-2" />
+                                Register Now
                             </a>
                         </div>
                     </div>
