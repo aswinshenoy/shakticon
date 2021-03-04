@@ -36,7 +36,9 @@ const GoalCard = styled.div`
            color: white;
         }
     }
-`
+`;
+
+
 
 const EventGoals = () => {
 
@@ -57,6 +59,14 @@ const EventGoals = () => {
             "cover": require('../../images/covers/women_connections.jpg'),
             "text": "Facilitate mentorship, learning, personal growth, career growth, and community amongst the women participants"
         }
+    ];
+
+    const UNSDGGoals = [
+        require('../../images/unsdg/sdg4.png'),
+        require('../../images/unsdg/sdg5.png'),
+        require('../../images/unsdg/sdg8.png'),
+        require('../../images/unsdg/sdg10.png'),
+        require('../../images/unsdg/sdg11.png'),
     ]
 
     return <GoalsContainer>
@@ -74,6 +84,33 @@ const EventGoals = () => {
                     )}
                 </div>
             </ScrollContainer>
+            <div className="text-light text-center py-2 py-md-4">
+                <div
+                    style={{ fontSize: 'calc(0.8rem + 0.35vw)' }}
+                    className="mb-0"
+                >
+                    Amrita Vishwa Vidyapeetham through ShaktiCon proudly supports
+                </div>
+                <img
+                    src={require('../../images/unsdg/logo.png')}
+                    className="mb-0" style={{ maxHeight: '160px', maxWidth: '100%' }}
+                    alt="ShaktiCon & Amrita takes pride in supporting the UN Sustainable Development Goals"
+                />
+                <ScrollContainer vertical={false} className="scroll-container py-2">
+                    <div className="d-flex justify-content-center p-2">
+                        {UNSDGGoals.map((g) =>
+                            <GoalCard className="px-2" style={{ minWidth: '200px', width: '180px' }}>
+                                <img
+                                    draggable="false"
+                                    style={{ maxWidth: '100%', borderRadius: '10px' }}
+                                    src={g}
+                                    alt="UN SDG Goal"
+                                />
+                            </GoalCard>
+                        )}
+                    </div>
+                </ScrollContainer>
+            </div>
         </div>
     </GoalsContainer>;
 

@@ -38,78 +38,6 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
 
     const TrainersList = [
         {
-            "slug": "network-traffic-analysis",
-            "title": "Network Traffic Analysis",
-            "sessions": [
-                {
-                    "date": "Friday, 19th February",
-                    "time": "20:30 - 22:00 IST",
-                }
-            ],
-            "abstract": <>
-                This training will introduce you to the basic of traffic analysis. We will see how messages and
-                files are transmitted over the network depending on the protocol being used and see which of
-                them send the data encrypted and which not. The training will explain what are the things you
-                need to focus on when analyzing a traffic dump and what kind of data and information you can get
-                from it. You want to know how to get confidential information sent over the network? Or how an
-                attack looks like from the packets perspective? We will finish the training by analyzing a couple
-                of example so you can get your hand dirty!
-            </>,
-            "trainer": {
-                "name": "Silvia Nerea Anguita",
-                "designation": "Cybersecurity Auditor",
-                "company": "Siemens",
-                "image": require('../../../images/speakers/silvia.jpg'),
-                "links": {
-                    "linkedin": "https://www.linkedin.com/in/silvia-anguita/"
-                },
-                "bio": <p>
-                    Silvia Nerea Anguita (@silvianerea_) is a Cybersecurity Auditor at Siemens. On a day to day she
-                    works identifying security vulnerabilities in Siemens infrastructure, products and services.
-                    Prior to that she worked as a penetration tester for 2 years mainly focusing on web and mobile
-                    applications. Studied a bachelors in Computer Science and a masters degree in Cybersecurity.
-                </p>
-            },
-            // "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSejhMQTxn0n3w1IY0gA6q3ybRT0T3khVhkk5ZvYFHRkOO-Okg/viewform"
-        },
-        {
-            "slug": "from-n00b-to-l33t",
-            "title": "From n00b to l33t",
-            "sessions": [
-                {
-                    "date": "Friday, 26th February",
-                    "time": "21:30 - 23:30 IST",
-                }
-            ],
-            "abstract": <>
-                Have you ever wondered what reverse engineering is? And how people do it? Have you been confused or
-                intimidated by assembly? Then this workshop is for you! In this 2 hour workshop, you're going to learn
-                about and how to do binary reverse engineering. In this workshop, no knowledge of assembly is needed.
-                Only a basic comfort in understanding pseudo code is required. We'll cover the different types of
-                reverse engineering, how you do it, and (hopefully!) why it's so much fun. You'll finish the
-                workshop having reversed your own little program!
-            </>,
-            "trainer": {
-                "name": "Maddie Stone",
-                "designation": "Security Researcher",
-                "company": "Google Project Zero",
-                "links": {
-                    "linkedin": "https://www.linkedin.com/in/maddie-stone-192a6544/",
-                    "twitter": "https://twitter.com/maddiestone",
-                    "website": "https://ragingrock.com/"
-                },
-                "image": require('../../../images/speakers/maddie_stone.jpg'),
-                "bio": <p>
-                    Maddie Stone (@maddiestone) is a Security Researcher on Google Project Zero where she focuses on
-                    0-days used in-the-wild. Previously, she was a reverse engineer and team lead on the Android
-                    Security team, focusing predominantly on pre-installed and off-Google Play malware.
-                    Maddie also spent many years deep in the circuitry and firmware of embedded devices.
-                    Maddie really loves reverse engineering and hopes you will too!
-                </p>
-            },
-            // "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSe_wWy9Q8E_CExv_1V5xOiDY3RnjH9FCvG28ljaaWj8FQZEWA/viewform?usp=send_form"
-        },
-        {
             "slug": "symbolic-execution-angr-for-ctf",
             "title": "Symbolic execution / angr for CTF",
             "sessions": [
@@ -363,6 +291,78 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                     bachelors in Computer Science Engineering.
                 </p>
             },
+        },
+        {
+            "slug": "network-traffic-analysis",
+            "title": "Network Traffic Analysis",
+            "sessions": [
+                {
+                    "date": "Friday, 19th February",
+                    "time": "20:30 - 22:00 IST",
+                }
+            ],
+            "abstract": <>
+                This training will introduce you to the basic of traffic analysis. We will see how messages and
+                files are transmitted over the network depending on the protocol being used and see which of
+                them send the data encrypted and which not. The training will explain what are the things you
+                need to focus on when analyzing a traffic dump and what kind of data and information you can get
+                from it. You want to know how to get confidential information sent over the network? Or how an
+                attack looks like from the packets perspective? We will finish the training by analyzing a couple
+                of example so you can get your hand dirty!
+            </>,
+            "trainer": {
+                "name": "Silvia Nerea Anguita",
+                "designation": "Cybersecurity Auditor",
+                "company": "Siemens",
+                "image": require('../../../images/speakers/silvia.jpg'),
+                "links": {
+                    "linkedin": "https://www.linkedin.com/in/silvia-anguita/"
+                },
+                "bio": <p>
+                    Silvia Nerea Anguita (@silvianerea_) is a Cybersecurity Auditor at Siemens. On a day to day she
+                    works identifying security vulnerabilities in Siemens infrastructure, products and services.
+                    Prior to that she worked as a penetration tester for 2 years mainly focusing on web and mobile
+                    applications. Studied a bachelors in Computer Science and a masters degree in Cybersecurity.
+                </p>
+            },
+            // "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSejhMQTxn0n3w1IY0gA6q3ybRT0T3khVhkk5ZvYFHRkOO-Okg/viewform"
+        },
+        {
+            "slug": "from-n00b-to-l33t",
+            "title": "From n00b to l33t",
+            "sessions": [
+                {
+                    "date": "Friday, 26th February",
+                    "time": "21:30 - 23:30 IST",
+                }
+            ],
+            "abstract": <>
+                Have you ever wondered what reverse engineering is? And how people do it? Have you been confused or
+                intimidated by assembly? Then this workshop is for you! In this 2 hour workshop, you're going to learn
+                about and how to do binary reverse engineering. In this workshop, no knowledge of assembly is needed.
+                Only a basic comfort in understanding pseudo code is required. We'll cover the different types of
+                reverse engineering, how you do it, and (hopefully!) why it's so much fun. You'll finish the
+                workshop having reversed your own little program!
+            </>,
+            "trainer": {
+                "name": "Maddie Stone",
+                "designation": "Security Researcher",
+                "company": "Google Project Zero",
+                "links": {
+                    "linkedin": "https://www.linkedin.com/in/maddie-stone-192a6544/",
+                    "twitter": "https://twitter.com/maddiestone",
+                    "website": "https://ragingrock.com/"
+                },
+                "image": require('../../../images/speakers/maddie_stone.jpg'),
+                "bio": <p>
+                    Maddie Stone (@maddiestone) is a Security Researcher on Google Project Zero where she focuses on
+                    0-days used in-the-wild. Previously, she was a reverse engineer and team lead on the Android
+                    Security team, focusing predominantly on pre-installed and off-Google Play malware.
+                    Maddie also spent many years deep in the circuitry and firmware of embedded devices.
+                    Maddie really loves reverse engineering and hopes you will too!
+                </p>
+            },
+            // "registerURL": "https://docs.google.com/forms/d/e/1FAIpQLSe_wWy9Q8E_CExv_1V5xOiDY3RnjH9FCvG28ljaaWj8FQZEWA/viewform?usp=send_form"
         },
     ]
 

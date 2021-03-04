@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "@emotion/styled";
 import Fade from "react-reveal/Fade";
+import ScrollContainer from "react-indiana-drag-scroll";
 
 const CyberSecRelevanceWrap = styled.section`
     padding: 8vh 2vw;
@@ -45,6 +46,14 @@ const WomenInCyberSection = styled.section`
 
 
 const CyberSecurityRelevance = () => {
+
+    const UNSDGGoals = [
+        require('../../images/unsdg/sdg4.png'),
+        require('../../images/unsdg/sdg5.png'),
+        require('../../images/unsdg/sdg8.png'),
+        require('../../images/unsdg/sdg10.png'),
+        require('../../images/unsdg/sdg11.png'),
+    ]
 
     return <CyberSecRelevanceWrap>
         <WomenInCyberSection>
@@ -104,7 +113,33 @@ const CyberSecurityRelevance = () => {
                     </div>
                 </div>
             </div>
-
+            <div className="text-light text-center py-2 mt-4 mt-md-0 p-md-4">
+                <div
+                    style={{ fontSize: 'calc(0.8rem + 0.35vw)' }}
+                    className="mb-0"
+                >
+                    Amrita Vishwa Vidyapeetham through ShaktiCon proudly supports
+                </div>
+                <img
+                    src={require('../../images/unsdg/logo.png')}
+                    className="mb-0" style={{ maxHeight: '160px', maxWidth: '100%' }}
+                    alt="ShaktiCon & Amrita takes pride in supporting the UN Sustainable Development Goals"
+                />
+                <ScrollContainer vertical={false} className="scroll-container py-2">
+                    <div className="d-flex justify-content-center p-2">
+                        {UNSDGGoals.map((g) =>
+                            <div className="px-2" style={{ width: '200px', minWidth: '150px' }}>
+                                <img
+                                    draggable="false"
+                                    style={{ maxWidth: '100%', borderRadius: '10px' }}
+                                    src={g}
+                                    alt="UN SDG Goal"
+                                />
+                            </div>
+                        )}
+                    </div>
+                </ScrollContainer>
+            </div>
         </WomenInCyberSection>
     </CyberSecRelevanceWrap>
 
