@@ -65,12 +65,12 @@ const TrainerCard = ({
 
     return <TrainerCardWrap id={slug}>
         <div className="row mx-0">
-            <div className="col-md-8 p-2">
+            <div className="col-md-7 p-2">
                 <h3>{title}</h3>
                 <h4>{trainer?.name}</h4>
                 {trainer?.company && <h5>{trainer?.designation}, {trainer?.company}</h5>}
             </div>
-            <div className="col-md-4 d-flex text-warning text-md-right text-center justify-content-md-end justify-content-center p-2">
+            <div className="col-md-5 d-flex text-warning text-md-right text-center justify-content-md-end justify-content-center p-2">
                 <div className="p-2">
                     {registerURL &&
                     <a href={registerURL} style={{ background: '#9C27B0', color: 'white' }} className="plain-link px-4 py-2 rounded-0">
@@ -79,7 +79,7 @@ const TrainerCard = ({
                     {sessions?.length>0 &&
                     <div className="mt-2">
                         {sessions.map((s) =>
-                            <div style={{ fontSize: 'calc(13px + 0.27vw)'}}>
+                            <div style={{ fontSize: 'calc(13px + 0.2vw)'}}>
                                 {s.date} {s.time && `- ${s.time}`}
                             </div>
                         )}

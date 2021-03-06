@@ -113,9 +113,11 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
             "sessions": [
                 {
                     "date": "Saturday, 20th March",
+                    "time": "18:30 - 22:30 IST"
                 },
                 {
                     "date": "Sunday, 28th March",
+                    "time": "18:30 - 22:30 IST"
                 }
             ],
             "registerURL": "https://register.shakticon.com/",
@@ -165,6 +167,7 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
             "sessions": [
                 {
                     "date": "Sunday, 21st March",
+                    "time": "08:00 - 10:00 IST"
                 }
             ],
             "registerURL": "https://register.shakticon.com/",
@@ -203,6 +206,7 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
             "sessions": [
                 {
                     "date": "Saturday, 13th March",
+                    "time": "13:30 - 21:30 IST"
                 }
             ],
             "registerURL": "https://register.shakticon.com/",
@@ -255,7 +259,8 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
             "title": "Kick-Start to Secure Software Development.",
             "sessions": [
                 {
-                    "date": "During Conference",
+                    "date": "Saturday, 27th March",
+                    "time": "20:30 - 21:30 IST"
                 }
             ],
             "registerURL": "https://register.shakticon.com/",
