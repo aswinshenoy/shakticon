@@ -206,7 +206,11 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
             "sessions": [
                 {
                     "date": "Saturday, 13th March",
-                    "time": "13:30 - 21:30 IST"
+                    "time": "12:30 - 15:30 IST"
+                },
+                {
+                    "date": "Sunday, 14th March",
+                    "time": "12:30 - 15:30 IST"
                 }
             ],
             "registerURL": "https://register.shakticon.com/",
