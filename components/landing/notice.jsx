@@ -5,7 +5,7 @@ const LandingNotice = () => {
     return <div className="text-white p-2" style={{ background: '#214', marginTop: "64px" }}>
         <div className="row mx-0">
             <div className="col-md-8 d-flex align-items-center p-2" style={{ color: '#AAA', fontSize: 'calc(0.8rem + 0.25vw)' }}>
-                Register for Thaís Hamasaki's Training - "Symbolic execution / ANGR for CTF" on Friday, 5th March
+                Register for Thaís Hamasaki's Training - "Symbolic execution / ANGR for CTF" on Friday, 12th March
             </div>
             <div className="col-md-4 d-flex justify-content-md-end align-items-center mb-2 mb-md-0 px-2">
                 <a
