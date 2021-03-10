@@ -42,10 +42,6 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
             "title": "Symbolic execution / angr for CTF",
             "sessions": [
                 {
-                    "date": "Friday, 5th March",
-                    "time": "20:30 - 22:30 IST",
-                },
-                {
                     "date": "Friday, 12th March",
                     "time": "20:30 - 22:30 IST",
                 }
