@@ -104,6 +104,64 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
             "registerURL": "https://register.shakticon.com/"
         },
         {
+            "slug": "understanding-tls-mitm-attacks",
+            "title": "Understanding TLS and MITM Attacks",
+            "sessions": [
+                {
+                    "date": "Saturday, 13th March",
+                    "time": "12:30 - 15:30 IST"
+                },
+                {
+                    "date": "Sunday, 14th March",
+                    "time": "12:30 - 15:30 IST"
+                }
+            ],
+            "registerURL": "https://register.shakticon.com/",
+            "abstract": <>
+                <p>Have you ever wanted to know why Firefox warns you about concretely when the big "THIS PAGE IS UNSECURE" appears ?</p>
+                <p>Well, in this workshop we will be doing what Firefox tries to protect you from: Eavesdropping someone's network.</p>
+                <div>We'll go from theory to practice:</div>
+                <div>How do you get packets supposed to go from a computer to another to come to your machine ?</div>
+                <div>
+                    That's called the Women-In-The-Middle attack, and we'll use Scapy (pre-installed in kali linux) to
+                    do that using a technique called ARP-Spoofiing.
+                </div>
+                <div>
+                    And even if this look fun, you might know that nowadays traffic is encrypted so what can we do with these encrypted packets ?
+                </div>
+                <div>
+                    Firstly we'll go through the basics of TLS, seeing how does your connection gets encrypted and how the trust
+                    between client and server is built : that's the part where certificates signature and verification arrives.
+                </div>
+                <div>
+                    With these basics, we'll see what could go wrong, what happens if you say to firefox "No, I understand the risks and continue" from the attacker's perspective.
+                </div>
+                <div>
+                    I have prepared pair of VMs for each of you and you will be able to really eavesdrop on this small environment - it's really a hands on intro to WITM attacks and network interception.
+                </div>
+                <div>
+                    After this training, you will:
+                </div>
+                <ul>
+                    <li>have performed a WITM attack with Scapy</li>
+                    <li>know how to manually generate TLS certificates</li>
+                    <li>have a better idea of what Burp or ZAP proxy do when they "intercept TLS traffic"</li>
+                    <li>better understand your browser's security messages</li>
+                    <li>have an overview of what TLS is for and what is concretly protects us from</li>
+                </ul>
+            </>,
+            "trainer": {
+                "name": "Caroline Leman",
+                "designation": "Security Engineer",
+                "company": "ANSSI",
+                "image": require('../../../images/speakers/caroline.JPG'),
+                "bio": <p>
+                    Caroline is a reverse engineer, security enthousiast and feminist. She has been contributing
+                    to miasm (https://github.com/cea-sec/miasm).
+                </p>
+            },
+        },
+        {
             "slug": "reversing-cpp-binaries",
             "title": "Reverse Engineering C++ binaries",
             "sessions": [
@@ -184,7 +242,7 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                 "name": "Zoey Garvey",
                 "isTrainer": true,
                 "designation": "Consultant Software Engineer",
-                "company": "Federal Reserve Bank of San Fransisco",
+                "company": "Federal Reserve Bank of San Francisco",
                 "image": require('../../../images/speakers/zoey.jpg'),
                 "links": {
                     "linkedin": "https://www.linkedin.com/in/zoey-garvey-66982b34/"
@@ -193,64 +251,6 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                     Zoey Garvey has decades of experience coding and building web applications, and more
                     recently has pivoted to breaking and securing them, as well as contributing web challenges
                     to various training platforms and CTFs.
-                </p>
-            },
-        },
-        {
-            "slug": "understanding-tls-mitm-attacks",
-            "title": "Understanding TLS and MITM Attacks",
-            "sessions": [
-                {
-                    "date": "Saturday, 13th March",
-                    "time": "12:30 - 15:30 IST"
-                },
-                {
-                    "date": "Sunday, 14th March",
-                    "time": "12:30 - 15:30 IST"
-                }
-            ],
-            "registerURL": "https://register.shakticon.com/",
-            "abstract": <>
-                <p>Have you ever wanted to know why Firefox warns you about concretely when the big "THIS PAGE IS UNSECURE" appears ?</p>
-                <p>Well, in this workshop we will be doing what Firefox tries to protect you from: Eavesdropping someone's network.</p>
-                <div>We'll go from theory to practice:</div>
-                <div>How do you get packets supposed to go from a computer to another to come to your machine ?</div>
-                <div>
-                    That's called the Women-In-The-Middle attack, and we'll use Scapy (pre-installed in kali linux) to
-                    do that using a technique called ARP-Spoofiing.
-                </div>
-                <div>
-                    And even if this look fun, you might know that nowadays traffic is encrypted so what can we do with these encrypted packets ?
-                </div>
-                <div>
-                    Firstly we'll go through the basics of TLS, seeing how does your connection gets encrypted and how the trust
-                    between client and server is built : that's the part where certificates signature and verification arrives.
-                </div>
-                <div>
-                    With these basics, we'll see what could go wrong, what happens if you say to firefox "No, I understand the risks and continue" from the attacker's perspective.
-                </div>
-                <div>
-                    I have prepared pair of VMs for each of you and you will be able to really eavesdrop on this small environment - it's really a hands on intro to WITM attacks and network interception.
-                </div>
-                <div>
-                    After this training, you will:
-                </div>
-                <ul>
-                    <li>have performed a WITM attack with Scapy</li>
-                    <li>know how to manually generate TLS certificates</li>
-                    <li>have a better idea of what Burp or ZAP proxy do when they "intercept TLS traffic"</li>
-                    <li>better understand your browser's security messages</li>
-                    <li>have an overview of what TLS is for and what is concretly protects us from</li>
-                </ul>
-            </>,
-            "trainer": {
-                "name": "Caroline Leman",
-                "designation": "Security Engineer",
-                "company": "ANSSI",
-                "image": require('../../../images/speakers/caroline.JPG'),
-                "bio": <p>
-                    Caroline is a reverse engineer, security enthousiast and feminist. She has been contributing
-                    to miasm (https://github.com/cea-sec/miasm).
                 </p>
             },
         },
