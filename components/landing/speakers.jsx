@@ -280,6 +280,12 @@ const ConferenceSpeakers = () => {
                 "linkedin": "https://www.linkedin.com/in/sreepriyac/"
             }
         },
+        {
+            "name": "Renu DS",
+            "designation": "Penetration Test Engineer",
+            "company": "Schneider",
+            "image": require('../../images/crew/sreepriya_chechi.jpg'),
+        },
     ];
 
     return <SpeakersContainer id="speakers">
