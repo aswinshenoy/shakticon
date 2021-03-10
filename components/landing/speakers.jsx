@@ -284,7 +284,7 @@ const ConferenceSpeakers = () => {
             "name": "Renu DS",
             "designation": "Penetration Test Engineer",
             "company": "Schneider",
-            "image": require('../../images/crew/sreepriya_chechi.jpg'),
+            "image": require('../../images/speakers/renuds.png'),
         },
     ];
 
