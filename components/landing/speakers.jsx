@@ -229,7 +229,7 @@ const ConferenceSpeakers = () => {
             "name": "Zoey Garvey",
             "isTrainer": true,
             "designation": "Consultant Software Engineer",
-            "company": "Federal Reserve Bank of San Fransisco",
+            "company": "Federal Reserve Bank of San Francisco",
             "image": require('../../images/speakers/zoey.jpg'),
             "links": {
                 "linkedin": "https://www.linkedin.com/in/zoey-garvey-66982b34/"
