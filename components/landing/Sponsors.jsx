@@ -51,13 +51,13 @@ const EventSponsors = () => {
         {
             "name": "Simens",
             "title": "Platinum Sponsor",
-            "size": '280px',
+            "size": '250px',
             "logo": require('../../images/sponsors/seimens.png')
         },
         {
             "name": "VMWare",
             "title": "Gold Sponsor",
-            "size": '180px',
+            "size": '150px',
             "logo": require('../../images/sponsors/vmware.png')
         },
         {
@@ -65,6 +65,12 @@ const EventSponsors = () => {
             "title": "Prize Sponsor",
             "size": '110px',
             "logo": require('../../images/sponsors/notsosecure.png')
+        },
+        {
+            "name": "FireEye",
+            "title": "Prize Sponsor",
+            "size": '110px',
+            "logo": require('../../images/sponsors/fireeye.png')
         }
     ]
 
@@ -96,14 +102,38 @@ const EventSponsors = () => {
                         <Fade right>
                             <h4 className="mb-2">Our Sponsors</h4>
                             <div className="row my-2 mx-0">
-                                {sponsors.map((s) =>
+                                <div className="col-md-4 p-1">
+                                    <SponsorIcon>
+                                        <div>Platinum Sponsor</div>
+                                        <img alt="Seimens" draggable="false" src={require('../../images/sponsors/seimens.png')} style={{width: '250px'}}></img>
+                                    </SponsorIcon>
+                                </div>
+                                <div className="col-md-3 p-1">
+                                    <SponsorIcon>
+                                        <div>Gold Sponsor</div>
+                                        <img alt="Seimens" draggable="false" src={require('../../images/sponsors/vmware.png')} style={{width: '170px'}}></img>
+                                    </SponsorIcon>
+                                </div>
+                                <div className="col-md-2 p-1">
+                                    <SponsorIcon>
+                                        <div>Prize Sponsor</div>
+                                        <img alt="Seimens" draggable="false" src={require('../../images/sponsors/notsosecure.png')} style={{width: '110px'}}></img>
+                                    </SponsorIcon>
+                                </div>
+                                <div className="col-md-2 p-1">
+                                    <SponsorIcon>
+                                        <div>Prize Sponsor</div>
+                                        <img alt="Seimens" draggable="false" src={require('../../images/sponsors/fireeye.png')} style={{width: '110px'}}></img>
+                                    </SponsorIcon>
+                                </div>
+                                {/* {sponsors.map((s) =>
                                     <div className="col-md-4 p-1">
                                         <SponsorIcon>
                                             <div>{s.title}</div>
                                             <img alt={s.name} draggable="false" src={s.logo} style={{ width: s.size }} />
                                         </SponsorIcon>
                                     </div>
-                                )}
+                                )} */}
                             </div>
                         </Fade>
                     </SponsorContainer>
