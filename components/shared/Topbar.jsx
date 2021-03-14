@@ -121,12 +121,12 @@ const Topbar = () => {
     return <React.Fragment>
         <Header ref={topbarRef}>
             <div className="row w-100 mx-0">
-                <div className="col-4 col-md-3 d-flex justify-content-md-center px-3">
+                <div className="col-1 col-md-3 d-flex justify-content-md-center px-3">
                     <a href="/">
                         <img height="30px" draggable="false" width="auto" src={require('../../images/logo.svg')} alt="Team Shakti" />
                     </a>
                 </div>
-                <div className="col-6 d-none d-md-flex align-items-center">
+                <div className="col-6 d-none d-md-flex justify-content-md-end align-items-center">
                     <nav>
                         <Fade delay={0}>
                             <a href="/about">About</a>
@@ -145,6 +145,9 @@ const Topbar = () => {
                         </Fade>
                         <Fade delay={750}>
                             <a href="/#resources">Resources</a>
+                        </Fade>
+                        <Fade delay={750}>
+                            <a href="/promote">Promote</a>
                         </Fade>
                     </nav>
                 </div>
