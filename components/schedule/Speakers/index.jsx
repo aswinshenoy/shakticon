@@ -197,7 +197,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 "name": "Renu D S",
                 "designation": "Penetration Test Engineer",
                 "company": "Schneider-Electric",
-                "image": require('../../../images/speakers/renuds.jpg'),
+                "image": require('../../../images/speakers/renuds.png'),
                 "links": {
                     "linkedin": "http://linkedin.com/in/priti-shrivastav-59878a2"
                 },
