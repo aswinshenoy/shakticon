@@ -286,6 +286,15 @@ const ConferenceSpeakers = () => {
             "company": "Schneider",
             "image": require('../../images/speakers/renuds.png'),
         },
+        {
+            "name": "Priti Shrivastav",
+            "designation": "General Manager Software Security",
+            "company": "Intel Corporation",
+            "image": require('../../images/speakers/priti.jpg'),
+            "links": {
+                "linkedin": "http://linkedin.com/in/priti-shrivastav-59878a2"
+            }
+        }
     ];
 
     return <SpeakersContainer id="speakers">

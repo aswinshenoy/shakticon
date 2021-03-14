@@ -172,7 +172,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 like and the major challenges in implementing them. We will discuss the challenges of translating
                 cutting edge ML research into different aspects of security (AV, IDS, TI etc). If you are interested
                 in dipping your toes in this powerful domain, we will share tools and resources to get started.
-            </>,
+            </>,          
             "speaker": {
                 "name": "Bhavna Soman",
                 "designation": "ML Security Researcher",
@@ -189,6 +189,45 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     trainer for Malware Reverse Engineering with Blackhoodie.
                 </p>
             },
+        },
+        {
+            "slug": "keynote",
+            "title": "Keynote",
+            "speaker": {
+                "name": "Renu D S",
+                "designation": "Penetration Test Engineer",
+                "company": "Schneider-Electric",
+                "image": require('../../../images/speakers/renuds.jpg'),
+                "links": {
+                    "linkedin": "http://linkedin.com/in/priti-shrivastav-59878a2"
+                },
+                "bio": <>
+                     Renu D S is a Penetration Test Engineer at Schneider-Electric with an overall experience of 2.5 years 
+                     mainly focusing on embedded, wireless and web security.",
+                </>
+            }
+        },
+        {
+            "slug": "keynote",
+            "title": "Keynote",
+            "speaker": {
+                "name": "Priti Shrivastav",
+                "designation": "Former General Manager Software Security",
+                "company": "Intel Corporation",
+                "image": require('../../../images/speakers/priti.jpg'),
+                "links": {
+                    "linkedin": "http://linkedin.com/in/priti-shrivastav-59878a2"
+                },
+                "bio": <>
+                    Former General Manager Software Security at Intel corporation. Nine years managed security of all 
+                    the software products in the area of operating systems, cloud services, developers tools, 
+                    performance libraries, AI SDKs,  graphics software, compilers, and many security solutions at Intel. 
+                    Prior to working on security Priti Shrivastav managed various products like compilers, binary translation software, 
+                    parallel advisor and other important products and services at Intel. She has MS in Computer Science from 
+                    Ohio University, US and MS in Math/CS from IIT Delhi, India. She is passionate about promoting women in 
+                    cyber security to reach their professional goals.
+                </>
+            }
         },
     ]
 
