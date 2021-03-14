@@ -126,14 +126,6 @@ const EventSponsors = () => {
                                         <img alt="Seimens" draggable="false" src={require('../../images/sponsors/fireeye.png')} style={{width: '110px'}}></img>
                                     </SponsorIcon>
                                 </div>
-                                {/* {sponsors.map((s) =>
-                                    <div className="col-md-4 p-1">
-                                        <SponsorIcon>
-                                            <div>{s.title}</div>
-                                            <img alt={s.name} draggable="false" src={s.logo} style={{ width: s.size }} />
-                                        </SponsorIcon>
-                                    </div>
-                                )} */}
                             </div>
                         </Fade>
                     </SponsorContainer>
