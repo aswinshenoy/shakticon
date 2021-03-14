@@ -108,21 +108,16 @@ const EventSponsors = () => {
                                         <img alt="Seimens" draggable="false" src={require('../../images/sponsors/seimens.png')} style={{width: '250px'}}></img>
                                     </SponsorIcon>
                                 </div>
-                                <div className="col-md-3 p-1">
+                                <div className="col-md-4 p-1">
                                     <SponsorIcon>
                                         <div>Gold Sponsor</div>
-                                        <img alt="Seimens" draggable="false" src={require('../../images/sponsors/vmware.png')} style={{width: '170px'}}></img>
+                                        <img alt="Seimens" draggable="false" src={require('../../images/sponsors/vmware.png')} style={{width: '140px'}}></img>
                                     </SponsorIcon>
                                 </div>
-                                <div className="col-md-2 p-1">
+                                <div className="col-md-4 p-1">
                                     <SponsorIcon>
-                                        <div>Prize Sponsor</div>
+                                        <div>Prize Sponsors</div>
                                         <img alt="Seimens" draggable="false" src={require('../../images/sponsors/notsosecure.png')} style={{width: '110px'}}></img>
-                                    </SponsorIcon>
-                                </div>
-                                <div className="col-md-2 p-1">
-                                    <SponsorIcon>
-                                        <div>Prize Sponsor</div>
                                         <img alt="Seimens" draggable="false" src={require('../../images/sponsors/fireeye.png')} style={{width: '110px'}}></img>
                                     </SponsorIcon>
                                 </div>
