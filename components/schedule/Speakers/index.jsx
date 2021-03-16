@@ -192,7 +192,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
         },
         {
             "slug": "keynote",
-            "title": "Keynote",
+            "title": "Understanding Bluetooth security.",
             "speaker": {
                 "name": "Renu D S",
                 "designation": "Penetration Test Engineer",
@@ -209,7 +209,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
         },
         {
             "slug": "keynote",
-            "title": "Keynote",
+            "title": "A pragmatic approach on software security",
             "speaker": {
                 "name": "Priti Shrivastav",
                 "designation": "Former General Manager Software Security",
