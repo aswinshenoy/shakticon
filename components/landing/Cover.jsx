@@ -92,7 +92,7 @@ const LandingCover = () => {
                                 className="register-button" target="_blank" rel="noreferrer nofollow"
                                 href="https://register.shakticon.com"
                             >
-                                Register Now
+                                Register Now / Login
                             </a>
                         </div>
                     </div>
