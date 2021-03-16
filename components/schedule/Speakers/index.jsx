@@ -192,7 +192,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
         },
         {
             "slug": "keynote",
-            "title": "Understanding Bluetooth security.",
+            "title": "Understanding Bluetooth security",
             "speaker": {
                 "name": "Renu D S",
                 "designation": "Penetration Test Engineer",
@@ -203,7 +203,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 },
                 "bio": <>
                      Renu D S is a Penetration Test Engineer at Schneider-Electric with an overall experience of 2.5 years 
-                     mainly focusing on embedded, wireless and web security.",
+                     mainly focusing on embedded, wireless and web security.
                 </>
             }
         },
