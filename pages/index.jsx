@@ -15,14 +15,11 @@ import Resources from "../components/landing/Resources";
 import ConferenceSpeakers from "../components/landing/speakers";
 import VolunteerSection from "../components/landing/Volunteer";
 import LandingJoinDiscussion from "../components/landing/JoinDiscussions";
-import LandingNotice from "../components/landing/notice";
-
 
 export default () => {
 
   return <Base>
       <Topbar />
-      <LandingNotice />
       <LandingCover />
       <AboutShaktiCon />
       <ConferenceSpeakers />

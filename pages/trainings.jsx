@@ -5,7 +5,6 @@ import Base from "../components/shared";
 import FooterArea from "../components/landing/Footer";
 import BeginnerTraining from "../components/schedule/BeginnerTraining";
 import ShaktiTrainings from "../components/schedule/Trainings";
-import LandingNotice from "../components/landing/notice";
 
 const TrainingSection = styled.section`
   min-height: 45vh;
@@ -27,7 +26,6 @@ const TrainingsPage = () => {
 
     return <Base meta={{ title: 'Trainings' }}>
         <Topbar />
-        <LandingNotice />
         <TrainingSection>
             <div>
                 <h1 className="mb-2">Trainings</h1>

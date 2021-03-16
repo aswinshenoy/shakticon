@@ -5,10 +5,12 @@ import Base from "../components/shared";
 import FooterArea from "../components/landing/Footer";
 
 const PromotePage = () => {
-    return <Base>
+    return (<Base>
         <Topbar />
+        <div>
+        </div>
         <FooterArea />
-    </Base>
+    </Base>)
 };
 
 export default PromotePage;

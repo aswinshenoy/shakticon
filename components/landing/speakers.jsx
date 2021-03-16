@@ -281,7 +281,7 @@ const ConferenceSpeakers = () => {
             }
         },
         {
-            "name": "Renu DS",
+            "name": "Renu D S",
             "designation": "Penetration Test Engineer",
             "company": "Schneider",
             "image": require('../../images/speakers/renuds.png'),
@@ -294,7 +294,13 @@ const ConferenceSpeakers = () => {
             "links": {
                 "linkedin": "http://linkedin.com/in/priti-shrivastav-59878a2"
             }
-        }
+        },
+        {
+            "name": "Asha Poluru",
+            "designation": "Seasoned HR Leader",
+            "company": "Sophos Technologies Private Limited Regd.",
+            "image": require('../../images/speakers/AshaP.jpg'),
+        },
     ];
 
     return <SpeakersContainer id="speakers">
