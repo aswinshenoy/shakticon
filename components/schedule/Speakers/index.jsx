@@ -165,7 +165,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
         },
         {
             "slug": "machines-learning-for-security",
-            "title": "So you want to try your hand at machine learning for security",
+            "title": "So you want to try your hand at machine learning for security…",
             "abstract": <>
                 Security expertise is scarce. Machine learning and AI can help defenders scale and provide protection
                 from attackers. This talk will cover real case studies of what applications of ML in security look
