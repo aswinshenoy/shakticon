@@ -102,29 +102,23 @@ const EventSponsors = () => {
                         <Fade right>
                             <h4 className="mb-2">Our Sponsors</h4>
                             <div className="row my-2 mx-0">
-                                <div className="col-md-3 p-1">
+                                <div className="col-md-4 p-1">
                                     <SponsorIcon>
                                         <div>Platinum Sponsor</div>
                                         <img alt="Seimens" draggable="false" src={require('../../images/sponsors/seimens.png')} style={{width: '250px'}}></img>
                                     </SponsorIcon>
                                 </div>
-                                <div className="col-md-3 p-1">
+                                <div className="col-md-4 p-1">
                                     <SponsorIcon>
                                         <div>Gold Sponsor</div>
                                         <img alt="VMWare" draggable="false" src={require('../../images/sponsors/vmware.png')} style={{width: '140px'}}></img>
                                     </SponsorIcon>
                                 </div>
-                                <div className="col-md-2 p-1">
+                                <div className="col-md-4 p-1">
                                     <SponsorIcon>
                                         <div>Prize Sponsors</div>
                                         <img alt="NotSoSecure" draggable="false" src={require('../../images/sponsors/notsosecure.png')} style={{width: '110px'}}></img>
                                         <img alt="FireEye" draggable="false" src={require('../../images/sponsors/fireeye.png')} style={{width: '110px'}}></img>
-                                    </SponsorIcon>
-                                </div>
-                                <div className="col-md-4 p-1">
-                                    <SponsorIcon>
-                                        <div>Infrastructure Sponsor</div>
-                                        <img alt="GCP" draggable="false" src={require('../../images/sponsors/gcp.png')} style={{width: '350px'}}></img>
                                     </SponsorIcon>
                                 </div>
                             </div>
