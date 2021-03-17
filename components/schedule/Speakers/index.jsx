@@ -99,7 +99,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     "linkedin": "https://www.linkedin.com/in/sylee/",
                 },
                 "bio": <p>
-                    Sung joined Vmware in 2020 as a security architect. She developed an interest in security in the
+                    Sung joined VMware in 2020 as a security architect. She developed an interest in security in the
                     early 2000s, while she was leading a research team in the area of Pervasive Computing, a
                     predecessor of Internet of Things. Prior to joining VMware, she served in various roles at several
                     companies, including product development, R&D, standards development, and defining product and
