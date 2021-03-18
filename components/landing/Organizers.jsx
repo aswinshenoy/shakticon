@@ -42,7 +42,7 @@ const EventOrganizers = () => {
         <div className="container pt-5">
             <h3 className="text-center mb-4">Organized By</h3>
             <div className="row mx-0">
-                <div className="col-md-6 order-md-1 order-2 text-center">
+                <div className="col-md-4 order-md-1 order-2 text-center">
                     <Fade>
                         <a href="https://amrita.edu" target="_blank" rel="noreferrer nofollow">
                             <img className="p-2 logo" draggable="false" alt="Amrita Vishwa Vidyapeetham" src={require('../../images/amrita_logo_dark.png')} />
@@ -56,7 +56,7 @@ const EventOrganizers = () => {
                         </p>
                     </Fade>
                 </div>
-                <div className="col-md-6 order-md-1 order-2 text-center">
+                <div className="col-md-4 order-md-1 order-2 text-center">
                     <Fade>
                         <a href="https://teamshakti.in/" target="_blank" rel="noreferrer nofollow">
                             <img className="p-2 logo" draggable="false" alt="Team Shakti" src={require('../../images/teamshakti.svg')} />
@@ -67,6 +67,18 @@ const EventOrganizers = () => {
                             for Cybersecurity Systems and Networks at Amrita Vishwa Vidyapeetham’s Amritapuri Campus
                             that is committed to bridging the gender divide. Although relatively new to the scene,
                             the team is made up of luminous minds, paving the way for a brighter future.
+                        </p>
+                    </Fade>
+                </div>
+                <div className="col-md-4 order-md-1 order-2 text-center">
+                    <Fade>
+                        <img className="p-2 logo" draggable="false" alt="TEC@Amrita" src={require('../../images/organizers/tecatamrita.png')} />
+                        <h4>Technology Enabling Center @ Amrita</h4>
+                        <p>
+                            The Technology Enabling Center @ Amrita Vishwa Vidyapeetham was established in September 2019 
+                            with the support of Department of Science and Technology, Govt of India. Its mandate is to 
+                            create an Ecosystem for Technology Development in the state and country by networking with 
+                            researchers, institutes, national laboratories and the industry. 
                         </p>
                     </Fade>
                 </div>
