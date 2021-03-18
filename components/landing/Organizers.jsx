@@ -72,7 +72,7 @@ const EventOrganizers = () => {
                 </div>
                 <div className="col-md-4 order-md-1 order-2 text-center">
                     <Fade>
-                        <img className="p-2 logo" draggable="false" alt="TEC@Amrita" src={require('../../images/organizers/tecatamrita.png')} />
+                        {/*<img className="p-2 logo" draggable="false" alt="TEC@Amrita" src={require('../../images/organizers/tecatamrita.png')} />*/}
                         <h4>Technology Enabling Center @ Amrita</h4>
                         <p>
                             The Technology Enabling Center @ Amrita Vishwa Vidyapeetham was established in September 2019 

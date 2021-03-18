@@ -106,7 +106,11 @@ const EventSponsors = () => {
                 <div className="col-md-8 d-flex justify-content-end px-2 py-4">
                     <SponsorContainer>
                         <Fade right>
-                            <h4 className="mb-2">Our Sponsors</h4>
+                            <a className="plain-link" href="/sponsors">
+                                <h4 className="mb-2">
+                                    Our Sponsors
+                                </h4>
+                            </a>
                             <div className="row my-2 mx-0">
                                 <div className="col-md-3 p-1">
                                     <SponsorIcon>

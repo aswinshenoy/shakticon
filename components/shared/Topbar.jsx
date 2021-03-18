@@ -141,10 +141,10 @@ const Topbar = () => {
                             <a href="/schedule">Schedule</a>
                         </Fade>
                         <Fade delay={750}>
-                            <a href="/#faq">FAQ</a>
+                            <a href="/sponsors">Sponsors</a>
                         </Fade>
                         <Fade delay={750}>
-                            <a href="/#resources">Resources</a>
+                            <a href="/#faq">FAQ</a>
                         </Fade>
                         <Fade delay={750}>
                             <a href="/promote">Promote</a>
