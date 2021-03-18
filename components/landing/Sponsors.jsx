@@ -71,6 +71,12 @@ const EventSponsors = () => {
             "title": "Prize Sponsor",
             "size": '110px',
             "logo": require('../../images/sponsors/fireeye.png')
+        },
+        {
+            "name": "CrowdStrike",
+            "title": "Prize Sponsor",
+            "size": '110px',
+            "logo": require('../../images/sponsors/crowdstrike.png')
         }
     ]
 
@@ -102,19 +108,25 @@ const EventSponsors = () => {
                         <Fade right>
                             <h4 className="mb-2">Our Sponsors</h4>
                             <div className="row my-2 mx-0">
-                                <div className="col-md-4 p-1">
+                                <div className="col-md-3 p-1">
                                     <SponsorIcon>
                                         <div>Platinum Sponsor</div>
                                         <img alt="Seimens" draggable="false" src={require('../../images/sponsors/seimens.png')} style={{width: '250px'}}></img>
                                     </SponsorIcon>
                                 </div>
-                                <div className="col-md-4 p-1">
+                                <div className="col-md-3 p-1">
                                     <SponsorIcon>
-                                        <div>Gold Sponsor</div>
-                                        <img alt="VMWare" draggable="false" src={require('../../images/sponsors/vmware.png')} style={{width: '140px'}}></img>
+                                        <div class="center">Gold Sponsor</div>
+                                        <img alt="VMware" draggable="false" src={require('../../images/sponsors/vmware.png')} style={{width: '140px'}}></img>
                                     </SponsorIcon>
                                 </div>
-                                <div className="col-md-4 p-1">
+                                <div className="col-md-3 p-1">
+                                    <SponsorIcon>
+                                        <div>Associate Sponsor</div>
+                                        <img alt="CrowdStrike" draggable="false" src={require('../../images/sponsors/crowdstrike.png')} style={{width: '200px'}}></img>
+                                    </SponsorIcon>
+                                </div>
+                                <div className="col-md-3 p-1">
                                     <SponsorIcon>
                                         <div>Prize Sponsors</div>
                                         <img alt="NotSoSecure" draggable="false" src={require('../../images/sponsors/notsosecure.png')} style={{width: '110px'}}></img>
