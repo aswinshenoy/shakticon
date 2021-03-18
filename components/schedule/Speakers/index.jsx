@@ -64,13 +64,8 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             "slug": "from-techlongist-to-board-room",
             "title": "From Technologist to Board Room...a cybersecurity journey",
             "abstract": <>
-                Sanju fell into the cyber security field 25 years ago. Her subject matter expertise in
-                security engineering, security analysis then team leader helped to launch her into chief
-                information security officer roles at General Electric Treasury, Praxair and Linde.
-                The skills she gained as a technologist aren’t the same skills required to
-                present to board rooms and have a seat at the table with business leaders. In this session,
-                Sanju will review her career path along with a few stories. She hopes to leave you with her
-                learnings and open up the conversation to your questions.
+                In her session, Sanju will review her 25 year long career path along with a few stories. 
+                She hopes to leave you with her learnings and open up the conversation to your questions.
             </>,
             "speaker": {
                 "name": "Sanju Misra",
@@ -79,7 +74,14 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 "image": require('../../../images/speakers/sanju_misra.jpg'),
                 "links": {
                     "linkedin": "https://www.linkedin.com/in/sanjumisra/"
-                }
+                },
+                "bio": <p>
+                    Sanju fell into the cyber security field 25 years ago. Her subject matter expertise in 
+                    security engineering, security analysis then team leader helped to launch her into chief
+                    information security officer roles at General Electric Treasury, Praxair and Linde.
+                    The skills she gained as a technologist aren’t the same skills required to
+                    present to board rooms and have a seat at the table with business leaders. 
+                </p>
             },
         },
         {
@@ -191,7 +193,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             },
         },
         {
-            "slug": "keynote",
+            "slug": "understanding-bluetooth-security",
             "title": "Understanding Bluetooth security.",
             "speaker": {
                 "name": "Renu D S",
@@ -208,7 +210,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             }
         },
         {
-            "slug": "keynote",
+            "slug": "software-security-pragmatic-approach",
             "title": "A pragmatic approach on software security",
             "speaker": {
                 "name": "Priti Shrivastav",
