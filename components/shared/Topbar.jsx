@@ -121,7 +121,7 @@ const Topbar = () => {
     return <React.Fragment>
         <Header ref={topbarRef}>
             <div className="row w-100 mx-0">
-                <div className="col-1 col-md-3 d-flex justify-content-md-center px-3">
+                <div className="col-4 col-md-3 d-flex justify-content-md-center px-3">
                     <a href="/">
                         <img height="30px" draggable="false" width="auto" src={require('../../images/logo.svg')} alt="Team Shakti" />
                     </a>
