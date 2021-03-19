@@ -16,7 +16,7 @@ const MinimizedBar = styled.div`
     width: 100%;
     z-index: 5000;
     font-size: 15px;
-    button {
+    button, a {
         background: #FFAB00;
         border: none;
         border-radius: 10px;
@@ -135,100 +135,116 @@ const RegistrationSticky = () => {
         handleRegisterFormSubmit()
     };
 
-    return <div className="d-none d-md-block">
-        {isMinimized ?
-            <MinimizedBar>
-                <div className="row mx-0">
-                    <div className="col-md-6 d-flex align-items-center">
-                       Register for ShaktiCon 2021 - Global Women-Only Cyber Security Conference
-                    </div>
-                    <div className="col-md-6 d-flex justify-content-end align-items-center">
-                        <button
-                            onClick={() => setMinimized(false)}
-                        >
-                            Register Now
-                        </button>
-                    </div>
+    return <div>
+        <div className="d-block d-md-none">
+            <MinimizedBar className="bg-light">
+                <div className="d-flex justify-content-end align-items-center">
+                    <a
+                        className="text-light plain-link rounded py-3 shadow mb-2 text-center w-100"
+                        href="https://register.shakticon.com"
+                        style={{ background: '#4A148C' }}
+                    >
+                        Register Now
+                    </a>
                 </div>
-            </MinimizedBar> :
-            <RegisterForm>
-                <div className="row mx-0">
-                    <div className="col-md-10 d-flex align-items-center">
-                        <h4 className="mb-0">Register for ShaktiCon</h4>
-                    </div>
-                    <div className="col-md-2 d-flex justify-content-end align-content-start">
-                        <button className="close-button" onClick={() => setMinimized(true)}>
-                            <i className="fa fa-times text-danger" />
-                        </button>
-                    </div>
-                    <form className="p-3 w-100" onSubmit={handleSubmit}>
-                        {errors && <div className="text-warning" style={{ fontSize: '13px' }}>
-                            {errors?.length > 0 ?
-                            <div>{errors[0]['message']}</div> :
-                                <div>An error occurred.</div>
-                            } Please try again.
-                        </div>}
-                        <div className="mb-2">
-                            <Fade up delay={100}>
-                                <Input
-                                    label="Name"
-                                    name="name"
-                                    title="Please enter your name"
-                                    value={name}
-                                    onChange={setName}
-                                    placeholder="Enter Your Name"
-                                    alwaysShowLabel
-                                    isRequired
-                                    className="w-100"
-                                />
-                            </Fade>
+            </MinimizedBar>
+        </div>
+        <div className="d-none d-md-block">
+            {isMinimized ?
+                <MinimizedBar>
+                    <div className="row mx-0">
+                        <div className="col-md-6 d-flex align-items-center">
+                            Register for ShaktiCon 2021 - Global Women-Only Cyber Security Conference
                         </div>
-                        <div className="mb-2">
-                            <Fade up delay={200}>
-                                <Input
-                                    label="Email"
-                                    name="email"
-                                    type="email"
-                                    value={email}
-                                    autoComplete="email"
-                                    onChange={setEmail}
-                                    placeholder="Enter Your Email"
-                                    alwaysShowLabel
-                                    isRequired
-                                    className="w-100"
-                                />
-                            </Fade>
-                        </div>
-                        <div className="mb-2">
-                            <Fade up delay={300}>
-                                <Input
-                                    label="Password"
-                                    name="new-password"
-                                    type="password"
-                                    value={password}
-                                    onChange={setPassword}
-                                    autoComplete="new-password"
-                                    placeholder="Enter A Password"
-                                    alwaysShowLabel
-                                    isRequired
-                                    className="w-100"
-                                />
-                            </Fade>
-                        </div>
-                        <Fade up delay={500}>
+                        <div className="col-md-6 d-flex justify-content-end align-items-center">
                             <button
-                                className="register-button"
-                                type="submit"
+                                onClick={() => setMinimized(false)}
                             >
-                               Register
+                                Register Now
                             </button>
-                        </Fade>
-                    </form>
+                        </div>
+                    </div>
+                </MinimizedBar> :
+                <RegisterForm>
+                    <div className="row mx-0">
+                        <div className="col-md-10 d-flex align-items-center">
+                            <h4 className="mb-0">Register for ShaktiCon</h4>
+                        </div>
+                        <div className="col-md-2 d-flex justify-content-end align-content-start">
+                            <button className="close-button" onClick={() => setMinimized(true)}>
+                                <i className="fa fa-times text-danger" />
+                            </button>
+                        </div>
+                        <form className="p-3 w-100" onSubmit={handleSubmit}>
+                            {errors && <div className="text-warning" style={{ fontSize: '13px' }}>
+                                {errors?.length > 0 ?
+                                    <div>{errors[0]['message']}</div> :
+                                    <div>An error occurred.</div>
+                                } Please try again.
+                            </div>}
+                            <div className="mb-2">
+                                <Fade up delay={100}>
+                                    <Input
+                                        label="Name"
+                                        name="name"
+                                        title="Please enter your name"
+                                        value={name}
+                                        onChange={setName}
+                                        placeholder="Enter Your Name"
+                                        alwaysShowLabel
+                                        isRequired
+                                        className="w-100"
+                                    />
+                                </Fade>
+                            </div>
+                            <div className="mb-2">
+                                <Fade up delay={200}>
+                                    <Input
+                                        label="Email"
+                                        name="email"
+                                        type="email"
+                                        value={email}
+                                        autoComplete="email"
+                                        onChange={setEmail}
+                                        placeholder="Enter Your Email"
+                                        alwaysShowLabel
+                                        isRequired
+                                        className="w-100"
+                                    />
+                                </Fade>
+                            </div>
+                            <div className="mb-2">
+                                <Fade up delay={300}>
+                                    <Input
+                                        label="Password"
+                                        name="new-password"
+                                        type="password"
+                                        value={password}
+                                        onChange={setPassword}
+                                        autoComplete="new-password"
+                                        placeholder="Enter A Password"
+                                        alwaysShowLabel
+                                        isRequired
+                                        className="w-100"
+                                    />
+                                </Fade>
+                            </div>
+                            <Fade up delay={500}>
+                                <button
+                                    className="register-button"
+                                    type="submit"
+                                >
+                                    Register
+                                </button>
+                            </Fade>
+                        </form>
 
-                </div>
-            </RegisterForm>
-        }
+                    </div>
+                </RegisterForm>
+            }
+        </div>
     </div>
+
 
 };
 
