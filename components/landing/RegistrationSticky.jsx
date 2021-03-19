@@ -61,6 +61,8 @@ const RegistrationSticky = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [errors, setErrors] = useState(false);
+
 
     const handleSignIn = ({ email, password }) => {
         APIFetch({
@@ -95,9 +97,11 @@ const RegistrationSticky = () => {
               }
             }`,
             variables: { username: email, password }
-        }).then(({ success, data, error }) => {
+        }).then(({ success, data, errors }) => {
             if(success){
                 router.push('https://register.shakticon.com/login');
+            } else {
+                setErrors(errors);
             }
         });
     };
@@ -117,9 +121,11 @@ const RegistrationSticky = () => {
                     eventID: 1,
                 }
             }
-        }).then(({ success, data, error}) => {
-            if(success, data?.register?.success){
+        }).then(({ success, data, errors }) => {
+            if(success && data?.register?.success){
                 handleSignIn({ email: email, password: password });
+            } else {
+                setErrors(errors);
             }
         });
     };
@@ -156,6 +162,12 @@ const RegistrationSticky = () => {
                         </button>
                     </div>
                     <form className="p-3 w-100" onSubmit={handleSubmit}>
+                        {errors && <div className="text-warning" style={{ fontSize: '13px' }}>
+                            {errors?.length > 0 ?
+                            <div>{errors[0]['message']}</div> :
+                                <div>An error occurred.</div>
+                            } Please try again.
+                        </div>}
                         <div className="mb-2">
                             <Fade up delay={100}>
                                 <Input
