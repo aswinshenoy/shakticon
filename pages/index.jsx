@@ -15,6 +15,7 @@ import Resources from "../components/landing/Resources";
 import ConferenceSpeakers from "../components/landing/speakers";
 import VolunteerSection from "../components/landing/Volunteer";
 import LandingJoinDiscussion from "../components/landing/JoinDiscussions";
+import RegistrationSticky from "../components/landing/RegistrationSticky";
 
 export default () => {
 
@@ -32,6 +33,7 @@ export default () => {
       <LandingJoinDiscussion />
       <Resources />
       <FooterArea />
+      <RegistrationSticky />
   </Base>;
 
 };
