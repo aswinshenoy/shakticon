@@ -66,41 +66,66 @@ const CoverWrap = styled.div`
 
 const LandingCover = () => {
 
-    return <CoverContainer>
-    <CoverWrap>
-        <div className="container text-center px-2">
-            <Fade left>
-                <h1 className="font-weight-bold mb-2">ShaktiCon</h1>
-            </Fade>
-            <Fade right>
-                <h2>
-                    CyberSecurity Conference, Trainings & Competition,
-                    <span>Exclusively for Women.</span>
-                </h2>
-            </Fade>
-            <Fade up>
-                <div className="d-flex justify-content-center mt-3">
-                    <div>
-                        <p style={{ maxWidth: '500px' }}>
-                            ShaktiCon is an annual global conference focused on inspiring, training, and upskilling women in cybersecurity,
-                            <div className="d-inline-block">
-                                organized by <span>Team Shakti</span>, <div className="d-inline-block">India's First & No.1 ranked Women-Only CTF team.</div>
+    return <React.Fragment>
+        <CoverContainer>
+            <CoverWrap>
+                <div className="container text-center px-2">
+                    <Fade left>
+                        <h1 className="font-weight-bold mb-2">ShaktiCon</h1>
+                    </Fade>
+                    <Fade right>
+                        <h2>
+                            CyberSecurity Conference, Trainings & Competition,
+                            <span>Exclusively for Women.</span>
+                        </h2>
+                    </Fade>
+                    <Fade up>
+                        <div className="d-flex justify-content-center mt-3">
+                            <div>
+                                <p style={{ maxWidth: '500px' }}>
+                                    ShaktiCon is an annual global conference focused on inspiring, training, and upskilling women in cybersecurity,
+                                    <div className="d-inline-block">
+                                        organized by <span>Team Shakti</span>, <div className="d-inline-block">India's First & No.1 ranked Women-Only CTF team.</div>
+                                    </div>
+                                </p>
+                                <div className="py-4">
+                                    <a
+                                        className="register-button" target="_blank" rel="noreferrer nofollow"
+                                        href="https://register.shakticon.com"
+                                    >
+                                        Register Now / Login
+                                    </a>
+                                </div>
                             </div>
-                        </p>
-                        <div className="py-4">
-                            <a
-                                className="register-button" target="_blank" rel="noreferrer nofollow"
-                                href="https://register.shakticon.com"
-                            >
-                                Register Now / Login
-                            </a>
                         </div>
-                    </div>
+                    </Fade>
                 </div>
-            </Fade>
+            </CoverWrap>
+        </CoverContainer>
+        <div className="bg-white text-dark d-flex justify-content-center align-items-end p-2">
+            <div className="p-2 text-center">
+                <img
+                    alt="Siemens" className="mb-0" style={{ width: 'auto', maxWidth: '100%', maxHeight: '40px' }}
+                    src={require('../../images/sponsors/seimens.png')}
+                />
+                <div style={{ fontSize: '13px' }}>Platinum Sponsor</div>
+            </div>
+            <div className="p-2 text-center">
+                <img
+                    alt="VMWare" className="mb-0" style={{ width: 'auto', maxWidth: '100%', maxHeight: '30px' }}
+                    src={require('../../images/sponsors/vmware.png')}
+                />
+                <div style={{ fontSize: '13px' }}>Gold Sponsor</div>
+            </div>
+            <div className="d-none text-center d-md-block p-2">
+                <img
+                    alt="CrowdStrike" className="mb-0" style={{ width: 'auto', maxWidth: '100%', maxHeight: '45px' }}
+                    src={require('../../images/sponsors/crowdstrike.png')}
+                />
+                <div style={{ fontSize: '13px' }}>Associate Sponsor</div>
+            </div>
         </div>
-    </CoverWrap>
-    </CoverContainer>
+    </React.Fragment>
 
 }
 

@@ -72,7 +72,6 @@ const EventOrganizers = () => {
                 </div>
                 <div className="col-md-4 order-md-1 order-2 text-center">
                     <Fade>
-                        {/*<img className="p-2 logo" draggable="false" alt="TEC@Amrita" src={require('../../images/organizers/tecatamrita.png')} />*/}
                         <h4>Technology Enabling Center @ Amrita</h4>
                         <p>
                             The Technology Enabling Center @ Amrita Vishwa Vidyapeetham was established in September 2019 
@@ -83,8 +82,18 @@ const EventOrganizers = () => {
                     </Fade>
                 </div>
             </div>
+            <div className="d-flex align-items-center justify-content-center">
+                <Fade>
+                    <div className="text-center">
+                        <a href="http://bhajasva.com/" target="_blank" rel="noreferrer nofollow">
+                            <img className="mb-2 logo" draggable="false" alt="Bhajasva" src={require('../../images/bhajasva_icon.png')} />
+                        </a>
+                        <h4>Bhajasva Innovations Pvt. Ltd.</h4>
+                    </div>
+                </Fade>
+            </div>
             <div className="py-2 text-center">
-                <h5 style={{ fontWeight: 600 }} className="mb-1">Community Partners</h5>
+                <h3 style={{ fontWeight: 600 }} className="mb-1">Community Partners</h3>
                 <div className="d-flex justify-content-center">
                     <div className="row mx-0 supporters_logos" style={{ maxWidth: '700px' }}>
                         <div className="col-6 col-md-4 d-flex justify-content-center align-items-center p-1">

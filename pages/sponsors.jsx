@@ -40,24 +40,10 @@ const SponsorsPage = () => {
 
     const sponsorsList = [
         {
-            "logo": require('../images/sponsors/crowdstrike.png'),
-            "title": "CrowdStrike",
-            "about": <>
-                CrowdStrike is a leading cybersecurity company protecting customers from all cyber threats by
-                leveraging its Security Cloud to stop breaches. From its inception in 2011, driven by George Kurtz’s
-                vision, CrowdStrike was created as a different kind of cybersecurity company. Cloud-native,
-                CrowdStrike immediately brought a threat perspective, effectiveness, scalability, and flexibility
-                never seen before in the industry – seamlessly aligning People, Technology, and Processes.
-                The CrowdStrike Falcon platform has revolutionized enterprise security for the cloud era.
-                Its single lightweight-agent architecture leverages artificial intelligence (AI) and offers
-                real-time protection and visibility across the enterprise, preventing attacks on endpoints and
-                workloads on or off the network.
-            </>,
-            "url": "crowdstrike.com/about-crowdstrike/"
-        },
-        {
             "logo": require('../images/sponsors/seimens.png'),
             "title": "Siemens",
+            "tier": "Platinum Sponsor",
+            "nameSize": "calc(1.75rem + 2.5vw)",
             "about": <>
                 Siemens is a technology company centered on the industries that form the backbone of economies –
                 manufacturing, infrastructure, and transport. Our technology empowers our customers to transform
@@ -72,6 +58,8 @@ const SponsorsPage = () => {
         {
             "logo": require('../images/sponsors/vmware.png'),
             "title": "VMware",
+            "tier": "Gold Sponsor",
+            "nameSize": "calc(1.65rem + 2.2vw)",
             "about": <>
                 VMware streamlines the journey for organizations to become digital businesses that deliver better
                 experiences to their customers and empower employees to do their best work. Our software spans App
@@ -85,8 +73,36 @@ const SponsorsPage = () => {
             "url": "https://www.vmware.com/in/company.html"
         },
         {
+            "logo": require('../images/sponsors/crowdstrike.png'),
+            "title": "CrowdStrike",
+            "tier": "Associate Sponsor",
+            "nameSize": "calc(1.25rem + 1.8vw)",
+            "isHalf": true,
+            "about": <>
+                CrowdStrike is a leading cybersecurity company protecting customers from all cyber threats by
+                leveraging its Security Cloud to stop breaches. From its inception in 2011, driven by George Kurtz’s
+                vision, CrowdStrike was created as a different kind of cybersecurity company. Cloud-native,
+                CrowdStrike immediately brought a threat perspective, effectiveness, scalability, and flexibility
+                never seen before in the industry – seamlessly aligning People, Technology, and Processes.
+                The CrowdStrike Falcon platform has revolutionized enterprise security for the cloud era.
+                Its single lightweight-agent architecture leverages artificial intelligence (AI) and offers
+                real-time protection and visibility across the enterprise, preventing attacks on endpoints and
+                workloads on or off the network.
+            </>,
+            "url": "crowdstrike.com/about-crowdstrike/"
+        },
+        {
+            "logo": null,
+            "tier": "Associate Sponsor",
+            "nameSize": "calc(1.25rem + 1.8vw)",
+            "isHalf": true,
+        },
+        {
             "logo": require('../images/sponsors/notsosecure.png'),
             "title": "NotSoSecure",
+            "tier": "Prize Sponsor",
+            "nameSize": "calc(1.2rem + 1vw)",
+            "isHalf": true,
             "about": <>
                 NotSoSecure was founded by two industry-recognised people; Dan Haagman is a well-known Cyber Security
                 entrepreneur (14 years in the market) who founded one of the UK’s leading Pen Testing, Hacking
@@ -103,6 +119,9 @@ const SponsorsPage = () => {
         {
             "logo": require('../images/sponsors/fireeye.png'),
             "title": "FireEye",
+            "tier": "Prize Sponsor",
+            "nameSize": "calc(1.2rem + 1vw)",
+            "isHalf": true,
             "about": <>
                 FireEye offers a single platform that blends innovative security technologies, nation-state grade
                 threat intelligence, and world-renowned Mandiant consulting.
@@ -121,35 +140,69 @@ const SponsorsPage = () => {
                 <div className="my-4">
                     <h1 className="font-weight-bold display-4 mb-4">Our Sponsors</h1>
                 </div>
-                {sponsorsList.map((s) =>
-                    <SponsorCardWrap>
-                        <div className="row mx-0">
-                            <div className="col-md-4 d-flex align-items-center p-2">
-                                <a href={s.url} target="_blank" rel="nofollow noreferrer">
-                                    <img
-                                        alt={s.title} draggable="false"
-                                        src={s.logo}
-                                        className="w-100"
-                                    />
-                                </a>
-                            </div>
-                            <div className="col-md-8 p-2">
-                                <h2>{s.title}</h2>
-                                <div className="p-2">
-                                    {s.about}
-                                </div>
-                                <div className="p-2">
-                                    <a
-                                        href={s.url} target="_blank" rel="nofollow noreferrer"
-                                        className="btn btn-primary rounded-0 px-4 py-3"
-                                    >
-                                        Read More
-                                    </a>
-                                </div>
-                            </div>
+                <div className="row mx-0">
+                    {sponsorsList.map((s) =>
+                        <div className={s.isHalf ? 'col-md-6 p-2' : 'col-12 p-2'}>
+                            <SponsorCardWrap>
+                                {s.title &&
+                                s.isHalf ?
+                                    <div>
+                                        <div className="p-2 text-center">
+                                            <a href={s.url} target="_blank" rel="nofollow noreferrer">
+                                                {s.logo &&
+                                                <img
+                                                    alt={s.title} draggable="false"
+                                                    src={s.logo}
+                                                    style={{ maxHeight: '250px', maxWidth: '100%' }}
+                                                />}
+                                            </a>
+                                        </div>
+                                        <div style={{ fontSize: '26px' }}>{s.tier}</div>
+                                        <h2 style={{ fontSize: s.nameSize }}>{s.title}</h2>
+                                        <div className="p-2" style={{ fontSize: '14px' }}>
+                                            {s.about}
+                                        </div>
+                                        {s.url &&
+                                        <div className="p-2">
+                                            <a
+                                                href={s.url} target="_blank" rel="nofollow noreferrer"
+                                                className="btn btn-primary rounded-0 px-4 py-3"
+                                            >
+                                                Read More
+                                            </a>
+                                        </div>}
+                                    </div>
+                                : s.title ?
+                                    <div className="row mx-0">
+                                        <div className="col-md-5 d-flex align-items-center p-2">
+                                            <a href={s.url} target="_blank" rel="nofollow noreferrer">
+                                                <img
+                                                    alt={s.title} draggable="false"
+                                                    src={s.logo}
+                                                    className="w-100"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div className="col-md-7 p-2">
+                                            <div style={{ fontSize: '26px' }}>{s.tier}</div>
+                                            <h2 style={{ fontSize: s.nameSize }}>{s.title}</h2>
+                                            <div className="p-2">
+                                                {s.about}
+                                            </div>
+                                            <div className="p-2">
+                                                <a
+                                                    href={s.url} target="_blank" rel="nofollow noreferrer"
+                                                    className="btn btn-primary rounded-0 px-4 py-3"
+                                                >
+                                                    Read More
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div> : null}
+                            </SponsorCardWrap>
                         </div>
-                    </SponsorCardWrap>
-                )}
+                    )}
+                </div>
             </div>
         </SponsorPage>
         <FooterArea />
