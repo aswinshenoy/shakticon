@@ -134,7 +134,7 @@ const RegistrationSticky = () => {
             <MinimizedBar>
                 <div className="row mx-0">
                     <div className="col-md-6 d-flex align-items-center">
-                       Register for ShaktiCon & ShaktiCTF
+                       Register for ShaktiCon 2021 - Global Women-Only Cyber Security Conference
                     </div>
                     <div className="col-md-6 d-flex justify-content-end align-items-center">
                         <button
