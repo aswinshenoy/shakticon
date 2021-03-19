@@ -82,13 +82,13 @@ const EventOrganizers = () => {
                     </Fade>
                 </div>
             </div>
-            <div className="d-flex align-items-center justify-content-center">
+            <div className="d-flex align-items-center my-4 justify-content-center">
                 <Fade>
                     <div className="text-center">
                         <a href="http://bhajasva.com/" target="_blank" rel="noreferrer nofollow">
                             <img className="mb-2 logo" draggable="false" alt="Bhajasva" src={require('../../images/bhajasva_icon.png')} />
                         </a>
-                        <h4>Bhajasva Innovations Pvt. Ltd.</h4>
+                        <h4 className="text-center">Bhajasva Innovations Pvt. Ltd.</h4>
                     </div>
                 </Fade>
             </div>

@@ -71,6 +71,11 @@ const LandingCover = () => {
             <CoverWrap>
                 <div className="container text-center px-2">
                     <Fade left>
+                        <img
+                            className="mb-0 " alt="Amrita Vishwa Vidyapeetham"
+                            style={{ maxHeight: '72px', maxWidth: '100%', width: 'auto' }}
+                            src={require('../../images/amrita_logo_light.png')}
+                        />
                         <h1 className="font-weight-bold mb-2">ShaktiCon</h1>
                     </Fade>
                     <Fade right>
