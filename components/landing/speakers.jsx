@@ -305,7 +305,7 @@ const ConferenceSpeakers = () => {
             "name": "Mehrnoosh Monshizadeh",
             "designation": "Cyber Security Specialist",
             "company": "Nokia Bell Labs",
-            "image": require('../../images/speakers/mehrnoosh.jpg'),
+            "image": require('../../images/speakers/mehrnoosh.jpeg'),
         },
         {
             "name": "Asha Poluru",
