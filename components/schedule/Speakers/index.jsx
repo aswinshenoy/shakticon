@@ -26,7 +26,7 @@ const TrainingModuleWrap = styled.section`
    }
    a {
       color: #fd7e14;
-      font-size: 18px;
+      font-size: 14px;
       text-decoration: none!important;
       &:hover {
         color: white;
@@ -140,6 +140,33 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     in 2016. She visited the Security Group at Delft University in 2018. Currently, she is a
                     post-doc researcher in the Security Group at Eindhoven University of Technology. Her research
                     is mainly focused on privacy preserving data analysis.
+                </p>
+            },
+        },
+        {
+            "slug": "techniques-and-tooling-with-flare-on-20",
+            "title": "Techniques and Tooling with Flare-on'20",
+            "abstract": <>
+                Flare-on is famous CTF style challenge conducted by FireEye where the main focus 
+                is on reverse engineering variety of formats including windows and Linux.  In this 
+                talk, we will discuss how to approach flare-on, what all are the tools and techniques 
+                that will help in understanding and solving the challenges and walkthrough of some of 
+                the interesting challenges of flare-on 2020.
+            </>,
+            "speaker": {
+                "name": "Sreelakshmi Panangatt",
+                "designation": "Security Engineer",
+                "company": "VMware",
+                "image": require('../../../images/speakers/sreelakshmi.JPG'),
+                "links": {
+                    "linkedin": "https://www.linkedin.com/in/sreelakshmi-panangatt-b67b58105/"
+                },
+                "bio": <p>
+                    Sreelakshmi is a security Engineer working for VMware product security team. 
+                    Her responsibilities include vulnerability assessment and attack surface analysis. 
+                    She is one of the winners of flare-on 2020. She holds a master’s degree in cybersecurity 
+                    systems from Amrita University and Vrije University, Amsterdam. More about her works can 
+                    be found at <a href="https://sreelakshmip.wordpress.com/">https://sreelakshmip.wordpress.com</a>. 
                 </p>
             },
         },
