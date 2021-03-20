@@ -302,6 +302,12 @@ const ConferenceSpeakers = () => {
             }
         },
         {
+            "name": "Mehrnoosh Monshizadeh",
+            "designation": "Cyber Security Specialist",
+            "company": "Nokia Bell Labs",
+            "image": require('../../images/speakers/mehrnoosh.jpg'),
+        },
+        {
             "name": "Asha Poluru",
             "designation": "Seasoned HR Leader",
             "company": "Sophos Technologies Private Limited Regd.",
