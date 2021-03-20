@@ -305,7 +305,7 @@ const ConferenceSpeakers = () => {
             "name": "Asha Poluru",
             "designation": "Seasoned HR Leader",
             "company": "Sophos Technologies Private Limited Regd.",
-            "image": require('../../images/speakers/AshaP.jpg'),
+            "image": require('../../images/speakers/ashap.jpeg'),
         },
     ];
 
