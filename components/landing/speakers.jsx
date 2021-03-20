@@ -296,7 +296,7 @@ const ConferenceSpeakers = () => {
             "name": "Priti Shrivastav",
             "designation": "General Manager Software Security",
             "company": "Intel Corporation",
-            "image": require('../../images/speakers/priti.jpg'),
+            "image": require('../../images/speakers/priti.jpeg'),
             "links": {
                 "linkedin": "http://linkedin.com/in/priti-shrivastav-59878a2"
             }
