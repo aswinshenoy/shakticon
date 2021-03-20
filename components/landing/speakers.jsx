@@ -114,6 +114,12 @@ const ConferenceSpeakers = () => {
 
     const speakers = [
         {
+            "name": "Marion Marschalek",
+            "designation": "Senior Security Engineer, Founder",
+            "company": "BlackHoodie",
+            "image": require('../../images/speakers/marion.jpeg'),
+        },
+        {
             "name": "Rinki Sethi",
             "designation": "Vice President & CISO",
             "company": "Twitter",
