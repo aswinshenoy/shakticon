@@ -216,7 +216,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 "name": "Priti Shrivastav",
                 "designation": "Former General Manager Software Security",
                 "company": "Intel Corporation",
-                "image": require('../../../images/speakers/priti.jpg'),
+                "image": require('../../../images/speakers/priti.jpeg'),
                 "links": {
                     "linkedin": "http://linkedin.com/in/priti-shrivastav-59878a2"
                 },
