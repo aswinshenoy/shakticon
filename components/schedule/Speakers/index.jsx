@@ -111,6 +111,22 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             },
         },
         {
+            "slug": "ctfs-and-cybersecurity-research",
+            "title": "CTFs and cybersecurity research",
+            "speaker": {
+                "name": "Tiffany Bao",
+                "designation": "Assistant Professor",
+                "company": "Arizona State University",
+                "image": require('../../../images/speakers/tiffany.jpg'),
+                "bio": <p>
+                    Tiffany Bao is an Assistant Professor at Arizona State University. Her research interests 
+                    are aspects of software security, including techniques, measurements, and strategies to discover, 
+                    assess, and defend software vulnerabilities. Tiffany Bao received her Ph.D. at Carnegie Mellon 
+                    University advised by Prof. David Brumley.
+                </p>
+            },
+        },
+        {
             "slug": "privacy-preserving-data-analysis",
             "title": "Privacy Preserving Data Analysis",
             "abstract": <>
@@ -167,6 +183,34 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     She is one of the winners of flare-on 2020. She holds a master’s degree in cybersecurity 
                     systems from Amrita University and Vrije University, Amsterdam. More about her works can 
                     be found at <a href="https://sreelakshmip.wordpress.com/">https://sreelakshmip.wordpress.com</a>. 
+                </p>
+            },
+        },
+        {
+            "slug": "welcome-note",
+            "title": "Welcome Note",
+            "abstract": <>
+                Sreepriya will deliver the welcome note for ShaktiCon. She will provide a glimpse into
+                how the idea of ShaktiCon came about, what has been achieved so far and what our goals 
+                and aspirations are. 
+            </>,
+            "speaker": {
+                "name": "Sreepriya Chalakkal",
+                "designation": "Security Analyst",
+                "company": "Siemens ProductCERT",
+                "image": require('../../../images/crew/sreepriya_chechi.jpg'),
+                "links": {
+                    "linkedin": "https://www.linkedin.com/in/sreepriyac/",
+                    "twitter": "https://twitter.com/priyachalakkal"
+                },
+                "bio": <p>
+                    Sreepriya is a Security Analyst at Siemens ProductCERT, where she focuses on vulnerability 
+                    handling and incident response. Previously she worked as a pentester at Ernw GmbH, Germany, 
+                    in the mobile security team. She enjoys playing with security challenges in applications, 
+                    networks and binaries. She is mentor of TeamShakti, a women CTF team from India. Also, core 
+                    organiser of <a href="https://shakticon.com">ShaktiCon</a>, a women only security conference. Also serves 
+                    as a board member of <a href="https://blackhoodie.re">BlackHoodie</a>. Completed masters from Technical 
+                    University of Berlin and University of Trento with major Computer Security and Privacy in March 2017.
                 </p>
             },
         },
