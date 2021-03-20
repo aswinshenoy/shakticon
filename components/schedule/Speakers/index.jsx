@@ -49,7 +49,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     "twitter": "https://twitter.com/rinkisethi",
                     "linkedin": "https://www.linkedin.com/in/rinkisethi"
                 },
-                "bio": <>
+                "bio": <p>
                     Rinki Sethi is a vice president and the Chief Information Security Officer at Twitter Inc.
                     She was earlier a Information Security Executive at IBM from 2018 to 2019. She has also
                     worked with companies like Walmart, Intuit, Ebay and others as a CISO and security expert. She
@@ -57,7 +57,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     organizations, like Women in Cybersecurity. She was recognized by CSO Magazine & Executive Women's
                     Forum with the "One to Watch" award, and in 2010, lead a team at eBay to receive the
                     "Information Security Team of the Year" by SC Magazine.
-                </>
+                </p>
             }
         },
         {
@@ -220,7 +220,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 "links": {
                     "linkedin": "http://linkedin.com/in/priti-shrivastav-59878a2"
                 },
-                "bio": <>
+                "bio": <p>
                     Former General Manager Software Security at Intel corporation. Nine years managed security of all 
                     the software products in the area of operating systems, cloud services, developers tools, 
                     performance libraries, AI SDKs,  graphics software, compilers, and many security solutions at Intel. 
@@ -228,7 +228,32 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     parallel advisor and other important products and services at Intel. She has MS in Computer Science from 
                     Ohio University, US and MS in Math/CS from IIT Delhi, India. She is passionate about promoting women in 
                     cyber security to reach their professional goals.
-                </>
+                </p>
+            }
+        },
+        {
+            "slug": "internet-of-drones-security",
+            "title": "Internet of Drones Security",
+            "abstract": <>
+                With an increased data rate, lower latency and high reliability, 5G network is becoming the key technology 
+                serving Internet of Things (IoT) and subsequently Internet of Drones (IoD) connectivity. Connected Unmanned 
+                Aerial Vehicles (UAVs) or drones would be widely deployed by government entities as well private enterprises 
+                for various applications namely smart city, transportation, industry and digital health. Some of these 
+                applications carry critical missions such as military, public safety, mobility, energy and emergency services, 
+                where an anomaly in the original function means the difference between life and death. Therefore, a secure 
+                architecture and communication is a major consideration for the entities that provide mentioned services.
+            </>,
+            "speaker": {
+                "name": "Mehrnoosh Monshizadeh",
+                "designation": "Cyber Security Specialist",
+                "company": "Nokia Bell Labs",
+                "image": require('../../../images/speakers/mehrnoosh.jpeg'),
+                "bio": <p>
+                    Mehrnoosh is working at Nokia Bell Labs research department as Cyber Security Specialist. 
+                    Her research area includes utilizing and optimizing artificial intelligence for IoT security, 
+                    Drone/Robot security, Digital Health security and cloud security (SDN/NFV). She has been working 
+                    previously on development of LTE core network and Lawful Interception.
+                </p>
             }
         },
     ]
