@@ -72,6 +72,10 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                     fight and untangle deep and modern C++ programs using static and dynamic analysis.
                 </p>
             </>,
+            "prerequisite": [
+            " Familiarity with x86/x64 assembly.",
+            " Basic Knowledge of C++ programming."  
+            ],
             "trainer": {
                 "name": "Gal Zaban",
                 "designation": "Security Researcher",
