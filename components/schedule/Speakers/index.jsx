@@ -113,6 +113,11 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
         {
             "slug": "ctfs-and-cybersecurity-research",
             "title": "CTFs and cybersecurity research",
+        "abstract": <>
+                <p>In this talk, I will share my experience of CTF and introduce the CTF-related research, cyber autonomy in software security. The idea of cyber autonomy emerges due to the large scale of software programs in daily practice. While security researchers have been pursuing automated vulnerability detection and remediation techniques to scale beyond the limitations of human hackers, the human bottleneck (and human fallibility) remains in the higher-level strategy of what to do with automatically identified vulnerabilities, automatically created exploits, and automatically generated patches.</p>
+
+<p>Removing the bottlenecks requires not only automatic techniques but also intelligent decision makings, which we call autonomy, a further step of automation in software security. In this talk, I will delve into the challenges in cyber autonomy, introducing our recent work and discussing the future steps that mature cyber autonomy into real-world practice.</p>
+            </>,
             "speaker": {
                 "name": "Tiffany Bao",
                 "designation": "Assistant Professor",
