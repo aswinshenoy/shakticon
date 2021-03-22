@@ -80,7 +80,7 @@ const LandingCover = () => {
                     </Fade>
                     <Fade right>
                         <h2>
-                            CyberSecurity Conference, Trainings & Competition,
+                            CyberSecurity Conference, Trainings & CTF
                             {/*<span>Exclusively for Women.</span>*/}
                         </h2>
                     </Fade>

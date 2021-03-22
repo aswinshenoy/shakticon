@@ -111,6 +111,35 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             },
         },
         {
+            "slug": "Kick-start to Secure Software Development ",
+            "title": "Kick-start to Secure Software Development ",
+            "abstract": <>
+               <p> We read, write and understand Code! </p>
+
+
+
+There is a popular misconception that anyone who code can develop a secure and reliable software. Developers can build a working software, but not always secured, reliable and an efficient one. Who would buy that? If someone does, for how long would it serve!
+
+
+
+<p>This talk would focus on Secure Software Development. Take you through the overall software development architecture, an active check on the frequent mistakes and regular misunderstandings in software development, followed by an in-depth understanding of each stage with a quick glance into the adversary entry points. Finally, introducing secure coding a vast domain which plays an important role in Secure Software Development.</p>
+
+
+
+This session might provide a better perspective to the Developers, Testers and Security enthusiasts about the systems and techniques in place as well their relevance.
+            </>,
+            "speaker": {
+                "name": "ARYA M SANKAR ",
+                "designation": "Security Researcher",
+                "company": " Siemens",
+                "image": require('../../../images/speakers/arya.JPG'),
+                
+                "bio": <p>
+                    As a Security Researcher at Siemens she is currently into Secure Software Development (R&D) and Cyber Security Analyst roles. She is focusing on Application security with keen interest in Secure Software Development and Secure Coding. She has prior experience in Penetration Testing, Malware Analysis and Vulnerability Assessments. Pursued Masters in Cyber Security Systems & Networks with Bachelors in Computer Science Engineering.
+                </p>
+            },
+        },
+        {
             "slug": "ctfs-and-cybersecurity-research",
             "title": "CTFs and cybersecurity research",
             "speaker": {

@@ -56,14 +56,13 @@ const FAQSection = () => {
                     This conference is organized for women participants, however, anyone can participate.
                 </p>
                 <p>
-                    Trainings & Contests are only for women participants. We welcome all women (including non-binary
-                    people identifying as women) who have the curiosity to try new things and interest in
-                    cybersecurity to take part in this conference.
-                    No previous cybersecurity experience is needed.
-                </p>
-                <p>
+                    Trainings & Contests are only for women (including non-binary people identifying as women) participants.
                     If you are eligible for prizes in a contest (CTF), you will be contacted for identity
                     verification so that the game stays fair for all participants.
+                </p>
+                <p>
+                    We welcome all women  who have the curiosity to try new things and interest in cybersecurity to
+                    take part in this conference. No previous cybersecurity experience is needed.
                 </p>
             </>
         },
