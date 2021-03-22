@@ -13,6 +13,9 @@ const PromoteSection = styled.section`
   align-items: center;
   justify-content: center;
   text-align: center;
+  h1 {
+    color: #FFAB00;
+  }
   h3 {
     color: #FFAB00;
     font-size: calc(1.5rem + 1vw);
@@ -27,7 +30,7 @@ const PromoteSection = styled.section`
   }
 `;
 
-const WhatsAppSection = styled.section`
+const WhatsAppMessageSection = styled.section`
   background: #fff;
   color: #000;
   border-radius: 12px;
@@ -45,11 +48,13 @@ const PromotePage = () => {
         <Topbar />
         <PromoteSection>
             <div>
-                <h3 className="my-4">Promotion Material</h3>
+                <div className="my-4">
+                    <h1 className="font-weight-bold display-4 mb-4">Promotion</h1>
+                </div>
                 <div class="row">
                     <div class="col-md-6">
                         <h5 className="my-4">WhatsApp Message for Student Circles</h5>
-                        <WhatsAppSection>
+                        <WhatsAppMessageSection>
                             There are over 3 million unfulfilled cybersecurity jobs globally. <br />
                             How do you train yourself for a career in cybersecurity? <br />
                             <br />
@@ -76,11 +81,11 @@ const PromotePage = () => {
                             <br />
                             For more updates follow us on Twitter <a href="https://twitter.com/shakticon">https://twitter.com/shakticon</a> 
                             and LinkedIn <a href="https://www.linkedin.com/company/shakticon">https://www.linkedin.com/company/shakticon</a>.
-                        </WhatsAppSection>
+                        </WhatsAppMessageSection>
                     </div>
                     <div class="col-md-6">
                         <h5 className="my-4">WhatsApp Message for Industry Professoinals</h5>
-                        <WhatsAppSection>
+                        <WhatsAppMessageSection>
                             ShaktiCon(<a href="https://shakticon.com">shakticon.com</a>)(a free and virtual 
                             global conference) brings to you the complete package consisting of exciting keynotes, 
                             technical talks, CTF contests, training and the possibility to connect with your future 
@@ -101,7 +106,7 @@ const PromotePage = () => {
                             <br />
                             For more updates follow us on Twitter <a href="https://twitter.com/shakticon">https://twitter.com/shakticon</a> 
                             and LinkedIn <a href="https://www.linkedin.com/company/shakticon/">https://www.linkedin.com/company/shakticon</a>
-                        </WhatsAppSection>
+                        </WhatsAppMessageSection>
                     </div>
                     </div>
                     <div>
