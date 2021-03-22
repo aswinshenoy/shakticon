@@ -123,13 +123,13 @@ const SponsorsPage = () => {
                     <div className="col-md-6 col-12 p-2">
                         <SponsorCardWrap>
                             <div className="p-2 text-center">
-                                <a href="https://crowdstrike.com/about-crowdstrike/" target="_blank" rel="nofollow noreferrer">
+                                {/*<a href="https://crowdstrike.com/about-crowdstrike/" target="_blank" rel="nofollow noreferrer">*/}
                                     <img
                                         alt="CrowdStrike" draggable="false"
                                         src={require('../images/sponsors/crowdstrike.png')}
                                         style={{ maxHeight: '250px', maxWidth: '100%' }}
                                     />
-                                </a>
+                                {/*</a>*/}
                             </div>
                             <div className="p-2" style={{ fontSize: '14px' }}>
                                 CrowdStrike is a leading cybersecurity company protecting customers from all cyber threats by
@@ -142,14 +142,14 @@ const SponsorsPage = () => {
                                 real-time protection and visibility across the enterprise, preventing attacks on endpoints and
                                 workloads on or off the network.
                             </div>
-                            <div className="p-2">
-                                <a
-                                    href="https://crowdstrike.com/about-crowdstrike/" target="_blank" rel="nofollow noreferrer"
-                                    className="btn btn-primary rounded-0 px-4 py-3"
-                                >
-                                    Read More
-                                </a>
-                            </div>
+                            {/*<div className="p-2">*/}
+                            {/*    <a*/}
+                            {/*        href="https://crowdstrike.com/about-crowdstrike/" target="_blank" rel="nofollow noreferrer"*/}
+                            {/*        className="btn btn-primary rounded-0 px-4 py-3"*/}
+                            {/*    >*/}
+                            {/*        Read More*/}
+                            {/*    </a>*/}
+                            {/*</div>*/}
                         </SponsorCardWrap>
                     </div>
                 </div>
