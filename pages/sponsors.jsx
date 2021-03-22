@@ -132,15 +132,15 @@ const SponsorsPage = () => {
                                 </a>
                             </div>
                             <div className="p-2" style={{ fontSize: '14px' }}>
-                                CrowdStrike is a leading cybersecurity company protecting customers from all cyber threats by
-                                leveraging its Security Cloud to stop breaches. From its inception in 2011, driven by George Kurtz’s
-                                vision, CrowdStrike was created as a different kind of cybersecurity company. Cloud-native,
-                                CrowdStrike immediately brought a threat perspective, effectiveness, scalability, and flexibility
-                                never seen before in the industry – seamlessly aligning People, Technology, and Processes.
-                                The CrowdStrike Falcon platform has revolutionized enterprise security for the cloud era.
-                                Its single lightweight-agent architecture leverages artificial intelligence (AI) and offers
-                                real-time protection and visibility across the enterprise, preventing attacks on endpoints and
-                                workloads on or off the network.
+                                {/*CrowdStrike is a leading cybersecurity company protecting customers from all cyber threats by*/}
+                                {/*leveraging its Security Cloud to stop breaches. From its inception in 2011, driven by George Kurtz’s*/}
+                                {/*vision, CrowdStrike was created as a different kind of cybersecurity company. Cloud-native,*/}
+                                {/*CrowdStrike immediately brought a threat perspective, effectiveness, scalability, and flexibility*/}
+                                {/*never seen before in the industry – seamlessly aligning People, Technology, and Processes.*/}
+                                {/*The CrowdStrike Falcon platform has revolutionized enterprise security for the cloud era.*/}
+                                {/*Its single lightweight-agent architecture leverages artificial intelligence (AI) and offers*/}
+                                {/*real-time protection and visibility across the enterprise, preventing attacks on endpoints and*/}
+                                {/*workloads on or off the network.*/}
                             </div>
                             <div className="p-2">
                                 <a
