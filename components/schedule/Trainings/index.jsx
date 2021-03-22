@@ -108,10 +108,10 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
             "abstract": <>
                 Modern Windows systems, and a little bit extra. We will learn how to attach a kernel debugger to a machine, locally and remotely, and how that can help us in both our development process and in our security research. We'll learn how to examine internal mechanisms in Windows through a debugger and new tricks and techniques that make debugging a lot easier. This workshop will focus on kernel debugging but will touch user-mode debugging as well, showing how to find and recognize indicators of suspicious activity in the system
             </>,
-            "prerequisite": [
-                "A computer with Windows installed (Windows 10 if possible) on it and a Windows 10 VM. If Windows host is not possible, then 2 Windows 10 VMs that can reach each other on the network. SDK needs to be installed on the host (or one of the VMs, if using 2 VMs) - https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools "
-                ],
-            
+            "prerequisite":[ <p>
+                A computer with Windows installed (Windows 10 if possible) on it and a Windows 10 VM. If Windows host is not possible, then 2 Windows 10 VMs that can reach each other on the network. SDK needs to be installed on the host (or one of the VMs, using 2 VMs) - <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools">here</a>. 
+            </p> 
+            ],
             "trainer": {
                 "name": "Yarden Shafir",
                 "isTrainer": true,
@@ -122,7 +122,7 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                     "twitter": "https://twitter.com/yarden_shafir?lang=en"
                 },
                 "bio": <p>
-                    Yarden is a Software Engineer at Crowdstrike, working on EDR features, and a consultant for Winsider Seminars & Solutions Inc., co-teaching security trainings. Previously, she worked at SentinelOne as a security researcher and QA engineer. Outside of her primary work duties, Yarden writes articles and tools and gives talks about various topics such as CET internals, extension host hooking and kernel exploit mitigations. Outside of infosec, Yarden is a circus artist, teaching and performing aerial arts.
+                    Yarden is a Software Engineer at Crowdstrike, working on EDR features, and a consultant for Winsider Seminars & Solutions Inc., co-teaching security trainings. Previously, she worked at SentinelOne as a security researcher and QA engineer. Outside of her primary work duties, Yarden writes articles and tools and gives talks about various topics such as CET internals, extension host hooking and kernel exploit mitigations. Outside of infosec, Yarden is a circus artist, teaching and performing aerial arts. 
                 </p>
             },
         },
@@ -166,8 +166,8 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
             },
         },
         {
-            "slug": "kick-start-to-secure-software-development",
-            "title": "Kick-Start to Secure Software Development.",
+            "slug": "Introduction to Android Reverse Engineering ",
+            "title": "Introduction to Android Reverse Engineering ",
             "sessions": [
                 {
                     "date": "Saturday, 27th March",
@@ -176,35 +176,29 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
             ],
             "registerURL": "https://register.shakticon.com/",
             "abstract": <>
-                <p>We read, write and understand Code :)</p>
                 <p>
-                    There is a popular misconception that those who code can develop software. Yes, they can, but not
-                    always secured, reliable and efficient ones. And who would buy it? If someone does, for how long
-                    would it serve!
+                    Moving from old black and white phones to Smartphones were super exciting. We were amused by the features and services whereas least interested in how it works. We did install a lot of apps in ease of touch without a second thought. Now let’s look from a security perspective. The permissions we granted, unofficial app stores we used, recalling data privacy was that a good decision? This training would give you a clarity on how apps work below the surface and things to be concerned off.
+
+
                 </p>
                 <p>
-                    This training would focus on enlightening about good and bad coding, which is the backbone of
-                    Secure Software Development. Take you through the overall software development architecture,
-                    an in-depth understanding of each stage and a quick peek into adversary entry points. Finally to
-                    the world of secure coding, a vast domain which is least explored and splendid opportunity for
-                    the skilled ones.
-                </p>
-                <p>
-                    If you believe that you deliver good code, you might rethink after the session. If you don’t code,
-                    life would be much easier learning the right things the right way than re-learning later.
+                    This training would introduce you to reversing and analyzing Android apps. As this is an introductory training we would cover fundamentals and basics of Android Security. Some reliable tools and techniques for reversing and analyzing would be discussed. We would then head to dissection of an Android app and inspect for malicious behavior by Static and Dynamic analysis. By the end of the session, one would learn to,
+
+1. Reverse an Android App
+2. Perform Static & Dynamic Analysis
+3. Detect suspicious and malicious apps
                 </p>
             </>,
+            "prerequisite": [
+                "This is a beginner level course which only needs curiosity to learn. Knowing Java would be helpful, but not mandatory. "
+            ],
             "trainer": {
-                "name": "Arya M Shankar",
-                "designation": "Product & Solution Security Professional",
+                "name": "Arya M Sankar",
+                "designation": "Security Researcher",
                 "company": "Siemens",
                 "image": require('../../../images/speakers/arya.JPG'),
                 "bio": <p>
-                    As a Product and Solution Security Professional at Siemens I am currently into Secure Software
-                    Development (R&D) and  Cyber Security Analyst roles. Also have experience working in sensitive
-                    projects for Indian govt. defence organisations(DRDO - R&D). Have 4+ years of experience in
-                    different domain of Cyber Security. Pursued Masters in Cyber Security Systems & Networks with a
-                    bachelors in Computer Science Engineering.
+                    As a Security Researcher at Siemens she is currently into Secure Software Development (R&D) and Cyber Security Analyst roles. She is focusing on Application security with keen interest in Secure Software Development and Secure Coding. She has prior experience in Penetration Testing, Malware Analysis and Vulnerability Assessments. Pursued Masters in Cyber Security Systems & Networks with Bachelors in Computer Science Engineering.
                 </p>
             },
         },
