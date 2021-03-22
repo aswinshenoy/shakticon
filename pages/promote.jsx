@@ -87,7 +87,7 @@ const PromotePage = () => {
                         </WhatsAppMessageSection>
                     </div>
                     <div class="col-md-6">
-                        <h5 className="my-4">WhatsApp Message for Industry Professoinals</h5>
+                        <h5 className="my-4">WhatsApp Message for Industry Professionals</h5>
                         <WhatsAppMessageSection>
                             ShaktiCon(<a href="https://shakticon.com">shakticon.com</a>)(a free and virtual 
                             global conference) brings to you the complete package consisting of exciting keynotes, 
@@ -111,12 +111,12 @@ const PromotePage = () => {
                             and LinkedIn <a href="https://www.linkedin.com/company/shakticon/">https://www.linkedin.com/company/shakticon</a>
                         </WhatsAppMessageSection>
                     </div>
-                    </div>
-                    <div>
-                        <h5 className="my-4">LinkedIn Post</h5>
-                        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6773467798694899712" 
+                </div>
+                <div>
+                    <h5 className="my-4">LinkedIn Post</h5>
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6773467798694899712" 
                         height="849" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-                    </div>
+                </div>
                         <h5 className="my-4">Tweet</h5>
                         <blockquote class="twitter-tweet tw-align-center">
                             <p lang="en" dir="ltr">
