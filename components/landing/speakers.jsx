@@ -121,6 +121,7 @@ const ConferenceSpeakers = () => {
         },
          {
             "name": "Yarden Shafir",
+             "isTrainer": true,
             "designation": "Software Engineer",
             "company": "Crowdstrike",
             "image": require('../../images/speakers/yarden_shafir.jpeg'),
