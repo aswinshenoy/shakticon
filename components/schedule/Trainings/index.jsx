@@ -72,6 +72,10 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                     fight and untangle deep and modern C++ programs using static and dynamic analysis.
                 </p>
             </>,
+            "prerequisite": [
+            " Familiarity with x86/x64 assembly.",
+            " Basic Knowledge of C++ programming."  
+            ],
             "trainer": {
                 "name": "Gal Zaban",
                 "designation": "Security Researcher",
@@ -88,6 +92,37 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                     catacombs of C++, she developed various RE tools for C++ including 'Virtuailor'.
                     In her spare time when she's not dwelling into low-level research, she designs and sews her
                     own clothes and plays the Clarinet.
+                </p>
+            },
+        },
+        {
+            "slug": "Windows kernel debugging and forensics",
+            "title": "Windows kernel debugging and forensics",
+            "sessions": [
+                {
+                    "date": "Thursday, 1st April",
+                    "time": "18:30 - 22:00 IST"
+                }
+            ],
+            "registerURL": "https://register.shakticon.com/",
+            "abstract": <>
+                Modern Windows systems, and a little bit extra. We will learn how to attach a kernel debugger to a machine, locally and remotely, and how that can help us in both our development process and in our security research. We'll learn how to examine internal mechanisms in Windows through a debugger and new tricks and techniques that make debugging a lot easier. This workshop will focus on kernel debugging but will touch user-mode debugging as well, showing how to find and recognize indicators of suspicious activity in the system
+            </>,
+            "prerequisite": [
+                "A computer with Windows installed (Windows 10 if possible) on it and a Windows 10 VM. If Windows host is not possible, then 2 Windows 10 VMs that can reach each other on the network. SDK needs to be installed on the host (or one of the VMs, if using 2 VMs) - https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools "
+                ],
+            
+            "trainer": {
+                "name": "Yarden Shafir",
+                "isTrainer": true,
+                "designation": "Software Engineer",
+                "company": "Crowdstrike",
+                "image": require('../../../images/speakers/yarden_shafir.jpeg'),
+                "links": {
+                    "twitter": "https://twitter.com/yarden_shafir?lang=en"
+                },
+                "bio": <p>
+                    Yarden is a Software Engineer at Crowdstrike, working on EDR features, and a consultant for Winsider Seminars & Solutions Inc., co-teaching security trainings. Previously, she worked at SentinelOne as a security researcher and QA engineer. Outside of her primary work duties, Yarden writes articles and tools and gives talks about various topics such as CET internals, extension host hooking and kernel exploit mitigations. Outside of infosec, Yarden is a circus artist, teaching and performing aerial arts.
                 </p>
             },
         },
