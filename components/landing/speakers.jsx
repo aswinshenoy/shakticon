@@ -119,6 +119,15 @@ const ConferenceSpeakers = () => {
             "company": "BlackHoodie",
             "image": require('../../images/speakers/marion.jpeg'),
         },
+         {
+            "name": "Yarden Shafir",
+            "designation": "Software Engineer",
+            "company": "Crowdstrike",
+            "image": require('../../images/speakers/yarden_shafir.jpeg'),
+            "links": {
+                "twitter": "https://twitter.com/yarden_shafir?lang=en"
+            }
+        },
         {
             "name": "Rinki Sethi",
             "designation": "Vice President & CISO",
