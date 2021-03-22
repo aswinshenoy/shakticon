@@ -69,7 +69,8 @@ const FAQSection = () => {
         {
             "question": "How can you register?",
             "answer": <>
-                Whenever there is an upcoming event, it will be updated in the events section. There will be an option to signup for different events separately.
+                Click the register button, and sign up in our dashboard. You will find more information about various
+                upcoming events. Also please join our discord, if you want to get verified.
             </>
         },
         {
