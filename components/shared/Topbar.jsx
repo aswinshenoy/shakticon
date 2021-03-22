@@ -144,9 +144,6 @@ const Topbar = () => {
                             <a href="/sponsors">Sponsors</a>
                         </Fade>
                         <Fade delay={750}>
-                            <a href="/#faq">FAQ</a>
-                        </Fade>
-                        <Fade delay={750}>
                             <a href="/ctf">CTF</a>
                         </Fade>
                         <Fade delay={750}>

@@ -1,12 +1,10 @@
 import React from 'react';
 import styled from "@emotion/styled";
-import ScrollContainer from 'react-indiana-drag-scroll'
 import shortid from "shortid";
-import Fade from "react-reveal/Fade";
 
 const SpeakersContainer = styled.div`
     background: #223;
-    padding: 8vh 2vw;
+    padding: 8vh 1rem;
     h2 {
         font-size: calc(1.5rem + 2vw);
         text-align: center;
@@ -32,17 +30,14 @@ const SpeakerCard = styled.div`
     text-align: center;
     background: rgba(0,0,30,0.3);
     color: #eee;
-    padding: 0 0.75rem;
-    border-radius: 20px;
+    padding: 0 0.35rem;
+    border-radius: 10px;
     height: 100%;
     display: flex;
     flex-direction: column;
     flex: 1 1;
     user-select: none;
     transition: all 0.5s ease;
-    width: 300px;
-    max-width: 60vw;
-    margin: 10px 12px;
     border: ${({ isTrainer }) => isTrainer ? `2px solid #9C27B0` : `2px solid #C51162` };
     &:hover {
        transform: translateY(-8px);
@@ -54,7 +49,7 @@ const SpeakerCard = styled.div`
        }
     }
     img {
-      max-height: 220px;
+      max-height: 180px;
       max-width: 100%;
       border-radius: 100vw;
       margin-bottom: 1rem;
@@ -62,17 +57,17 @@ const SpeakerCard = styled.div`
       display: block;
     }
     h3 {
-       font-size: calc(1.25rem + 0.25vw);
+       font-size: calc(0.9rem + 0.15vw);
         color: #fd7e14;
         margin-bottom: 5px;
     }
     h4 {
-       font-size: calc(0.8rem + 0.2vw);
+       font-size: calc(0.75rem + 0.15vw);
        color: #eee;
        margin-bottom: 3px;
     }
     h5 {
-       font-size: calc(1rem + 0.25vw);
+       font-size: calc(0.8rem + 0.2vw);
        color: #FFF;
        font-weight: 600;
     }
@@ -327,46 +322,42 @@ const ConferenceSpeakers = () => {
 
     return <SpeakersContainer id="speakers">
         <h2>Speakers & Trainers</h2>
-        <div className="container" style={{ maxWidth: '1200px' }}>
-            <ScrollContainer vertical={false} hideScrollbars={false} className="scroll-container py-2">
-                <div className="d-flex p-3" style={{ cursor: 'grabbing' }}>
-                    {speakers.map((s, index) =>
-                        <Fade key={shortid.generate()} className="h-100" delay={100*index}>
-                            <SpeakerCard isTrainer={s.isTrainer}>
-                                <div>
-                                    {s.isTrainer ?
-                                        <div className="trainer-badge">Trainer</div>
-                                        : <div className="speaker-badge">Speaker</div>
-                                    }
-                                    <div className="d-flex justify-content-center">
-                                        {s.image && <img src={s.image} alt={s.name} draggable="false" />}
-                                    </div>
-                                    <h3>{s.name}</h3>
-                                </div>
-                                {s.company && <div>
-                                    <h4>{s.designation}</h4>
-                                    <h5>{s.company}</h5>
-                                </div>}
-                                {s.links &&
-                                <div className="social-media-links">
-                                    {s.links?.twitter &&
-                                    <a href={s.links.twitter} rel="noreferrer nofollow" target="_blank">
-                                        <i className="fab fa-twitter" />
-                                    </a>}
-                                    {s.links?.linkedin &&
-                                    <a href={s.links.linkedin} rel="noreferrer nofollow" target="_blank">
-                                        <i className="fab fa-linkedin" />
-                                    </a>}
-                                    {s.links?.website &&
-                                    <a href={s.links.website} rel="noreferrer nofollow" target="_blank">
-                                        <i className="far fa-globe" />
-                                    </a>}
-                                </div>}
-                            </SpeakerCard>
-                        </Fade>
-                    )}
+        <div className="row w-100 mx-0">
+            {speakers.map((s, index) =>
+                <div key={shortid.generate()} className="col-xl-2 col-lg-3 col-md-4 col-6 p-2">
+                    <SpeakerCard isTrainer={s.isTrainer}>
+                        <div>
+                            {s.isTrainer ?
+                                <div className="trainer-badge">Trainer</div>
+                                : <div className="speaker-badge">Speaker</div>
+                            }
+                            <div className="d-flex justify-content-center">
+                                {s.image && <img src={s.image} alt={s.name} draggable="false" />}
+                            </div>
+                            <h3>{s.name}</h3>
+                        </div>
+                        {s.company && <div>
+                            <h4>{s.designation}</h4>
+                            <h5>{s.company}</h5>
+                        </div>}
+                        {/*{s.links &&*/}
+                        {/*<div className="social-media-links">*/}
+                        {/*    {s.links?.twitter &&*/}
+                        {/*    <a href={s.links.twitter} rel="noreferrer nofollow" target="_blank">*/}
+                        {/*        <i className="fab fa-twitter" />*/}
+                        {/*    </a>}*/}
+                        {/*    {s.links?.linkedin &&*/}
+                        {/*    <a href={s.links.linkedin} rel="noreferrer nofollow" target="_blank">*/}
+                        {/*        <i className="fab fa-linkedin" />*/}
+                        {/*    </a>}*/}
+                        {/*    {s.links?.website &&*/}
+                        {/*    <a href={s.links.website} rel="noreferrer nofollow" target="_blank">*/}
+                        {/*        <i className="far fa-globe" />*/}
+                        {/*    </a>}*/}
+                        {/*</div>}*/}
+                    </SpeakerCard>
                 </div>
-            </ScrollContainer>
+            )}
         </div>
     </SpeakersContainer>
 
