@@ -6,6 +6,7 @@ import FooterArea from "../components/landing/Footer";
 
 const PromoteSection = styled.section`
   min-height: 45vh;
+  margin-top: 64px;
   background: #112;
   color: #eee;
   padding: 10vh 2vw;
@@ -15,6 +16,8 @@ const PromoteSection = styled.section`
   text-align: center;
   h1 {
     color: #FFAB00;
+    font-size: calc(1.8rem + 2vw);
+    font-weight: 600;
   }
   h3 {
     color: #FFAB00;
@@ -47,9 +50,9 @@ const PromotePage = () => {
     return <Base>
         <Topbar />
         <PromoteSection>
-            <div>
-                <div className="my-4">
-                    <h1 className="font-weight-bold display-4 mb-4">Promotion</h1>
+            <div className="container-lg p-2 my-3">
+                <div>
+                    <h1 className="mb-2">Promotion</h1>
                 </div>
                 <div class="row">
                     <div class="col-md-6">

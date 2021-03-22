@@ -49,7 +49,7 @@ const EventSponsors = () => {
 
     const sponsors = [
         {
-            "name": "Simens",
+            "name": "Seimens",
             "title": "Platinum Sponsor",
             "size": '250px',
             "logo": require('../../images/sponsors/seimens.png')
