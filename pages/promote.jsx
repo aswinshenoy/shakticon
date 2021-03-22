@@ -47,7 +47,7 @@ const WhatsAppMessageSection = styled.section`
 `;
 
 const PromotePage = () => {
-    return <Base>
+    return <Base meta={{ title: 'Promotion' }}>
         <Topbar />
         <PromoteSection>
             <div className="container-lg p-2 my-3">
