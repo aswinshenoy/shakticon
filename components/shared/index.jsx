@@ -7,8 +7,8 @@ import '../../styles/styles.css';
 
 const seoTags = {
     "siteName": "Amrita ShaktiCon",
-    "tagLine": "CyberSecurity Conference, Trainings & Competition exclusively for Women",
-    "description": "Participate in Amrita ShaktiCon, cyber security conference, trainings and competitions exclusively for women, organized by team Shakti."
+    "tagLine": "CyberSecurity Conference, Trainings & Competition for Women",
+    "description": "Participate in Amrita ShaktiCon, cyber security conference, trainings and competitions for women, organized by team Shakti."
 };
 
 const Base = ({ children, meta }) => {

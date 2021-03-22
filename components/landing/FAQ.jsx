@@ -6,7 +6,7 @@ const FAQContainer = styled.section`
       background: #222640;
       padding: 8vh 3vw;
       color: white;
-      h3 {
+      h3 {e
          font-size: calc(1.5rem + 1.5vw);
          font-weight: 600;
       }
@@ -53,14 +53,17 @@ const FAQSection = () => {
             "question": "Who can participate?",
             "answer": <>
                 <p>
-                    This conference is only for women.
-                    If you are eligible for prizes in the contest, you will be contacted for identity
-                    verification so that the game stays fair for all participants.
+                    This conference is organized for women participants, however, anyone can participate.
                 </p>
                 <p>
-                    We welcome all women (including non-binary people identifying as women) who have the
-                    curiosity to try new things and interest in cybersecurity to take part in this conference.
+                    Trainings & Contests are only for women participants. We welcome all women (including non-binary
+                    people identifying as women) who have the curiosity to try new things and interest in
+                    cybersecurity to take part in this conference.
                     No previous cybersecurity experience is needed.
+                </p>
+                <p>
+                    If you are eligible for prizes in a contest (CTF), you will be contacted for identity
+                    verification so that the game stays fair for all participants.
                 </p>
             </>
         },
@@ -75,7 +78,7 @@ const FAQSection = () => {
             "answer": <>
                 As this conference aims at bridging the diversity gap in the field of cybersecurity, there will be a
                 verification process on an individual basis to validate participant’s identity before being allowed
-                to participate in training or any events. You will get more details regarding this once you sign
+                to participate in ShaktiCon trainings. You will get more details regarding this once you sign
                 up for our events.
             </>
         },
