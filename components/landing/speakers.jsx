@@ -119,15 +119,6 @@ const ConferenceSpeakers = () => {
             "company": "BlackHoodie",
             "image": require('../../images/speakers/marion.jpeg'),
         },
-         {
-            "name": "Yarden Shafir",
-            "designation": "Software Engineer",
-            "company": "Crowdstrike",
-            "image": require('../../images/speakers/yarden_shafir.jpeg'),
-            "links": {
-                "twitter": "https://twitter.com/yarden_shafir?lang=en"
-            }
-        },
         {
             "name": "Rinki Sethi",
             "designation": "Vice President & CISO",
@@ -248,6 +239,16 @@ const ConferenceSpeakers = () => {
             "image": require('../../images/speakers/zoey.jpg'),
             "links": {
                 "linkedin": "https://www.linkedin.com/in/zoey-garvey-66982b34/"
+            }
+        },
+        {
+            "name": "Yarden Shafir",
+            "isTrainer": true,
+            "designation": "Software Engineer",
+            "company": "Crowdstrike",
+            // "image": require('../../images/speakers/yarden_shafir.jpeg'),
+            "links": {
+                "twitter": "https://twitter.com/yarden_shafir?lang=en"
             }
         },
         {
