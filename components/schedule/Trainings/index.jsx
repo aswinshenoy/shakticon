@@ -117,7 +117,7 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                 "isTrainer": true,
                 "designation": "Software Engineer",
                 "company": "Crowdstrike",
-                "image": require('../../../images/speakers/yarden_shafir.jpeg'),
+                "image": require('../../../images/speakers/yarden_shafir.jpg'),
                 "links": {
                     "twitter": "https://twitter.com/yarden_shafir?lang=en"
                 },
