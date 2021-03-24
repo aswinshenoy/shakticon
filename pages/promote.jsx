@@ -77,13 +77,13 @@ const PromotePage = () => {
                             And many more... Register Now!!! <br />
                             <br />
                             *ShaktiCon (conference) Registration:*<br />
-                            *WHEN: April 9-11 2021 REGISTER at* <a href="https://register.shakticon.com">register.shakticon.com</a>
-                            
+                            *WHEN: April 9-11 2021 REGISTER at* <a href="https://register.shakticon.com">register.shakticon.com</a><br />
+                            <br />
                             *ShaktiCTF (CTF contest) Registration:*<br />
                             *WHEN: April 3-4 2021, REGISTER at* <a href="https://ctf.shakticon.com">ctf.shakticon.com</a><br />
                             <br />
-                            For more updates follow us on Twitter <a href="https://twitter.com/shakticon">https://twitter.com/shakticon</a> 
-                            and LinkedIn <a href="https://www.linkedin.com/company/shakticon">https://www.linkedin.com/company/shakticon</a>.
+                            For more updates follow us on<br />
+                            Twitter <a href="https://twitter.com/shakticon">https://twitter.com/shakticon</a> and LinkedIn <a href="https://www.linkedin.com/company/shakticon/">https://www.linkedin.com/company/shakticon</a>
                         </WhatsAppMessageSection>
                         <div>
                             <h5 className="my-4">LinkedIn Post</h5>
@@ -107,13 +107,13 @@ const PromotePage = () => {
                             skills. Top teams have the chance to win awards worth *4000$*. <br />
                             <br />
                             *ShaktiCon (conference) Registration:*<br />
-                            *WHEN: April 9-11 2021 REGISTER at* <a href="https://register.shakticon.com">register.shakticon.com</a>
-                            
+                            *WHEN: April 9-11 2021 REGISTER at* <a href="https://register.shakticon.com">register.shakticon.com</a><br />
+                            <br />
                             *ShaktiCTF (CTF contest) Registration:*<br />
                             *WHEN: April 3-4 2021, REGISTER at* <a href="https://ctf.shakticon.com">ctf.shakticon.com</a><br />
                             <br />
-                            For more updates follow us on Twitter <a href="https://twitter.com/shakticon">https://twitter.com/shakticon</a> 
-                            and LinkedIn <a href="https://www.linkedin.com/company/shakticon/">https://www.linkedin.com/company/shakticon</a>
+                            For more updates follow us on<br />
+                            Twitter <a href="https://twitter.com/shakticon">https://twitter.com/shakticon</a> and LinkedIn <a href="https://www.linkedin.com/company/shakticon/">https://www.linkedin.com/company/shakticon</a>
                         </WhatsAppMessageSection>
                         <h5 className="my-4">Tweet</h5>
                         <blockquote class="twitter-tweet tw-align-center">
