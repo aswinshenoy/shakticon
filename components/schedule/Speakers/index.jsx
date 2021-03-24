@@ -129,7 +129,7 @@ There is a popular misconception that anyone who code can develop a secure and r
 This session might provide a better perspective to the Developers, Testers and Security enthusiasts about the systems and techniques in place as well their relevance.
             </>,
             "speaker": {
-                "name": "ARYA M SANKAR ",
+                "name": "Arya M Sankar ",
                 "designation": "Security Researcher",
                 "company": " Siemens",
                 "image": require('../../../images/speakers/arya.JPG'),
@@ -142,6 +142,20 @@ This session might provide a better perspective to the Developers, Testers and S
         {
             "slug": "ctfs-and-cybersecurity-research",
             "title": "CTFs and cybersecurity research",
+            "abstract": <>
+                In this talk, Tiffany Bao will share her experience of CTF and introduce the CTF-related
+                research, cyber autonomy in software security. The idea of cyber autonomy emerges due to
+                the large scale of software programs in daily practice. While security researchers have 
+                been pursuing automated vulnerability detection and remediation techniques to scale beyond 
+                the limitations of human hackers, the human bottleneck (and human fallibility) remains in 
+                the higher-level strategy of what to do with automatically identified vulnerabilities, 
+                automatically created exploits, and automatically generated patches.
+                
+                Removing the bottlenecks requires not only automatic techniques but also intelligent decision 
+                makings, which we call autonomy, a further step of automation in software security. In this 
+                talk, I will delve into the challenges in cyber autonomy, introducing our recent work and 
+                discussing the future steps that mature cyber autonomy into real-world practice.
+            </>,
             "speaker": {
                 "name": "Tiffany Bao",
                 "designation": "Assistant Professor",
@@ -153,6 +167,7 @@ This session might provide a better perspective to the Developers, Testers and S
                     assess, and defend software vulnerabilities. Tiffany Bao received her Ph.D. at Carnegie Mellon 
                     University advised by Prof. David Brumley.
                 </p>
+                
             },
         },
         {
@@ -355,6 +370,31 @@ This session might provide a better perspective to the Developers, Testers and S
                     previously on development of LTE core network and Lawful Interception.
                 </p>
             }
+        },
+        {
+            "slug": "from-techlongist-to-board-room",
+            "title": "From Technologist to Board Room...a cybersecurity journey",
+            "abstract": <>
+                This talk will be centered around firmware security. We will look at the attacks on firmware, 
+                and the need for firmware security. We will also look at first steps in implementing firmware 
+                security and AMI's contributions towards firmware security solutions.
+            </>,
+            "speaker": {
+                "name": "Priyadharshini Krishnan",
+                "designation": "Engineering Manager",
+                "company": "America Megatrends International LLC",
+                "image": require('../../../images/speakers/priyadharshini.jpg'),
+                "links": {
+                    "linkedin": "https://www.linkedin.com/in/sanjumisra/"
+                },
+                "bio": <p>
+                    Priyadharshini is an Engineering manager working for AMI’s Security Services and Solutions 
+                    group. She currently leads a team that mainly focuses on software and firmware security 
+                    solutions. Prior to this, she has been working on developing tools and applications that 
+                    enable firmware development and debugging. She holds a bachelor’s degree in Computer Science 
+                    and Engineering from Madras university.
+                </p>
+            },
         },
     ]
 

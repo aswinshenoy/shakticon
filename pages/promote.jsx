@@ -77,14 +77,19 @@ const PromotePage = () => {
                             And many more... Register Now!!! <br />
                             <br />
                             *ShaktiCon (conference) Registration:*<br />
-                            *WHEN: April 9-11 2021 REGISTER at* <a href="https://register.shakticon.com">register.shakticon.com</a>
-                            
+                            *WHEN: April 9-11 2021 REGISTER at* <a href="https://register.shakticon.com">register.shakticon.com</a><br />
+                            <br />
                             *ShaktiCTF (CTF contest) Registration:*<br />
                             *WHEN: April 3-4 2021, REGISTER at* <a href="https://ctf.shakticon.com">ctf.shakticon.com</a><br />
                             <br />
-                            For more updates follow us on Twitter <a href="https://twitter.com/shakticon">https://twitter.com/shakticon</a> 
-                            and LinkedIn <a href="https://www.linkedin.com/company/shakticon">https://www.linkedin.com/company/shakticon</a>.
+                            For more updates follow us on<br />
+                            Twitter <a href="https://twitter.com/shakticon">https://twitter.com/shakticon</a> and LinkedIn <a href="https://www.linkedin.com/company/shakticon/">https://www.linkedin.com/company/shakticon</a>
                         </WhatsAppMessageSection>
+                        <div>
+                            <h5 className="my-4">LinkedIn Post</h5>
+                            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6773467798694899712" 
+                                height="849" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                        </div>
                     </div>
                     <div class="col-md-6">
                         <h5 className="my-4">WhatsApp Message for Industry Professionals</h5>
@@ -102,21 +107,14 @@ const PromotePage = () => {
                             skills. Top teams have the chance to win awards worth *4000$*. <br />
                             <br />
                             *ShaktiCon (conference) Registration:*<br />
-                            *WHEN: April 9-11 2021 REGISTER at* <a href="https://register.shakticon.com">register.shakticon.com</a>
-                            
+                            *WHEN: April 9-11 2021 REGISTER at* <a href="https://register.shakticon.com">register.shakticon.com</a><br />
+                            <br />
                             *ShaktiCTF (CTF contest) Registration:*<br />
                             *WHEN: April 3-4 2021, REGISTER at* <a href="https://ctf.shakticon.com">ctf.shakticon.com</a><br />
                             <br />
-                            For more updates follow us on Twitter <a href="https://twitter.com/shakticon">https://twitter.com/shakticon</a> 
-                            and LinkedIn <a href="https://www.linkedin.com/company/shakticon/">https://www.linkedin.com/company/shakticon</a>
+                            For more updates follow us on<br />
+                            Twitter <a href="https://twitter.com/shakticon">https://twitter.com/shakticon</a> and LinkedIn <a href="https://www.linkedin.com/company/shakticon/">https://www.linkedin.com/company/shakticon</a>
                         </WhatsAppMessageSection>
-                    </div>
-                </div>
-                <div>
-                    <h5 className="my-4">LinkedIn Post</h5>
-                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6773467798694899712" 
-                        height="849" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-                </div>
                         <h5 className="my-4">Tweet</h5>
                         <blockquote class="twitter-tweet tw-align-center">
                             <p lang="en" dir="ltr">
@@ -135,6 +133,10 @@ const PromotePage = () => {
                                 <a href="https://twitter.com/shakticon/status/1367556271147077632?ref_src=twsrc%5Etfw">March 4, 2021</a>
                         </blockquote> 
                         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+                
+                        
             </div>
             </PromoteSection>
         <FooterArea />

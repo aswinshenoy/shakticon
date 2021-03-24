@@ -81,7 +81,7 @@ const CTFCover = () => {
                     <Fade right>
                         <h2>
                             Capture The Flag Style Ethical Hacking contest
-                            <span>Exclusively for Women.</span>
+                            <span>Prizes Exclusively for Women</span>
                         </h2>
                     </Fade>
                     <Fade up>
