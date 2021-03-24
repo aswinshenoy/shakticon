@@ -299,12 +299,18 @@ const ConferenceSpeakers = () => {
         },
         {
             "name": "Priti Shrivastav",
-            "designation": "General Manager Software Security",
+            "designation": "Former General Manager Software Security",
             "company": "Intel Corporation",
             "image": require('../../images/speakers/priti.jpeg'),
             "links": {
                 "linkedin": "http://linkedin.com/in/priti-shrivastav-59878a2"
             }
+        },
+        {
+            "name": "Priyadharshini Krishnan",
+            "designation": "Engineering Manager",
+            "company": "America Megatrends International LLC",
+            "image": require('../../images/speakers/priyadharshini.jpg'),
         },
         {
             "name": "Mehrnoosh Monshizadeh",
