@@ -129,7 +129,7 @@ There is a popular misconception that anyone who code can develop a secure and r
 This session might provide a better perspective to the Developers, Testers and Security enthusiasts about the systems and techniques in place as well their relevance.
             </>,
             "speaker": {
-                "name": "ARYA M SANKAR ",
+                "name": "Arya M Sankar ",
                 "designation": "Security Researcher",
                 "company": " Siemens",
                 "image": require('../../../images/speakers/arya.JPG'),
