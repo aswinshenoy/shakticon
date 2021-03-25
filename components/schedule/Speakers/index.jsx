@@ -373,7 +373,7 @@ This session might provide a better perspective to the Developers, Testers and S
         },
         {
             "slug": "from-techlongist-to-board-room",
-            "title": "From Technologist to Board Room...a cybersecurity journey",
+            "title": "Firmware Security - An Introduction”",
             "abstract": <>
                 This talk will be centered around firmware security. We will look at the attacks on firmware, 
                 and the need for firmware security. We will also look at first steps in implementing firmware 

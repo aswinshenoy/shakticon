@@ -309,7 +309,7 @@ const ConferenceSpeakers = () => {
         {
             "name": "Priyadharshini Krishnan",
             "designation": "Engineering Manager",
-            "company": "America Megatrends International LLC",
+            "company": "American Megatrends International LLC",
             "image": require('../../images/speakers/priyadharshini.jpg'),
         },
         {
