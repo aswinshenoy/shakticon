@@ -48,10 +48,9 @@ const SideBarMenu = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-
     a, button {
         text-decoration: none!important;
-        font-size: 30px;
+        font-size: 24px;
         color: #EEE;
         font-weight: 600;
         padding: 0;
@@ -95,6 +94,7 @@ const SideBar = ({ onClose, darkenOnSidebar }) => {
         { icon: "far fa-transporter-1 mr-2", "title": "Trainings", "href": "/trainings" },
         { icon: "far fa-microphone-stand mr-2", "title": "Speakers", "href": "/speakers" },
         { icon: "far fa-calendar-alt mr-2", "title": "Schedule", "href": "/schedule" },
+        { icon: "far fa-heart mr-2", "title": "Sponsors", "href": "/sponsors" },
     ];
 
     return <TopbarWrap darken={darkenOnSidebar} onClick={onClose}>
