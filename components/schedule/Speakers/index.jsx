@@ -372,7 +372,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
         },
         {
             "slug": "firmware-security-an-introduction",
-            "title": "Firmware Security - An Introduction”",
+            "title": "Firmware Security - An Introduction",
             "abstract": <>
                 This talk will be centered around firmware security. We will look at the attacks on firmware, 
                 and the need for firmware security. We will also look at first steps in implementing firmware 
