@@ -61,7 +61,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             }
         },
         {
-            "slug": "from-techlongist-to-board-room",
+            "slug": "from-technologist-to-board-room",
             "title": "From Technologist to Board Room...a cybersecurity journey",
             "abstract": <>
                 In her session, Sanju will review her 25 year long career path along with a few stories. 
@@ -114,19 +114,18 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             "slug": "Kick-start to Secure Software Development ",
             "title": "Kick-start to Secure Software Development ",
             "abstract": <>
-               <p> We read, write and understand Code! </p>
-
-
-
-There is a popular misconception that anyone who code can develop a secure and reliable software. Developers can build a working software, but not always secured, reliable and an efficient one. Who would buy that? If someone does, for how long would it serve!
-
-
-
-<p>This talk would focus on Secure Software Development. Take you through the overall software development architecture, an active check on the frequent mistakes and regular misunderstandings in software development, followed by an in-depth understanding of each stage with a quick glance into the adversary entry points. Finally, introducing secure coding a vast domain which plays an important role in Secure Software Development.</p>
-
-
-
-This session might provide a better perspective to the Developers, Testers and Security enthusiasts about the systems and techniques in place as well their relevance.
+               We read, write and understand Code!<br/>
+               There is a popular misconception that anyone who code can develop a secure and reliable software. 
+               Developers can build a working software, but not always secured, reliable and an efficient one. 
+               Who would buy that? If someone does, for how long would it serve! <br />
+               <br />
+               This talk would focus on Secure Software Development. Take you through the overall software development architecture, an active 
+               check on the frequent mistakes and regular misunderstandings in software development, followed 
+               by an in-depth understanding of each stage with a quick glance into the adversary entry points. 
+               Finally, introducing secure coding a vast domain which plays an important role in Secure Software 
+               Development.<br />
+               <br />
+               This session might provide a better perspective to the Developers, Testers and Security enthusiasts about the systems and techniques in place as well their relevance.
             </>,
             "speaker": {
                 "name": "Arya M Sankar ",
@@ -372,7 +371,7 @@ This session might provide a better perspective to the Developers, Testers and S
             }
         },
         {
-            "slug": "from-techlongist-to-board-room",
+            "slug": "firmware-security-an-introduction",
             "title": "Firmware Security - An Introduction”",
             "abstract": <>
                 This talk will be centered around firmware security. We will look at the attacks on firmware, 
@@ -382,11 +381,8 @@ This session might provide a better perspective to the Developers, Testers and S
             "speaker": {
                 "name": "Priyadharshini Krishnan",
                 "designation": "Engineering Manager",
-                "company": "America Megatrends International LLC",
+                "company": "American Megatrends International LLC",
                 "image": require('../../../images/speakers/priyadharshini.jpg'),
-                "links": {
-                    "linkedin": "https://www.linkedin.com/in/sanjumisra/"
-                },
                 "bio": <p>
                     Priyadharshini is an Engineering manager working for AMI’s Security Services and Solutions 
                     group. She currently leads a team that mainly focuses on software and firmware security 
