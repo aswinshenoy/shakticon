@@ -98,7 +98,7 @@ const CTFCover = () => {
                                         className="register-button" target="_blank" rel="noreferrer nofollow"
                                         href="https://ctf.shakticon.com/register"
                                     >
-                                        Register Now / Login
+                                        Register Now for CTF
                                     </a>
                                 </div>
                             </div>
