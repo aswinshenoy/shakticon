@@ -1,6 +1,6 @@
 import GraphQLFetch from './GraphQLFetch';
 
-const graphQLEndpoint = 'https://shakticon.traboda.com/api/graphql/';
+const graphQLEndpoint = 'https://shakticon.com/api/graphql/';
 
 const LOGOUT_CODES = [
     'INVALID_REFRESH_TOKEN', 'AUTHENTICATION_REQUIRED', 'REFRESH_TOKEN_NOT_FOUND',
