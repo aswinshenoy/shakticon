@@ -416,6 +416,50 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 </p>
             },
         },
+        {
+            "slug": "Recon to Software Supply Chain Attack",
+            "title": "Recon to Software Supply Chain Attack",
+            "abstract": <>
+                
+                <p>
+                As our society is becoming more and more technologically reliant, the importance of cybersecurity is on rise. A single cyber-attack can cause heavy damages to businesses. Organisations today face unprecedented number of attacks that begin even before any software is ever made. Supply chain attacks can damage organisations, individual departments, or entire industries by targeting and attacking insecure elements of the software supply chain. A software supply chain attack infiltrates software life cycle by leveraging open source components to inject malicious code in order to compromise software systems further down the chain.
+</p>
+<p>
+The presentation will discuss how simple recon techniques like JavaScript recon, GitHub recon, social engineering can lead to highly damaging software supply chain attacks and measures to protect against them.
+</p>
+<p>
+The target audience for this talk would be anybody who is currently working or who has just started in cyber security field or anybody who wants to learn something new.
+</p>
+         </>,
+            "speaker": {
+                "name": "Komal Armarkar",
+                "designation": "Security Analyst",
+                "company": "CrowdStrike",
+                "image": require('../../../images/speakers/komal_armarkar.jpg'),
+                "bio": <p>
+                    Komal Armarkar is currently working as Security Analyst in Spotlight vulnerability management team at CrowdStrike. In her overall experience of 7 years, she has worked in various fields like policy compliance, Linux system administration and application security. She has a keen interest in vulnerability analysis and research, application security.
+                </p>
+            },
+        },
+        {
+            "slug": "Security at Cloud Scale",
+            "title": "Security at Cloud Scale",
+            "abstract": <>
+                
+                <p>
+                In this talk, Aarti looks at the evolution of EDR technology over the years and how the cloud has been leveraged to improve upon the fidelity of traditional EDR systems.
+</p>
+         </>,
+            "speaker": {
+                "name": "Aarti Gupta",
+                "designation": "Director Engineering",
+                "company": "CrowdStrike",
+                "image": require('../../../images/speakers/aarti_gupta.png'),
+                "bio": <p>
+                    Aarti is a Director of Engineering at CrowdStrike, she is currently working on a next-gen cloud-based security product. Previously, she was Director of Engineering at Qualys and was responsible for building out Qualys’s Security Analytics platform. Aarti has extensive experience with building web scale systems, having previously worked for Amazon and Hotstar
+                </p>
+            },
+        },
     ]
 
     return <TrainingModuleWrap id="conference-speakers">
