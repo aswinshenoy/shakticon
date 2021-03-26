@@ -324,6 +324,12 @@ const ConferenceSpeakers = () => {
             "company": "Sophos Technologies Private Limited Regd.",
             "image": require('../../images/speakers/ashap.jpeg'),
         },
+        {
+            "name": "Jhilmil Kochar",
+            "designation": "Managing Director",
+            "company": "CrowdStrike",
+            "image": require('../../images/speakers/jhilmil.jpeg'),
+        },
     ];
 
     return <SpeakersContainer id="speakers">
