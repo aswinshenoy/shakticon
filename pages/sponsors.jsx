@@ -131,25 +131,34 @@ const SponsorsPage = () => {
                                     />
                                 {/*</a>*/}
                             </div>
-                            {/*<div className="p-2" style={{ fontSize: '14px' }}>*/}
-                            {/*    CrowdStrike is a leading cybersecurity company protecting customers from all cyber threats by*/}
-                            {/*    leveraging its Security Cloud to stop breaches. From its inception in 2011, driven by George Kurtz’s*/}
-                            {/*    vision, CrowdStrike was created as a different kind of cybersecurity company. Cloud-native,*/}
-                            {/*    CrowdStrike immediately brought a threat perspective, effectiveness, scalability, and flexibility*/}
-                            {/*    never seen before in the industry – seamlessly aligning People, Technology, and Processes.*/}
-                            {/*    The CrowdStrike Falcon platform has revolutionized enterprise security for the cloud era.*/}
-                            {/*    Its single lightweight-agent architecture leverages artificial intelligence (AI) and offers*/}
-                            {/*    real-time protection and visibility across the enterprise, preventing attacks on endpoints and*/}
-                            {/*    workloads on or off the network.*/}
-                            {/*</div>*/}
-                            {/*<div className="p-2">*/}
-                            {/*    <a*/}
-                            {/*        href="https://crowdstrike.com/about-crowdstrike/" target="_blank" rel="nofollow noreferrer"*/}
-                            {/*        className="btn btn-primary rounded-0 px-4 py-3"*/}
-                            {/*    >*/}
-                            {/*        Read More*/}
-                            {/*    </a>*/}
-                            {/*</div>*/}
+                            <div className="p-2" style={{ fontSize: '14px' }}>
+                                CrowdStrike is a leading cybersecurity company protecting customers from all cyber
+                                threats by leveraging its Security Cloud to stop breaches. From its inception in 2011,
+                                CrowdStrike was created as a different kind of cybersecurity company. Cloud-native,
+                                CrowdStrike immediately brought a threat perspective, effectiveness, scalability,
+                                and flexibility never seen before in the industry – seamlessly aligning People,
+                                Technology, and Processes. And it doesn’t stop there. At CrowdStrike, our engineers
+                                and technologists are given unprecedented opportunities to work with data at scale
+                                and an unrivaled opportunity to develop deep technical knowledge and experience.
+                                In the past 24 hours, CrowdStrike has detected more than 500 billion events—350
+                                million since you started reading this sentence. We are a team that makes a difference
+                                every day, protecting millions of computers from the world's most sophisticated
+                                adversaries. Want to join us?
+                            </div>
+                            <div className="d-flex align-items-center p-2">
+                                <a
+                                    href="https://crowdstrike.com/" target="_blank" rel="nofollow noreferrer"
+                                    className="btn btn-primary rounded-0 px-4 mr-2 py-3"
+                                >
+                                    Read More
+                                </a>
+                                <a
+                                    href="https://crowdstrike.com/careers" target="_blank" rel="nofollow noreferrer"
+                                    className="btn btn-primary rounded-0 px-4 mr-2 py-3"
+                                >
+                                    Careers
+                                </a>
+                            </div>
                         </SponsorCardWrap>
                     </div>
                 </div>
