@@ -392,6 +392,30 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 </p>
             },
         },
+        {
+            "slug": "cybersecurity-for-iot-ics",
+            "title": "Cybersecurity for IOT/ICS",
+            "abstract": <>
+                In this talk, you will learn about the challenges faced around cybersecurity in IOT, with special 
+                focus on ICS environment. The talk will also cover recent trends in the threat landscape and a 
+                wholistic approach towards a more secure manufacturing environment. 
+            </>,
+            "speaker": {
+                "name": "Jhilmil Kochar",
+                "designation": "Managing Director",
+                "company": "CrowdStrike",
+                "image": require('../../../images/speakers/jhilmil.jpeg'),
+                "bio": <p>
+                    Jhilmil has been serving as the Managing Director, CrowdStrike India for the past 4 years. 
+                    She set up the India team from scratch and has been delivering security products for IT 
+                    security operations. She comes armed with 25+ years of technology leadership experience in 
+                    domains spanning Cybersecurity, Telecom and Networking, Semiconductor and IOT, Gaming and 
+                    Multimedia. Earlier she led the India center for WMS Gaming, a Scientific Games company. 
+                    Prior to that she has worked as in various engineering leadership roles at McAfee and 
+                    Conexant Systems.
+                </p>
+            },
+        },
     ]
 
     return <TrainingModuleWrap id="conference-speakers">
