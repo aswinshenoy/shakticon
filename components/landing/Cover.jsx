@@ -98,7 +98,13 @@ const LandingCover = () => {
                                         className="register-button" target="_blank" rel="noreferrer nofollow"
                                         href="https://register.shakticon.com"
                                     >
-                                        Register Now / Login
+                                        Register / Login for Conference
+                                    </a>
+                                    <a
+                                        className="register-button" target="_blank" rel="noreferrer nofollow"
+                                        href="https://ctf.shakticon.com/register"
+                                    >
+                                        Register for CTF
                                     </a>
                                 </div>
                             </div>
