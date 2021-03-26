@@ -53,7 +53,7 @@ const RegisterForm = styled.div`
     }
 `;
 
-const RegistrationSticky = () => {
+const RegistrationSticky = ({ query }) => {
 
     const router = useRouter()
 
@@ -119,6 +119,7 @@ const RegistrationSticky = () => {
                     password: password,
                     name: name,
                     eventID: 1,
+                    UTMSource: query && query['utm_source'] ? query['utm_source'] : '',
                 }
             }
         }).then(({ success, data, errors }) => {

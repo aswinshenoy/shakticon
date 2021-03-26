@@ -17,11 +17,11 @@ import VolunteerSection from "../components/landing/Volunteer";
 import LandingJoinDiscussion from "../components/landing/JoinDiscussions";
 import RegistrationSticky from "../components/landing/RegistrationSticky";
 
-export default () => {
+const LandingPage = ({ query, }) => {
 
   return <Base>
       <Topbar />
-      <LandingCover />
+      <LandingCover query={query} />
       <AboutShaktiCon />
       <ConferenceSpeakers />
       <EventGoals />
@@ -33,7 +33,13 @@ export default () => {
       <LandingJoinDiscussion />
       <Resources />
       <FooterArea />
-      <RegistrationSticky />
+      <RegistrationSticky query={query} />
   </Base>;
 
 };
+
+LandingPage.getInitialProps = async ({ req, query }) => {
+    return { host: req?.headers?.host, query };
+}
+
+export default LandingPage;

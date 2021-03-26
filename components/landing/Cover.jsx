@@ -64,7 +64,7 @@ const CoverWrap = styled.div`
     }
 `
 
-const LandingCover = () => {
+const LandingCover = ({ query }) => {
 
     return <React.Fragment>
         <CoverContainer>
@@ -96,7 +96,7 @@ const LandingCover = () => {
                                 <div className="py-4">
                                     <a
                                         className="register-button" target="_blank" rel="noreferrer nofollow"
-                                        href="https://register.shakticon.com"
+                                        href={`https://register.shakticon.com/${query ? `?utm_source=${query?.['utm_source']}` : ''}`}
                                     >
                                         Register Now / Login
                                     </a>
