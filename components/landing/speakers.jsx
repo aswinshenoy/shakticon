@@ -326,7 +326,7 @@ const ConferenceSpeakers = () => {
         },
         {
             "name": "Jhilmil Kochar",
-            "designation": "Managing Director",
+            "designation": "Managing Director, Pune, India",
             "company": "CrowdStrike",
             "image": require('../../images/speakers/jhilmil.jpeg'),
         },
