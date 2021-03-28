@@ -99,7 +99,7 @@ const RegistrationSticky = ({ query }) => {
             variables: { username: email, password }
         }).then(({ success, data, errors }) => {
             if(success){
-                router.push('https://register.shakticon.com/login');
+                router.push(`/register/${(query && query['utm_source']) ? `?utm_source=${query['utm_source']}` : ''}`);
             } else {
                 setErrors(errors);
             }
