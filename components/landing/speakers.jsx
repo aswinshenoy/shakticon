@@ -326,9 +326,21 @@ const ConferenceSpeakers = () => {
         },
         {
             "name": "Jhilmil Kochar",
-            "designation": "Managing Director, Pune, India",
-            "company": "CrowdStrike",
+            "designation": "Managing Director",
+            "company": "CrowdStrike, Pune, India",
             "image": require('../../images/speakers/jhilmil.jpeg'),
+        },
+        {
+            "name": "Komal Armarkar",
+            "designation": "Security Analyst",
+            "company": "CrowdStrike, Pune, India",
+            "image": require('../../images/speakers/komal.jpeg'),
+        },
+        {
+            "name": "Aarti Gupta",
+            "designation": "Director Engineering",
+            "company": "CrowdStrike, Pune, India",
+            "image": require('../../images/speakers/aartigupta.png'),
         },
     ];
 
