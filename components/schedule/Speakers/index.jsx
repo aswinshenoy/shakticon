@@ -448,7 +448,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             "speaker": {
                 "name": "Komal Armarkar",
                 "designation": "Security Analyst",
-                "company": "CrowdStrike, Pune, India",
+                "company": "CrowdStrike",
                 "image": require('../../../images/speakers/komal.jpeg'),
                 "bio": <p>
                     Komal Armarkar is currently working as Security Analyst in Spotlight vulnerability management 
@@ -468,7 +468,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             "speaker": {
                 "name": "Aarti Gupta",
                 "designation": "Director Engineering",
-                "company": "CrowdStrike, Pune, India",
+                "company": "CrowdStrike",
                 "image": require('../../../images/speakers/aartigupta.png'),
                 "bio": <p>
                     Aarti is a Director of Engineering at CrowdStrike, she is currently working on a next-gen 
