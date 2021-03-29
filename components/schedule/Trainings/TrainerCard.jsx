@@ -73,11 +73,11 @@ const TrainerCard = ({
             <div className="col-md-5 d-flex text-warning text-md-right text-center justify-content-md-end justify-content-center p-2">
                 <div className="p-2">
                     {registerURL &&
-                    <a href={registerURL} style={{ background: '#9C27B0', color: 'white' }} className="plain-link px-4 py-2 rounded-0">
+                    <a href={registerURL} style={{ background: '#7C1790', color: 'white' }} className="plain-link px-4 py-2 rounded-0">
                         Register Now
                     </a>}
                     {sessions?.length>0 &&
-                    <div className="mt-2">
+                    <div className="mt-3">
                         {sessions.map((s) =>
                             <div style={{ fontSize: 'calc(13px + 0.2vw)'}}>
                                 {s.date} {s.time && `- ${s.time}`}

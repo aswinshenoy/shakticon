@@ -36,6 +36,40 @@ const TrainingModuleWrap = styled.section`
 
 const ShaktiSpeakers = ({ hideTitle = false }) => {
 
+    const PreConfList = [
+        {
+            "slug": "cybersecurity-for-iot-ics",
+            "title": "Cybersecurity for IOT/ICS",
+            "registerURL": "https://register.shakticon.com/",
+            "sessions": [
+                {
+                    "date": "Friday, 2nd April",
+                    "time": "20:00 IST"
+                }
+            ],
+            "abstract": <>
+                In this talk, you will learn about the challenges faced around cybersecurity in IOT, with special
+                focus on ICS environment. The talk will also cover recent trends in the threat landscape and a
+                wholistic approach towards a more secure manufacturing environment.
+            </>,
+            "speaker": {
+                "name": "Jhilmil Kochar",
+                "designation": "Managing Director",
+                "company": "CrowdStrike, Pune, India",
+                "image": require('../../../images/speakers/jhilmil.jpeg'),
+                "bio": <p>
+                    Jhilmil has been serving as the Managing Director, CrowdStrike India for the past 4 years.
+                    She set up the India team from scratch and has been delivering security products for IT
+                    security operations. She comes armed with 25+ years of technology leadership experience in
+                    domains spanning Cybersecurity, Telecom and Networking, Semiconductor and IOT, Gaming and
+                    Multimedia. Earlier she led the India center for WMS Gaming, a Scientific Games company.
+                    Prior to that she has worked as in various engineering leadership roles at McAfee and
+                    Conexant Systems.
+                </p>
+            },
+        },
+    ];
+
     const SpeakersList = [
         {
             "slug": "keynote",
@@ -393,52 +427,6 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             },
         },
         {
-            "slug": "firmware-security-an-introduction",
-            "title": "Firmware Security - An Introduction",
-            "abstract": <>
-                This talk will be centered around firmware security. We will look at the attacks on firmware, 
-                and the need for firmware security. We will also look at first steps in implementing firmware 
-                security and AMI's contributions towards firmware security solutions.
-            </>,
-            "speaker": {
-                "name": "Priyadharshini Krishnan",
-                "designation": "Engineering Manager",
-                "company": "American Megatrends International LLC",
-                "image": require('../../../images/speakers/priyadharshini.jpg'),
-                "bio": <p>
-                    Priyadharshini is an Engineering manager working for AMI’s Security Services and Solutions 
-                    group. She currently leads a team that mainly focuses on software and firmware security 
-                    solutions. Prior to this, she has been working on developing tools and applications that 
-                    enable firmware development and debugging. She holds a bachelor’s degree in Computer Science 
-                    and Engineering from Madras university.
-                </p>
-            },
-        },
-        {
-            "slug": "cybersecurity-for-iot-ics",
-            "title": "Cybersecurity for IOT/ICS",
-            "abstract": <>
-                In this talk, you will learn about the challenges faced around cybersecurity in IOT, with special 
-                focus on ICS environment. The talk will also cover recent trends in the threat landscape and a 
-                wholistic approach towards a more secure manufacturing environment.
-            </>,
-            "speaker": {
-                "name": "Jhilmil Kochar",
-                "designation": "Managing Director",
-                "company": "CrowdStrike, Pune, India",
-                "image": require('../../../images/speakers/jhilmil.jpeg'),
-                "bio": <p>
-                    Jhilmil has been serving as the Managing Director, CrowdStrike India for the past 4 years. 
-                    She set up the India team from scratch and has been delivering security products for IT 
-                    security operations. She comes armed with 25+ years of technology leadership experience in 
-                    domains spanning Cybersecurity, Telecom and Networking, Semiconductor and IOT, Gaming and 
-                    Multimedia. Earlier she led the India center for WMS Gaming, a Scientific Games company. 
-                    Prior to that she has worked as in various engineering leadership roles at McAfee and 
-                    Conexant Systems.
-                </p>
-            },
-        },
-        {
             "slug": "recon-to-software-supply-chain-attack",
             "title": "Recon to Software Supply Chain Attack",
             "abstract": <>
@@ -494,6 +482,16 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
 
     return <TrainingModuleWrap id="conference-speakers">
         <div className="container-lg p-0">
+            {!hideTitle && <h2>Pre-Conference Speakers</h2>}
+            <div className="py-4 px-2">
+                {PreConfList.map((s) =>
+                    <Fade key={s.slug}>
+                        <div className="mb-4">
+                            <SpeakerCard  {...s} />
+                        </div>
+                    </Fade>
+                )}
+            </div>
             {!hideTitle && <h2>Conference Speakers</h2>}
             <div className="py-4 px-2">
                 {SpeakersList.map((s) =>

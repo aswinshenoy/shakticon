@@ -58,25 +58,31 @@ const TrainerCardWrap = styled.div`
 
 
 const SpeakerCard = ({
-    slug, title, sessions, abstract, speaker,
+    slug, title, sessions, abstract, speaker, registerURL
 }) => {
 
     return <TrainerCardWrap id={slug}>
         <div className="row mx-0">
-            <div className="col-md-8 p-2">
+            <div className="col-md-7 p-2">
                 <h3>{title}</h3>
                 <h4>{speaker?.name}</h4>
                 {speaker?.company && <h5>{speaker?.designation}, {speaker?.company}</h5>}
             </div>
-            <div className="col-md-4 d-flex text-warning text-md-right text-center justify-content-md-end justify-content-center p-2">
-                {sessions?.length>0 &&
+            <div className="col-md-5 d-flex text-warning text-md-right text-center justify-content-md-end justify-content-center p-2">
                 <div className="p-2">
-                    {sessions.map((s) =>
-                        <div>
-                            {s.date} {s.time && `- ${s.time}`}
-                        </div>
-                    )}
-                </div>}
+                    {registerURL &&
+                    <a href={registerURL} style={{ background: '#7C1790', color: 'white' }} className="plain-link px-4 py-3 rounded-0">
+                        Register Now
+                    </a>}
+                    {sessions?.length>0 &&
+                    <div className="mt-4">
+                        {sessions.map((s) =>
+                            <div style={{ fontSize: 'calc(13px + 0.2vw)'}}>
+                                {s.date} {s.time && `- ${s.time}`}
+                            </div>
+                        )}
+                    </div>}
+                </div>
             </div>
             {speaker.bio &&
             <div className="col-md-4 text-center col-lg-3">
