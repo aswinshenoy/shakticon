@@ -470,6 +470,26 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 </p>
             },
         },
+        {
+            "slug": "security-at-cloud-scale",
+            "title": "Security at Cloud Scale",
+            "abstract": <>
+                In this talk, Aarti looks at the evolution of EDR technology over the years and how the cloud has 
+                been leveraged to improve upon the fidelity of traditional EDR systems.
+            </>,
+            "speaker": {
+                "name": "Aarti Gupta",
+                "designation": "Director Engineering",
+                "company": "CrowdStrike, Pune, India",
+                "image": require('../../../images/speakers/aartigupta.png'),
+                "bio": <p>
+                    Aarti is a Director of Engineering at CrowdStrike, she is currently working on a next-gen 
+                    cloud-based security product. Previously, she was Director of Engineering at Qualys and was 
+                    responsible for building out Qualys’s Security Analytics platform. Aarti has extensive experience 
+                    with building web scale systems, having previously worked for Amazon and Hotstar.
+                </p>
+            },
+        },
     ]
 
     return <TrainingModuleWrap id="conference-speakers">
