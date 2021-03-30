@@ -1,6 +1,6 @@
 [
     {
       "name": "shakticon",
-      "imageUri": "945559281781.dkr.ecr.ap-south-1.amazonaws.com/shakticon"
+      "imageUri": "945559281781.dkr.ecr.ap-south-1.amazonaws.com/shakticon:latest"
     }
   ]
