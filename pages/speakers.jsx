@@ -28,10 +28,10 @@ const SpeakersPage = () => {
         <Topbar />
         <TrainingSection>
             <div>
-                <h1 className="mb-2">Conference Speakers</h1>
+                <h1 className="mb-2">Speakers</h1>
             </div>
         </TrainingSection>
-        <ShaktiSpeakers hideTitle />
+        <ShaktiSpeakers />
         <FooterArea />
     </Base>
 

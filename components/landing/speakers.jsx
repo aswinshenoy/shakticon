@@ -333,13 +333,13 @@ const ConferenceSpeakers = () => {
         {
             "name": "Komal Armarkar",
             "designation": "Security Analyst",
-            "company": "CrowdStrike, Pune, India",
+            "company": "CrowdStrike",
             "image": require('../../images/speakers/komal.jpeg'),
         },
         {
             "name": "Aarti Gupta",
             "designation": "Director Engineering",
-            "company": "CrowdStrike, Pune, India",
+            "company": "CrowdStrike",
             "image": require('../../images/speakers/aartigupta.png'),
         },
     ];
