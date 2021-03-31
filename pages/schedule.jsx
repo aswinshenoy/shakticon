@@ -3,10 +3,7 @@ import styled from "@emotion/styled";
 import Base from "../components/shared";
 import Topbar from "../components/shared/Topbar";
 import FooterArea from "../components/landing/Footer";
-import BeginnerTraining from "../components/schedule/BeginnerTraining";
-import ProgrammePhases from "../components/landing/Timeline";
-import ShaktiTrainings from "../components/schedule/Trainings";
-import ShaktiSpeakers from "../components/schedule/Speakers";
+import ConferenceSchedule from "../components/schedule";
 
 const CoverSection = styled.section`
     background: #111;
@@ -25,10 +22,7 @@ const SchedulePage = () => {
 
     return <Base meta={{ title: 'Event Schedule' }}>
         <Topbar />
-        <ProgrammePhases />
-        <ShaktiTrainings />
-        <BeginnerTraining />
-        <ShaktiSpeakers />
+        <ConferenceSchedule />
         <FooterArea />
     </Base>;
 
