@@ -92,7 +92,7 @@ const ProgrammePhases = () => {
             "events": [
                 {
                     "title": "ShaktiCTF - Finals",
-                    "date": "April 3 - 5, 2021",
+                    "date": "April 3 - 4, 2021",
                     "description": "Finale of ShaktiCTF - Women-Only Jeopardy Style CTF, organized by the organizers of InCTF",
                 },
                 {
