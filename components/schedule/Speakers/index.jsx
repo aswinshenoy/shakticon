@@ -633,6 +633,26 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 "image": require('../../../images/speakers/sabna.JPG'),
             },
         },
+        {
+            "slug": "achieving-excellence-in-cybersecurity",
+            "title": "Achieving Excellence in Cybersecurity",
+            "abstract": <>
+                In her talk, Asha will shed light on the different kinds of profiles in the field of cybersecurity, what type 
+                of skills are required for them, and how to develop these skills. 
+            </>, 
+            "speaker": {
+                "name": "Asha Poluru",
+                "designation": "Head HR",
+                "company": "Sophos, India",
+                "image": require('../../../images/speakers/ashap.jpeg'),
+                "links": {
+                    "linkedin": "https://www.linkedin.com/in/asha-poluru-a5509854/",
+                },
+                "bio": <p>
+                    Asha Poluru is a seasoned HR leader at Sophos, India with 20+ years of expertise in the industry. 
+                </p>,
+            },
+        },
     ]
 
     return <TrainingModuleWrap id="conference-speakers">
