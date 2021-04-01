@@ -178,6 +178,12 @@ const ConferenceSpeakers = () => {
             }
         },
         {
+            "name": "Sundari Nanda",
+            "designation": "CVO & Special Commissioner(Vigilance)",
+            "company": "Delhi Police",
+            "image": require('../../images/speakers/sundarinanda.jpeg'),
+        },
+        {
             "name": "Luisa Montealegre",
             "designation": "OT Cybersecurity Specialist",
             "company": "Siemens",
@@ -204,6 +210,12 @@ const ConferenceSpeakers = () => {
             "links": {
                 "linkedin": "https://www.linkedin.com/in/sylee/",
             }
+        },
+        {
+            "name": "Indrakshi Ray",
+            "designation": "Professor, Computer Science Department",
+            "company": "Colorado State University",
+            "image": require('../../images/speakers/indrakshiray.jpeg'),
         },
         {
             "name": "Tiffany Bao",
@@ -265,6 +277,12 @@ const ConferenceSpeakers = () => {
             }
         },
         {
+            "name": "Jhilmil Kochar",
+            "designation": "Managing Director",
+            "company": "CrowdStrike, Pune, India",
+            "image": require('../../images/speakers/jhilmil.jpeg'),
+        },
+        {
             "name": "Mina Sheikhalishahi",
             "designation": "Security Researcher",
             "company": " Eindhoven University of Technology",
@@ -298,12 +316,6 @@ const ConferenceSpeakers = () => {
             "designation": "Director",
             "company": "Amrita Center for Cyber Security",
             "image": require('../../images/speakers/dr_krishnasree.jpg'),
-        },
-        {
-            "name": "Sundari Nanda",
-            "designation": "CVO & Special Commissioner(Vigilance)",
-            "company": "Delhi Police",
-            "image": require('../../images/speakers/sundarinanda.jpeg'),
         },
         {
             "name": "Sreepriya Chalakkal",
@@ -343,22 +355,10 @@ const ConferenceSpeakers = () => {
             "image": require('../../images/speakers/mehrnoosh.jpeg'),
         },
         {
-            "name": "Indrakshi Ray",
-            "designation": "Professor, Computer Science Department",
-            "company": "Colorado State University", 
-            "image": require('../../images/speakers/indrakshiray.jpeg'),
-        },
-        {
             "name": "Asha Poluru",
             "designation": "Seasoned HR Leader",
             "company": "Sophos Technologies Private Limited Regd.",
             "image": require('../../images/speakers/ashap.jpeg'),
-        },
-        {
-            "name": "Jhilmil Kochar",
-            "designation": "Managing Director",
-            "company": "CrowdStrike, Pune, India",
-            "image": require('../../images/speakers/jhilmil.jpeg'),
         },
         {
             "name": "Komal Armarkar",

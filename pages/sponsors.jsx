@@ -123,13 +123,13 @@ const SponsorsPage = () => {
                     <div className="col-md-6 col-12 p-2">
                         <SponsorCardWrap>
                             <div className="p-2 text-center">
-                                {/*<a href="https://crowdstrike.com/about-crowdstrike/" target="_blank" rel="nofollow noreferrer">*/}
+                                <a href="https://crowdstrike.com/" target="_blank" rel="nofollow noreferrer">
                                     <img
                                         alt="CrowdStrike" draggable="false"
                                         src={require('../images/sponsors/crowdstrike.png')}
                                         style={{ maxHeight: '250px', maxWidth: '100%' }}
                                     />
-                                {/*</a>*/}
+                                </a>
                             </div>
                             <div className="p-2" style={{ fontSize: '14px' }}>
                                 CrowdStrike is a leading cybersecurity company protecting customers from all cyber
@@ -157,6 +157,35 @@ const SponsorsPage = () => {
                                     className="btn btn-primary rounded-0 px-4 mr-2 py-3"
                                 >
                                     Careers
+                                </a>
+                            </div>
+                        </SponsorCardWrap>
+                    </div>
+                    <div className="col-md-6 col-12 p-2">
+                        <SponsorCardWrap>
+                            <div className="p-2 text-center">
+                                <a href="https://seagate.com/" target="_blank" rel="nofollow noreferrer">
+                                    <img
+                                        alt="Seagate" draggable="false"
+                                        src={require('../images/sponsors/seagate.PNG')}
+                                        style={{ maxHeight: '250px', maxWidth: '100%' }}
+                                    />
+                                </a>
+                            </div>
+                            <div className="p-2" style={{ fontSize: '14px' }}>
+                                Seagate is the leading provider of bytes globally, having shipped over 3 zettabytes
+                                in our 40-year history. We help maximise humanity’s potential by delivering world-class,
+                                precision-engineered data solutions developed through sustainable and profitable
+                                partnerships. Our long-standing partnerships with Fortune 500 businesses and leading
+                                organisations help us deliver data solutions that perform well under pressure.
+                                Our people, partners, and customers are advancing the datasphere in brilliant ways.
+                            </div>
+                            <div className="d-flex align-items-center p-2">
+                                <a
+                                    href="https://seagate.com/" target="_blank" rel="nofollow noreferrer"
+                                    className="btn btn-primary rounded-0 px-4 mr-2 py-3"
+                                >
+                                    Read More
                                 </a>
                             </div>
                         </SponsorCardWrap>

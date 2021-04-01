@@ -132,13 +132,22 @@ const EventSponsors = () => {
                                         />
                                     </SponsorIcon>
                                 </div>
-                                <div className="col-md-6 p-1">
+                                <div className="col-md-6 d-flex p-1">
                                     <SponsorIcon>
                                         <div>Associate Sponsor</div>
                                         <img
                                             alt="CrowdStrike"
                                             draggable="false"
                                             src={require('../../images/sponsors/crowdstrike.png')}
+                                            style={{ maxWidth: '180px' }}
+                                        />
+                                    </SponsorIcon>
+                                    <SponsorIcon>
+                                        <div>Associate Sponsor</div>
+                                        <img
+                                            alt="Seagate"
+                                            draggable="false"
+                                            src={require('../../images/sponsors/seagate.PNG')}
                                             style={{ maxWidth: '180px' }}
                                         />
                                     </SponsorIcon>
