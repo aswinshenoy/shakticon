@@ -225,6 +225,31 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             },
         },
         {
+            "slug": "cybersecurity-in-the-ot-enviroment",
+            "title": "Cybersecurity in the OT enviroment",
+            "abstract": <>
+                In this talk, Luisa Montealegre will share her career path and how she, as a female mechanical engineer from Costa Rica, 
+                ended up being a cybersecurity specialist in Europe. She will also share her experience in the Operational Technology(OT) 
+                environment and the challenges of cybersecurity in this field. 
+            </>, 
+            "speaker": {
+                "name": "Luisa Montealegre",
+                "designation": "OT Cybersecurity Specialist",
+                "company": "Siemens",
+                "image": require('../../../images/speakers/luisa.jpeg'),
+                "links": {
+                    "linkedin": "https://www.linkedin.com/in/luisa-montealegre-8a491287/",
+                },
+                "bio": <p>
+                    Luisa Montealegre is an OT Cybersecurity Specialist at Siemens. With Mechanical engineering as a background 
+                    and international experience working in cybersecurity in the USA, Latin America, and Europe, she works developing 
+                    the OT cybersecurity services for Siemens factories around the world. Her main goal is to achieve secure and 
+                    certification ready factories with resilient environments. She holds a master’s degree in cybersecurity systems 
+                    from Lleida University. 
+                </p>,
+            },
+        },
+        {
             "slug": "privacy-preserving-data-analysis",
             "title": "Privacy Preserving Data Analysis",
             "abstract": <>
