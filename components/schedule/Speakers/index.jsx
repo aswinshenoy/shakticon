@@ -204,6 +204,27 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             },
         },
         {
+            "slug": "cyber-event-how-to-treat-it-right",
+            "title": "Cyber Event - How to treat it right?", 
+            "abstract": <>
+                We will talk about how  to treat cyber event from the view of SOC and Digital Forensics Investigators team. 
+                What do we investigate? How to react when we know it’s not false positive event? What evidences do we have 
+                and what do we want to investigate? 
+            </>, 
+            "speaker": {
+                "name": "Liora Itkin",
+                "designation": "Head of Cybersecurity Department (of SOC and DFIR teams)",
+                "company": "Israel Ministry of Defense",
+                "bio": <p>
+                    Leading a Cyber Security Defense Department: <br />
+                    ✔️ SOC team<br />
+                    ✔️ Digital Forensics Investigators and Incident Response team<br />
+                    Skilled in the areas of in cyber attacks, malware analysis, threat hunting, cyber analysis, networking and system. <br />
+                </p>,
+                "image": require('../../../images/speakers/lioraitkin.jpeg'),
+            },
+        },
+        {
             "slug": "privacy-preserving-data-analysis",
             "title": "Privacy Preserving Data Analysis",
             "abstract": <>
@@ -552,7 +573,40 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     of various prestigious conferences and has chaired many of them. Dr. Ray  is a senior member of the IEEE and a senior 
                     member of the ACM. Dr. Ray is also active in endeavors trying to increase minority participation in Computer Science.
                 </p>,
-            }
+            },
+            
+        },
+        {
+            "slug": "decoding-the-cybersecurity-career-path",
+            "title": "Decoding the Cybersecurity Career Path",
+            "abstract": <>
+                The cybersecurity skill shortage is getting worse and the industry is in huge demand for skilled cybersecurity 
+                professionals. But on the other hand industries still find it challenging to recruit right talents for their 
+                open position due to shortage of skilled professionals for a particular job profile. One of the reason for 
+                this is that cybersecurity aspirants and graduates are not sure on how to start their career in this industry. 
+                These young aspirants are so overwhelmed with lot of resources, online courses and blogs, that they feel lack 
+                of focus or clarity in their career goals. Many kinds of job roles are available within cybersecurity and many 
+                aspirants don't have a visibility on what these roles are all about and hence not able to judge whether a particular 
+                role is right fit for them or not. This talk covers an overview on how to start a career in cybersecurity, 
+                different roles and career option available in cybersecurity . This talk would also cover on certain aspects on 
+                how to advance in this career from Entry level to Senior Level.
+            </>, 
+            "speaker": {
+                "name": "Sabna Sainudeen",
+                "designation": "President",
+                "company": "(Women in CyberSecurity) WiCyS India ",
+                "bio": <p>
+                    Sabna Sainudeen is a Senior cyber security professional with exceptional skills and experience into mobile, 
+                    cloud and IoT security. She is currently associated with Schneider Electric and is responsible for addressing 
+                    security of IoT products including Industrial Control Systems and Home automation products. She is an Edison 
+                    Expert @ Schneider Electric (Title given to selected senior level experts for their outstanding contribution 
+                    in area of expertise).   Sabna is the President of Women in Cybersecurity (WiCyS) India and through leading 
+                    this community, she thrives to bid the gender gap that exist in Cybersecurity, with a mission to recruit, 
+                    retain, and promote women in cybersecurity in India. Sabna is also a core member of WISE(Women in Schneider 
+                    Electric).She is part of various communities and initiatives within and outside her organization.
+                </p>,
+                "image": require('../../../images/speakers/sabna.JPG'),
+            },
         },
     ]
 
