@@ -478,6 +478,36 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 </p>
             },
         },
+        {
+            "slug": "panel-discussion-cybercrime-and-pathways",
+            "title": "Panel Discussion: Cybercrime and Pathways",
+            "abstract": <>
+                The panel discussion will be about the most prevalent cyber crime today in India, and the policies that 
+                are being designed to tackle them. Sundari will moderate the panel discussion. She will be joined by other 
+                esteemed guests. 
+            </>,
+            "speaker": {
+                "name": "Sundari Nanda",
+                "designation": "CVO & Special Commissioner(Vigilance)",
+                "company": "Delhi Police",
+                "image": require('../../../images/speakers/sundarinanda.jpeg'),
+                "bio": <p>
+                    Sundari Nanda has served with Delhi, Goa and Arunachal Pradesh Police. she has been on deputation with 
+                    the Central Bureau of Investigation for seven years and also served as Commandant, 2nd Battalion of 
+                    Arunachal Armed Police, deployed along with the terrorist infested border of Assam. <br />
+                    <br /> 
+                    Cyber Initiatives launched:<br />
+                    <ul>
+                        <li>She established the Cyber Crime Investigation Cell of CBI in the year 2000, which was the first 
+                            in India</li>
+                        <li>As DCP (Crime against Women) Cell of the Delhi Police for a short stint in 1995, she registered the first 
+                            case in India on incest, which brought this hitherto cupboard issue into the open.</li>
+                        <li>As the Secretary of the Delhi Police Recruitment Board during 1997, she was the first to completely 
+                            computerize the recruitment.</li>
+                    </ul>
+                </p>
+            },
+        }
     ]
 
     return <TrainingModuleWrap id="conference-speakers">
