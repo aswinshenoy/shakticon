@@ -282,6 +282,12 @@ const ConferenceSpeakers = () => {
             "image": require('../../images/speakers/dr_krishnasree.jpg'),
         },
         {
+            "name": "Sundari Nanda",
+            "designation": "CVO & Special Commissioner(Vigilance)",
+            "company": "Delhi Police",
+            "image": require('../../images/speakers/sundarinanda.jpeg'),
+        },
+        {
             "name": "Sreepriya Chalakkal",
             "designation": "Security Analyst",
             "company": "Siemens",
