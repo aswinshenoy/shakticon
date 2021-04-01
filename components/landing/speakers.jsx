@@ -169,6 +169,15 @@ const ConferenceSpeakers = () => {
             }
         },
         {
+            "name": "Liora Itkin",
+            "designation": "Head of Cybersecurity Department(of SOC and DFIR teams)",
+            "company": "Israel Ministry of Defense",
+            "image": require('../../images/speakers/lioraitkin.jpeg'),
+            "links": {
+                "linkedin": "https://www.linkedin.com/in/liora-itkin/",
+            }
+        },
+        {
             "name": "Silvia Nerea Anguita",
             "isTrainer": true,
             "designation": "Cybersecurity Auditor",
@@ -323,6 +332,12 @@ const ConferenceSpeakers = () => {
             "designation": "Cyber Security Specialist",
             "company": "Nokia Bell Labs",
             "image": require('../../images/speakers/mehrnoosh.jpeg'),
+        },
+        {
+            "name": "Indrakshi Ray",
+            "designation": "Professor, Computer Science Department",
+            "company": "Colorado State University", 
+            "image": require('../../images/speakers/indrakshiray.jpeg'),
         },
         {
             "name": "Asha Poluru",
