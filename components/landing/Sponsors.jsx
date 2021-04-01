@@ -132,42 +132,52 @@ const EventSponsors = () => {
                                         />
                                     </SponsorIcon>
                                 </div>
-                                <div className="col-md-6 d-flex p-1">
-                                    <SponsorIcon>
-                                        <div>Associate Sponsor</div>
-                                        <img
-                                            alt="CrowdStrike"
-                                            draggable="false"
-                                            src={require('../../images/sponsors/crowdstrike.png')}
-                                            style={{ maxWidth: '180px' }}
-                                        />
-                                    </SponsorIcon>
-                                    <SponsorIcon>
-                                        <div>Associate Sponsor</div>
-                                        <img
-                                            alt="Seagate"
-                                            draggable="false"
-                                            src={require('../../images/sponsors/seagate.PNG')}
-                                            style={{ maxWidth: '180px' }}
-                                        />
-                                    </SponsorIcon>
+                                <div className="col-md-6 p-1">
+                                    <div>Associate Sponsor</div>
+                                    <div className="d-flex">
+                                        <SponsorIcon>
+                                            <img
+                                                alt="CrowdStrike"
+                                                draggable="false"
+                                                src={require('../../images/sponsors/crowdstrike.png')}
+                                                style={{ maxHeight: '120px', maxWidth: '100%' }}
+                                            />
+                                        </SponsorIcon>
+                                        <SponsorIcon>
+                                            <img
+                                                alt="Seagate"
+                                                draggable="false"
+                                                src={require('../../images/sponsors/seagate.PNG')}
+                                                style={{ maxHeight: '120px', maxWidth: '100%' }}
+                                            />
+                                        </SponsorIcon>
+                                    </div>
                                 </div>
-                                <div className="col-md-6 d-flex align-items-center p-1">
-                                    <SponsorIcon>
-                                        <div class="center">Prize Sponsors</div>
-                                        <img
-                                            alt="NotSoSecure" draggable="false"
-                                            src={require('../../images/sponsors/notsosecure.png')}
-                                            style={{ maxWidth: '90px' }}
-                                        />
-                                    </SponsorIcon>
-                                    <SponsorIcon>
-                                        <img
-                                            alt="FireEye" draggable="false"
-                                            src={require('../../images/sponsors/fireeye.png')}
-                                            style={{ maxWidth: '100%', maxHeight: '35px' }}
-                                        />
-                                    </SponsorIcon>
+                                <div className="col-md-6 p-1">
+                                    <div className="center">Prize Sponsors</div>
+                                    <div className="d-flex align-items-center">
+                                        <SponsorIcon>
+                                            <img
+                                                alt="NotSoSecure" draggable="false"
+                                                src={require('../../images/sponsors/notsosecure.png')}
+                                                style={{ maxWidth: '90px' }}
+                                            />
+                                        </SponsorIcon>
+                                        <SponsorIcon>
+                                            <img
+                                                alt="FireEye" draggable="false"
+                                                src={require('../../images/sponsors/fireeye.png')}
+                                                style={{ maxWidth: '100%', maxHeight: '35px' }}
+                                            />
+                                        </SponsorIcon>
+                                        <SponsorIcon>
+                                            <img
+                                                alt="FireEye" draggable="false"
+                                                src={require('../../images/sponsors/hackthebox.png')}
+                                                style={{ maxWidth: '100%', maxHeight: '60px' }}
+                                            />
+                                        </SponsorIcon>
+                                    </div>
                                 </div>
                             </div>
                         </Fade>
