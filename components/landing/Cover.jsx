@@ -73,7 +73,7 @@ const LandingCover = ({ query }) => {
                     <Fade left>
                         <img
                             className="mb-0 " alt="Amrita Vishwa Vidyapeetham"
-                            style={{ maxHeight: '72px', maxWidth: '100%', width: 'auto' }}
+                            style={{ maxHeight: '72px', maxWidth: '50vw', width: 'auto' }}
                             src={require('../../images/amrita_logo_light.png')}
                         />
                         <h1 className="font-weight-bold mb-2">ShaktiCon</h1>
@@ -81,18 +81,31 @@ const LandingCover = ({ query }) => {
                     <Fade right>
                         <h2>
                             CyberSecurity Conference, Trainings & CTF
-                            {/*<span>Exclusively for Women.</span>*/}
                         </h2>
+                        <div className="d-flex w-100 justify-content-center mt-3 align-content-center">
+                            <div className="d-flex w-50 justify-content-end text-right border-right mr-3 pr-3 pl-2">
+                                <div>
+                                    <div>CTF</div>
+                                    <h3 className="font-weight-bold">April 3-4</h3>
+                                </div>
+                            </div>
+                            <div className="col-6 d-flex align-content-start text-left pl-0 pr-2">
+                                <div>
+                                    <div>Conference</div>
+                                    <h3 className="font-weight-bold">April 9-11</h3>
+                                </div>
+                            </div>
+                        </div>
                     </Fade>
                     <Fade up>
                         <div className="d-flex justify-content-center mt-3">
                             <div>
-                                <p style={{ maxWidth: '500px' }}>
-                                    ShaktiCon is an annual global conference focused on inspiring, training, and upskilling women in cybersecurity,
-                                    <div className="d-inline-block">
-                                        organized by <span>Team Shakti</span>, <div className="d-inline-block">India's First & No.1 ranked Women-Only CTF team.</div>
-                                    </div>
-                                </p>
+                                {/*<p className="d-none d-md-block" style={{ maxWidth: '700px' }}>*/}
+                                {/*    ShaktiCon is an annual global conference focused on inspiring, training, and upskilling women in cybersecurity,*/}
+                                {/*    <div className="d-inline-block">*/}
+                                {/*        organized by <span>Team Shakti</span>, <div className="d-inline-block">India's First & No.1 ranked Women-Only CTF team.</div>*/}
+                                {/*    </div>*/}
+                                {/*</p>*/}
                                 <div className="py-4">
                                     <a
                                         className="register-button" target="_blank" rel="noreferrer nofollow"
