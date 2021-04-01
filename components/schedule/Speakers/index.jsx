@@ -507,7 +507,53 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     </ul>
                 </p>
             },
-        }
+        },
+        {
+            "slug": "cyber-security-of-embedded-networks-in-heavy-vehicles",
+            "title": "Cyber Security of Embedded Networks in Heavy Vehicles", 
+            "abstract": <>
+                Trucks play a very role important role in driving the nation's economy, moving more than 70% of all the freights 
+                transported in the US by weight. Any event that grounds all trucks even for a few days, have severe consequences, 
+                including food shortages, hospitals exhausting their oxygen supplies, and gas stations running out of fuel. While 
+                we have not yet faced such a situation, the way modern heavy vehicles are designed, this increasingly looks like 
+                a distinct possibility. Modern day trucks are equipped with numerous sensors, embedded controllers, communication 
+                networks, and electro-mechanical systems that work in tandem to improve their performance, efficiency, safety, 
+                connectivity, and user-experience. However, they also bring up serious cyber threats to the truck's operation. <br />
+                <br />
+                In this talk, we discuss cyber security in the context of modern day trucks and heavy vehicles. We discuss 
+                vulnerabilities our group has identified that span across all modern day heavy vehicles and allow a hacker to 
+                access the embedded controller network of a truck to cause different types of attacks including ones that cause 
+                a truck to not be able to start or stop.  We present some approaches for detecting attacks in real-time and show 
+                how we can distinguish them from  safety-critical events. We have developed reporting tools and techniques that 
+                can aid the heavy vehicle drivers in near real-time to make informed decisions in the event of a cyber attack. 
+                We conclude  by discussing some of our future research directions in heavy vehicle security.
+            </>, 
+            "speaker": {
+                "name": "Indrakshi Ray",
+                "designation": "Professor, Computer Science Department",
+                "company": "Colorado State University", 
+                "image": require('../../../images/speakers/indrakshiray.jpeg'),
+                "bio": <p>
+                    Dr. Indrakshi Ray is a Professor in the Computer Science Department at Colorado State University. She is the 
+                    Director of Colorado Center for Cyber Security at Colorado State University. She is also the Site Director of 
+                    NSF IUCRC Center for Cyber Security Analytics and Automation. Dr. Ray  has been a visiting faculty at Air Force 
+                    Research Laboratory, Naval Research Laboratory, and at INRIA, Rocquencourt, France. She obtained her Ph.D. in 
+                    Information Technology from George Mason University. <br />
+                    <br />
+                    Dr. Ray's research interests include  software assurance, data analytics and security. She has published 
+                    almost two hundred technical papers in refereed journals and conference proceedings with the support from agencies 
+                    including Air Force Research Laboratory, Air Force Office of Scientific Research, National Institute of Health, 
+                    National Institute of Standards and Technology, National Science Foundation, the United States Department of 
+                    Agriculture, and industries from the US, Norway, and Japan. <br />
+                    <br /> 
+                    Dr. Ray is on the editorial board of IEEE Transactions on Services Computing, International Journal of Information 
+                    Security, Computer Standards and Interfaces, and Associate Editor of IEEE Security & Privacy. She was a member 
+                    of the editorial board of IEEE Transactions on Dependable and Secure Computing. She serves on the program committees 
+                    of various prestigious conferences and has chaired many of them. Dr. Ray  is a senior member of the IEEE and a senior 
+                    member of the ACM. Dr. Ray is also active in endeavors trying to increase minority participation in Computer Science.
+                </p>,
+            }
+        },
     ]
 
     return <TrainingModuleWrap id="conference-speakers">
