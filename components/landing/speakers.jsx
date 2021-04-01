@@ -178,6 +178,15 @@ const ConferenceSpeakers = () => {
             }
         },
         {
+            "name": "Luisa Montealegre",
+            "designation": "OT Cybersecurity Specialist",
+            "company": "Siemens",
+            "image": require('../../images/speakers/luisa.jpeg'),
+            "links": {
+                "linkedin": "https://www.linkedin.com/in/luisa-montealegre-8a491287/",
+            }
+        },
+        {
             "name": "Silvia Nerea Anguita",
             "isTrainer": true,
             "designation": "Cybersecurity Auditor",
