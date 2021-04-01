@@ -164,7 +164,7 @@ const SponsorsPage = () => {
                 </div>
                 <h3 className="my-4">Prize Sponsors</h3>
                 <div className="row mx-0">
-                    <div className="col-md-6 col-12 p-2">
+                    <div className="col-md-4 col-12 p-2">
                         <SponsorCardWrap>
                             <div className="p-2 text-center">
                                 <a href="https://notsosecure.com/about/" target="_blank" rel="nofollow noreferrer">
@@ -196,7 +196,7 @@ const SponsorsPage = () => {
                             </div>
                         </SponsorCardWrap>
                     </div>
-                    <div className="col-md-6 col-12 p-2">
+                    <div className="col-md-4 col-12 p-2">
                         <SponsorCardWrap>
                             <div className="p-2 text-center">
                                 <a href="https://www.fireeye.com/company.html" target="_blank" rel="nofollow noreferrer">
@@ -214,6 +214,31 @@ const SponsorsPage = () => {
                             <div className="p-2">
                                 <a
                                     href="https://www.fireeye.com/company.html" target="_blank" rel="nofollow noreferrer"
+                                    className="btn btn-primary rounded-0 px-4 py-3"
+                                >
+                                    Read More
+                                </a>
+                            </div>
+                        </SponsorCardWrap>
+                    </div>
+                    <div className="col-md-4 col-12 p-2">
+                        <SponsorCardWrap>
+                            <div className="p-2 text-center">
+                                <a href="https://www.hackthebox.eu/" target="_blank" rel="nofollow noreferrer">
+                                    <img
+                                        alt="Hack The Box" draggable="false"
+                                        src={require('../images/sponsors/hackthebox.png')}
+                                        style={{ maxHeight: '250px', maxWidth: '100%' }}
+                                    />
+                                </a>
+                            </div>
+                            <div className="p-2" style={{ fontSize: '14px' }}>
+                                Hack The Box is a massive, online cyber security training platform, allowing individuals, companies, universities 
+                                and all kinds of organizations around the world to level up their hacking skills.
+                            </div>
+                            <div className="p-2">
+                                <a
+                                    href="https://www.hackthebox.eu/" target="_blank" rel="nofollow noreferrer"
                                     className="btn btn-primary rounded-0 px-4 py-3"
                                 >
                                     Read More
