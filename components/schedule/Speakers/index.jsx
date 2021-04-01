@@ -204,6 +204,52 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             },
         },
         {
+            "slug": "cyber-event-how-to-treat-it-right",
+            "title": "Cyber Event - How to treat it right?", 
+            "abstract": <>
+                We will talk about how  to treat cyber event from the view of SOC and Digital Forensics Investigators team. 
+                What do we investigate? How to react when we know it’s not false positive event? What evidences do we have 
+                and what do we want to investigate? 
+            </>, 
+            "speaker": {
+                "name": "Liora Itkin",
+                "designation": "Head of Cybersecurity Department (of SOC and DFIR teams)",
+                "company": "Israel Ministry of Defense",
+                "bio": <p>
+                    Leading a Cyber Security Defense Department: <br />
+                    ✔️ SOC team<br />
+                    ✔️ Digital Forensics Investigators and Incident Response team<br />
+                    Skilled in the areas of in cyber attacks, malware analysis, threat hunting, cyber analysis, networking and system. <br />
+                </p>,
+                "image": require('../../../images/speakers/lioraitkin.jpeg'),
+            },
+        },
+        {
+            "slug": "cybersecurity-in-the-ot-enviroment",
+            "title": "Cybersecurity in the OT enviroment",
+            "abstract": <>
+                In this talk, Luisa Montealegre will share her career path and how she, as a female mechanical engineer from Costa Rica, 
+                ended up being a cybersecurity specialist in Europe. She will also share her experience in the Operational Technology(OT) 
+                environment and the challenges of cybersecurity in this field. 
+            </>, 
+            "speaker": {
+                "name": "Luisa Montealegre",
+                "designation": "OT Cybersecurity Specialist",
+                "company": "Siemens",
+                "image": require('../../../images/speakers/luisa.jpeg'),
+                "links": {
+                    "linkedin": "https://www.linkedin.com/in/luisa-montealegre-8a491287/",
+                },
+                "bio": <p>
+                    Luisa Montealegre is an OT Cybersecurity Specialist at Siemens. With Mechanical engineering as a background 
+                    and international experience working in cybersecurity in the USA, Latin America, and Europe, she works developing 
+                    the OT cybersecurity services for Siemens factories around the world. Her main goal is to achieve secure and 
+                    certification ready factories with resilient environments. She holds a master’s degree in cybersecurity systems 
+                    from Lleida University. 
+                </p>,
+            },
+        },
+        {
             "slug": "privacy-preserving-data-analysis",
             "title": "Privacy Preserving Data Analysis",
             "abstract": <>
@@ -476,6 +522,135 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     responsible for building out Qualys’s Security Analytics platform. Aarti has extensive experience 
                     with building web scale systems, having previously worked for Amazon and Hotstar.
                 </p>
+            },
+        },
+        {
+            "slug": "panel-discussion-cybercrime-and-pathways",
+            "title": "Panel Discussion: Cybercrime and Pathways",
+            "abstract": <>
+                The panel discussion will be about the most prevalent cyber crime today in India, and the policies that 
+                are being designed to tackle them. Sundari will moderate the panel discussion. She will be joined by other 
+                esteemed guests. 
+            </>,
+            "speaker": {
+                "name": "Sundari Nanda",
+                "designation": "CVO & Special Commissioner(Vigilance)",
+                "company": "Delhi Police",
+                "image": require('../../../images/speakers/sundarinanda.jpeg'),
+                "bio": <p>
+                    Sundari Nanda has served with Delhi, Goa and Arunachal Pradesh Police. she has been on deputation with 
+                    the Central Bureau of Investigation for seven years and also served as Commandant, 2nd Battalion of 
+                    Arunachal Armed Police, deployed along with the terrorist infested border of Assam. <br />
+                    <br /> 
+                    Cyber Initiatives launched:<br />
+                    <ul>
+                        <li>She established the Cyber Crime Investigation Cell of CBI in the year 2000, which was the first 
+                            in India</li>
+                        <li>As DCP (Crime against Women) Cell of the Delhi Police for a short stint in 1995, she registered the first 
+                            case in India on incest, which brought this hitherto cupboard issue into the open.</li>
+                        <li>As the Secretary of the Delhi Police Recruitment Board during 1997, she was the first to completely 
+                            computerize the recruitment.</li>
+                    </ul>
+                </p>
+            },
+        },
+        {
+            "slug": "cyber-security-of-embedded-networks-in-heavy-vehicles",
+            "title": "Cyber Security of Embedded Networks in Heavy Vehicles", 
+            "abstract": <>
+                Trucks play a very role important role in driving the nation's economy, moving more than 70% of all the freights 
+                transported in the US by weight. Any event that grounds all trucks even for a few days, have severe consequences, 
+                including food shortages, hospitals exhausting their oxygen supplies, and gas stations running out of fuel. While 
+                we have not yet faced such a situation, the way modern heavy vehicles are designed, this increasingly looks like 
+                a distinct possibility. Modern day trucks are equipped with numerous sensors, embedded controllers, communication 
+                networks, and electro-mechanical systems that work in tandem to improve their performance, efficiency, safety, 
+                connectivity, and user-experience. However, they also bring up serious cyber threats to the truck's operation. <br />
+                <br />
+                In this talk, we discuss cyber security in the context of modern day trucks and heavy vehicles. We discuss 
+                vulnerabilities our group has identified that span across all modern day heavy vehicles and allow a hacker to 
+                access the embedded controller network of a truck to cause different types of attacks including ones that cause 
+                a truck to not be able to start or stop.  We present some approaches for detecting attacks in real-time and show 
+                how we can distinguish them from  safety-critical events. We have developed reporting tools and techniques that 
+                can aid the heavy vehicle drivers in near real-time to make informed decisions in the event of a cyber attack. 
+                We conclude  by discussing some of our future research directions in heavy vehicle security.
+            </>, 
+            "speaker": {
+                "name": "Indrakshi Ray",
+                "designation": "Professor, Computer Science Department",
+                "company": "Colorado State University", 
+                "image": require('../../../images/speakers/indrakshiray.jpeg'),
+                "bio": <p>
+                    Dr. Indrakshi Ray is a Professor in the Computer Science Department at Colorado State University. She is the 
+                    Director of Colorado Center for Cyber Security at Colorado State University. She is also the Site Director of 
+                    NSF IUCRC Center for Cyber Security Analytics and Automation. Dr. Ray  has been a visiting faculty at Air Force 
+                    Research Laboratory, Naval Research Laboratory, and at INRIA, Rocquencourt, France. She obtained her Ph.D. in 
+                    Information Technology from George Mason University. <br />
+                    <br />
+                    Dr. Ray's research interests include  software assurance, data analytics and security. She has published 
+                    almost two hundred technical papers in refereed journals and conference proceedings with the support from agencies 
+                    including Air Force Research Laboratory, Air Force Office of Scientific Research, National Institute of Health, 
+                    National Institute of Standards and Technology, National Science Foundation, the United States Department of 
+                    Agriculture, and industries from the US, Norway, and Japan. <br />
+                    <br /> 
+                    Dr. Ray is on the editorial board of IEEE Transactions on Services Computing, International Journal of Information 
+                    Security, Computer Standards and Interfaces, and Associate Editor of IEEE Security & Privacy. She was a member 
+                    of the editorial board of IEEE Transactions on Dependable and Secure Computing. She serves on the program committees 
+                    of various prestigious conferences and has chaired many of them. Dr. Ray  is a senior member of the IEEE and a senior 
+                    member of the ACM. Dr. Ray is also active in endeavors trying to increase minority participation in Computer Science.
+                </p>,
+            },
+            
+        },
+        {
+            "slug": "decoding-the-cybersecurity-career-path",
+            "title": "Decoding the Cybersecurity Career Path",
+            "abstract": <>
+                The cybersecurity skill shortage is getting worse and the industry is in huge demand for skilled cybersecurity 
+                professionals. But on the other hand industries still find it challenging to recruit right talents for their 
+                open position due to shortage of skilled professionals for a particular job profile. One of the reason for 
+                this is that cybersecurity aspirants and graduates are not sure on how to start their career in this industry. 
+                These young aspirants are so overwhelmed with lot of resources, online courses and blogs, that they feel lack 
+                of focus or clarity in their career goals. Many kinds of job roles are available within cybersecurity and many 
+                aspirants don't have a visibility on what these roles are all about and hence not able to judge whether a particular 
+                role is right fit for them or not. This talk covers an overview on how to start a career in cybersecurity, 
+                different roles and career option available in cybersecurity . This talk would also cover on certain aspects on 
+                how to advance in this career from Entry level to Senior Level.
+            </>, 
+            "speaker": {
+                "name": "Sabna Sainudeen",
+                "designation": "President",
+                "company": "(Women in CyberSecurity) WiCyS India ",
+                "bio": <p>
+                    Sabna Sainudeen is a Senior cyber security professional with exceptional skills and experience into mobile, 
+                    cloud and IoT security. She is currently associated with Schneider Electric and is responsible for addressing 
+                    security of IoT products including Industrial Control Systems and Home automation products. She is an Edison 
+                    Expert @ Schneider Electric (Title given to selected senior level experts for their outstanding contribution 
+                    in area of expertise).   Sabna is the President of Women in Cybersecurity (WiCyS) India and through leading 
+                    this community, she thrives to bid the gender gap that exist in Cybersecurity, with a mission to recruit, 
+                    retain, and promote women in cybersecurity in India. Sabna is also a core member of WISE(Women in Schneider 
+                    Electric).She is part of various communities and initiatives within and outside her organization.
+                </p>,
+                "image": require('../../../images/speakers/sabna.JPG'),
+            },
+        },
+        {
+            "slug": "achieving-excellence-in-cybersecurity",
+            "title": "Achieving Excellence in Cybersecurity",
+            "abstract": <>
+                In her talk, Asha will shed light on the different kinds of profiles in the field of cybersecurity, what type 
+                of skills are required for them, and how to develop these skills. 
+            </>, 
+            "speaker": {
+                "name": "Asha Poluru",
+                "designation": "Head HR",
+                "company": "Sophos, India",
+                "image": require('../../../images/speakers/ashap.jpeg'),
+                "links": {
+                    "linkedin": "https://www.linkedin.com/in/asha-poluru-a5509854/",
+                },
+                "bio": <p>
+                    Asha Poluru is a seasoned HR leader at Sophos, India with 20+ years of expertise in the industry. 
+                </p>,
             },
         },
     ]

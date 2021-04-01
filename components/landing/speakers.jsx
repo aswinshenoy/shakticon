@@ -169,6 +169,24 @@ const ConferenceSpeakers = () => {
             }
         },
         {
+            "name": "Liora Itkin",
+            "designation": "Head of Cybersecurity Department(of SOC and DFIR teams)",
+            "company": "Israel Ministry of Defense",
+            "image": require('../../images/speakers/lioraitkin.jpeg'),
+            "links": {
+                "linkedin": "https://www.linkedin.com/in/liora-itkin/",
+            }
+        },
+        {
+            "name": "Luisa Montealegre",
+            "designation": "OT Cybersecurity Specialist",
+            "company": "Siemens",
+            "image": require('../../images/speakers/luisa.jpeg'),
+            "links": {
+                "linkedin": "https://www.linkedin.com/in/luisa-montealegre-8a491287/",
+            }
+        },
+        {
             "name": "Silvia Nerea Anguita",
             "isTrainer": true,
             "designation": "Cybersecurity Auditor",
@@ -282,6 +300,12 @@ const ConferenceSpeakers = () => {
             "image": require('../../images/speakers/dr_krishnasree.jpg'),
         },
         {
+            "name": "Sundari Nanda",
+            "designation": "CVO & Special Commissioner(Vigilance)",
+            "company": "Delhi Police",
+            "image": require('../../images/speakers/sundarinanda.jpeg'),
+        },
+        {
             "name": "Sreepriya Chalakkal",
             "designation": "Security Analyst",
             "company": "Siemens",
@@ -317,6 +341,12 @@ const ConferenceSpeakers = () => {
             "designation": "Cyber Security Specialist",
             "company": "Nokia Bell Labs",
             "image": require('../../images/speakers/mehrnoosh.jpeg'),
+        },
+        {
+            "name": "Indrakshi Ray",
+            "designation": "Professor, Computer Science Department",
+            "company": "Colorado State University", 
+            "image": require('../../images/speakers/indrakshiray.jpeg'),
         },
         {
             "name": "Asha Poluru",

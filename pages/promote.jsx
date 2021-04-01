@@ -72,7 +72,7 @@ const PromotePage = () => {
                             - Participate in CTF and chance to win prizes worth *$4000*<br />
                             - Chance to get hired in Top MNC's<br />
                             - Grab the International conference certificate and boost your resume profile<br />
-                            - Imminent speakers from Twitter, Microsoft, VMware, Linde<br />
+                            - Eminent speakers from Twitter, Microsoft, VMware, Linde<br />
                             <br />
                             And many more... Register Now!!! <br />
                             <br />
@@ -100,7 +100,7 @@ const PromotePage = () => {
                             employers. <br />
                             <br />
                             The keynote session by Rinki Sethi (VP and CISO of Twitter). There will also be 
-                            imminent speakers from Microsoft, VMware and Linde. <br />
+                            eminent speakers from Microsoft, VMware and Linde. <br />
                             <br />
                             As part of ShaktiCon, we organize ShaktiCTF, a jeopardy style online Capture The 
                             Flag contest that will help you or your employees become confident in cyber security 
