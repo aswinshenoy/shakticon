@@ -77,7 +77,7 @@ const EventSponsors = () => {
             "title": "Prize Sponsor",
             "size": '110px',
             "logo": require('../../images/sponsors/crowdstrike.png')
-        }
+        },
     ]
 
     return <SponsorsSection>
@@ -136,8 +136,7 @@ const EventSponsors = () => {
                                     <SponsorIcon>
                                         <div>Associate Sponsor</div>
                                         <img
-                                            alt="CrowdStrike"
-                                            draggable="false"
+                                            alt="CrowdStrike" draggable="false"
                                             src={require('../../images/sponsors/crowdstrike.png')}
                                             style={{ maxWidth: '180px' }}
                                         />
@@ -156,7 +155,21 @@ const EventSponsors = () => {
                                         <img
                                             alt="FireEye" draggable="false"
                                             src={require('../../images/sponsors/fireeye.png')}
-                                            style={{ maxWidth: '100%', maxHeight: '35px' }}
+                                            style={{ maxWidth: '100%', maxHeight: '20px' }}
+                                        />
+                                    </SponsorIcon>
+                                    <SponsorIcon>
+                                        <img
+                                            alt="FireEye" draggable="false"
+                                            src={require('../../images/sponsors/hackthebox.png')}
+                                            style={{ maxWidth: '100%', maxHeight: '50px' }}
+                                        />
+                                    </SponsorIcon>
+                                    <SponsorIcon>
+                                        <img
+                                            alt="FireEye" draggable="false"
+                                            src={require('../../images/sponsors/sophos.png')}
+                                            style={{ maxHeight: '15px' }}
                                         />
                                     </SponsorIcon>
                                 </div>

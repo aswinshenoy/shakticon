@@ -161,6 +161,47 @@ const SponsorsPage = () => {
                             </div>
                         </SponsorCardWrap>
                     </div>
+                    <div className="col-md-6 col-12 p-2">
+                        <SponsorCardWrap>
+                            <div className="p-2 text-center">
+                                {/*<a href="https://crowdstrike.com/about-crowdstrike/" target="_blank" rel="nofollow noreferrer">*/}
+                                    <img
+                                        alt="CrowdStrike" draggable="false"
+                                        src={require('../images/sponsors/crowdstrike.png')}
+                                        style={{ maxHeight: '250px', maxWidth: '100%' }}
+                                    />
+                                {/*</a>*/}
+                            </div>
+                            <div className="p-2" style={{ fontSize: '14px' }}>
+                                CrowdStrike is a leading cybersecurity company protecting customers from all cyber
+                                threats by leveraging its Security Cloud to stop breaches. From its inception in 2011,
+                                CrowdStrike was created as a different kind of cybersecurity company. Cloud-native,
+                                CrowdStrike immediately brought a threat perspective, effectiveness, scalability,
+                                and flexibility never seen before in the industry – seamlessly aligning People,
+                                Technology, and Processes. And it doesn’t stop there. At CrowdStrike, our engineers
+                                and technologists are given unprecedented opportunities to work with data at scale
+                                and an unrivaled opportunity to develop deep technical knowledge and experience.
+                                In the past 24 hours, CrowdStrike has detected more than 500 billion events—350
+                                million since you started reading this sentence. We are a team that makes a difference
+                                every day, protecting millions of computers from the world's most sophisticated
+                                adversaries. Want to join us?
+                            </div>
+                            <div className="d-flex align-items-center p-2">
+                                <a
+                                    href="https://crowdstrike.com/" target="_blank" rel="nofollow noreferrer"
+                                    className="btn btn-primary rounded-0 px-4 mr-2 py-3"
+                                >
+                                    Read More
+                                </a>
+                                <a
+                                    href="https://crowdstrike.com/careers" target="_blank" rel="nofollow noreferrer"
+                                    className="btn btn-primary rounded-0 px-4 mr-2 py-3"
+                                >
+                                    Careers
+                                </a>
+                            </div>
+                        </SponsorCardWrap>
+                    </div>
                 </div>
                 <h3 className="my-4">Prize Sponsors</h3>
                 <div className="row mx-0">
