@@ -51,7 +51,7 @@ const ConferenceSchedule = () => {
                     "speakers": [
                         {
                             "name": "Rinki Sethi",
-                            "designation": "CISO",
+                            "designation": "Vice President & CISO",
                             "organization": "Twitter",
                             "avatar": require('../../images/speakers/rinki_sethi.jpg')
                         }

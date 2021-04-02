@@ -148,6 +148,13 @@ const LandingCover = ({ query }) => {
                 />
                 <div style={{ fontSize: '13px' }}>Associate Sponsor</div>
             </div>
+            <div className="d-none text-center d-md-block p-2">
+                <img
+                    alt="Seagate" className="mb-0" style={{ width: 'auto', maxWidth: '100%', maxHeight: '45px' }}
+                    src={require('../../images/sponsors/seagate.PNG')}
+                />
+                <div style={{ fontSize: '13px' }}>Associate Sponsor</div>
+            </div>
         </div>
     </React.Fragment>
 
