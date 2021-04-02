@@ -193,7 +193,34 @@ const SponsorsPage = () => {
                 </div>
                 <h3 className="my-4">Prize Sponsors</h3>
                 <div className="row mx-0">
-                    <div className="col-md-4 col-12 p-2">
+                    <div className="col-md-3 col-12 p-2">
+                        <SponsorCardWrap>
+                            <div className="p-2 text-center">
+                                <a href="https://www.sophos.com/en-us.aspx" target="_blank" rel="nofollow noreferrer">
+                                    <img
+                                        alt="Sophos" draggable="false"
+                                        src={require('../images/sponsors/sophos.png')}
+                                        style={{ maxHeight: '250px', maxWidth: '100%' }}
+                                    />
+                                </a>
+                            </div>
+                            <div className="p-2" style={{ fontSize: '14px' }}>
+                                Sophos evolves to meet every new challenge, protecting more than 400,000 organizations 
+                                of all sizes in more than 150 countries from today’s most advanced cyber threats. Powered 
+                                by SophosLabs, our cloud-native and AI-enhanced solutions are able to adapt and evolve to 
+                                secure endpoints and networks against never-before-seen cybercriminal tactics and techniques.
+                            </div>
+                            <div className="p-2">
+                                <a
+                                    href="https://www.fireeye.com/company.html" target="_blank" rel="nofollow noreferrer"
+                                    className="btn btn-primary rounded-0 px-4 py-3"
+                                >
+                                    Read More
+                                </a>
+                            </div>
+                        </SponsorCardWrap>
+                    </div>
+                    <div className="col-md-3 col-12 p-2">
                         <SponsorCardWrap>
                             <div className="p-2 text-center">
                                 <a href="https://notsosecure.com/about/" target="_blank" rel="nofollow noreferrer">
@@ -205,15 +232,10 @@ const SponsorsPage = () => {
                                 </a>
                             </div>
                             <div className="p-2" style={{ fontSize: '14px' }}>
-                                NotSoSecure was founded by two industry-recognised people; Dan Haagman is a well-known Cyber Security
-                                entrepreneur (14 years in the market) who founded one of the UK’s leading Pen Testing, Hacking
-                                Education and Computer Forensics companies that was acquired by the Global Management Consultancy,
-                                PA Consulting in 2011. In forming NotSoSecure, the founders set out to build a company that was
-                                globally recognised in the field of Penetration Testing and Hacking Training but also one that
-                                kept true to its roots of being a boutique specialist firm; practical, to the point, relationship
-                                oriented. ey to NotSoSecure is the fact that we keep our trading model extremely simple.
-                                No distractions, no conflicts of interest, a focus on what the business is really good at.
-                                This is around the world, primarily in the USA (West and East), UK and Northern / Western Europe.
+                                In forming NotSoSecure, the founders set out to build a company that was globally recognised in 
+                                the field of Penetration Testing and Hacking Training but also one that kept true to its roots 
+                                of being a boutique specialist firm; practical, to the point, relationship oriented. This is 
+                                around the world, primarily in the USA (West and East), UK and Northern / Western Europe.
                             </div>
                             <div className="p-2">
                                 <a
@@ -225,7 +247,7 @@ const SponsorsPage = () => {
                             </div>
                         </SponsorCardWrap>
                     </div>
-                    <div className="col-md-4 col-12 p-2">
+                    <div className="col-md-3 col-12 p-2">
                         <SponsorCardWrap>
                             <div className="p-2 text-center">
                                 <a href="https://www.fireeye.com/company.html" target="_blank" rel="nofollow noreferrer">
@@ -250,7 +272,7 @@ const SponsorsPage = () => {
                             </div>
                         </SponsorCardWrap>
                     </div>
-                    <div className="col-md-4 col-12 p-2">
+                    <div className="col-md-3 col-12 p-2">
                         <SponsorCardWrap>
                             <div className="p-2 text-center">
                                 <a href="https://www.hackthebox.eu/" target="_blank" rel="nofollow noreferrer">

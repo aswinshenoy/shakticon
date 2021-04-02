@@ -158,6 +158,13 @@ const EventSponsors = () => {
                                     <div className="d-flex align-items-center">
                                         <SponsorIcon>
                                             <img
+                                                alt="Sophos" draggable="false"
+                                                src={require('../../images/sponsors/sophos.png')}
+                                                style={{ maxWidth: '100%', maxHeight: '15px' }}
+                                            />
+                                        </SponsorIcon>
+                                        <SponsorIcon>
+                                            <img
                                                 alt="NotSoSecure" draggable="false"
                                                 src={require('../../images/sponsors/notsosecure.png')}
                                                 style={{ maxWidth: '90px' }}
@@ -175,13 +182,6 @@ const EventSponsors = () => {
                                                 alt="Hack The Box" draggable="false"
                                                 src={require('../../images/sponsors/hackthebox.png')}
                                                 style={{ maxWidth: '100%', maxHeight: '50px' }}
-                                            />
-                                        </SponsorIcon>
-                                        <SponsorIcon>
-                                            <img
-                                                alt="Sophos" draggable="false"
-                                                src={require('../../images/sponsors/sophos.png')}
-                                                style={{ maxWidth: '100%', maxHeight: '15px' }}
                                             />
                                         </SponsorIcon>
                                     </div>
