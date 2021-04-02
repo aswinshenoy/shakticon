@@ -167,14 +167,21 @@ const EventSponsors = () => {
                                             <img
                                                 alt="FireEye" draggable="false"
                                                 src={require('../../images/sponsors/fireeye.png')}
-                                                style={{ maxWidth: '100%', maxHeight: '35px' }}
+                                                style={{ maxWidth: '100%', maxHeight: '20px' }}
                                             />
                                         </SponsorIcon>
                                         <SponsorIcon>
                                             <img
-                                                alt="FireEye" draggable="false"
+                                                alt="Hack The Box" draggable="false"
                                                 src={require('../../images/sponsors/hackthebox.png')}
-                                                style={{ maxWidth: '100%', maxHeight: '60px' }}
+                                                style={{ maxWidth: '100%', maxHeight: '50px' }}
+                                            />
+                                        </SponsorIcon>
+                                        <SponsorIcon>
+                                            <img
+                                                alt="Sophos" draggable="false"
+                                                src={require('../../images/sponsors/sophos.png')}
+                                                style={{ maxWidth: '100%', maxHeight: '20px' }}
                                             />
                                         </SponsorIcon>
                                     </div>
