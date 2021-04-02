@@ -181,7 +181,7 @@ const EventSponsors = () => {
                                             <img
                                                 alt="Sophos" draggable="false"
                                                 src={require('../../images/sponsors/sophos.png')}
-                                                style={{ maxWidth: '100%', maxHeight: '20px' }}
+                                                style={{ maxWidth: '100%', maxHeight: '15px' }}
                                             />
                                         </SponsorIcon>
                                     </div>
