@@ -133,47 +133,6 @@ const EventSponsors = () => {
                                     </SponsorIcon>
                                 </div>
                                 <div className="col-md-6 p-1">
-<<<<<<< HEAD
-                                    <SponsorIcon>
-                                        <div>Associate Sponsor</div>
-                                        <img
-                                            alt="CrowdStrike" draggable="false"
-                                            src={require('../../images/sponsors/crowdstrike.png')}
-                                            style={{ maxWidth: '180px' }}
-                                        />
-                                    </SponsorIcon>
-                                </div>
-                                <div className="col-md-6 d-flex align-items-center p-1">
-                                    <SponsorIcon>
-                                        <div class="center">Prize Sponsors</div>
-                                        <img
-                                            alt="NotSoSecure" draggable="false"
-                                            src={require('../../images/sponsors/notsosecure.png')}
-                                            style={{ maxWidth: '90px' }}
-                                        />
-                                    </SponsorIcon>
-                                    <SponsorIcon>
-                                        <img
-                                            alt="FireEye" draggable="false"
-                                            src={require('../../images/sponsors/fireeye.png')}
-                                            style={{ maxWidth: '100%', maxHeight: '20px' }}
-                                        />
-                                    </SponsorIcon>
-                                    <SponsorIcon>
-                                        <img
-                                            alt="FireEye" draggable="false"
-                                            src={require('../../images/sponsors/hackthebox.png')}
-                                            style={{ maxWidth: '100%', maxHeight: '50px' }}
-                                        />
-                                    </SponsorIcon>
-                                    <SponsorIcon>
-                                        <img
-                                            alt="FireEye" draggable="false"
-                                            src={require('../../images/sponsors/sophos.png')}
-                                            style={{ maxHeight: '15px' }}
-                                        />
-                                    </SponsorIcon>
-=======
                                     <div>Associate Sponsor</div>
                                     <div className="d-flex">
                                         <SponsorIcon>
@@ -219,7 +178,6 @@ const EventSponsors = () => {
                                             />
                                         </SponsorIcon>
                                     </div>
->>>>>>> c9bd239c26f5738d77aa935ecfe0d3b4a7fa399c
                                 </div>
                             </div>
                         </Fade>
