@@ -66,29 +66,34 @@ const ConferenceSchedule = () => {
                     {
                             "name": "Krishnashree Achuthan",
                             "designation": "Director",
-                            "organization": "Amrita Center for Cybersecurity Systems and Networks"
+                            "organization": "Amrita Center for Cybersecurity Systems and Networks",
+                            "avatar": require('../../images/speakers/dr_krishnasree.jpg')
                         },
                         {
                             "name": "Eric Falt",
                             "designation": "Director",
-                            "organization": "UNESCO New Delhi Cluster"
+                            "organization": "UNESCO New Delhi Cluster",
+                            "avatar": require('../../images/speakers/ericfalt.jpeg')
                         },
                         {
                             "name": "Meenakshi Lekhi",
                             "designation": "Member of Parliament",
-                            "organization": "Government of India"
+                            "organization": "Government of India",
+                            "avatar": require('../../images/speakers/meenakshilekhi.jpg')
                         },
                         
                         {
                             "name": "Swamini Krishnamrita Prana",
                             "designation": "Senior Disciple",
-                            "organization": "Mata Amritanandamayi Math"
+                            "organization": "Mata Amritanandamayi Math",
+                            "avatar": require('../../images/speakers/krishnamritaprana.jpg')
                         },
                         
                         {
                             "name": "Sreepriya Chalakkal",
                             "designation": "Security Analyst",
-                            "organization": "Siemens"
+                            "organization": "Siemens",
+                            "avatar": require('../../images/crew/sreepriya_chechi.jpg')
                         },
                     ],
                 },
