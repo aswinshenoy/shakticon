@@ -103,8 +103,8 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             </>,
             "speaker": {
                 "name": "Sanju Misra",
-                "designation": "Chief Information Security Officer (CISO)",
-                "company": "Linde",
+                "designation": "VP & CISO",
+                "company": "Alnylam Pharmaceuticals",
                 "image": require('../../../images/speakers/sanju_misra.jpg'),
                 "links": {
                     "linkedin": "https://www.linkedin.com/in/sanjumisra/"
