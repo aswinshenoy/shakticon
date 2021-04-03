@@ -314,7 +314,7 @@ const ConferenceSpeakers = () => {
         {
             "name": "Dr. Krishnasree Achuthan",
             "designation": "Director",
-            "company": "Amrita Center for Cyber Security",
+            "company": "Amrita Center for Cybersecurity Systems and Networks",
             "image": require('../../images/speakers/dr_krishnasree.jpg'),
         },
         {

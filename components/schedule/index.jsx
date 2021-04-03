@@ -31,7 +31,7 @@ const ConferenceSchedule = () => {
 
     const scheduleList = [
         {
-            "date": "08 April 2020",
+            "date": "09 April 2020",
             "title": "Day 1",
             "events": [
                 {
@@ -66,7 +66,7 @@ const ConferenceSchedule = () => {
                     {
                             "name": "Krishnashree Achuthan",
                             "designation": "Director",
-                            "organization": "Amrita Center for Cybersecurity"
+                            "organization": "Amrita Center for Cybersecurity Systems and Networks"
                         },
                         {
                             "name": "Eric Falt",
@@ -75,8 +75,8 @@ const ConferenceSchedule = () => {
                         },
                         {
                             "name": "Meenakshi Lekhi",
-                            "designation": "Chairperson",
-                            "organization": "Parliamentary Committee on Public Undertakings, Govt. of India"
+                            "designation": "Member of Parliament",
+                            "organization": "Government of India"
                         },
                         
                         {
@@ -244,7 +244,7 @@ const ConferenceSchedule = () => {
                         {
                             "name": "Krishnashree Achuthan",
                             "designation": "Director",
-                            "organization": "Amrita Center for Cybersecurity",
+                            "organization": "Amrita Center for Cybersecurity Systems and Networks",
                             "avatar": require('../../images/speakers/dr_krishnasree.jpg')
                         },
                     ],
