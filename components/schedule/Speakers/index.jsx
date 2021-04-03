@@ -657,16 +657,6 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
 
     return <TrainingModuleWrap id="conference-speakers">
         <div className="container-lg p-0">
-            {!hideTitle && <h2>Pre-Conference Speakers</h2>}
-            <div className="py-4 px-2">
-                {PreConfList.map((s) =>
-                    <Fade key={s.slug}>
-                        <div className="mb-4">
-                            <SpeakerCard  {...s} />
-                        </div>
-                    </Fade>
-                )}
-            </div>
             {!hideTitle && <h2>Conference Speakers</h2>}
             <div className="py-4 px-2">
                 {SpeakersList.map((s) =>
@@ -678,6 +668,17 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 )}
             </div>
         </div>
+        {!hideTitle && <h2>Pre-Conference Speakers</h2>}
+            <div className="py-4 px-2">
+                {PreConfList.map((s) =>
+                    <Fade key={s.slug}>
+                        <div className="mb-4">
+                            <SpeakerCard  {...s} />
+                        </div>
+                    </Fade>
+                )}
+            </div>
+            
     </TrainingModuleWrap>
 
 };

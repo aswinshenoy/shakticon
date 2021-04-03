@@ -37,171 +37,8 @@ const TrainingModuleWrap = styled.section`
 const ShaktiTrainings = ({ hideTitle = false }) => {
 
     const TrainersList = [
-        {
-            "slug": "reversing-cpp-binaries",
-            "title": "Reverse Engineering C++ binaries",
-            "sessions": [
-                {
-                    "date": "Saturday, 20th March",
-                    "time": "18:30 - 22:30 IST"
-                },
-                {
-                    "date": "Sunday, 28th March",
-                    "time": "18:30 - 22:30 IST"
-                }
-            ],
-            "registerURL": "https://register.shakticon.com/",
-            "abstract": <>
-                <p>
-                    This training is the shortened version of my original "Reversing and Auditing C++ Binaries", this
-                    course will be a class for security researchers who want to expand their horizons and skills in
-                    reversing C++ binaries.
-                </p>
-                <p>
-                    C++ Binaries are full of mysteries, they have objects, inheritance, templates, vtables and many
-                    more and reverse engineering them is a task on its own. In order to correctly and clearly map a
-                    C++ compiled binary it requires a vast knowledge of C++ Internals.
-                </p>
-                <p>
-                    The training will explain C++ reverse engineering topics including techniques and tools for
-                    dealing with C++ Binaries research. We will start with the identification of basic structures
-                    in C++ and continue with C++ Objects and Inheritance in a binary and how to represent them in IDA.
-                </p>
-                <p>
-                    Afterward, we will also study work methods and design patterns in C++. Finally, we will practice,
-                    fight and untangle deep and modern C++ programs using static and dynamic analysis.
-                </p>
-            </>,
-            "prerequisite": [
-            " Familiarity with x86/x64 assembly.",
-            " Basic Knowledge of C++ programming."  
-            ],
-            "trainer": {
-                "name": "Gal Zaban",
-                "designation": "Security Researcher",
-                "company": "Cymotive",
-                "image": require('../../../images/speakers/gal.JPG'),
-                "links": {
-                    "twitter": "https://twitter.com/0xgalz",
-                    "linkedin": "https://www.linkedin.com/in/gal-zaban-02007610b/",
-                },
-                "registerURL": "https://register.shakticon.com/",
-                "bio": <p>
-                    Gal Zaban is a Reverse Engineer with a particular interest in C++ code, currently working as a
-                    Vulnerability Researcher in the Automotive Industry. As part of her journey in understanding the
-                    catacombs of C++, she developed various RE tools for C++ including 'Virtuailor'.
-                    In her spare time when she's not dwelling into low-level research, she designs and sews her
-                    own clothes and plays the Clarinet.
-                </p>
-            },
-        },
-        {
-            "slug": "Windows kernel debugging and forensics",
-            "title": "Windows kernel debugging and forensics",
-            "sessions": [
-                {
-                    "date": "Thursday, 1st April",
-                    "time": "18:30 - 22:00 IST"
-                }
-            ],
-            "registerURL": "https://register.shakticon.com/",
-            "abstract": <>
-                Modern Windows systems, and a little bit extra. We will learn how to attach a kernel debugger to a machine, locally and remotely, and how that can help us in both our development process and in our security research. We'll learn how to examine internal mechanisms in Windows through a debugger and new tricks and techniques that make debugging a lot easier. This workshop will focus on kernel debugging but will touch user-mode debugging as well, showing how to find and recognize indicators of suspicious activity in the system
-            </>,
-            "prerequisite":[ <p>
-                A computer with Windows installed (Windows 10 if possible) on it and a Windows 10 VM. If Windows host is not possible, then 2 Windows 10 VMs that can reach each other on the network. SDK needs to be installed on the host (or one of the VMs, using 2 VMs) - <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools">here</a>. 
-            </p> 
-            ],
-            "trainer": {
-                "name": "Yarden Shafir",
-                "isTrainer": true,
-                "designation": "Software Engineer",
-                "company": "Crowdstrike",
-                "image": require('../../../images/speakers/yarden_shafir.jpg'),
-                "links": {
-                    "twitter": "https://twitter.com/yarden_shafir?lang=en"
-                },
-                "bio": <p>
-                    Yarden is a Software Engineer at Crowdstrike, working on EDR features, and a consultant for Winsider Seminars & Solutions Inc., co-teaching security trainings. Previously, she worked at SentinelOne as a security researcher and QA engineer. Outside of her primary work duties, Yarden writes articles and tools and gives talks about various topics such as CET internals, extension host hooking and kernel exploit mitigations. Outside of infosec, Yarden is a circus artist, teaching and performing aerial arts. 
-                </p>
-            },
-        },
-        {
-            "slug": "owasp-juice-shop",
-            "title": "OWASP Juice Shop - Web Application Penetration Testing Basics",
-            "sessions": [
-                {
-                    "date": "Sunday, 21st March",
-                    "time": "08:00 - 10:00 IST"
-                }
-            ],
-            "registerURL": "https://register.shakticon.com/",
-            "abstract": <>
-                This training will introduce you to web application penetration testing on a single page
-                application and get you familiar with some of the OWASP Top 10. We'll start by learning
-                some basics about single page applications and how they're setup, and some of the tools,
-                resources and options for enumerating and attacking web applications.  We'll then move on
-                to learning the basics of SQL injection, XSS, and Broken Access Control, and put those skills
-                into practice attacking the OWASP Juice Shop.  We can explore other topics as time permits.
-                You'll also be able to use the VM for self-guided study after the session is over.
-            </>,
-            "prerequisite": [
-                "A VM will be provided that includes everything necessary for the training. You'll need virtualbox or VMWare.",
-                "Basic familiarity with HTTP, HTML, JavaScript(or another language), SQL and how web servers work will be helpful, but is not required.   We can gauge the class's experience levels at the beginning and go from there."
-            ],
-            "trainer": {
-                "name": "Zoey Garvey",
-                "isTrainer": true,
-                "designation": "Consultant Software Engineer",
-                "company": "Federal Reserve Bank of San Francisco",
-                "image": require('../../../images/speakers/zoey.jpg'),
-                "links": {
-                    "linkedin": "https://www.linkedin.com/in/zoey-garvey-66982b34/"
-                },
-                "bio": <p>
-                    Zoey Garvey has decades of experience coding and building web applications, and more
-                    recently has pivoted to breaking and securing them, as well as contributing web challenges
-                    to various training platforms and CTFs.
-                </p>
-            },
-        },
-        {
-            "slug": "Introduction to Android Reverse Engineering ",
-            "title": "Introduction to Android Reverse Engineering ",
-            "sessions": [
-                {
-                    "date": "Saturday, 27th March",
-                    "time": "20:30 - 21:30 IST"
-                }
-            ],
-            "registerURL": "https://register.shakticon.com/",
-            "abstract": <>
-                <p>
-                    Moving from old black and white phones to Smartphones were super exciting. We were amused by the features and services whereas least interested in how it works. We did install a lot of apps in ease of touch without a second thought. Now let’s look from a security perspective. The permissions we granted, unofficial app stores we used, recalling data privacy was that a good decision? This training would give you a clarity on how apps work below the surface and things to be concerned off.
-
-
-                </p>
-                <p>
-                    This training would introduce you to reversing and analyzing Android apps. As this is an introductory training we would cover fundamentals and basics of Android Security. Some reliable tools and techniques for reversing and analyzing would be discussed. We would then head to dissection of an Android app and inspect for malicious behavior by Static and Dynamic analysis. By the end of the session, one would learn to,
-
-1. Reverse an Android App
-2. Perform Static & Dynamic Analysis
-3. Detect suspicious and malicious apps
-                </p>
-            </>,
-            "prerequisite": [
-                "This is a beginner level course which only needs curiosity to learn. Knowing Java would be helpful, but not mandatory. "
-            ],
-            "trainer": {
-                "name": "Arya M Sankar",
-                "designation": "Security Researcher",
-                "company": "Siemens",
-                "image": require('../../../images/speakers/arya.JPG'),
-                "bio": <p>
-                    As a Security Researcher at Siemens she is currently into Secure Software Development (R&D) and Cyber Security Analyst roles. She is focusing on Application security with keen interest in Secure Software Development and Secure Coding. She has prior experience in Penetration Testing, Malware Analysis and Vulnerability Assessments. Pursued Masters in Cyber Security Systems & Networks with Bachelors in Computer Science Engineering.
-                </p>
-            },
-        },
+        
+        
         {
             "slug": "network-traffic-analysis",
             "title": "Network Traffic Analysis",
@@ -395,6 +232,171 @@ const ShaktiTrainings = ({ hideTitle = false }) => {
                 "bio": <p>
                     Caroline is a reverse engineer, security enthousiast and feminist. She has been contributing
                     to miasm (https://github.com/cea-sec/miasm).
+                </p>
+            },
+        },
+        {
+            "slug": "reversing-cpp-binaries",
+            "title": "Reverse Engineering C++ binaries",
+            "sessions": [
+                {
+                    "date": "Saturday, 20th March",
+                    "time": "18:30 - 22:30 IST"
+                },
+                {
+                    "date": "Sunday, 28th March",
+                    "time": "18:30 - 22:30 IST"
+                }
+            ],
+            "registerURL": "https://register.shakticon.com/",
+            "abstract": <>
+                <p>
+                    This training is the shortened version of my original "Reversing and Auditing C++ Binaries", this
+                    course will be a class for security researchers who want to expand their horizons and skills in
+                    reversing C++ binaries.
+                </p>
+                <p>
+                    C++ Binaries are full of mysteries, they have objects, inheritance, templates, vtables and many
+                    more and reverse engineering them is a task on its own. In order to correctly and clearly map a
+                    C++ compiled binary it requires a vast knowledge of C++ Internals.
+                </p>
+                <p>
+                    The training will explain C++ reverse engineering topics including techniques and tools for
+                    dealing with C++ Binaries research. We will start with the identification of basic structures
+                    in C++ and continue with C++ Objects and Inheritance in a binary and how to represent them in IDA.
+                </p>
+                <p>
+                    Afterward, we will also study work methods and design patterns in C++. Finally, we will practice,
+                    fight and untangle deep and modern C++ programs using static and dynamic analysis.
+                </p>
+            </>,
+            "prerequisite": [
+            " Familiarity with x86/x64 assembly.",
+            " Basic Knowledge of C++ programming."  
+            ],
+            "trainer": {
+                "name": "Gal Zaban",
+                "designation": "Security Researcher",
+                "company": "Cymotive",
+                "image": require('../../../images/speakers/gal.JPG'),
+                "links": {
+                    "twitter": "https://twitter.com/0xgalz",
+                    "linkedin": "https://www.linkedin.com/in/gal-zaban-02007610b/",
+                },
+                "registerURL": "https://register.shakticon.com/",
+                "bio": <p>
+                    Gal Zaban is a Reverse Engineer with a particular interest in C++ code, currently working as a
+                    Vulnerability Researcher in the Automotive Industry. As part of her journey in understanding the
+                    catacombs of C++, she developed various RE tools for C++ including 'Virtuailor'.
+                    In her spare time when she's not dwelling into low-level research, she designs and sews her
+                    own clothes and plays the Clarinet.
+                </p>
+            },
+        },
+        {
+            "slug": "owasp-juice-shop",
+            "title": "OWASP Juice Shop - Web Application Penetration Testing Basics",
+            "sessions": [
+                {
+                    "date": "Sunday, 21st March",
+                    "time": "08:00 - 10:00 IST"
+                }
+            ],
+            "registerURL": "https://register.shakticon.com/",
+            "abstract": <>
+                This training will introduce you to web application penetration testing on a single page
+                application and get you familiar with some of the OWASP Top 10. We'll start by learning
+                some basics about single page applications and how they're setup, and some of the tools,
+                resources and options for enumerating and attacking web applications.  We'll then move on
+                to learning the basics of SQL injection, XSS, and Broken Access Control, and put those skills
+                into practice attacking the OWASP Juice Shop.  We can explore other topics as time permits.
+                You'll also be able to use the VM for self-guided study after the session is over.
+            </>,
+            "prerequisite": [
+                "A VM will be provided that includes everything necessary for the training. You'll need virtualbox or VMWare.",
+                "Basic familiarity with HTTP, HTML, JavaScript(or another language), SQL and how web servers work will be helpful, but is not required.   We can gauge the class's experience levels at the beginning and go from there."
+            ],
+            "trainer": {
+                "name": "Zoey Garvey",
+                "isTrainer": true,
+                "designation": "Consultant Software Engineer",
+                "company": "Federal Reserve Bank of San Francisco",
+                "image": require('../../../images/speakers/zoey.jpg'),
+                "links": {
+                    "linkedin": "https://www.linkedin.com/in/zoey-garvey-66982b34/"
+                },
+                "bio": <p>
+                    Zoey Garvey has decades of experience coding and building web applications, and more
+                    recently has pivoted to breaking and securing them, as well as contributing web challenges
+                    to various training platforms and CTFs.
+                </p>
+            },
+        },
+        {
+            "slug": "Introduction to Android Reverse Engineering ",
+            "title": "Introduction to Android Reverse Engineering ",
+            "sessions": [
+                {
+                    "date": "Saturday, 27th March",
+                    "time": "20:30 - 21:30 IST"
+                }
+            ],
+            "registerURL": "https://register.shakticon.com/",
+            "abstract": <>
+                <p>
+                    Moving from old black and white phones to Smartphones were super exciting. We were amused by the features and services whereas least interested in how it works. We did install a lot of apps in ease of touch without a second thought. Now let’s look from a security perspective. The permissions we granted, unofficial app stores we used, recalling data privacy was that a good decision? This training would give you a clarity on how apps work below the surface and things to be concerned off.
+
+
+                </p>
+                <p>
+                    This training would introduce you to reversing and analyzing Android apps. As this is an introductory training we would cover fundamentals and basics of Android Security. Some reliable tools and techniques for reversing and analyzing would be discussed. We would then head to dissection of an Android app and inspect for malicious behavior by Static and Dynamic analysis. By the end of the session, one would learn to,
+
+1. Reverse an Android App
+2. Perform Static & Dynamic Analysis
+3. Detect suspicious and malicious apps
+                </p>
+            </>,
+            "prerequisite": [
+                "This is a beginner level course which only needs curiosity to learn. Knowing Java would be helpful, but not mandatory. "
+            ],
+            "trainer": {
+                "name": "Arya M Sankar",
+                "designation": "Security Researcher",
+                "company": "Siemens",
+                "image": require('../../../images/speakers/arya.JPG'),
+                "bio": <p>
+                    As a Security Researcher at Siemens she is currently into Secure Software Development (R&D) and Cyber Security Analyst roles. She is focusing on Application security with keen interest in Secure Software Development and Secure Coding. She has prior experience in Penetration Testing, Malware Analysis and Vulnerability Assessments. Pursued Masters in Cyber Security Systems & Networks with Bachelors in Computer Science Engineering.
+                </p>
+            },
+        },
+        {
+            "slug": "Windows kernel debugging and forensics",
+            "title": "Windows kernel debugging and forensics",
+            "sessions": [
+                {
+                    "date": "Thursday, 1st April",
+                    "time": "18:30 - 22:00 IST"
+                }
+            ],
+            "registerURL": "https://register.shakticon.com/",
+            "abstract": <>
+                Modern Windows systems, and a little bit extra. We will learn how to attach a kernel debugger to a machine, locally and remotely, and how that can help us in both our development process and in our security research. We'll learn how to examine internal mechanisms in Windows through a debugger and new tricks and techniques that make debugging a lot easier. This workshop will focus on kernel debugging but will touch user-mode debugging as well, showing how to find and recognize indicators of suspicious activity in the system
+            </>,
+            "prerequisite":[ <p>
+                A computer with Windows installed (Windows 10 if possible) on it and a Windows 10 VM. If Windows host is not possible, then 2 Windows 10 VMs that can reach each other on the network. SDK needs to be installed on the host (or one of the VMs, using 2 VMs) - <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools">here</a>. 
+            </p> 
+            ],
+            "trainer": {
+                "name": "Yarden Shafir",
+                "isTrainer": true,
+                "designation": "Software Engineer",
+                "company": "Crowdstrike",
+                "image": require('../../../images/speakers/yarden_shafir.jpg'),
+                "links": {
+                    "twitter": "https://twitter.com/yarden_shafir?lang=en"
+                },
+                "bio": <p>
+                    Yarden is a Software Engineer at Crowdstrike, working on EDR features, and a consultant for Winsider Seminars & Solutions Inc., co-teaching security trainings. Previously, she worked at SentinelOne as a security researcher and QA engineer. Outside of her primary work duties, Yarden writes articles and tools and gives talks about various topics such as CET internals, extension host hooking and kernel exploit mitigations. Outside of infosec, Yarden is a circus artist, teaching and performing aerial arts. 
                 </p>
             },
         },
