@@ -173,12 +173,10 @@ const SponsorsPage = () => {
                                 </a>
                             </div>
                             <div className="p-2" style={{ fontSize: '14px' }}>
-                                Seagate is the leading provider of bytes globally, having shipped over 3 zettabytes
-                                in our 40-year history. We help maximise humanity’s potential by delivering world-class,
-                                precision-engineered data solutions developed through sustainable and profitable
-                                partnerships. Our long-standing partnerships with Fortune 500 businesses and leading
-                                organisations help us deliver data solutions that perform well under pressure.
-                                Our people, partners, and customers are advancing the datasphere in brilliant ways.
+                                Seagate Technology crafts the datasphere, helping to maximize humanity's potential by 
+                                innovating world-class, precision-engineered data storage and management solutions with 
+                                a focus on sustainable partnerships. A global technology leader for more than 40 years, 
+                                the company has shipped over 3 billion terabytes of data capacity.
                             </div>
                             <div className="d-flex align-items-center p-2">
                                 <a
