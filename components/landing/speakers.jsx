@@ -109,6 +109,46 @@ const ConferenceSpeakers = () => {
 
     const speakers = [
         {
+            "name": "Meenakshi Lekhi",
+            "designation": "Member of Parliament",
+            "company": "Government of India",
+            "image": require('../../images/speakers/meenakshilekhi.jpg')
+        },
+        {
+            "name": "Swamini Krishnamrita Prana",
+            "designation": "Senior Disciple",
+            "company": "Mata Amritanandamayi Math",
+            "image": require('../../images/speakers/krishnamritaprana.jpeg')
+        },
+        {
+            "name": "Sundari Nanda",
+            "designation": "CVO & Special Commissioner(Vigilance)",
+            "company": "Delhi Police",
+            "image": require('../../images/speakers/sundarinanda.jpeg'),
+        },
+        {
+            "name": "Eric Falt",
+            "designation": "Director",
+            "company": "UNESCO New Delhi Cluster",
+            "image": require('../../images/speakers/ericfalt.jpeg')
+        },
+        {
+            "name": "Dr. Krishnasree Achuthan",
+            "designation": "Director",
+            "company": "Amrita Center for Cybersecurity Systems and Networks",
+            "image": require('../../images/speakers/dr_krishnasree.jpg'),
+        },
+        {
+            "name": "Sreepriya Chalakkal",
+            "designation": "Security Analyst",
+            "company": "Siemens",
+            "image": require('../../images/crew/sreepriya_chechi.jpg'),
+            "links": {
+                "twitter": "https://twitter.com/priyachalakkal",
+                "linkedin": "https://www.linkedin.com/in/sreepriyac/"
+            }
+        },
+        {
             "name": "Marion Marschalek",
             "designation": "Senior Security Engineer, Founder",
             "company": "BlackHoodie",
@@ -122,6 +162,15 @@ const ConferenceSpeakers = () => {
             "links": {
                 "twitter": "https://twitter.com/rinkisethi",
                 "linkedin": "https://www.linkedin.com/in/rinkisethi"
+            }
+        },
+        {
+            "name": "Liora Itkin",
+            "designation": "Head of Cybersecurity Department(of SOC and DFIR teams)",
+            "company": "Israel Ministry of Defense",
+            "image": require('../../images/speakers/lioraitkin.jpeg'),
+            "links": {
+                "linkedin": "https://www.linkedin.com/in/liora-itkin/",
             }
         },
         {
@@ -167,21 +216,6 @@ const ConferenceSpeakers = () => {
                 "twitter": "https://twitter.com/0xgalz",
                 "linkedin": "https://www.linkedin.com/in/gal-zaban-02007610b/",
             }
-        },
-        {
-            "name": "Liora Itkin",
-            "designation": "Head of Cybersecurity Department(of SOC and DFIR teams)",
-            "company": "Israel Ministry of Defense",
-            "image": require('../../images/speakers/lioraitkin.jpeg'),
-            "links": {
-                "linkedin": "https://www.linkedin.com/in/liora-itkin/",
-            }
-        },
-        {
-            "name": "Sundari Nanda",
-            "designation": "CVO & Special Commissioner(Vigilance)",
-            "company": "Delhi Police",
-            "image": require('../../images/speakers/sundarinanda.jpeg'),
         },
         {
             "name": "Luisa Montealegre",
@@ -309,22 +343,6 @@ const ConferenceSpeakers = () => {
             "links": {
                 "linkedin": "https://www.linkedin.com/in/sreelakshmi-panangatt-b67b58105/",
                 "twitter": "https://twitter.com/srlkhmi",
-            }
-        },
-        {
-            "name": "Dr. Krishnasree Achuthan",
-            "designation": "Director",
-            "company": "Amrita Center for Cybersecurity Systems and Networks",
-            "image": require('../../images/speakers/dr_krishnasree.jpg'),
-        },
-        {
-            "name": "Sreepriya Chalakkal",
-            "designation": "Security Analyst",
-            "company": "Siemens",
-            "image": require('../../images/crew/sreepriya_chechi.jpg'),
-            "links": {
-                "twitter": "https://twitter.com/priyachalakkal",
-                "linkedin": "https://www.linkedin.com/in/sreepriyac/"
             }
         },
         {

@@ -63,7 +63,7 @@ const ConferenceSchedule = () => {
                     "title": "Inaugural Session",
                     "speakers": [
                     
-                    {
+                        {
                             "name": "Krishnashree Achuthan",
                             "designation": "Director",
                             "organization": "Amrita Center for Cybersecurity Systems and Networks",
@@ -88,7 +88,6 @@ const ConferenceSchedule = () => {
                             "organization": "Mata Amritanandamayi Math",
                             "avatar": require('../../images/speakers/krishnamritaprana.jpg')
                         },
-                        
                         {
                             "name": "Sreepriya Chalakkal",
                             "designation": "Security Analyst",
