@@ -92,6 +92,30 @@ const ConferenceSchedule = () => {
                         },
                     ],
                 },
+                {
+                    "time": "11:30 - 12:15 IST",
+                    "title": "Keynote",
+                    "speakers": [
+                        {
+                            "name": "Neeta Varma",
+                            "designation": "Director General",
+                            "organization": "National Informatics Centre",
+                            "avatar": require('../../images/speakers/neetavarma.jpeg')
+                        }
+                    ],
+                },
+                {
+                    "time": "12:15 - 12:45 IST",
+                    "title": "From Technologist to Board Room, a Cybersecurity Journey",
+                    "speakers": [
+                        {
+                            "name": "Sanju Misra",
+                            "designation": "VP & CISO",
+                            "organization": "Alnylam Pharmaceuticals",
+                            "avatar": require('../../images/speakers/sanju_misra.jpg')
+                        }
+                    ],
+                },
                {
                     "time": "15:00 - 16:00 IST",
                     "title": "Understanding Bluetooth Security",
@@ -120,7 +144,7 @@ const ConferenceSchedule = () => {
                 },  
                 {
                     "time": "17:00 - 17:30 IST",
-                    "title": "CyberSecurity in the OT Environment",
+                    "title": "CyberSecurity in OT Environment",
                     "speakers": [
                         {
                             "name": "Luisa Montealegre",
@@ -133,7 +157,7 @@ const ConferenceSchedule = () => {
                 },  
                 {
                     "time": "20:30 - 21:30 IST",
-                    "title": "Try your hand at Machine Learning for Security…",
+                    "title": "Try your hand at Machine Learning for Security",
                     "speakers": [
                         {
                             "name": "Bhavna Soman",
@@ -202,7 +226,7 @@ const ConferenceSchedule = () => {
                 },
                 {
                     "time": "09:30 - 10:30 IST",
-                    "title": "CTFS and Cybersecurity Reasearch",
+                    "title": "CTFs and Cybersecurity Reasearch",
                     "speakers": [
                         {
                             "name": "Tiffany Bao",
@@ -247,6 +271,18 @@ const ConferenceSchedule = () => {
                             "organization": "Amrita Center for Cybersecurity Systems and Networks",
                             "avatar": require('../../images/speakers/dr_krishnasree.jpg')
                         },
+                        {
+                            "name": "Evelyn Kilel",
+                            "designation": "Co-Founder",
+                            "organization": "SheHacksKe",
+                            "avatar": require('../../images/speakers/evelynkilel.jpeg')
+                        },
+                        {
+                            "name": "Anyesh Roy",
+                            "designation": "IPS - DCP",
+                            "organization": "Cyber Crime, Delhi Police",
+                            "avatar": require('../../images/speakers/anyeshroy.png')
+                        }
                     ],
                     },
                     
@@ -337,19 +373,7 @@ const ConferenceSchedule = () => {
                             "name": "Rama Vedashree ",
                             "designation": "CEO",
                             "organization": "Data Security Council of India",
-                            "avatar": require('../../images/speakers/Rama_Vedashree.jpg')
-                        }
-                    ],
-                },
-                {
-                    "time": "14:30 - 15:00 IST",
-                    "title": "From Technologist to Board Room, a Cybersecurity Journey",
-                    "speakers": [
-                        {
-                            "name": "Sanju Misra",
-                            "designation": "Chief Information Security Officer (CISO)",
-                            "organization": "Linde",
-                            "avatar": require('../../images/speakers/sanju_misra.jpg')
+                            "avatar": require('../../images/speakers/ramavedashree.jpeg')
                         }
                     ],
                 },
