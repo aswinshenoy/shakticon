@@ -127,6 +127,12 @@ const ConferenceSpeakers = () => {
             "image": require('../../images/speakers/sundarinanda.jpeg'),
         },
         {
+            "name": "Neeta Varma",
+            "designation": "Director General",
+            "company": "National Informatics Centre",
+            "image": require('../../images/speakers/neetavarma.jpeg')
+        },
+        {
             "name": "Eric Falt",
             "designation": "Director",
             "company": "UNESCO New Delhi Cluster",
