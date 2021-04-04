@@ -86,7 +86,7 @@ const ConferenceSchedule = () => {
                             "name": "Swamini Krishnamrita Prana",
                             "designation": "Senior Disciple",
                             "organization": "Mata Amritanandamayi Math",
-                            "avatar": require('../../images/speakers/krishnamritaprana.jpg')
+                            "avatar": require('../../images/speakers/krishnamritaprana.jpeg')
                         },
                         {
                             "name": "Sreepriya Chalakkal",
