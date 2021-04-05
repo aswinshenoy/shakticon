@@ -370,6 +370,18 @@ const ConferenceSchedule = () => {
                     ],
                 },
                 {
+                    "time": "10:30 - 11:30 IST",
+                    "title": "Preventing cyber attacks together - The Power of Collaboration",
+                    "speakers": [
+                        {
+                            "name": "Karine Ben-Simhon",
+                            "designation": "VP, Cyber Intelligence Center and TLV Innovation",
+                            "organization": "Citi, Israel",
+                            "avatar": require('../../images/speakers/karinebensimhon.jpeg')
+                        },
+                    ],
+                },
+                {
                     "time": "11:30 - 12:30 IST",
                     "title": "Keynote",
                     "speakers": [

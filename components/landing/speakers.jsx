@@ -139,6 +139,12 @@ const ConferenceSpeakers = () => {
             "image": require('../../images/speakers/ericfalt.jpeg')
         },
         {
+            "name": "Karine Ben-Simhon",
+            "designation": "VP, Cyber Intelligence Center and TLV Innovation",
+            "company": "Citi, Israel",
+            "image": require('../../images/speakers/karinebensimhon.jpeg')
+        },
+        {
             "name": "Dr. Krishnasree Achuthan",
             "designation": "Director",
             "company": "Amrita Center for Cybersecurity Systems and Networks",

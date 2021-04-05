@@ -250,6 +250,31 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             },
         },
         {
+            "slug": "preventing-cyber-attacks-together-the-power-of-collaboration ",
+            "title": "Preventing cyber attacks together - The Power of Collaboration ", 
+            "abstract": <>
+                Cybersecurity is a global issue which demands a global approach and international collaboration. Cyber threat actors 
+                operate across national borders, and in the past few years, targeted public & private sectors worldwide. During this 
+                session we will see how global partnerships were crucial in preventing fraud and cyber incidents, why sharing_is_caring 
+                and how a small network of women can make a big impact. 
+            </>, 
+            "speaker": {
+                "name": "Karine Ben-Simhon",
+                "designation": "VP, Cyber Intelligence Center and TLV Innovation",
+                "company": "Citi, Israel",
+                "bio": <p>
+                    Mrs. Ben-Simhon is currently leading the Intelligence partnerships and Innovation at Citi Bank's Cyber Intelligence 
+                    Center and TLV Innovation lab. Karine is a senior cyber security manager, with vast experience and understanding of 
+                    the cyber warfare ecosystem at corporate and National levels.  Before joining Citi, Karine established and managed 
+                    the Operational Cooperation unit of the Israel National Cyber Directorate. She began her career at the Israel Security 
+                    agency as a threat intelligence analyst, and continued her journey working for both private and public sector dealing 
+                    with various activities related to homeland security. Karine is an 8200 Intelligence Unit veteran and holds a M.A in 
+                    Defense & Intelligence studies from the Bar-Ilan University, and a Political Sciences B.A diploma from the Tel-Aviv University. 
+                </p>,
+                "image": require('../../../images/speakers/karinebensimhon.jpeg'),
+            },
+        },
+        {
             "slug": "privacy-preserving-data-analysis",
             "title": "Privacy Preserving Data Analysis",
             "abstract": <>
