@@ -97,6 +97,18 @@ const ConferenceSchedule = () => {
                     ],
                 },
                 {
+                    "time": "11:00 - 11:30 IST",
+                    "title": "From Technologist to Board Room, a Cybersecurity Journey",
+                    "speakers": [
+                        {
+                            "name": "Sanju Misra",
+                            "designation": "VP & CISO",
+                            "organization": "Alnylam Pharmaceuticals",
+                            "avatar": require('../../images/speakers/sanju_misra.jpg')
+                        }
+                    ],
+                },
+                {
                     "time": "11:30 - 12:15 IST",
                     "title": "Keynote",
                     "speakers": [
@@ -105,18 +117,6 @@ const ConferenceSchedule = () => {
                             "designation": "Director General",
                             "organization": "National Informatics Centre",
                             "avatar": require('../../images/speakers/neetavarma.jpeg')
-                        }
-                    ],
-                },
-                {
-                    "time": "12:15 - 12:45 IST",
-                    "title": "From Technologist to Board Room, a Cybersecurity Journey",
-                    "speakers": [
-                        {
-                            "name": "Sanju Misra",
-                            "designation": "VP & CISO",
-                            "organization": "Alnylam Pharmaceuticals",
-                            "avatar": require('../../images/speakers/sanju_misra.jpg')
                         }
                     ],
                 },
