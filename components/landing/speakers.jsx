@@ -127,7 +127,7 @@ const ConferenceSpeakers = () => {
             "image": require('../../images/speakers/sundarinanda.jpeg'),
         },
         {
-            "name": "Neeta Varma",
+            "name": "Neeta Verma",
             "designation": "Director General",
             "company": "National Informatics Centre",
             "image": require('../../images/speakers/neetavarma.jpeg')

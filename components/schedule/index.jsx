@@ -113,7 +113,7 @@ const ConferenceSchedule = () => {
                     "title": "Keynote",
                     "speakers": [
                         {
-                            "name": "Neeta Varma",
+                            "name": "Neeta Verma",
                             "designation": "Director General",
                             "organization": "National Informatics Centre",
                             "avatar": require('../../images/speakers/neetavarma.jpeg')
