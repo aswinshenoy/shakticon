@@ -112,7 +112,7 @@ const ConferenceSpeakers = () => {
             "name": "Meenakshi Lekhi",
             "designation": "Member of Parliament",
             "company": "Government of India",
-            "image": require('../../images/speakers/meenakshilekhi.jpg')
+            "image": require('../../images/speakers/meenakshilekhi.jpeg')
         },
         {
             "name": "Swamini Krishnamrita Prana",
@@ -146,8 +146,8 @@ const ConferenceSpeakers = () => {
         },
         {
             "name": "Dr. Krishnasree Achuthan",
-            "designation": "Director",
-            "company": "Amrita Center for Cybersecurity Systems and Networks",
+            "designation": "Dean",
+            "company": "PG Programs",
             "image": require('../../images/speakers/dr_krishnasree.jpg'),
         },
         {
@@ -164,7 +164,7 @@ const ConferenceSpeakers = () => {
             "name": "Ratnaboli Ghorai Dinda",
             "designation": "Deputy Director General(Scientist-G)",
             "company": "National Informatics Centre",
-            "image": require('../../images/speakers/ratnaboli.png')
+            "image": require('../../images/speakers/ratnaboli.jpeg')
         },
         {
             "name": "Dave Chatterjee",

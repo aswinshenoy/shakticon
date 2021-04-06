@@ -65,8 +65,8 @@ const ConferenceSchedule = () => {
                     
                         {
                             "name": "Krishnashree Achuthan",
-                            "designation": "Director",
-                            "organization": "Amrita Center for Cybersecurity Systems and Networks",
+                            "designation": "Dean",
+                            "organization": "PG Programs",
                             "avatar": require('../../images/speakers/dr_krishnasree.jpg')
                         },
                         {
@@ -79,7 +79,7 @@ const ConferenceSchedule = () => {
                             "name": "Meenakshi Lekhi",
                             "designation": "Member of Parliament",
                             "organization": "Government of India",
-                            "avatar": require('../../images/speakers/meenakshilekhi.jpg')
+                            "avatar": require('../../images/speakers/meenakshilekhi.jpeg')
                         },
                         
                         {
@@ -116,7 +116,7 @@ const ConferenceSchedule = () => {
                             "name": "Ratnaboli Ghorai Dinda",
                             "designation": "Deputy Director General(Scientist-G)",
                             "organization": "National Informatics Centre",
-                            "avatar": require('../../images/speakers/ratnaboli.png')
+                            "avatar": require('../../images/speakers/ratnaboli.jpeg')
                         }
                     ],
                 },
