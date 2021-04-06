@@ -168,7 +168,11 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 "image": require('../../../images/speakers/arya.JPG'),
                 
                 "bio": <p>
-                    As a Security Researcher at Siemens she is currently into Secure Software Development (R&D) and Cyber Security Analyst roles. She is focusing on Application security with keen interest in Secure Software Development and Secure Coding. She has prior experience in Penetration Testing, Malware Analysis and Vulnerability Assessments. Pursued Masters in Cyber Security Systems & Networks with Bachelors in Computer Science Engineering.
+                    As a Security Researcher at Siemens she is currently into Secure Software Development 
+                    (R&D) and Cyber Security Analyst roles. She is focusing on Application security with 
+                    keen interest in Secure Software Development and Secure Coding. She has prior experience 
+                    in Penetration Testing, Malware Analysis and Vulnerability Assessments. Pursued Masters 
+                    in Cyber Security Systems & Networks with Bachelors in Computer Science Engineering.
                 </p>
             },
         },
@@ -346,7 +350,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 "name": "Sreepriya Chalakkal",
                 "designation": "Security Analyst",
                 "company": "Siemens ProductCERT",
-                "image": require('../../../images/crew/sreepriya_chechi.jpg'),
+                "image": require('../../../images/crew/sreepriya.jpg'),
                 "links": {
                     "linkedin": "https://www.linkedin.com/in/sreepriyac/",
                     "twitter": "https://twitter.com/priyachalakkal"
@@ -530,8 +534,8 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             },
         },
         {
-            "slug": "security-at-cloud-scale",
-            "title": "Security at Cloud Scale",
+            "slug": "evolution-of-endpoint-detection-and-response",
+            "title": " Evolution of Endpoint Detection and Response(EDR)",
             "abstract": <>
                 In this talk, Aarti looks at the evolution of EDR technology over the years and how the cloud has 
                 been leveraged to improve upon the fidelity of traditional EDR systems.

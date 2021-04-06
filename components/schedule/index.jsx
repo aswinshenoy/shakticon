@@ -92,7 +92,7 @@ const ConferenceSchedule = () => {
                             "name": "Sreepriya Chalakkal",
                             "designation": "Security Analyst",
                             "organization": "Siemens",
-                            "avatar": require('../../images/crew/sreepriya_chechi.jpg')
+                            "avatar": require('../../images/crew/sreepriya.jpg')
                         },
                     ],
                 },
@@ -113,10 +113,10 @@ const ConferenceSchedule = () => {
                     "title": "Keynote",
                     "speakers": [
                         {
-                            "name": "Neeta Verma",
-                            "designation": "Director General",
+                            "name": "Ratnaboli Ghorai Dinda",
+                            "designation": "Deputy Director General(Scientist-G)",
                             "organization": "National Informatics Centre",
-                            "avatar": require('../../images/speakers/neetavarma.jpeg')
+                            "avatar": require('../../images/speakers/ratnaboli.png')
                         }
                     ],
                 },
@@ -286,6 +286,12 @@ const ConferenceSchedule = () => {
                             "designation": "IPS - DCP",
                             "organization": "Cyber Crime, Delhi Police",
                             "avatar": require('../../images/speakers/anyeshroy.png')
+                        },
+                        {
+                            "name": "Dave Chatterjee",
+                            "designation": "Associate Professor",
+                            "organization": "The University of Georgia",
+                            "avatar": require('../../images/speakers/davechatterjee.jpg')
                         }
                     ],
                     },
@@ -367,6 +373,42 @@ const ConferenceSchedule = () => {
                             "organization": "Portland State University",
                             "avatar": require('../../images/speakers/allison.jpg')
                         }
+                    ],
+                },
+                {
+                    "time": "09:30 - 09:45 IST",
+                    "title": "",
+                    "speakers": [
+                        {
+                            "name": "K V Lakshmy",
+                            "designation": "",
+                            "organization": "Amrita University",
+                            "avatar": require('../../images/speakers/lakshmy.png')
+                        }
+                    ],
+                },
+                {
+                    "time": "09:45 - 10:00 IST",
+                    "title": "",
+                    "speakers": [
+                        {
+                            "name": "Amritha S",
+                            "designation": "",
+                            "organization": "Amrita University",
+                            "avatar": require('../../images/speakers/amritha.png')
+                        },
+                    ],
+                },
+                {
+                    "time": "10:00 - 10:30 IST",
+                    "title": "Keynote",
+                    "speakers": [
+                        {
+                            "name": "Neeta Verma",
+                            "designation": "Director General",
+                            "organization": "National Informatics Centre",
+                            "avatar": require('../../images/speakers/neetavarma.jpeg')
+                        },
                     ],
                 },
                 {

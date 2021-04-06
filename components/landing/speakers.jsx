@@ -154,11 +154,23 @@ const ConferenceSpeakers = () => {
             "name": "Sreepriya Chalakkal",
             "designation": "Security Analyst",
             "company": "Siemens",
-            "image": require('../../images/crew/sreepriya_chechi.jpg'),
+            "image": require('../../images/crew/sreepriya.jpg'),
             "links": {
                 "twitter": "https://twitter.com/priyachalakkal",
                 "linkedin": "https://www.linkedin.com/in/sreepriyac/"
             }
+        },
+        {
+            "name": "Ratnaboli Ghorai Dinda",
+            "designation": "Deputy Director General(Scientist-G)",
+            "company": "National Informatics Centre",
+            "image": require('../../images/speakers/ratnaboli.png')
+        },
+        {
+            "name": "Dave Chatterjee",
+            "designation": "Associate Professor",
+            "company": "The University of Georgia",
+            "image": require('../../images/speakers/davechatterjee.jpg')
         },
         {
             "name": "Marion Marschalek",
