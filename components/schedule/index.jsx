@@ -66,8 +66,8 @@ const ConferenceSchedule = () => {
                     
                         {
                             "name": "Krishnashree Achuthan",
-                            "designation": "Dean",
-                            "organization": "PG Programs",
+                            "designation": "Director",
+                            "organization": "Amrita Center for CyberSecurity Systems and Networks",
                             "avatar": require('../../images/speakers/dr_krishnasree.jpg')
                         },
                         {
@@ -324,7 +324,7 @@ const ConferenceSchedule = () => {
                 },
                 {
                     "time": "16:45 - 17:30 IST",
-                    "title": "Techiniques and tooling with FLARE-ON'20",
+                    "title": "Techniques and tooling with FLARE-ON'20",
                     "speakers": [
                         {
                             "name": "Sreelakshmi Panangatt",
@@ -466,14 +466,14 @@ const ConferenceSchedule = () => {
                     "speakers": [
                         {
                             "name": "Micha Weis",
-                            "designation": "CyberSecurity advisor",
+                            "designation": "CyberSecurity Advisor",
                             "organization": "Ministry of Finance",
                             "avatar": require('../../images/speakers/michaweis.jpeg')
                         },
                         {
                             "name": "Vipin Pavithran",
-                            "designation": "Founder",
-                            "organization": "Team Shakti, Team bi0s, InCTF, InCTFj, FOSS@Amrita",
+                            "designation": "Founder & Chief Mentor",
+                            "organization": "Team Shakti, Team bi0s, amFOSS",
                             "avatar": require('../../images/speakers/vipinpavithran.jpg')
                         },
                     ]
