@@ -459,6 +459,24 @@ const ConferenceSchedule = () => {
                         }
                     ],
                 },
+                {
+                    "time": "17:00 - 17:30 IST",
+                    "title": "Closing Ceremony",
+                    "speakers": [
+                        {
+                            "name": "Micha Weis",
+                            "designation": "CyberSecurity advisor",
+                            "organization": "Ministry of Finance",
+                            "avatar": require('../../images/speakers/michaweis.jpeg')
+                        },
+                        {
+                            "name": "Vipin Pavithran",
+                            "designation": "Founder",
+                            "organization": "Team Shakti, Team bi0s, InCTF, InCTFj, FOSS@Amrita",
+                            "avatar": require('../../images/speakers/vipinpavithran.jpg')
+                        },
+                    ]
+                }
             ],
         }
     ]

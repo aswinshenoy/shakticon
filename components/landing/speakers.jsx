@@ -179,6 +179,12 @@ const ConferenceSpeakers = () => {
             "image": require('../../images/speakers/evelynkilel.jpeg')
         },
         {
+            "name": "Vipin Pavithran",
+            "designation": "Founder",
+            "company": "Team Shakti, Team bi0s, InCTF, InCTFj, FOSS@Amrita",
+            "image": require('../../images/speakers/vipinpavithran.jpg')
+        },
+        {
             "name": "Anyesh Roy",
             "designation": "IPS - DCP",
             "company": "Cyber Crime, Delhi Police",
@@ -219,6 +225,21 @@ const ConferenceSpeakers = () => {
             }
         },
         {
+            "name": "Micha Weis",
+            "designation": "CyberSecurity advisor",
+            "company": "Ministry of Finance",
+            "image": require('../../images/speakers/michaweis.jpeg')
+        },
+        {
+            "name": "Bhavna Soman",
+            "designation": "ML Security Researcher",
+            "company": "Microsoft",
+            "image": require('../../images/speakers/bhavana.JPG'),
+            "links": {
+                "twitter": "https://twitter.com/bsoman3",
+            },
+        },
+        {
             "name": "Maddie Stone",
             "isTrainer": true,
             "designation": "Security Researcher",
@@ -254,15 +275,6 @@ const ConferenceSpeakers = () => {
             }
         },
         {
-            "name": "Luisa Montealegre",
-            "designation": "OT Cybersecurity Specialist",
-            "company": "Siemens",
-            "image": require('../../images/speakers/luisa.jpeg'),
-            "links": {
-                "linkedin": "https://www.linkedin.com/in/luisa-montealegre-8a491287/",
-            }
-        },
-        {
             "name": "Silvia Nerea Anguita",
             "isTrainer": true,
             "designation": "Cybersecurity Auditor",
@@ -270,6 +282,59 @@ const ConferenceSpeakers = () => {
             "image": require('../../images/speakers/silvia.jpg'),
             "links": {
                 "linkedin": "https://www.linkedin.com/in/silvia-anguita/"
+            }
+        },
+        {
+            "name": "Arya M Shankar",
+            "isTrainer": true,
+            "designation": "Product & Solution Security Professional",
+            "company": "Siemens",
+            "image": require('../../images/speakers/arya.JPG')
+        },
+        {
+            "name": "Caroline Leman",
+            "isTrainer": true,
+            "designation": "Security Engineer",
+            "company": "ANSSI",
+            "image": require('../../images/speakers/caroline.JPG'),
+        },
+        {
+            "name": "Zoey Garvey",
+            "isTrainer": true,
+            "designation": "Consultant Software Engineer",
+            "company": "Federal Reserve Bank of San Francisco",
+            "image": require('../../images/speakers/zoey.jpg'),
+            "links": {
+                "linkedin": "https://www.linkedin.com/in/zoey-garvey-66982b34/"
+            }
+        },
+        {
+            "name": "Yarden Shafir",
+            "isTrainer": true,
+            "designation": "Software Engineer",
+            "company": "Crowdstrike",
+            "image": require('../../images/speakers/yarden_shafir.jpg'),
+            "links": {
+                "twitter": "https://twitter.com/yarden_shafir?lang=en"
+            }
+        },
+        {
+            "name": "Allison Marie Naaktgeboren",
+            "isTrainer": true,
+            "designation": "PHd Student",
+            "company": "Portland State University",
+            "image": require('../../images/speakers/allison.jpg'),
+            "links": {
+                "linkedin": "https://www.linkedin.com/in/a-m-naaktgeboren/"
+            }
+        },
+        {
+            "name": "Luisa Montealegre",
+            "designation": "OT Cybersecurity Specialist",
+            "company": "Siemens",
+            "image": require('../../images/speakers/luisa.jpeg'),
+            "links": {
+                "linkedin": "https://www.linkedin.com/in/luisa-montealegre-8a491287/",
             }
         },
         {
@@ -303,49 +368,7 @@ const ConferenceSpeakers = () => {
             "company": "(Women in CyberSecurity) WiCyS India ",
             "image": require('../../images/speakers/sabna.JPG'),
         },
-        {
-            "name": "Arya M Shankar",
-            "isTrainer": true,
-            "designation": "Product & Solution Security Professional",
-            "company": "Siemens",
-            "image": require('../../images/speakers/arya.JPG')
-        },
-        {
-            "name": "Caroline Leman",
-            "isTrainer": true,
-            "designation": "Security Engineer",
-            "company": "ANSSI",
-            "image": require('../../images/speakers/caroline.JPG'),
-        },
-        {
-            "name": "Bhavna Soman",
-            "designation": "ML Security Researcher",
-            "company": "Microsoft",
-            "image": require('../../images/speakers/bhavana.JPG'),
-            "links": {
-                "twitter": "https://twitter.com/bsoman3",
-            },
-        },
-        {
-            "name": "Zoey Garvey",
-            "isTrainer": true,
-            "designation": "Consultant Software Engineer",
-            "company": "Federal Reserve Bank of San Francisco",
-            "image": require('../../images/speakers/zoey.jpg'),
-            "links": {
-                "linkedin": "https://www.linkedin.com/in/zoey-garvey-66982b34/"
-            }
-        },
-        {
-            "name": "Yarden Shafir",
-            "isTrainer": true,
-            "designation": "Software Engineer",
-            "company": "Crowdstrike",
-            "image": require('../../images/speakers/yarden_shafir.jpg'),
-            "links": {
-                "twitter": "https://twitter.com/yarden_shafir?lang=en"
-            }
-        },
+
         {
             "name": "Jhilmil Kochar",
             "designation": "Managing Director",
@@ -360,16 +383,6 @@ const ConferenceSpeakers = () => {
             "links": {
                 "linkedin": "https://linkedin.com/in/mina-sheikhalishahi-3184757a",
             },
-        },
-        {
-            "name": "Allison Marie Naaktgeboren",
-            "isTrainer": true,
-            "designation": "PHd Student",
-            "company": "Portland State University",
-            "image": require('../../images/speakers/allison.jpg'),
-            "links": {
-                "linkedin": "https://www.linkedin.com/in/a-m-naaktgeboren/"
-            }
         },
         {
             "name": "Sreelakshmi Panangatt",
