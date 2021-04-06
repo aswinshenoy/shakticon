@@ -116,7 +116,7 @@ const ConferenceSpeakers = () => {
         },
         {
             "name": "Swamini Krishnamrita Prana",
-            "designation": "Senior Disciple",
+            "designation": "",
             "company": "Mata Amritanandamayi Math",
             "image": require('../../images/speakers/krishnamritaprana.jpeg')
         },

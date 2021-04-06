@@ -70,7 +70,11 @@ const ScheduleDay = ({
                                     <div className="px-2">
                                         <h5>{s.name}</h5>
                                         <div>
-                                            {s.designation}, <span>{s.organization}</span>
+                                            {
+                                            (s.designation.length > 0) ?
+                                            <div>{s.designation}, <span>{s.organization}</span></div> :
+                                            <div><span>{s.organization}</span></div>
+                                            }
                                         </div>
                                     </div>
                                 </SpeakerCard>
