@@ -449,7 +449,7 @@ const ConferenceSchedule = () => {
                 },
                 {
                     "time": "16:00 - 17:00 IST",
-                    "title": "Security at Cloud Scale",
+                    "title": "Evolution of Endpoint Detection and Response(EDR)",
                     "speakers": [
                         {
                             "name": "Aarti Gupta",
