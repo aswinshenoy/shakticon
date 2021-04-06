@@ -173,6 +173,18 @@ const ConferenceSpeakers = () => {
             "image": require('../../images/speakers/davechatterjee.jpg')
         },
         {
+            "name": "Evelyn Kilel",
+            "designation": "Co-Founder",
+            "company": "SheHacksKe",
+            "image": require('../../images/speakers/evelynkilel.jpeg')
+        },
+        {
+            "name": "Anyesh Roy",
+            "designation": "IPS - DCP",
+            "company": "Cyber Crime, Delhi Police",
+            "image": require('../../images/speakers/anyeshroy.png')
+        },
+        {
             "name": "Marion Marschalek",
             "designation": "Senior Security Engineer, Founder",
             "company": "BlackHoodie",
