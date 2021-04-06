@@ -12,7 +12,8 @@ const ScheduleModuleWrap = styled.section`
 const TabSwitcher = styled.div`
     button {
         border: none;
-        padding: 5px 8px;
+        font-size: 20px;
+        padding: 6px 10px;
         background: #F50057;
         color: white;
         &:focus {
@@ -502,6 +503,18 @@ const ConferenceSchedule = () => {
             </div>
             <div className="p-1 p-md-2">
                 <ScheduleDay {...scheduleList[activeDay]} />
+            </div>
+            <div className="d-flex align-items-center justify-content-end  mb-3 my-md-0 px-2">
+                <TabSwitcher>
+                    {scheduleList?.map((day, index) =>
+                        <button
+                            className={index===activeDay ? 'is_active' : null}
+                            onClick={() => setActiveDay(index)}
+                        >
+                            {day.title}
+                        </button>
+                    )}
+                </TabSwitcher>
             </div>
         </div>
     </ScheduleModuleWrap>
