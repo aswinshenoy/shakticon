@@ -392,7 +392,7 @@ const ConferenceSchedule = () => {
                     "title": "",
                     "speakers": [
                         {
-                            "name": "Amritha S",
+                            "name": "Amritha P P",
                             "designation": "",
                             "organization": "Amrita University",
                             "avatar": require('../../images/speakers/amritha.png')
