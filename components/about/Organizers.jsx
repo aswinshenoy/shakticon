@@ -78,6 +78,18 @@ const Organizer = styled.div`
         }
       }
     }
+  .scroll-container {
+      &::-webkit-scrollbar{
+          background: rgba(2,2,2,0.5);
+          width: 8px;
+      }
+      ::-webkit-scrollbar-thumb {
+          background: rgba(120,20,150,0.5);
+      }
+      ::-webkit-scrollbar-thumb:hover {
+           background: rgba(120,20,150,0.8);
+      }
+    }  
   }
 `;
 
@@ -86,6 +98,22 @@ const EventOrganizers = ({
 }) => {
 
     const organizersList = [
+        {
+            "name": "Ashwin Shenoy",
+            "image": require('../../images/crew/ashwinshenoy.jpeg'),
+            "links": {
+                "twitter": "https://twitter.com/aswinshenoy_",
+                "linkedin": "https://www.linkedin.com/in/aswinshenoy/"
+            }
+        },
+        {
+            "name": "Swathi Kasikala",
+            "image": require('../../images/crew/swathikasikala.jpeg'),
+            "links": {
+                "twitter": "https://twitter.com/mflash54",
+                "linkedin": "https://www.linkedin.com/in/swathi-kasikala-2938a9179/"
+            }
+        },
         {
             "name": "Shruti Dixit",
             "image": require('../../images/crew/shruthi.jpg'),
@@ -225,12 +253,12 @@ const EventOrganizers = ({
             </VipinSirCard>
             <div className="py-3">
                 <h3 className="mb-0">Student Organizers</h3>
-                <ScrollContainer vertical={false} className="scroll-container py-2">
+                <ScrollContainer vertical={false} hideScrollbars={false} className="scroll-container py-2">
                     <div className="d-flex p-2">
                         {organizersList.map((o, index) =>
                             <Fade delay={index*150} className="h-100">
                                 <Organizer>
-                                    <img draggable={false} src={o.image} alt={o.name} />
+                                    <img draggable={true} src={o.image} alt={o.name} />
                                     <div className="p-1">
                                         <h5>{o.name}</h5>
                                         <div className="social-media-links mt-3">
