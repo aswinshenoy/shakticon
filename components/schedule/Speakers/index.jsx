@@ -107,7 +107,11 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     "linkedin": "https://twitter.com/amritapuri"
                 },
                 "bio": <p>
-                    
+                    Swamini Krishnamrita Prana is a senior most disciple of world renowned humanitarian, <a href="https://amma.org">Mata 
+                    Amritanandamayi Devi</a>. Swamini has been a leading force in the execution of several humanitarian 
+                    initiatives of the Mata Amritanandamayi Math. She is the author of several books(some of which can be
+                    found <a href="https://theammashop.org/search?type=products&q=swamini%20krishnamrita%20prana*">here</a>), 
+                    and a speaker at several international conferences. 
                 </p>
             }
         },
