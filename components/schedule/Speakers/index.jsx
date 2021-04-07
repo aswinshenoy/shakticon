@@ -72,6 +72,29 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
 
     const SpeakersList = [
         {
+            "slug": "inaugural-ceremony",
+            "title": "Inaugural Ceremony",
+            "speaker": {
+                "name": "Meenakshi Lekhi",
+                "designation": "Member of Parliament",
+                "company": "Government of India",
+                "image": require('../../../images/speakers/meenakshilekhi.jpeg'),
+                "links": {
+                    "twitter": "https://twitter.com/M_Lekhi",
+                    "linkedin": "https://www.linkedin.com/in/meenakshi-lekhi-bjp/"
+                },
+                "bio": <p>
+                    Rinki Sethi is a vice president and the Chief Information Security Officer at Twitter Inc.
+                    She was earlier a Information Security Executive at IBM from 2018 to 2019. She has also
+                    worked with companies like Walmart, Intuit, Ebay and others as a CISO and security expert. She
+                    also serves as an advisor to several startups, including LevelOps, Authomize, and Cybersecurity
+                    organizations, like Women in Cybersecurity. She was recognized by CSO Magazine & Executive Women's
+                    Forum with the "One to Watch" award, and in 2010, lead a team at eBay to receive the
+                    "Information Security Team of the Year" by SC Magazine.
+                </p>
+            }
+        },
+        {
             "slug": "keynote",
             "title": "Keynote",
             "speaker": {
@@ -96,7 +119,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
         },
         {
             "slug": "from-technologist-to-board-room",
-            "title": "From Technologist to Board Room...a cybersecurity journey",
+            "title": "From Technologist to Board Room: A cybersecurity journey",
             "abstract": <>
                 In her session, Sanju will review her 25 year long career path along with a few stories. 
                 She hopes to leave you with her learnings and open up the conversation to your questions.

@@ -133,19 +133,6 @@ const ConferenceSchedule = () => {
                         },
                         
                     ],
-                },
-                {
-                    "time": "16:00 - 17:00 IST",
-                    "title": "Threat Modeling",
-                    "speakers": [
-                        {
-                            "name": "Sung Lee",
-                            "designation": "Staff Security Architect",
-                            "organization": "VMware",
-                            "avatar": require('../../images/speakers/sung.JPG')
-                        },
-                        
-                    ],
                 },  
                 {
                     "time": "17:00 - 17:30 IST",
@@ -161,6 +148,19 @@ const ConferenceSchedule = () => {
                     ],
                 },  
                 {
+                    "time": "20:00 - 20:30 IST",
+                    "title": "Internet of Drones Security",
+                    "speakers": [
+                        {
+                            "name": "Mehrnoosh Monshizadeh",
+                            "designation": "Cyber Security Specialist",
+                            "organization": "Nokia Bell Labs",
+                            "avatar": require('../../images/speakers/mehrnoosh.jpeg')
+                        },
+                        
+                    ],
+                },
+                {
                     "time": "20:30 - 21:30 IST",
                     "title": "Try your hand at Machine Learning for Security",
                     "speakers": [
@@ -172,21 +172,20 @@ const ConferenceSchedule = () => {
                         },
                         
                     ],
-                },  
+                },
                 {
-                    "time": "21:30 - 22:00 IST",
-                    "title": "Internet of Drones Security",
+                    "time": "21:30 - 22:30 IST",
+                    "title": "Threat Modeling",
                     "speakers": [
                         {
-                            "name": "Mehrnoosh Monshizadeh",
-                            "designation": "Cyber Security Specialist",
-                            "organization": "Nokia Bell Labs",
-                            "avatar": require('../../images/speakers/mehrnoosh.jpeg')
+                            "name": "Sung Lee",
+                            "designation": "Staff Security Architect",
+                            "organization": "VMware",
+                            "avatar": require('../../images/speakers/sung.JPG')
                         },
                         
                     ],
-                },  
-                  
+                },    
             ]
         },
         {
@@ -256,7 +255,7 @@ const ConferenceSchedule = () => {
                 
                 {
                     "time": "11:30 - 13:00 IST",
-                    "title": "Panel Discussion: Cybercrime and Pathways",
+                    "title": "Panel Discussion: Cybercrime and Pathways Ahead",
                     "speakers": [
                         {
                             "name": "Sundari Nanda",
@@ -269,12 +268,6 @@ const ConferenceSchedule = () => {
                             "designation": "Head of Cybersecurity Department (of SOC and DFIR teams)",
                             "organization": " Israel Ministry of Defense",
                             "avatar": require('../../images/speakers/lioraitkin.jpeg')
-                        },
-                        {
-                            "name": "Krishnashree Achuthan",
-                            "designation": "Director",
-                            "organization": "Amrita Center for Cybersecurity Systems and Networks",
-                            "avatar": require('../../images/speakers/dr_krishnasree.jpg')
                         },
                         {
                             "name": "Evelyn Kilel",
@@ -293,7 +286,13 @@ const ConferenceSchedule = () => {
                             "designation": "Associate Professor",
                             "organization": "The University of Georgia",
                             "avatar": require('../../images/speakers/davechatterjee.jpg')
-                        }
+                        },
+                        {
+                            "name": "Krishnashree Achuthan",
+                            "designation": "Dean",
+                            "organization": "PG Programs",
+                            "avatar": require('../../images/speakers/dr_krishnasree.jpg')
+                        },
                     ],
                     },
                     
