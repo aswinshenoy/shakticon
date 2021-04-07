@@ -145,7 +145,7 @@ const ConferenceSpeakers = () => {
             "image": require('../../images/speakers/karinebensimhon.jpeg')
         },
         {
-            "name": "Dr. Krishnasree Achuthan",
+            "name": "Dr. Krishnashree Achuthan",
             "designation": "Dean",
             "company": "PG Programs",
             "image": require('../../images/speakers/dr_krishnasree.jpg'),
