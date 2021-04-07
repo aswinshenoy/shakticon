@@ -193,6 +193,26 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             },
         },
         {
+            "slug": "Keynote",
+            "title": "Keynote", 
+            "speaker": {
+                "name": "Ratnaboli Ghorai Dinda",
+                "designation": "Deputy Director General(Scientist-G)",
+                "company": "National Informatics Centre",
+                "bio": <p>
+                    Ms. Ratnaboli Ghorai Dinda, has spent more than 30 years in Information
+Technology and more than 15 years in Cyber Security. She has played a key
+role in provisioning Cyber Security for the National Informatics Centre or NIC,
+a premier institution of the Government of India, providing infrastructure and
+technology support to enable the delivery of government IT services. She
+specializes in Application Security and is currently Deputy Director General
+and CISO of the National Informatics Centre.
+                </p>,
+                "image": require('../../../images/speakers/ratnaboli.jpeg'),
+            },
+        },
+        
+        {
             "slug": "threat-modeling",
             "title": "Threat Modeling",
             "abstract": <>
@@ -251,6 +271,19 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             },
         },
         {
+            "slug": "Inaugural Session",
+            "title": "Inaugural Session", 
+            "speaker": {
+                "name": "Krishnashree Achuthan",
+                "designation": "Director",
+                "company": "Amrita Center for CyberSecurity Systems and Networks",
+                "bio": <p>
+                    Dr. Krishnashree is an ardent researcher with multi-disciplinary interests, and holds a PhD degree from Clarkson University, NY, USA. Her areas of interest in  Cybersecurity & governance, Mathematical Modeling of Systems, Cybersecurity policy, IoT Security, Public Safety, Innovation, Educational Technologies & Entrepreneurship. She also leads research teams focused on enhancement of laboratory education through virtual laboratories. She holds 33 US patents, and has published over 50 publications in Journals & Conferences. She has played an active role in several strategic initiatives for Govt. of India and served as the Principal Investigator.
+                </p>,
+                "image": require('../../../images/speakers/dr_krishnasree.jpg'),
+            },
+        },
+        {
             "slug": "ctfs-and-cybersecurity-research",
             "title": "CTFs and cybersecurity research",
             "abstract": <>
@@ -303,6 +336,19 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             },
         },
         {
+            "slug": "Panel Discussion: Cybercrime and Pathways Ahead",
+            "title": "Panel Discussion: Cybercrime and Pathways Ahead", 
+            "speaker": {
+                "name": "Evelyn Kilel",
+                "designation": "Co-Founder",
+                "company": "SheHacksKe",
+                "bio": <p>
+                    Evelyn Kilel, a computer scientist and cybersecurity analyst at Ernst and Young is one of the co-founders of Shehacks KE. She Hacks Kenya is an all-female community that was founded in 2016, through the efforts of Patricia Rotich with the assistance of Safaricom’s women in technology. 
+                </p>,
+                "image": require('../../../images/speakers/evelynkilel.jpeg'),
+            },
+        },
+        {
             "slug": "cybersecurity-in-the-ot-enviroment",
             "title": "Cybersecurity in the OT enviroment",
             "abstract": <>
@@ -324,6 +370,33 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     the OT cybersecurity services for Siemens factories around the world. Her main goal is to achieve secure and 
                     certification ready factories with resilient environments. She holds a master’s degree in cybersecurity systems 
                     from Lleida University. 
+                </p>,
+            },
+        },
+        {
+            "slug": "Keynote",
+            "title": "Keynote", 
+            "speaker": {
+                "name": "Marion Marschalek",
+                "designation": "Senior Security Engineer, Founder",
+                "company": "BlackHoodie",
+                "bio": <p>
+                    Marion Marschalek is a Cyphort researcher and one of the top reverse engineers of government malware around. Recently uncovered French government surveillance malware.
+                </p>,
+                "image": require('../../../images/speakers/marion.jpeg'),
+            },
+        },
+        {
+            "slug": "Panel Discussion: Cybercrime and Pathways Ahead",
+            "title": "Panel Discussion: Cybercrime and Pathways Ahead",
+            
+            "speaker": {
+                "name": "Dave Chatterjee",
+                "designation": "Associate Professor",
+                "company": "The University of Georgia",
+                "image": require('../../../images/speakers/davechatterjee.jpg'),
+                "bio": <p>
+                   Dr. Chatterjee’s interest and expertise lies in the various facets of information technology management, with current focus on cybersecurity and enterprise digitization. He delivers talks around the world, conduct webinars and workshops, give expert interviews, and moderate CXO panels on cybersecurity, emerging technology trends, and other enterprise IT governance and value management issues. It is a passion and mission of mine to connect with all types of audience and engage in a thought-provoking and reflective discussion.
                 </p>,
             },
         },
@@ -350,6 +423,27 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     Defense & Intelligence studies from the Bar-Ilan University, and a Political Sciences B.A diploma from the Tel-Aviv University. 
                 </p>,
                 "image": require('../../../images/speakers/karinebensimhon.jpeg'),
+            },
+        },
+        
+        {
+            "slug": "Closing Ceremony",
+            "title": "Closing Ceremony", 
+            "speaker": {
+                "name": "Micha Weis",
+                "designation": "CyberSecurity advisor",
+                "company": "Ministry of Finance",
+                "bio": <p>
+                   Micha Weis has vast experience in cybersecurity and Information Security, FinTech, innovation, and regulation. All in the
+military, finance and government sectors
+- Integrating cybersecurity technologies, innovation, and FinTech on a national level
+- Managing the Israeli National Financial CERT – the Cyber and Finance Continuity Center
+- Supply chain guidance on cybersecurity, business continuity, risk management, and cyber resilience
+- Coordination with the National Cyber Directorate, financial sector regulators and business continuity instructors (in the energy, communication, transportation, and civil defense sectors)
+- Strategizing and defining the Cybersecurity architecture perception, cloud services, policies, and guidance for enterprise organizations, while supporting the implementation of decision-makers
+- Developing risk assessment processes, sectorial situation reports, cross-sectoral information sharing infrastructure methods and more
+                </p>,
+                "image": require('../../../images/speakers/michaweis.jpeg'),
             },
         },
         {
@@ -525,6 +619,19 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     parallel advisor and other important products and services at Intel. She has MS in Computer Science from 
                     Ohio University, US and MS in Math/CS from IIT Delhi, India. She is passionate about promoting women in 
                     cyber security to reach their professional goals.
+                </p>
+            }
+        },
+        {
+            "slug": "Keynote",
+            "title": "Keynote",
+            "speaker": {
+                "name": "Neeta Verma",
+                "designation": "Director General",
+                "company": "National Informatics Centre",
+                "image": require('../../../images/speakers/neetavarma.jpeg'),
+                "bio": <p>
+                    Dr. Neeta Verma is the Director General of National Informatics Centre, a premier Technology organization of the Government of India. With a career spanning over three and a half decades, she has been instrumental in implementing high impact digital initiatives across the country. In her current role as DG NIC, she is spearheading the Digital Transformation agenda of the government through development of Digital Platforms for various initiatives of the Government in different sectors of development.
                 </p>
             }
         },
