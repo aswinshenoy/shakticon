@@ -66,7 +66,14 @@ const SpeakerCard = ({
             <div className="col-md-7 p-2">
                 <h3>{title}</h3>
                 <h4>{speaker?.name}</h4>
-                {speaker?.company && <h5>{speaker?.designation}, {speaker?.company}</h5>}
+                {
+                speaker?.company && <h5>
+                    {
+                        (speaker.designation.length > 0) ?
+                        <div>{speaker.designation}, <span>{speaker.company}</span></div> :
+                        <div><span>{speaker.company}</span></div>
+                    }
+                </h5>}
             </div>
             <div className="col-md-5 d-flex text-warning text-md-right text-center justify-content-md-end justify-content-center p-2">
                 <div className="p-2">
