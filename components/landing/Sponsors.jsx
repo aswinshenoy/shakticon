@@ -167,21 +167,28 @@ const EventSponsors = () => {
                                             <img
                                                 alt="NotSoSecure" draggable="false"
                                                 src={require('../../images/sponsors/notsosecure.png')}
-                                                style={{ maxWidth: '90px' }}
+                                                style={{ maxWidth: '70px' }}
                                             />
                                         </SponsorIcon>
                                         <SponsorIcon>
                                             <img
                                                 alt="FireEye" draggable="false"
                                                 src={require('../../images/sponsors/fireeye.png')}
-                                                style={{ maxWidth: '100%', maxHeight: '20px' }}
+                                                style={{ maxWidth: '100%', maxHeight: '15px' }}
                                             />
                                         </SponsorIcon>
                                         <SponsorIcon>
                                             <img
                                                 alt="Hack The Box" draggable="false"
                                                 src={require('../../images/sponsors/hackthebox.png')}
-                                                style={{ maxWidth: '100%', maxHeight: '50px' }}
+                                                style={{ maxWidth: '100%', maxHeight: '35px' }}
+                                            />
+                                        </SponsorIcon>
+                                        <SponsorIcon>
+                                            <img
+                                                alt="Hack The Box" draggable="false"
+                                                src={require('../../images/sponsors/maltego.jpg')}
+                                                style={{ maxWidth: '100%', maxHeight: '35px' }}
                                             />
                                         </SponsorIcon>
                                     </div>
