@@ -84,13 +84,14 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     "linkedin": "https://www.linkedin.com/in/meenakshi-lekhi-bjp/"
                 },
                 "bio": <p>
-                    Rinki Sethi is a vice president and the Chief Information Security Officer at Twitter Inc.
-                    She was earlier a Information Security Executive at IBM from 2018 to 2019. She has also
-                    worked with companies like Walmart, Intuit, Ebay and others as a CISO and security expert. She
-                    also serves as an advisor to several startups, including LevelOps, Authomize, and Cybersecurity
-                    organizations, like Women in Cybersecurity. She was recognized by CSO Magazine & Executive Women's
-                    Forum with the "One to Watch" award, and in 2010, lead a team at eBay to receive the
-                    "Information Security Team of the Year" by SC Magazine.
+                    Smt. Meenakshi Lekhi is a lawyer of the Supreme Court of India and a socio-political activist. 
+                    She has worked on several important cases like banning of lotteries in Delhi, Shantimukund rape 
+                    case, and special prosecutor for Jyoti Dhawan's case. She has been involved with several NGOs 
+                    and Commissions for Women Empowerment. She has also been member of the drafting committee of 
+                    "Women Reservation Bill" and "Problem of Sexual Harassment at Workplace". She has been taking 
+                    various lectures at NHRC and gender training programmes with various Ministries. She is also 
+                    regular on television debates on various national channels on several issues of national 
+                    importance.
                 </p>
             }
         },
