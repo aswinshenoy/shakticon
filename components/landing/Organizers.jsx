@@ -96,6 +96,16 @@ const EventOrganizers = () => {
                 <h3 style={{ fontWeight: 600 }} className="mb-1">Community Partners</h3>
                 <div className="d-flex justify-content-center">
                     <div className="row mx-0 supporters_logos" style={{ maxWidth: '700px' }}>
+                        <div className="col-6 col-md-4 d-flex align-items-center justify-content-center p-1">
+                            <Fade down>
+                                <a href="https://www.dsci.in/" className="plain-link" rel="noreferrer nofollow" target="_blank">
+                                    <img
+                                        style={{ width: 'auto' }}
+                                        alt="Data Security Council of India" draggable="false" className="partner_logo" src={require('../../images/dsci.png')}
+                                    />
+                                </a>
+                            </Fade>
+                        </div>
                         <div className="col-6 col-md-4 d-flex justify-content-center align-items-center p-1">
                             <Fade up>
                                 <a href="https://blackhoodie.re/" className="plain-link" rel="noreferrer nofollow" target="_blank">
