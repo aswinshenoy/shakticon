@@ -190,35 +190,38 @@ const SponsorsPage = () => {
                     </div>
                 </div>
                 <h3 className="my-4">Prize Sponsors</h3>
-                <div className="row mx-0">
-                    <div className="col-md-3 col-12 p-2">
-                        <SponsorCardWrap>
-                            <div className="p-2 text-center">
-                                <a href="https://www.sophos.com/en-us.aspx" target="_blank" rel="nofollow noreferrer">
-                                    <img
-                                        alt="Sophos" draggable="false"
-                                        src={require('../images/sponsors/sophos.png')}
-                                        style={{ maxHeight: '250px', maxWidth: '100%' }}
-                                    />
-                                </a>
-                            </div>
-                            <div className="p-2" style={{ fontSize: '14px' }}>
-                                Sophos evolves to meet every new challenge, protecting more than 400,000 organizations 
-                                of all sizes in more than 150 countries from today’s most advanced cyber threats. Powered 
-                                by SophosLabs, our cloud-native and AI-enhanced solutions are able to adapt and evolve to 
-                                secure endpoints and networks against never-before-seen cybercriminal tactics and techniques.
-                            </div>
-                            <div className="p-2">
-                                <a
-                                    href="https://www.fireeye.com/company.html" target="_blank" rel="nofollow noreferrer"
-                                    className="btn btn-primary rounded-0 px-4 py-3"
-                                >
-                                    Read More
-                                </a>
-                            </div>
-                        </SponsorCardWrap>
-                    </div>
-                    <div className="col-md-3 col-12 p-2">
+                <div class="container-fluid">
+                    <div class="row mx-0">
+                        <div class="col">
+                            <SponsorCardWrap>
+                                <div className="p-2 text-center">
+                                    <a href="https://www.sophos.com/en-us.aspx" target="_blank" rel="nofollow noreferrer">
+                                        <img
+                                            alt="Sophos" draggable="false"
+                                            src={require('../images/sponsors/sophos.png')}
+                                            style={{ maxHeight: '250px', maxWidth: '100%' }}
+                                        />
+                                    </a>
+                                </div>
+                                <div className="p-2" style={{ fontSize: '14px' }}>
+                                    Sophos evolves to meet every new challenge, protecting more than 400,000 organizations 
+                                    of all sizes in more than 150 countries from today’s most advanced cyber threats. Powered 
+                                    by SophosLabs, our cloud-native and AI-enhanced solutions are able to adapt and evolve to 
+                                    secure endpoints and networks against never-before-seen cybercriminal tactics and techniques.
+                                </div>
+                                <div className="p-2">
+                                    <a
+                                        href="https://www.fireeye.com/company.html" target="_blank" rel="nofollow noreferrer"
+                                        className="btn btn-primary rounded-0 px-4 py-3"
+                                    >
+                                        Read More
+                                    </a>
+                                </div>
+                            </SponsorCardWrap>
+                        </div>
+                    
+
+                    <div class="col">
                         <SponsorCardWrap>
                             <div className="p-2 text-center">
                                 <a href="https://notsosecure.com/about/" target="_blank" rel="nofollow noreferrer">
@@ -245,7 +248,7 @@ const SponsorsPage = () => {
                             </div>
                         </SponsorCardWrap>
                     </div>
-                    <div className="col-md-3 col-12 p-2">
+                    <div class="col">
                         <SponsorCardWrap>
                             <div className="p-2 text-center">
                                 <a href="https://www.fireeye.com/company.html" target="_blank" rel="nofollow noreferrer">
@@ -270,7 +273,7 @@ const SponsorsPage = () => {
                             </div>
                         </SponsorCardWrap>
                     </div>
-                    <div className="col-md-3 col-12 p-2">
+                    <div class="col">
                         <SponsorCardWrap>
                             <div className="p-2 text-center">
                                 <a href="https://www.hackthebox.eu/" target="_blank" rel="nofollow noreferrer">
@@ -294,6 +297,36 @@ const SponsorsPage = () => {
                                 </a>
                             </div>
                         </SponsorCardWrap>
+                    </div>
+                    <div class="col">
+                        <SponsorCardWrap>
+                            <div className="p-2 text-center">
+                                <a href="https://www.maltego.com/" target="_blank" rel="nofollow noreferrer">
+                                    <img
+                                        alt="Maltego" draggable="false"
+                                        src={require('../images/sponsors/maltego.jpg')}
+                                        style={{ maxHeight: '250px', maxWidth: '100%' }}
+                                    />
+                                </a>
+                            </div>
+                            <div className="p-2" style={{ fontSize: '14px' }}>
+                                Maltego is a comprehensive tool for graphical link analyses that offers real-time 
+                                data mining and information gathering, as well as the representation of this information 
+                                on a node-based graph, making patterns and multiple order connections between said 
+                                information easily identifiable. <br />
+                                With Maltego, you can easily mine data from dispersed sources, automatically merge 
+                                matching information in one graph, and visually map it to explore your data landscape.
+                            </div>
+                            <div className="p-2">
+                                <a
+                                    href="https://www.hackthebox.eu/" target="_blank" rel="nofollow noreferrer"
+                                    className="btn btn-primary rounded-0 px-4 py-3"
+                                >
+                                    Read More
+                                </a>
+                            </div>
+                        </SponsorCardWrap>
+                    </div>
                     </div>
                 </div>
                 <h3 className="my-4">Infrastructure Sponsors</h3>
