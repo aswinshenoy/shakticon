@@ -89,9 +89,55 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     case, and special prosecutor for Jyoti Dhawan's case. She has been involved with several NGOs 
                     and Commissions for Women Empowerment. She has also been member of the drafting committee of 
                     "Women Reservation Bill" and "Problem of Sexual Harassment at Workplace". She has been taking 
-                    various lectures at NHRC and gender training programmes with various Ministries. She is also 
-                    regular on television debates on various national channels on several issues of national 
-                    importance.
+                    various lectures at the National Human Rights Commission(NHRC), India and gender training 
+                    programmes with various Ministries. She is also an excellent orator and a regular on television 
+                    debates on various national channels on several issues of national importance.
+                </p>
+            }
+        },
+        {
+            "slug": "inaugural-ceremony",
+            "title": "Inaugural Ceremony",
+            "speaker": {
+                "name": "Swamini Krishnamrita Prana",
+                "designation": "",
+                "company": "Mata Amritanandamayi Math",
+                "image": require('../../../images/speakers/krishnamritaprana.jpeg'),
+                "links": {
+                    "linkedin": "https://twitter.com/amritapuri"
+                },
+                "bio": <p>
+                    
+                </p>
+            }
+        },
+        {
+            "slug": "inaugural-ceremony",
+            "title": "Inaugural Ceremony",
+            "speaker": {
+                "name": "Eric Falt",
+                "designation": "Director",
+                "company": "UNESCO New Delhi Cluster",
+                "image": require('../../../images/speakers/ericfalt.jpeg'),
+                "links": {
+                    "linkedin": "https://www.linkedin.com/in/eric-falt-8185ba18"
+                },
+                "bio": <p>
+                    Eric Falt has more than 30 years in the field of diplomacy and international affairs, focusing 
+                    initially on communications and moving to political affairs and management. From 2010 to 2018 
+                    Eric served as the Assistant Director-General of UNESCO, in charge of external relations and 
+                    public information, with the rank of Assistant Secretary-General of the UN. Since 2018, he is the UNESCO 
+                    Director and Representative based in New Delhi for a region comprising Bangladesh, Bhutan, India, 
+                    Nepal, the Maldives, and Sri Lanka. His previous assignments included: 
+                    <ul>
+                        <li>Participation in the Cambodia peace process,</li>
+                        <li>Involvement in human rights and peacekeeping activities in Haiti,</li>
+                        <li>Responsibilities in a humanitarian program in Iraq,</li>
+                        <li>Overall promotion of development activities for the United Nations in Pakistan.</li>
+                    </ul>
+                    
+                    He also led the global communications effort of the United Nations Environment Programme(UNEP) 
+                    and then the global outreach activities of the United Nations Secretariat in New York. 
                 </p>
             }
         },
