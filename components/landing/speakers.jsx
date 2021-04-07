@@ -321,7 +321,7 @@ const ConferenceSpeakers = () => {
         {
             "name": "Allison Marie Naaktgeboren",
             "isTrainer": true,
-            "designation": "PHd Student",
+            "designation": "Researcher",
             "company": "Portland State University",
             "image": require('../../images/speakers/allison.jpg'),
             "links": {

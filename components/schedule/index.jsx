@@ -369,7 +369,7 @@ const ConferenceSchedule = () => {
                     "speakers": [
                         {
                             "name": "Allison Marie Naaktgeboren",
-                            "designation": "PhD Student",
+                            "designation": "Researcher",
                             "organization": "Portland State University",
                             "avatar": require('../../images/speakers/allison.jpg')
                         }

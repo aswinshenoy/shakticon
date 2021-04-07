@@ -540,7 +540,7 @@ military, finance and government sectors
             "speaker": {
                 "name": "Allison Marie Naaktgeboren",
                 "isTrainer": true,
-                "designation": "PhD Student",
+                "designation": "Researcher",
                 "company": "Portland State University",
                 "image": require('../../../images/speakers/allison.jpg'),
                 "links": {
