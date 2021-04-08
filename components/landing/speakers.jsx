@@ -146,8 +146,8 @@ const ConferenceSpeakers = () => {
         },
         {
             "name": "Dr. Krishnashree Achuthan",
-            "designation": "Dean",
-            "company": "PG Programs",
+            "designation": "Dean PG Programs",
+            "company": "Amrita Vishwa Vidyapeetham",
             "image": require('../../images/speakers/dr_krishnasree.jpg'),
         },
         {

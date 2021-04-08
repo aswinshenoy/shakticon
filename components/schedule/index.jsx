@@ -300,8 +300,8 @@ const ConferenceSchedule = () => {
                         },
                         {
                             "name": "Krishnashree Achuthan",
-                            "designation": "Dean",
-                            "organization": "PG Programs",
+                            "designation": "Dean PG Programs",
+                            "organization": "Amrita Vishwa Vidyapeetham",
                             "avatar": require('../../images/speakers/dr_krishnasree.jpg')
                         },
                     ],
