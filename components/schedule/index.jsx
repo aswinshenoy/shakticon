@@ -32,7 +32,7 @@ const ConferenceSchedule = () => {
 
     const scheduleList = [
         {
-            "date": "09 April 2020",
+            "date": "09 April 2021",
             "title": "Day 1",
             "events": [
                 {
@@ -135,7 +135,7 @@ const ConferenceSchedule = () => {
                 },
                 {
                     "time": "16:30 - 17:00 IST",
-                    "title": "Quantum safe solutions for cyber security",
+                    "title": "Quantum safe solutions for Cybersecurity",
                     "speakers": [
                         {
                             "name": "Anindita Banerjee",
@@ -164,7 +164,7 @@ const ConferenceSchedule = () => {
                     "speakers": [
                         {
                             "name": "Mehrnoosh Monshizadeh",
-                            "designation": "Cyber Security Specialist",
+                            "designation": "Cybersecurity Specialist",
                             "organization": "Nokia Bell Labs",
                             "avatar": require('../../images/speakers/mehrnoosh.jpeg')
                         },
@@ -200,7 +200,7 @@ const ConferenceSchedule = () => {
             ]
         },
         {
-            "date": "10 April 2020",
+            "date": "10 April 2021",
             "title": "Day 2",
             "events": [
                 {
@@ -358,7 +358,7 @@ const ConferenceSchedule = () => {
                 },
                 {
                     "time": "21:30 - 22:30 IST",
-                    "title": "Cyber Security of Embedded Networks in Heavy Vehicles",
+                    "title": "Cybersecurity of Embedded Networks in Heavy Vehicles",
                     "speakers": [
                         {
                             "name": "Indrakshi Ray",
@@ -371,7 +371,7 @@ const ConferenceSchedule = () => {
             ],
         },
         {
-            "date": "11 April 2020",
+            "date": "11 April 2021",
             "title": "Day 3",
             "events": [
             {

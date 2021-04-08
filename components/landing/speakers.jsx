@@ -429,7 +429,7 @@ const ConferenceSpeakers = () => {
         },
         {
             "name": "Mehrnoosh Monshizadeh",
-            "designation": "Cyber Security Specialist",
+            "designation": "Cybersecurity Specialist",
             "company": "Nokia Bell Labs",
             "image": require('../../images/speakers/mehrnoosh.jpeg'),
         },

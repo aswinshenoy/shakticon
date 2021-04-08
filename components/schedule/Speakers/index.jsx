@@ -167,7 +167,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 "company": "National Informatics Centre",
                 "bio": <p>
                     Ms. Ratnaboli Ghorai Dinda, has spent more than 30 years in Information Technology and 
-                    more than 15 years in Cyber Security. She has played a key role in provisioning Cyber 
+                    more than 15 years in Cybersecurity. She has played a key role in provisioning Cyber 
                     Security for the National Informatics Centre or NIC, a premier institution of the 
                     Government of India, providing infrastructure and technology support to enable the 
                     delivery of government IT services. She specializes in Application Security and is 
@@ -229,7 +229,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     "linkedin": "https://www.linkedin.com/in/sanjumisra/"
                 },
                 "bio": <p>
-                    Sanju fell into the cyber security field 25 years ago. Her subject matter expertise in 
+                    Sanju fell into the cybersecurity field 25 years ago. Her subject matter expertise in 
                     security engineering, security analysis then team leader helped to launch her into chief
                     information security officer roles at General Electric Treasury, Praxair and Linde.
                     The skills she gained as a technologist aren’t the same skills required to
@@ -326,7 +326,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 "designation": "Head of Cybersecurity Department (of SOC and DFIR teams)",
                 "company": "Israel Ministry of Defense",
                 "bio": <p>
-                    Leading a Cyber Security Defense Department: <br />
+                    Leading a Cybersecurity Defense Department: <br />
                     ✔️ SOC team<br />
                     ✔️ Digital Forensics Investigators and Incident Response team<br />
                     Skilled in the areas of in cyber attacks, malware analysis, threat hunting, cyber analysis, networking and system. <br />
@@ -375,7 +375,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 "bio": <p>
                     Ms Sarvjeet Kaur is heading the Software Security Testing Lab of Scientific Analysis Group(SAG), 
                     DRDO, a premier research organization for Defence in the country. She has been working in the area 
-                    Cyber security for last 8 years.
+                    Cybersecurity for last 8 years.
 
                 </p>,
                 "image": require('../../../images/speakers/sarvajeetkaur.jpeg'),
@@ -383,7 +383,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
         },
         {
             "slug": "quantum-safe-solutions-for-cybersecurity",
-            "title": "Quantum safe solutions for cyber security", 
+            "title": "Quantum safe solutions for cybersecurity", 
             "speaker": {
                 "name": "Anindita Banerjee",
                 "designation": "Quantum Research Head and VP",
@@ -398,7 +398,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     publications. She has co-authored a book on Optical quantum computation and quantum communication published 
                     in SPIE Spotlight Series. At present she is working as Quantum Research Head and VP at QuNu Labs Pvt Ltd. 
                     <br />
-                    The company focuses on quantum safe solutions for cyber security. She is associated with QNU from 2017. 
+                    The company focuses on quantum safe solutions for cybersecurity. She is associated with QNU from 2017. 
                     She has led the scientific R&D at Qnu Labs and demonstrated fibre based DPS Quantum Key Distribution  
                     in 2019. She has contributed in developing India’s first Quantum Technology Product in Quantum Key 
                     Distribution  and Quantum random number generator. She and her team has demonstrated India’s first Quantum 
@@ -465,7 +465,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 "company": "Citi, Israel",
                 "bio": <p>
                     Mrs. Ben-Simhon is currently leading the Intelligence partnerships and Innovation at Citi Bank's Cyber Intelligence 
-                    Center and TLV Innovation lab. Karine is a senior cyber security manager, with vast experience and understanding of 
+                    Center and TLV Innovation lab. Karine is a senior cybersecurity manager, with vast experience and understanding of 
                     the cyber warfare ecosystem at corporate and National levels.  Before joining Citi, Karine established and managed 
                     the Operational Cooperation unit of the Israel National Cyber Directorate. She began her career at the Israel Security 
                     agency as a threat intelligence analyst, and continued her journey working for both private and public sector dealing 
@@ -500,10 +500,10 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 
                 "bio": <p>
                     As a Security Researcher at Siemens she is currently into Secure Software Development 
-                    (R&D) and Cyber Security Analyst roles. She is focusing on Application security with 
+                    (R&D) and Cybersecurity Analyst roles. She is focusing on Application security with 
                     keen interest in Secure Software Development and Secure Coding. She has prior experience 
                     in Penetration Testing, Malware Analysis and Vulnerability Assessments. Pursued Masters 
-                    in Cyber Security Systems & Networks with Bachelors in Computer Science Engineering.
+                    in Cybersecurity Systems & Networks with Bachelors in Computer Science Engineering.
                 </p>
             },
         },
@@ -683,7 +683,7 @@ military, finance and government sectors
                     Prior to working on security Priti Shrivastav managed various products like compilers, binary translation software, 
                     parallel advisor and other important products and services at Intel. She has MS in Computer Science from 
                     Ohio University, US and MS in Math/CS from IIT Delhi, India. She is passionate about promoting women in 
-                    cyber security to reach their professional goals.
+                    cybersecurity to reach their professional goals.
                 </p>
             }
         },
@@ -702,11 +702,11 @@ military, finance and government sectors
             </>,
             "speaker": {
                 "name": "Mehrnoosh Monshizadeh",
-                "designation": "Cyber Security Specialist",
+                "designation": "Cybersecurity Specialist",
                 "company": "Nokia Bell Labs",
                 "image": require('../../../images/speakers/mehrnoosh.jpeg'),
                 "bio": <p>
-                    Mehrnoosh is working at Nokia Bell Labs research department as Cyber Security Specialist. 
+                    Mehrnoosh is working at Nokia Bell Labs research department as Cybersecurity Specialist. 
                     Her research area includes utilizing and optimizing artificial intelligence for IoT security, 
                     Drone/Robot security, Digital Health security and cloud security (SDN/NFV). She has been working 
                     previously on development of LTE core network and Lawful Interception.
@@ -752,7 +752,7 @@ military, finance and government sectors
                 protect against them. <br />
                 <br />
                 The target audience for this talk would be anybody who is currently working or who has just 
-                started in cyber security field or anybody who wants to learn something new.
+                started in cybersecurity field or anybody who wants to learn something new.
             </>,
             "speaker": {
                 "name": "Komal Armarkar",
@@ -819,7 +819,7 @@ military, finance and government sectors
         },
         {
             "slug": "cyber-security-of-embedded-networks-in-heavy-vehicles",
-            "title": "Cyber Security of Embedded Networks in Heavy Vehicles", 
+            "title": "Cybersecurity of Embedded Networks in Heavy Vehicles", 
             "abstract": <>
                 Trucks play a very role important role in driving the nation's economy, moving more than 70% of all the freights 
                 transported in the US by weight. Any event that grounds all trucks even for a few days, have severe consequences, 
@@ -829,7 +829,7 @@ military, finance and government sectors
                 networks, and electro-mechanical systems that work in tandem to improve their performance, efficiency, safety, 
                 connectivity, and user-experience. However, they also bring up serious cyber threats to the truck's operation. <br />
                 <br />
-                In this talk, we discuss cyber security in the context of modern day trucks and heavy vehicles. We discuss 
+                In this talk, we discuss cybersecurity in the context of modern day trucks and heavy vehicles. We discuss 
                 vulnerabilities our group has identified that span across all modern day heavy vehicles and allow a hacker to 
                 access the embedded controller network of a truck to cause different types of attacks including ones that cause 
                 a truck to not be able to start or stop.  We present some approaches for detecting attacks in real-time and show 
@@ -844,8 +844,8 @@ military, finance and government sectors
                 "image": require('../../../images/speakers/indrakshiray.jpeg'),
                 "bio": <p>
                     Dr. Indrakshi Ray is a Professor in the Computer Science Department at Colorado State University. She is the 
-                    Director of Colorado Center for Cyber Security at Colorado State University. She is also the Site Director of 
-                    NSF IUCRC Center for Cyber Security Analytics and Automation. Dr. Ray  has been a visiting faculty at Air Force 
+                    Director of Colorado Center for Cybersecurity at Colorado State University. She is also the Site Director of 
+                    NSF IUCRC Center for Cybersecurity Analytics and Automation. Dr. Ray  has been a visiting faculty at Air Force 
                     Research Laboratory, Naval Research Laboratory, and at INRIA, Rocquencourt, France. She obtained her Ph.D. in 
                     Information Technology from George Mason University. <br />
                     <br />
@@ -901,7 +901,7 @@ military, finance and government sectors
                 "designation": "President",
                 "company": "(Women in CyberSecurity) WiCyS India ",
                 "bio": <p>
-                    Sabna Sainudeen is a Senior cyber security professional with exceptional skills and experience into mobile, 
+                    Sabna Sainudeen is a Senior cybersecurity professional with exceptional skills and experience into mobile, 
                     cloud and IoT security. She is currently associated with Schneider Electric and is responsible for addressing 
                     security of IoT products including Industrial Control Systems and Home automation products. She is an Edison 
                     Expert @ Schneider Electric (Title given to selected senior level experts for their outstanding contribution 
@@ -947,7 +947,7 @@ military, finance and government sectors
                 "image": require('../../../images/speakers/kvlakshmy.jpeg'),
                 "bio": <p>
                     Dr. Lakshmy K. V. obtained her PhD (Cryptographic Boolean fuinctions) from Amrita Vishwa Vidyapeetham. 
-                    Currently, She is working as Assistant Professor at TIFAC-CORE in Cyber Security,  Amrita Vishwa Vidyapeetham, 
+                    Currently, She is working as Assistant Professor at TIFAC-CORE in Cybersecurity,  Amrita Vishwa Vidyapeetham, 
                     Coimbatore. Her research interests are Cryptography, Cryptanalysis, Cryptogaphic Protocols and Abstract algebra. 
                 </p>,
             },
@@ -956,9 +956,10 @@ military, finance and government sectors
             "slug": "covert-delivery-mechanisms",
             "title": "Covert delivery mechanisms",
             "abstract": <>
-                 Dr. Amritha P.P obtained her Ph.D (Steganalysis) from Amrita Vishwa Vidyapeetham. Currently, She is an Assistant 
-                 Professor at TIFAC-CORE in Cyber Security, Amrita Vishwa Vidyapeetham, Coimbatore. Her research interests are 
-                 Steganography, Steganalysis, Watermarking, Software obfuscation and machine learning in cyber security.  
+                Secure communication methods using steganography, watermarking and also network protocols for covert 
+                communication will be discussed in this talk. Obfuscation is a defense against various reverse engineering 
+                techniques. Software obfuscation translates software into a semantically equivalent one that is hard for 
+                attackers to analyze. Some obfuscation techniques will be introduced in this talk.                  
             </>, 
             "speaker": {
                 "name": "Amritha P.P.",
@@ -966,10 +967,10 @@ military, finance and government sectors
                 "company": "Amrita University",
                 "image": require('../../../images/speakers/ppamritha.jpeg'),
                 "bio": <p>
-                    Secure communication methods using steganography, watermarking and also network protocols for covert 
-                    communication will be discussed in this talk. Obfuscation is a defense against various reverse engineering 
-                    techniques. Software obfuscation translates software into a semantically equivalent one that is hard for 
-                    attackers to analyze. Some obfuscation techniques will be introduced in this talk. 
+
+                    Dr. Amritha P.P obtained her Ph.D (Steganalysis) from Amrita Vishwa Vidyapeetham. Currently, She is an Assistant 
+                    Professor at TIFAC-CORE in Cybersecurity, Amrita Vishwa Vidyapeetham, Coimbatore. Her research interests are 
+                    Steganography, Steganalysis, Watermarking, Software obfuscation and machine learning in cybersecurity.  
                 </p>,
             },
         },
