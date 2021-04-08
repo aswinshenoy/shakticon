@@ -33,7 +33,7 @@ const ConferenceSchedule = () => {
     const scheduleList = [
         {
             "date": "09 April 2021",
-            "title": "Day 1",
+            "title": "April 9",
             "events": [
                 {
                     "time": "08:00 - 08:30 IST",
@@ -201,7 +201,7 @@ const ConferenceSchedule = () => {
         },
         {
             "date": "10 April 2021",
-            "title": "Day 2",
+            "title": "April 10",
             "events": [
                 {
                     "time": "08:00 - 08:30 IST",
@@ -366,7 +366,7 @@ const ConferenceSchedule = () => {
         },
         {
             "date": "11 April 2021",
-            "title": "Day 3",
+            "title": "April 11",
             "events": [
             {
                     "time": "08:30 - 09:30 IST",

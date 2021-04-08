@@ -690,7 +690,7 @@ military, finance and government sectors
             "title": "A pragmatic approach on software security",
             "speaker": {
                 "name": "Priti Shrivastav",
-                "designation": "Former General Manager Software Security",
+                "designation": "General Manager Software Security",
                 "company": "Intel Corporation",
                 "image": require('../../../images/speakers/priti.jpeg'),
                 "links": {
