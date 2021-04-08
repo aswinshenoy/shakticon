@@ -42,7 +42,7 @@ const AboutShaktiCon = () => {
         },
         {
             "title": "CyberSecurity Conference",
-            "label": "Talks, panel discussions & keynotes by leading women in Cyber Security."
+            "label": "Talks, panel discussions & keynotes by leading women in Cybersecurity."
         },
         {
             "title": "CTF Hacking Competition",

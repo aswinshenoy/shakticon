@@ -285,7 +285,7 @@ const SponsorsPage = () => {
                                 </a>
                             </div>
                             <div className="p-2" style={{ fontSize: '14px' }}>
-                                Hack The Box is a massive, online cyber security training platform, allowing individuals, companies, universities 
+                                Hack The Box is a massive, online cybersecurity training platform, allowing individuals, companies, universities 
                                 and all kinds of organizations around the world to level up their hacking skills.
                             </div>
                             <div className="p-2">

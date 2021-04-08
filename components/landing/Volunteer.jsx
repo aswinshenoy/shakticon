@@ -39,7 +39,7 @@ const VolunteerSection = () => {
                 <div className="col-md-9 px-2">
                     <h4>Volunteer</h4>
                     <p>
-                        Volunteering is a great way to make a difference supporting women in cyber security.
+                        Volunteering is a great way to make a difference supporting women in cybersecurity.
                         We are looking for volunteers who would like to support us. There are various ways to
                         help us - contribute your talks, trainings, organisational support, promotions and more.
                     </p>

@@ -80,7 +80,7 @@ const LandingCover = ({ query }) => {
                     </Fade>
                     <Fade right>
                         <h2>
-                            CyberSecurity Conference, Trainings & CTF
+                            Cybersecurity Conference, Trainings & CTF
                         </h2>
                         <div className="d-flex w-100 justify-content-center mt-3 align-content-center">
                             <div className="d-flex w-50 justify-content-end text-right border-right mr-3 pr-3 pl-2">

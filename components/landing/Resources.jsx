@@ -50,7 +50,7 @@ const Resources = () => {
                         <img draggable="false" src={require('../../images/bios-wiki.png')} alt="bi0s Wiki" />
                         <h4>Learn Using bi0s Wiki <i className="far fa-external-link ml-1" /></h4>
                         <p>
-                            A-to-Z Knowledgebase for learning CyberSecurity &
+                            A-to-Z Knowledgebase for learning Cybersecurity &
                             mastering CTFs, prepared by India's No.1 Ranked CTF Team.
                         </p>
                     </a>

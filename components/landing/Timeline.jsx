@@ -82,7 +82,7 @@ const ProgrammePhases = () => {
                 },
                 {
                     "title": "Intermediate-Level Training",
-                    "description": "Participants receive advanced trainings in different cyber-security areas to level up their skills."
+                    "description": "Participants receive advanced trainings in different cybersecurity areas to level up their skills."
                 }
             ],
         },

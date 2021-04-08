@@ -31,7 +31,7 @@ const TrainingsPage = () => {
                 <h1 className="mb-2">Trainings</h1>
                 <p style={{ maxWidth: '600px'}}>
                     Workshops & training sessions organized aimed at scouting, nurturing &
-                    empowering women talents in the field of cyber-security.
+                    empowering women talents in the field of cybersecurity.
                 </p>
             </div>
         </TrainingSection>

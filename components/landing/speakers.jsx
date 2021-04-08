@@ -140,7 +140,7 @@ const ConferenceSpeakers = () => {
         },
         {
             "name": "Liora Itkin",
-            "designation": "Head of Cyber Security Department (Blue Team)",
+            "designation": "Head of Cybersecurity Department (Blue Team)",
             "company": "Israel Ministry of Defense",
             "image": require('../../images/speakers/lioraitkin.jpeg'),
             "links": {
@@ -318,7 +318,7 @@ const ConferenceSpeakers = () => {
         },
         {
             "name": "Mehrnoosh Monshizadeh",
-            "designation": "Cyber Security Specialist",
+            "designation": "Cybersecurity Specialist",
             "company": "Nokia Bell Labs",
             "image": require('../../images/speakers/mehrnoosh.jpeg'),
         },

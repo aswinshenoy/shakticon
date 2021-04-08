@@ -103,7 +103,7 @@ const PromotePage = () => {
                             eminent speakers from Microsoft, VMware and Linde. <br />
                             <br />
                             As part of ShaktiCon, we organize ShaktiCTF, a jeopardy style online Capture The 
-                            Flag contest that will help you or your employees become confident in cyber security 
+                            Flag contest that will help you or your employees become confident in cybersecurity 
                             skills. Top teams have the chance to win awards worth *4000$*. <br />
                             <br />
                             *ShaktiCon (conference) Registration:*<br />
