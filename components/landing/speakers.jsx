@@ -147,7 +147,7 @@ const ConferenceSpeakers = () => {
         {
             "name": "Dr. Krishnashree Achuthan",
             "designation": "Dean PG Programs",
-            "company": "Amrita Vishwa Vidyapeetham",
+            "company": "Amrita University",
             "image": require('../../images/speakers/dr_krishnasree.jpg'),
         },
         {
@@ -180,8 +180,8 @@ const ConferenceSpeakers = () => {
         },
         {
             "name": "Vipin Pavithran",
-            "designation": "Founder",
-            "company": "Team Shakti, Team bi0s, InCTF, InCTFj, FOSS@Amrita",
+            "designation": "Founder & Chief Mentor of Team Shakti, Team bi0s, amFOSS",
+            "organization": "Amrita University",
             "image": require('../../images/speakers/vipinpavithran.jpg')
         },
         {

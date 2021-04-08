@@ -269,7 +269,7 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             "speaker": {
                 "name": "Krishnashree Achuthan",
                 "designation": "Dean PG Programs",
-                "company": "Amrita Vishwa Vidyapeetham",
+                "company": "Amrita University",
                 "bio": <p>
                     Dr. Krishnashree is an ardent researcher with multi-disciplinary interests, and holds a PhD degree from Clarkson University, NY, USA. Her areas of interest in  Cybersecurity & governance, Mathematical Modeling of Systems, Cybersecurity policy, IoT Security, Public Safety, Innovation, Educational Technologies & Entrepreneurship. She also leads research teams focused on enhancement of laboratory education through virtual laboratories. She holds 33 US patents, and has published over 50 publications in Journals & Conferences. She has played an active role in several strategic initiatives for Govt. of India and served as the Principal Investigator.
                 </p>,

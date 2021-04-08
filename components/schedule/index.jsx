@@ -66,8 +66,8 @@ const ConferenceSchedule = () => {
                     
                         {
                             "name": "Krishnashree Achuthan",
-                            "designation": "Director",
-                            "organization": "Amrita Center for CyberSecurity Systems and Networks",
+                            "designation": "Dean PG Programs",
+                            "organization": "Amrita University",
                             "avatar": require('../../images/speakers/dr_krishnasree.jpg')
                         },
                         {
