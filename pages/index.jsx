@@ -15,7 +15,7 @@ import Resources from "../components/landing/Resources";
 import ConferenceSpeakers from "../components/landing/speakers";
 import VolunteerSection from "../components/landing/Volunteer";
 import LandingJoinDiscussion from "../components/landing/JoinDiscussions";
-import RegistrationSticky from "../components/landing/RegistrationSticky";
+// import RegistrationSticky from "../components/landing/RegistrationSticky";
 
 const LandingPage = ({ query, }) => {
 
@@ -33,7 +33,7 @@ const LandingPage = ({ query, }) => {
       <LandingJoinDiscussion />
       <Resources />
       <FooterArea />
-      <RegistrationSticky query={query} />
+      {/*<RegistrationSticky query={query} />*/}
   </Base>;
 
 };
