@@ -388,11 +388,11 @@ const ConferenceSchedule = () => {
                 },
                 {
                     "time": "09:30 - 09:45 IST",
-                    "title": "",
+                    "title": "A Few Thoughts on Authenticated Encryption",
                     "speakers": [
                         {
-                            "name": "K V Lakshmy",
-                            "designation": "",
+                            "name": "Lakshmy K.V.",
+                            "designation": "Assistant Professor",
                             "organization": "Amrita University",
                             "avatar": require('../../images/speakers/kvlakshmy.jpeg')
                         }
@@ -400,13 +400,13 @@ const ConferenceSchedule = () => {
                 },
                 {
                     "time": "09:45 - 10:00 IST",
-                    "title": "",
+                    "title": "Covert delivery mechanisms",
                     "speakers": [
                         {
-                            "name": "Amritha P P",
-                            "designation": "",
+                            "name": "Amritha P.P.",
+                            "designation": "Assistant Professor",
                             "organization": "Amrita University",
-                            "avatar": require('../../images/speakers/ppamritha.jpg')
+                            "avatar": require('../../images/speakers/ppamritha.jpeg')
                         },
                     ],
                 },

@@ -451,6 +451,18 @@ const ConferenceSpeakers = () => {
             "company": "CrowdStrike",
             "image": require('../../images/speakers/aartigupta.png'),
         },
+        {
+            "name": "Lakshmy K.V.",
+            "designation": "Assistant Professor",
+            "company": "Amrita University",
+            "image": require('../../images/speakers/kvlakshmy.jpeg')
+        },
+        {
+            "name": "Amritha P.P.",
+            "designation": "Assistant Professor",
+            "company": "Amrita University",
+            "image": require('../../images/speakers/ppamritha.jpeg')
+        }
     ];
 
     return <SpeakersContainer id="speakers">

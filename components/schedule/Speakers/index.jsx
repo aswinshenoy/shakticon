@@ -933,6 +933,46 @@ military, finance and government sectors
                 </p>,
             },
         },
+        {
+            "slug": "a-few-thoughts-on-authenticated-encryption",
+            "title": "A Few Thoughts on Authenticated Encryption",
+            "abstract": <>
+                In this talk we discuss about the need for authenticated encryption and the current state of art in 
+                the design and analysis of AE Schemes.
+            </>, 
+            "speaker": {
+                "name": "Lakshmy K.V.",
+                "designation": "Assistant Professor",
+                "company": "Amrita University",
+                "image": require('../../../images/speakers/kvlakshmy.jpeg'),
+                "bio": <p>
+                    Dr. Lakshmy K. V. obtained her PhD (Cryptographic Boolean fuinctions) from Amrita Vishwa Vidyapeetham. 
+                    Currently, She is working as Assistant Professor at TIFAC-CORE in Cyber Security,  Amrita Vishwa Vidyapeetham, 
+                    Coimbatore. Her research interests are Cryptography, Cryptanalysis, Cryptogaphic Protocols and Abstract algebra. 
+                </p>,
+            },
+        },
+        {
+            "slug": "covert-delivery-mechanisms",
+            "title": "Covert delivery mechanisms",
+            "abstract": <>
+                 Dr. Amritha P.P obtained her Ph.D (Steganalysis) from Amrita Vishwa Vidyapeetham. Currently, She is an Assistant 
+                 Professor at TIFAC-CORE in Cyber Security, Amrita Vishwa Vidyapeetham, Coimbatore. Her research interests are 
+                 Steganography, Steganalysis, Watermarking, Software obfuscation and machine learning in cyber security.  
+            </>, 
+            "speaker": {
+                "name": "Amritha P.P.",
+                "designation": "Assistant Professor",
+                "company": "Amrita University",
+                "image": require('../../../images/speakers/ppamritha.jpeg'),
+                "bio": <p>
+                    Secure communication methods using steganography, watermarking and also network protocols for covert 
+                    communication will be discussed in this talk. Obfuscation is a defense against various reverse engineering 
+                    techniques. Software obfuscation translates software into a semantically equivalent one that is hard for 
+                    attackers to analyze. Some obfuscation techniques will be introduced in this talk. 
+                </p>,
+            },
+        },
     ]
 
     return <TrainingModuleWrap id="conference-speakers">
