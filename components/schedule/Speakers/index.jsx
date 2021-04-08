@@ -77,21 +77,24 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             "speaker": {
                 "name": "Meenakshi Lekhi",
                 "designation": "Member of Parliament",
-                "company": "Government of India",
+                "company": "Lok Sabha, Delhi",
                 "image": require('../../../images/speakers/meenakshilekhi.jpeg'),
                 "links": {
                     "twitter": "https://twitter.com/M_Lekhi",
                     "linkedin": "https://www.linkedin.com/in/meenakshi-lekhi-bjp/"
                 },
                 "bio": <p>
-                    Smt. Meenakshi Lekhi is a lawyer of the Supreme Court of India and a socio-political activist. 
-                    She has worked on several important cases like banning of lotteries in Delhi, Shantimukund rape 
-                    case, and special prosecutor for Jyoti Dhawan's case. She has been involved with several NGOs 
-                    and Commissions for Women Empowerment. She has also been member of the drafting committee of 
-                    "Women Reservation Bill" and "Problem of Sexual Harassment at Workplace". She has been taking 
-                    various lectures at the National Human Rights Commission(NHRC), India and gender training 
-                    programmes with various Ministries. She is also an excellent orator and a regular on television 
-                    debates on various national channels on several issues of national importance.
+                    Meenakashi Lekhi is a Member of Parliament from the New Delhi Parliamentary constituency. 
+                    She enrolled with the Bar Council of Delhi in 1990, and started practicing at the Supreme 
+                    Court of India, Delhi High Court, other courts, tribunals and forums in Delhi and other 
+                    parts of the country. She has argued a wide variety of matters, such as bails, revisions, 
+                    trials, appeals, criminal writs, murder references, Prevention of Corruption Act/Official 
+                    Secrets Act/Customs Act/FERA prosecutions, Domestic Violence and Family Law dispute. Lekhi 
+                    has been part of the Drafting Committees for bills like “Women Reservation Bill” and “Problem 
+                    of Sexual Harassment at Workplace”. She has been in National Commission for Women (NCW)’s 
+                    special committee, Chairperson of Special Task Force on Women Empowerment, Vice Chairperson 
+                    of JPM, Blind School, New Delhi & Jt. Secretary Blind Relief Association.
+
                 </p>
             }
         },
@@ -108,9 +111,8 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 },
                 "bio": <p>
                     Swamini Krishnamrita Prana is a senior most disciple of world renowned humanitarian, <a href="https://amma.org">Mata 
-                    Amritanandamayi Devi</a>. Swamini has been a leading force in the execution of several humanitarian 
-                    initiatives of the Mata Amritanandamayi Math. She is the author of several books(some of which can be
-                    found <a href="https://theammashop.org/search?type=products&q=swamini%20krishnamrita%20prana*">here</a>), 
+                    Amritanandamayi Devi</a>. Swamini plays an integral role in several humanitarian initiatives of the Mata 
+                    Amritanandamayi Math. She is the author of several books(some of which can be found <a href="https://theammashop.org/search?type=products&q=swamini%20krishnamrita%20prana*">here</a>), 
                     and a speaker at several international conferences. 
                 </p>
             }
@@ -120,28 +122,23 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             "title": "Inaugural Ceremony",
             "speaker": {
                 "name": "Eric Falt",
-                "designation": "Director",
-                "company": "UNESCO New Delhi Cluster",
+                "designation": "Director & UNESCO Representative",
+                "company": "Bhutan, India, Maldives and Sri Lanka",
                 "image": require('../../../images/speakers/ericfalt.jpeg'),
                 "links": {
                     "linkedin": "https://www.linkedin.com/in/eric-falt-8185ba18"
                 },
                 "bio": <p>
-                    Eric Falt has more than 30 years in the field of diplomacy and international affairs, focusing 
-                    initially on communications and moving to political affairs and management. From 2010 to 2018 
-                    Eric served as the Assistant Director-General of UNESCO, in charge of external relations and 
-                    public information, with the rank of Assistant Secretary-General of the UN. Since 2018, he is the UNESCO 
-                    Director and Representative based in New Delhi for a region comprising Bangladesh, Bhutan, India, 
-                    Nepal, the Maldives, and Sri Lanka. His previous assignments included: 
-                    <ul>
-                        <li>Participation in the Cambodia peace process,</li>
-                        <li>Involvement in human rights and peacekeeping activities in Haiti,</li>
-                        <li>Responsibilities in a humanitarian program in Iraq,</li>
-                        <li>Overall promotion of development activities for the United Nations in Pakistan.</li>
-                    </ul>
-                    
-                    He also led the global communications effort of the United Nations Environment Programme(UNEP) 
-                    and then the global outreach activities of the United Nations Secretariat in New York. 
+                    Since May 2018, Mr. Eric Falt has served as the Director and UNESCO Representative for the 
+                    UNESCO New Delhi Office, which covers Bangladesh, Bhutan, India, Nepal, the Maldives and 
+                    Sri Lanka. Mr. Falt previously served as Assistant Director-General for External Relations 
+                    and Public Information at the Paris Headquarters of UNESCO, with the rank of Assistant 
+                    Secretary-General of the UN.  He oversaw the work of the organization in the political 
+                    field and guided UNESCO’s communications and public information efforts.  Prior to this, 
+                    he served as Director of the Outreach Division at the United Nations Department of Public 
+                    Information in New York, and as the Director of Communications for the United Nations Environment 
+                    Programme (UNEP), at its headquarters in Nairobi. In the past, Mr. Falt was also posted for the 
+                    United Nations in Pakistan, Iraq, Haiti and Cambodia. 
                 </p>
             }
         },
@@ -346,6 +343,34 @@ and CISO of the National Informatics Centre.
                     Evelyn Kilel, a computer scientist and cybersecurity analyst at Ernst and Young is one of the co-founders of Shehacks KE. She Hacks Kenya is an all-female community that was founded in 2016, through the efforts of Patricia Rotich with the assistance of Safaricom’s women in technology. 
                 </p>,
                 "image": require('../../../images/speakers/evelynkilel.jpeg'),
+            },
+        },
+        {
+            "slug": "quantum-safe-solutions-for-cybersecurity",
+            "title": "Quantum safe solutions for cyber security", 
+            "speaker": {
+                "name": "Anindita Banerjee",
+                "designation": "Quantum Research Head and VP",
+                "company": "QuNu Labs Pvt Ltd.",
+                "image": require('../../../images/speakers/aninditha.jpeg'),
+                "bio": <p>
+                    Dr Anindita Banerjee received her PhD from Jaypee Institute of Information Technology (JIIT), Noida. 
+                    During her PhD, she was visiting scholar at University of Calgary and University of Brunswick Canada. 
+                    She was Assistant Prof. in Women College of Engineering, Durgapur. Later she joined as Research Associate 
+                    in Bose Institute, Kolkata, where she spearheaded the group leading to successful demonstration of single 
+                    photon experiment in 2016. She was awarded CSIR Pool Officer in 2016. She has published about 20 Journal 
+                    publications. She has co-authored a book on Optical quantum computation and quantum communication published 
+                    in SPIE Spotlight Series. At present she is working as Quantum Research Head and VP at QuNu Labs Pvt Ltd. <br />
+                    The company focuses on quantum safe solutions for cyber security. She is associated with QNU from 2017. 
+                    She has led the scientific R&D at Qnu Labs and demonstrated fibre based DPS Quantum Key Distribution  
+                    in 2019. She has contributed in developing India’s first Quantum Technology Product in Quantum Key 
+                    Distribution  and Quantum random number generator. She and her team has demonstrated India’s first Quantum 
+                    secure communication and data transfer using DPS QKD at 50 km distance using underground fiber. <br />
+                    Apart from her academics she is Alankar in Indian Classical Dance and performed nationally and 
+                    internationally under Kadamb production of Padmashree Kumudini Lakhia.
+
+                </p>,
+                
             },
         },
         {

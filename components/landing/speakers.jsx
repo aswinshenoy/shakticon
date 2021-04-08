@@ -111,7 +111,7 @@ const ConferenceSpeakers = () => {
         {
             "name": "Meenakshi Lekhi",
             "designation": "Member of Parliament",
-            "company": "Government of India",
+            "company": "Lok Sabha, Delhi",
             "image": require('../../images/speakers/meenakshilekhi.jpeg')
         },
         {
@@ -134,8 +134,8 @@ const ConferenceSpeakers = () => {
         },
         {
             "name": "Eric Falt",
-            "designation": "Director",
-            "company": "UNESCO New Delhi Cluster",
+            "designation": "Director & UNESCO Representative",
+            "company": "Bhutan, India, Maldives and Sri Lanka",
             "image": require('../../images/speakers/ericfalt.jpeg')
         },
         {
@@ -183,6 +183,12 @@ const ConferenceSpeakers = () => {
             "designation": "Founder",
             "company": "Team Shakti, Team bi0s, InCTF, InCTFj, FOSS@Amrita",
             "image": require('../../images/speakers/vipinpavithran.jpg')
+        },
+        {
+            "name": "Anindita Banerjee",
+            "designation": "Quantum Research Head and VP",
+            "company": "QuNu Labs Pvt Ltd.",
+            "image": require('../../images/speakers/aninditha.jpeg')
         },
         {
             "name": "Anyesh Roy",
