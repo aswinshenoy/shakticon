@@ -394,7 +394,7 @@ const ConferenceSchedule = () => {
                             "name": "K V Lakshmy",
                             "designation": "",
                             "organization": "Amrita University",
-                            "avatar": require('../../images/speakers/lakshmy.png')
+                            "avatar": require('../../images/speakers/kvlakshmy.jpeg')
                         }
                     ],
                 },
@@ -406,7 +406,7 @@ const ConferenceSchedule = () => {
                             "name": "Amritha P P",
                             "designation": "",
                             "organization": "Amrita University",
-                            "avatar": require('../../images/speakers/amritha.png')
+                            "avatar": require('../../images/speakers/ppamritha.jpg')
                         },
                     ],
                 },

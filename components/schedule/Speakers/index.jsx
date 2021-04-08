@@ -143,6 +143,54 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             }
         },
         {
+            "slug": "Keynote",
+            "title": "Keynote",
+            "speaker": {
+                "name": "Neeta Verma",
+                "designation": "Director General",
+                "company": "National Informatics Centre",
+                "image": require('../../../images/speakers/neetavarma.jpeg'),
+                "bio": <p>
+                    Dr. Neeta Verma is the Director General of National Informatics Centre, a premier 
+                    Technology organization of the Government of India. With a career spanning over three 
+                    and a half decades, she has been instrumental in implementing high impact digital 
+                    initiatives across the country. In her current role as DG NIC, she is spearheading the Digital Transformation agenda of the government through development of Digital Platforms for various initiatives of the Government in different sectors of development.
+                </p>
+            }
+        },
+        {
+            "slug": "Keynote",
+            "title": "Keynote", 
+            "speaker": {
+                "name": "Ratnaboli Ghorai Dinda",
+                "designation": "Deputy Director General(Scientist-G)",
+                "company": "National Informatics Centre",
+                "bio": <p>
+                    Ms. Ratnaboli Ghorai Dinda, has spent more than 30 years in Information Technology and 
+                    more than 15 years in Cyber Security. She has played a key role in provisioning Cyber 
+                    Security for the National Informatics Centre or NIC, a premier institution of the 
+                    Government of India, providing infrastructure and technology support to enable the 
+                    delivery of government IT services. She specializes in Application Security and is 
+                    currently Deputy Director General and CISO of the National Informatics Centre.
+                </p>,
+                "image": require('../../../images/speakers/ratnaboli.jpeg'),
+            },
+        },
+        {
+            "slug": "Panel Discussion: Cybercrime and Pathways Ahead",
+            "title": "Panel Discussion: Cybercrime and Pathways Ahead",
+            
+            "speaker": {
+                "name": "Dave Chatterjee",
+                "designation": "Associate Professor",
+                "company": "The University of Georgia",
+                "image": require('../../../images/speakers/davechatterjee.jpg'),
+                "bio": <p>
+                   Dr. Chatterjee’s interest and expertise lies in the various facets of information technology management, with current focus on cybersecurity and enterprise digitization. He delivers talks around the world, conduct webinars and workshops, give expert interviews, and moderate CXO panels on cybersecurity, emerging technology trends, and other enterprise IT governance and value management issues. It is a passion and mission of mine to connect with all types of audience and engage in a thought-provoking and reflective discussion.
+                </p>,
+            },
+        },
+        {
             "slug": "keynote",
             "title": "Keynote",
             "speaker": {
@@ -189,26 +237,6 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 </p>
             },
         },
-        {
-            "slug": "Keynote",
-            "title": "Keynote", 
-            "speaker": {
-                "name": "Ratnaboli Ghorai Dinda",
-                "designation": "Deputy Director General(Scientist-G)",
-                "company": "National Informatics Centre",
-                "bio": <p>
-                    Ms. Ratnaboli Ghorai Dinda, has spent more than 30 years in Information
-Technology and more than 15 years in Cyber Security. She has played a key
-role in provisioning Cyber Security for the National Informatics Centre or NIC,
-a premier institution of the Government of India, providing infrastructure and
-technology support to enable the delivery of government IT services. She
-specializes in Application Security and is currently Deputy Director General
-and CISO of the National Informatics Centre.
-                </p>,
-                "image": require('../../../images/speakers/ratnaboli.jpeg'),
-            },
-        },
-        
         {
             "slug": "threat-modeling",
             "title": "Threat Modeling",
@@ -272,8 +300,8 @@ and CISO of the National Informatics Centre.
             "title": "Inaugural Session", 
             "speaker": {
                 "name": "Krishnashree Achuthan",
-                "designation": "Director",
-                "company": "Amrita Center for CyberSecurity Systems and Networks",
+                "designation": "Dean PG Programs",
+                "company": "Amrita Vishwa Vidyapeetham",
                 "bio": <p>
                     Dr. Krishnashree is an ardent researcher with multi-disciplinary interests, and holds a PhD degree from Clarkson University, NY, USA. Her areas of interest in  Cybersecurity & governance, Mathematical Modeling of Systems, Cybersecurity policy, IoT Security, Public Safety, Innovation, Educational Technologies & Entrepreneurship. She also leads research teams focused on enhancement of laboratory education through virtual laboratories. She holds 33 US patents, and has published over 50 publications in Journals & Conferences. She has played an active role in several strategic initiatives for Govt. of India and served as the Principal Investigator.
                 </p>,
@@ -340,7 +368,9 @@ and CISO of the National Informatics Centre.
                 "designation": "Co-Founder",
                 "company": "SheHacksKe",
                 "bio": <p>
-                    Evelyn Kilel, a computer scientist and cybersecurity analyst at Ernst and Young is one of the co-founders of Shehacks KE. She Hacks Kenya is an all-female community that was founded in 2016, through the efforts of Patricia Rotich with the assistance of Safaricom’s women in technology. 
+                    Evelyn Kilel, a computer scientist and cybersecurity analyst at Ernst and Young is one of the 
+                    co-founders of Shehacks KE. She Hacks Kenya is an all-female community that was founded in 2016, 
+                    through the efforts of Patricia Rotich with the assistance of Safaricom’s women in technology. 
                 </p>,
                 "image": require('../../../images/speakers/evelynkilel.jpeg'),
             },
@@ -409,20 +439,6 @@ and CISO of the National Informatics Centre.
                     Marion Marschalek is a Cyphort researcher and one of the top reverse engineers of government malware around. Recently uncovered French government surveillance malware.
                 </p>,
                 "image": require('../../../images/speakers/marion.jpeg'),
-            },
-        },
-        {
-            "slug": "Panel Discussion: Cybercrime and Pathways Ahead",
-            "title": "Panel Discussion: Cybercrime and Pathways Ahead",
-            
-            "speaker": {
-                "name": "Dave Chatterjee",
-                "designation": "Associate Professor",
-                "company": "The University of Georgia",
-                "image": require('../../../images/speakers/davechatterjee.jpg'),
-                "bio": <p>
-                   Dr. Chatterjee’s interest and expertise lies in the various facets of information technology management, with current focus on cybersecurity and enterprise digitization. He delivers talks around the world, conduct webinars and workshops, give expert interviews, and moderate CXO panels on cybersecurity, emerging technology trends, and other enterprise IT governance and value management issues. It is a passion and mission of mine to connect with all types of audience and engage in a thought-provoking and reflective discussion.
-                </p>,
             },
         },
         {
@@ -608,23 +624,7 @@ military, finance and government sectors
                 </p>
             },
         },
-        {
-            "slug": "understanding-bluetooth-security",
-            "title": "Understanding Bluetooth security.",
-            "speaker": {
-                "name": "Renu D S",
-                "designation": "Penetration Test Engineer",
-                "company": "Schneider-Electric",
-                "image": require('../../../images/speakers/renuds.png'),
-                "links": {
-                    "linkedin": "http://linkedin.com/in/priti-shrivastav-59878a2"
-                },
-                "bio": <>
-                     Renu D S is a Penetration Test Engineer at Schneider-Electric with an overall experience of 2.5 years 
-                     mainly focusing on embedded, wireless and web security.",
-                </>
-            }
-        },
+        
         {
             "slug": "software-security-pragmatic-approach",
             "title": "A pragmatic approach on software security",
@@ -647,19 +647,7 @@ military, finance and government sectors
                 </p>
             }
         },
-        {
-            "slug": "Keynote",
-            "title": "Keynote",
-            "speaker": {
-                "name": "Neeta Verma",
-                "designation": "Director General",
-                "company": "National Informatics Centre",
-                "image": require('../../../images/speakers/neetavarma.jpeg'),
-                "bio": <p>
-                    Dr. Neeta Verma is the Director General of National Informatics Centre, a premier Technology organization of the Government of India. With a career spanning over three and a half decades, she has been instrumental in implementing high impact digital initiatives across the country. In her current role as DG NIC, she is spearheading the Digital Transformation agenda of the government through development of Digital Platforms for various initiatives of the Government in different sectors of development.
-                </p>
-            }
-        },
+        
         {
             "slug": "internet-of-drones-security",
             "title": "Internet of Drones Security",
@@ -835,6 +823,23 @@ military, finance and government sectors
                 </p>,
             },
             
+        },
+        {
+            "slug": "understanding-bluetooth-security",
+            "title": "Understanding Bluetooth security.",
+            "speaker": {
+                "name": "Renu D S",
+                "designation": "Penetration Test Engineer",
+                "company": "Schneider-Electric",
+                "image": require('../../../images/speakers/renuds.png'),
+                "links": {
+                    "linkedin": "http://linkedin.com/in/priti-shrivastav-59878a2"
+                },
+                "bio": <>
+                     Renu D S is a Penetration Test Engineer at Schneider-Electric with an overall experience of 2.5 years 
+                     mainly focusing on embedded, wireless and web security.",
+                </>
+            }
         },
         {
             "slug": "decoding-the-cybersecurity-career-path",

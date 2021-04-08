@@ -179,14 +179,6 @@ const EventOrganizers = ({
             }
         },
         {
-            "name": "Gopika S",
-            "image": require('../../images/crew/gopika.jpg'),
-            "links": {
-                "twitter": "https://twitter.com/m0n574",
-                "linkedin": "https://www.linkedin.com/in/gopika-subramanian-007304b5/"
-            }
-        },
-        {
             "name": "Simran Kathpalia",
             "image": require('../../images/crew/simran.jpg'),
             "links": {
