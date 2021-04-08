@@ -271,7 +271,13 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 "designation": "Dean PG Programs",
                 "company": "Amrita University",
                 "bio": <p>
-                    Dr. Krishnashree is an ardent researcher with multi-disciplinary interests, and holds a PhD degree from Clarkson University, NY, USA. Her areas of interest in  Cybersecurity & governance, Mathematical Modeling of Systems, Cybersecurity policy, IoT Security, Public Safety, Innovation, Educational Technologies & Entrepreneurship. She also leads research teams focused on enhancement of laboratory education through virtual laboratories. She holds 33 US patents, and has published over 50 publications in Journals & Conferences. She has played an active role in several strategic initiatives for Govt. of India and served as the Principal Investigator.
+                    Dr. Krishnashree is an ardent researcher with multi-disciplinary interests, and holds a PhD degree 
+                    from Clarkson University, NY, USA. Her areas of interest in  Cybersecurity & governance, Mathematical 
+                    Modeling of Systems, Cybersecurity policy, IoT Security, Public Safety, Innovation, Educational 
+                    Technologies & Entrepreneurship. She also leads research teams focused on enhancement of laboratory 
+                    education through virtual laboratories. She holds 33 US patents, and has published over 50 publications 
+                    in Journals & Conferences. She has played an active role in several strategic initiatives for Government 
+                    of India and served as the Principal Investigator.
                 </p>,
                 "image": require('../../../images/speakers/dr_krishnasree.jpg'),
             },
@@ -344,6 +350,38 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             },
         },
         {
+            "slug": "secure-software",
+            "title": "Secure Software", 
+            "abstract": <>
+                Secure Software is software which continues to work as intended by the developer, even in the presence 
+                of an adversary. Software Security is still not a mature field worldwide though significant efforts 
+                have been made in this direction in the last one decade. Software developers as well as testers are 
+                applying piecemeal solutions to achieve security but they are definitely not sufficient. 
+                <br />
+                Developers apply various measures in the software to provide Confidentiality, Integrity, Authentication 
+                and other security services.  Any compromise to these makes the software insecure. Software Security 
+                Assessment at its most basic level analyzes the applied security measures for their sufficiency, 
+                correctness and non-bypassability. It tries to identify presence of any malicious functionality 
+                in the software. It also checks for the presence of vulnerabilities which an adversary might be able 
+                to exploit. 
+                <br />
+                In this talk, a glimpse of holistic view towards Software Security Assessment would be presented. 
+                Further, additional challenges in evaluating AI-based solutions would be enumerated. 
+            </>,
+            "speaker": {
+                "name": "Sarvjeet Kaur",
+                "designation": "Sc'G'",
+                "company": "Defence Research and Development Organization (DRDO)",
+                "bio": <p>
+                    Ms Sarvjeet Kaur is heading the Software Security Testing Lab of Scientific Analysis Group(SAG), 
+                    DRDO, a premier research organization for Defence in the country. She has been working in the area 
+                    Cyber security for last 8 years.
+
+                </p>,
+                "image": require('../../../images/speakers/sarvajeetkaur.jpeg'),
+            },
+        },
+        {
             "slug": "quantum-safe-solutions-for-cybersecurity",
             "title": "Quantum safe solutions for cyber security", 
             "speaker": {
@@ -358,12 +396,14 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                     in Bose Institute, Kolkata, where she spearheaded the group leading to successful demonstration of single 
                     photon experiment in 2016. She was awarded CSIR Pool Officer in 2016. She has published about 20 Journal 
                     publications. She has co-authored a book on Optical quantum computation and quantum communication published 
-                    in SPIE Spotlight Series. At present she is working as Quantum Research Head and VP at QuNu Labs Pvt Ltd. <br />
+                    in SPIE Spotlight Series. At present she is working as Quantum Research Head and VP at QuNu Labs Pvt Ltd. 
+                    <br />
                     The company focuses on quantum safe solutions for cyber security. She is associated with QNU from 2017. 
                     She has led the scientific R&D at Qnu Labs and demonstrated fibre based DPS Quantum Key Distribution  
                     in 2019. She has contributed in developing India’s first Quantum Technology Product in Quantum Key 
                     Distribution  and Quantum random number generator. She and her team has demonstrated India’s first Quantum 
-                    secure communication and data transfer using DPS QKD at 50 km distance using underground fiber. <br />
+                    secure communication and data transfer using DPS QKD at 50 km distance using underground fiber. 
+                    <br />
                     Apart from her academics she is Alankar in Indian Classical Dance and performed nationally and 
                     internationally under Kadamb production of Padmashree Kumudini Lakhia.
 
@@ -404,7 +444,8 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 "designation": "Senior Security Engineer, Founder",
                 "company": "BlackHoodie",
                 "bio": <p>
-                    Marion Marschalek is a Cyphort researcher and one of the top reverse engineers of government malware around. Recently uncovered French government surveillance malware.
+                    Marion Marschalek is a Cyphort researcher and one of the top reverse engineers of government malware around. 
+                    Recently uncovered French government surveillance malware.
                 </p>,
                 "image": require('../../../images/speakers/marion.jpeg'),
             },

@@ -185,6 +185,12 @@ const ConferenceSpeakers = () => {
             "image": require('../../images/speakers/vipinpavithran.jpg')
         },
         {
+            "name": "Sarvajeet Kaur",
+            "designation": "Sc'G'",
+            "company": "Defence Research and Development Organization (DRDO)",
+            "image": require('../../images/speakers/sarvajeetkaur.jpeg')
+        },
+        {
             "name": "Anindita Banerjee",
             "designation": "Quantum Research Head and VP",
             "company": "QuNu Labs Pvt Ltd.",

@@ -435,7 +435,7 @@ const ConferenceSchedule = () => {
                     ],
                 },
                 {
-                    "time": "11:30 - 12:30 IST",
+                    "time": "11:30 - 12:15 IST",
                     "title": "Keynote",
                     "speakers": [
                         {
@@ -443,6 +443,18 @@ const ConferenceSchedule = () => {
                             "designation": "CEO",
                             "organization": "Data Security Council of India",
                             "avatar": require('../../images/speakers/ramavedashree.jpeg')
+                        }
+                    ],
+                },
+                {
+                    "time": "12:15 - 12:45 IST",
+                    "title": "Secure Software",
+                    "speakers": [
+                        {
+                            "name": "Sarvajeet Kaur",
+                            "designation": "Sc'G'",
+                            "organization": "Defence Research and Development Organization (DRDO)",
+                            "avatar": require('../../images/speakers/sarvajeetkaur.jpeg')
                         }
                     ],
                 },
@@ -482,8 +494,8 @@ const ConferenceSchedule = () => {
                         },
                         {
                             "name": "Vipin Pavithran",
-                            "designation": "Founder & Chief Mentor",
-                            "organization": "Team Shakti, Team bi0s, amFOSS",
+                            "designation": "Founder & Chief Mentor of Team Shakti, Team bi0s, amFOSS",
+                            "organization": "Amrita University",
                             "avatar": require('../../images/speakers/vipinpavithran.jpg')
                         },
                     ]
