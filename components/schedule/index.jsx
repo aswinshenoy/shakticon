@@ -71,18 +71,17 @@ const ConferenceSchedule = () => {
                             "avatar": require('../../images/speakers/dr_krishnasree.jpg')
                         },
                         {
-                            "name": "Eric Falt",
-                            "designation": "Director",
-                            "organization": "UNESCO New Delhi Cluster",
+                            "name": "Eric Falt", 
+                            "designation": "Director & UNESCO Representative",
+                            "organization": "Bhutan, India, Maldives and Sri Lanka",
                             "avatar": require('../../images/speakers/ericfalt.jpeg')
                         },
                         {
                             "name": "Meenakshi Lekhi",
                             "designation": "Member of Parliament",
-                            "organization": "Government of India",
+                            "organization": "Lok Sabha, Delhi",
                             "avatar": require('../../images/speakers/meenakshilekhi.jpeg')
                         },
-                        
                         {
                             "name": "Swamini Krishnamrita Prana",
                             "designation": "",
@@ -133,6 +132,18 @@ const ConferenceSchedule = () => {
                         },
                         
                     ],
+                },
+                {
+                    "time": "16:30 - 17:00 IST",
+                    "title": "Quantum safe solutions for cyber security",
+                    "speakers": [
+                        {
+                            "name": "Anindita Banerjee",
+                            "designation": "Quantum Research Head and VP",
+                            "organization": "QuNu Labs Pvt Ltd.",
+                            "avatar": require('../../images/speakers/aninditha.jpeg'),
+                        },
+                    ]
                 },  
                 {
                     "time": "17:00 - 17:30 IST",

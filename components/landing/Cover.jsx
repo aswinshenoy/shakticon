@@ -113,12 +113,6 @@ const LandingCover = ({ query }) => {
                                     >
                                         Register / Login for Conference
                                     </a>
-                                    <a
-                                        className="register-button" target="_blank" rel="noreferrer nofollow"
-                                        href="https://ctf.shakticon.com/register"
-                                    >
-                                        Register for CTF
-                                    </a>
                                 </div>
                             </div>
                         </div>
