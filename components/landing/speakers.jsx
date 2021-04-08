@@ -109,6 +109,12 @@ const ConferenceSpeakers = () => {
 
     const speakers = [
         {
+            "name": "Eric Falt",
+            "designation": "Director & UNESCO Representative",
+            "company": "Bhutan, India, Maldives and Sri Lanka",
+            "image": require('../../images/speakers/ericfalt.jpeg')
+        },
+        {
             "name": "Meenakshi Lekhi",
             "designation": "Member of Parliament",
             "company": "Lok Sabha, Delhi",
@@ -121,86 +127,25 @@ const ConferenceSpeakers = () => {
             "image": require('../../images/speakers/krishnamritaprana.jpeg')
         },
         {
-            "name": "Sundari Nanda",
-            "designation": "CVO & Special Commissioner(Vigilance)",
-            "company": "Delhi Police",
-            "image": require('../../images/speakers/sundarinanda.jpeg'),
-        },
-        {
             "name": "Neeta Verma",
             "designation": "Director General",
             "company": "National Informatics Centre",
             "image": require('../../images/speakers/neetavarma.jpeg')
         },
         {
-            "name": "Eric Falt",
-            "designation": "Director & UNESCO Representative",
-            "company": "Bhutan, India, Maldives and Sri Lanka",
-            "image": require('../../images/speakers/ericfalt.jpeg')
+            "name": "Sundari Nanda",
+            "designation": "CVO & Special Commissioner(Vigilance)",
+            "company": "Delhi Police",
+            "image": require('../../images/speakers/sundarinanda.jpeg'),
         },
         {
-            "name": "Karine Ben-Simhon",
-            "designation": "VP, Cyber Intelligence Center and TLV Innovation",
-            "company": "Citi, Israel",
-            "image": require('../../images/speakers/karinebensimhon.jpeg')
-        },
-        {
-            "name": "Dr. Krishnashree Achuthan",
-            "designation": "Dean PG Programs",
-            "company": "Amrita University",
-            "image": require('../../images/speakers/dr_krishnasree.jpg'),
-        },
-        {
-            "name": "Sreepriya Chalakkal",
-            "designation": "Security Analyst",
-            "company": "Siemens",
-            "image": require('../../images/crew/sreepriya.jpg'),
+            "name": "Liora Itkin",
+            "designation": "Head of Cyber Security Department (Blue Team)",
+            "company": "Israel Ministry of Defense",
+            "image": require('../../images/speakers/lioraitkin.jpeg'),
             "links": {
-                "twitter": "https://twitter.com/priyachalakkal",
-                "linkedin": "https://www.linkedin.com/in/sreepriyac/"
+                "linkedin": "https://www.linkedin.com/in/liora-itkin/",
             }
-        },
-        {
-            "name": "Ratnaboli Ghorai Dinda",
-            "designation": "Deputy Director General(Scientist-G)",
-            "company": "National Informatics Centre",
-            "image": require('../../images/speakers/ratnaboli.jpeg')
-        },
-        {
-            "name": "Dave Chatterjee",
-            "designation": "Associate Professor",
-            "company": "The University of Georgia",
-            "image": require('../../images/speakers/davechatterjee.jpg')
-        },
-        {
-            "name": "Evelyn Kilel",
-            "designation": "Co-Founder",
-            "company": "SheHacksKe",
-            "image": require('../../images/speakers/evelynkilel.jpeg')
-        },
-        {
-            "name": "Vipin Pavithran",
-            "designation": "Founder & Chief Mentor of Team Shakti, Team bi0s, amFOSS",
-            "organization": "Amrita University",
-            "image": require('../../images/speakers/vipinpavithran.jpg')
-        },
-        {
-            "name": "Sarvajeet Kaur",
-            "designation": "Sc'G'",
-            "company": "Defence Research and Development Organization (DRDO)",
-            "image": require('../../images/speakers/sarvajeetkaur.jpeg')
-        },
-        {
-            "name": "Anindita Banerjee",
-            "designation": "Quantum Research Head and VP",
-            "company": "QuNu Labs Pvt Ltd.",
-            "image": require('../../images/speakers/aninditha.jpeg')
-        },
-        {
-            "name": "Anyesh Roy",
-            "designation": "IPS - DCP",
-            "company": "Cyber Crime, Delhi Police",
-            "image": require('../../images/speakers/anyeshroy.png')
         },
         {
             "name": "Marion Marschalek",
@@ -219,15 +164,6 @@ const ConferenceSpeakers = () => {
             }
         },
         {
-            "name": "Liora Itkin",
-            "designation": "Head of Cybersecurity Department(of SOC and DFIR teams)",
-            "company": "Israel Ministry of Defense",
-            "image": require('../../images/speakers/lioraitkin.jpeg'),
-            "links": {
-                "linkedin": "https://www.linkedin.com/in/liora-itkin/",
-            }
-        },
-        {
             "name": "Sanju Misra",
             "designation": "VP & CISO",
             "company": "Alnylam Pharmaceuticals",
@@ -237,117 +173,62 @@ const ConferenceSpeakers = () => {
             }
         },
         {
-            "name": "Micha Weis",
-            "designation": "CyberSecurity advisor",
-            "company": "Ministry of Finance",
-            "image": require('../../images/speakers/michaweis.jpeg')
+            "name": "Dr. Krishnashree Achuthan",
+            "designation": "Dean PG Programs",
+            "company": "Amrita University",
+            "image": require('../../images/speakers/dr_krishnasree.jpg'),
         },
         {
-            "name": "Bhavna Soman",
-            "designation": "ML Security Researcher",
-            "company": "Microsoft",
-            "image": require('../../images/speakers/bhavana.JPG'),
-            "links": {
-                "twitter": "https://twitter.com/bsoman3",
-            },
+            "name": "Sarvajeet Kaur",
+            "designation": "Sc'G'",
+            "company": "Defence Research and Development Organization (DRDO)",
+            "image": require('../../images/speakers/sarvajeetkaur.jpeg')
         },
         {
-            "name": "Maddie Stone",
-            "isTrainer": true,
-            "designation": "Security Researcher",
-            "company": "Google Project Zero",
-            "image": require('../../images/speakers/maddie_stone.jpg'),
-            "links": {
-                "linkedin": "https://www.linkedin.com/in/maddie-stone-192a6544/",
-                "twitter": "https://twitter.com/maddiestone",
-                "website": "https://ragingrock.com/"
-            }
+            "name": "Ratnaboli Ghorai Dinda",
+            "designation": "Deputy Director General(Scientist-G)",
+            "company": "National Informatics Centre",
+            "image": require('../../images/speakers/ratnaboli.jpeg')
         },
         {
-            "name": "Thaís Moreira Hamasaki",
-            "isTrainer": true,
-            "designation": "Offensive Security Researcher",
-            "company": "Intel",
-            "image": require('../../images/speakers/thais_moreira_hamasaki.jpeg'),
-            "links": {
-                "twitter": "https://twitter.com/barbieauglend",
-                "linkedin": "https://www.linkedin.com/in/barbieauglend/",
-                "website": "https://barbieauglend.re/"
-            }
+            "name": "Evelyn Kilel",
+            "designation": "Co-Founder",
+            "company": "SheHacksKe",
+            "image": require('../../images/speakers/evelynkilel.jpeg')
         },
         {
-            "isTrainer": true,
-            "name": "Gal Zaban",
-            "designation": "Security Researcher",
-            "company": "Cymotive",
-            "image": require('../../images/speakers/gal.JPG'),
-            "links": {
-                "twitter": "https://twitter.com/0xgalz",
-                "linkedin": "https://www.linkedin.com/in/gal-zaban-02007610b/",
-            }
+            "name": "Anyesh Roy",
+            "designation": "IPS - DCP",
+            "company": "Cyber Crime, Delhi Police",
+            "image": require('../../images/speakers/anyeshroy.png')
         },
         {
-            "name": "Silvia Nerea Anguita",
-            "isTrainer": true,
-            "designation": "Cybersecurity Auditor",
+            "name": "Karine Ben-Simhon",
+            "designation": "VP, Cyber Intelligence Center and TLV Innovation",
+            "company": "Citi, Israel",
+            "image": require('../../images/speakers/karinebensimhon.jpeg')
+        },
+        {
+            "name": "Sreepriya Chalakkal",
+            "designation": "Security Analyst",
             "company": "Siemens",
-            "image": require('../../images/speakers/silvia.jpg'),
+            "image": require('../../images/crew/sreepriya.jpg'),
             "links": {
-                "linkedin": "https://www.linkedin.com/in/silvia-anguita/"
+                "twitter": "https://twitter.com/priyachalakkal",
+                "linkedin": "https://www.linkedin.com/in/sreepriyac/"
             }
         },
         {
-            "name": "Arya M Shankar",
-            "isTrainer": true,
-            "designation": "Product & Solution Security Professional",
-            "company": "Siemens",
-            "image": require('../../images/speakers/arya.JPG')
+            "name": "Vipin Pavithran",
+            "designation": "Founder & Chief Mentor",
+            "company": "Team Shakti, Team bi0s, amFOSS",
+            "image": require('../../images/speakers/vipinpavithran.jpg')
         },
         {
-            "name": "Caroline Leman",
-            "isTrainer": true,
-            "designation": "Security Engineer",
-            "company": "ANSSI",
-            "image": require('../../images/speakers/caroline.JPG'),
-        },
-        {
-            "name": "Zoey Garvey",
-            "isTrainer": true,
-            "designation": "Consultant Software Engineer",
-            "company": "Federal Reserve Bank of San Francisco",
-            "image": require('../../images/speakers/zoey.jpg'),
-            "links": {
-                "linkedin": "https://www.linkedin.com/in/zoey-garvey-66982b34/"
-            }
-        },
-        {
-            "name": "Yarden Shafir",
-            "isTrainer": true,
-            "designation": "Software Engineer",
-            "company": "Crowdstrike",
-            "image": require('../../images/speakers/yarden_shafir.jpg'),
-            "links": {
-                "twitter": "https://twitter.com/yarden_shafir?lang=en"
-            }
-        },
-        {
-            "name": "Allison Marie Naaktgeboren",
-            "isTrainer": true,
-            "designation": "Researcher",
-            "company": "Portland State University",
-            "image": require('../../images/speakers/allison.jpg'),
-            "links": {
-                "linkedin": "https://www.linkedin.com/in/a-m-naaktgeboren/"
-            }
-        },
-        {
-            "name": "Luisa Montealegre",
-            "designation": "OT Cybersecurity Specialist",
-            "company": "Siemens",
-            "image": require('../../images/speakers/luisa.jpeg'),
-            "links": {
-                "linkedin": "https://www.linkedin.com/in/luisa-montealegre-8a491287/",
-            }
+            "name": "Indrakshi Ray",
+            "designation": "Professor, Computer Science Department",
+            "company": "Colorado State University",
+            "image": require('../../images/speakers/indrakshiray.jpeg'),
         },
         {
             "name": "Sung Lee",
@@ -359,10 +240,10 @@ const ConferenceSpeakers = () => {
             }
         },
         {
-            "name": "Indrakshi Ray",
-            "designation": "Professor, Computer Science Department",
-            "company": "Colorado State University",
-            "image": require('../../images/speakers/indrakshiray.jpeg'),
+            "name": "Micha Weis",
+            "designation": "CyberSecurity Advisor",
+            "company": "Ministry of Finance, Israel",
+            "image": require('../../images/speakers/michaweis.jpeg')
         },
         {
             "name": "Tiffany Bao",
@@ -375,12 +256,17 @@ const ConferenceSpeakers = () => {
             }
         },
         {
+            "name": "Dave Chatterjee",
+            "designation": "Associate Professor",
+            "company": "The University of Georgia",
+            "image": require('../../images/speakers/davechatterjee.jpg')
+        },
+        {
             "name": "Sabna Sainudeen",
             "designation": "President",
-            "company": "(Women in CyberSecurity) WiCyS India ",
+            "company": "WiCyS India ",
             "image": require('../../images/speakers/sabna.JPG'),
         },
-
         {
             "name": "Jhilmil Kochar",
             "designation": "Managing Director",
@@ -397,6 +283,30 @@ const ConferenceSpeakers = () => {
             },
         },
         {
+            "name": "Anindita Banerjee",
+            "designation": "Quantum Research Head and VP",
+            "company": "QuNu Labs Pvt Ltd.",
+            "image": require('../../images/speakers/aninditha.jpeg')
+        },
+        {
+            "name": "Bhavna Soman",
+            "designation": "ML Security Researcher",
+            "company": "Microsoft",
+            "image": require('../../images/speakers/bhavana.JPG'),
+            "links": {
+                "twitter": "https://twitter.com/bsoman3",
+            },
+        },
+        {
+            "name": "Luisa Montealegre",
+            "designation": "OT Cybersecurity Specialist",
+            "company": "Siemens",
+            "image": require('../../images/speakers/luisa.jpeg'),
+            "links": {
+                "linkedin": "https://www.linkedin.com/in/luisa-montealegre-8a491287/",
+            }
+        },
+        {
             "name": "Sreelakshmi Panangatt",
             "designation": "Security Engineer",
             "company": "VMware",
@@ -407,10 +317,10 @@ const ConferenceSpeakers = () => {
             }
         },
         {
-            "name": "Renu D S",
-            "designation": "Penetration Test Engineer",
-            "company": "Schneider",
-            "image": require('../../images/speakers/renuds.png'),
+            "name": "Mehrnoosh Monshizadeh",
+            "designation": "Cyber Security Specialist",
+            "company": "Nokia Bell Labs",
+            "image": require('../../images/speakers/mehrnoosh.jpeg'),
         },
         {
             "name": "Priti Shrivastav",
@@ -420,36 +330,6 @@ const ConferenceSpeakers = () => {
             "links": {
                 "linkedin": "http://linkedin.com/in/priti-shrivastav-59878a2"
             }
-        },
-        {
-            "name": "Priyadharshini Krishnan",
-            "designation": "Engineering Manager",
-            "company": "American Megatrends International LLC",
-            "image": require('../../images/speakers/priyadharshini.jpg'),
-        },
-        {
-            "name": "Mehrnoosh Monshizadeh",
-            "designation": "Cybersecurity Specialist",
-            "company": "Nokia Bell Labs",
-            "image": require('../../images/speakers/mehrnoosh.jpeg'),
-        },
-        {
-            "name": "Asha Poluru",
-            "designation": "Seasoned HR Leader",
-            "company": "Sophos Technologies Private Limited Regd.",
-            "image": require('../../images/speakers/ashap.jpeg'),
-        },
-        {
-            "name": "Komal Armarkar",
-            "designation": "Security Analyst",
-            "company": "CrowdStrike",
-            "image": require('../../images/speakers/komal.jpeg'),
-        },
-        {
-            "name": "Aarti Gupta",
-            "designation": "Director Engineering",
-            "company": "CrowdStrike",
-            "image": require('../../images/speakers/aartigupta.png'),
         },
         {
             "name": "Lakshmy K.V.",
@@ -462,11 +342,139 @@ const ConferenceSpeakers = () => {
             "designation": "Assistant Professor",
             "company": "Amrita University",
             "image": require('../../images/speakers/ppamritha.jpeg')
-        }
+        },
+        {
+            "name": "Aarti Gupta",
+            "designation": "Director Engineering",
+            "company": "CrowdStrike",
+            "image": require('../../images/speakers/aartigupta.png'),
+        },
+        {
+            "name": "Priyadharshini Krishnan",
+            "designation": "Engineering Manager",
+            "company": "American Megatrends International LLC",
+            "image": require('../../images/speakers/priyadharshini.jpg'),
+        },
+        {
+<<<<<<< HEAD
+            "name": "Mehrnoosh Monshizadeh",
+            "designation": "Cybersecurity Specialist",
+            "company": "Nokia Bell Labs",
+            "image": require('../../images/speakers/mehrnoosh.jpeg'),
+        },
+        {
+=======
+>>>>>>> 534f311d389f1076e641494bfbacdb9da7a143fc
+            "name": "Asha Poluru",
+            "designation": "Seasoned HR Leader",
+            "company": "Sophos Technologies Private Limited Regd.",
+            "image": require('../../images/speakers/ashap.jpeg'),
+        },
+        {
+            "name": "Renu D S",
+            "designation": "Penetration Test Engineer",
+            "company": "Schneider",
+            "image": require('../../images/speakers/renuds.png'),
+        },
+        {
+            "name": "Komal Armarkar",
+            "designation": "Security Analyst",
+            "company": "CrowdStrike",
+            "image": require('../../images/speakers/komal.jpeg'),
+        },
+        // {
+        //     "name": "Maddie Stone",
+        //     "isTrainer": true,
+        //     "designation": "Security Researcher",
+        //     "company": "Google Project Zero",
+        //     "image": require('../../images/speakers/maddie_stone.jpg'),
+        //     "links": {
+        //         "linkedin": "https://www.linkedin.com/in/maddie-stone-192a6544/",
+        //         "twitter": "https://twitter.com/maddiestone",
+        //         "website": "https://ragingrock.com/"
+        //     }
+        // },
+        // {
+        //     "name": "Thaís Moreira Hamasaki",
+        //     "isTrainer": true,
+        //     "designation": "Offensive Security Researcher",
+        //     "company": "Intel",
+        //     "image": require('../../images/speakers/thais_moreira_hamasaki.jpeg'),
+        //     "links": {
+        //         "twitter": "https://twitter.com/barbieauglend",
+        //         "linkedin": "https://www.linkedin.com/in/barbieauglend/",
+        //         "website": "https://barbieauglend.re/"
+        //     }
+        // },
+        // {
+        //     "isTrainer": true,
+        //     "name": "Gal Zaban",
+        //     "designation": "Security Researcher",
+        //     "company": "Cymotive",
+        //     "image": require('../../images/speakers/gal.JPG'),
+        //     "links": {
+        //         "twitter": "https://twitter.com/0xgalz",
+        //         "linkedin": "https://www.linkedin.com/in/gal-zaban-02007610b/",
+        //     }
+        // },
+        // {
+        //     "name": "Silvia Nerea Anguita",
+        //     "isTrainer": true,
+        //     "designation": "Cybersecurity Auditor",
+        //     "company": "Siemens",
+        //     "image": require('../../images/speakers/silvia.jpg'),
+        //     "links": {
+        //         "linkedin": "https://www.linkedin.com/in/silvia-anguita/"
+        //     }
+        // },
+        // {
+        //     "name": "Allison Marie Naaktgeboren",
+        //     "isTrainer": true,
+        //     "designation": "Researcher",
+        //     "company": "Portland State University",
+        //     "image": require('../../images/speakers/allison.jpg'),
+        //     "links": {
+        //         "linkedin": "https://www.linkedin.com/in/a-m-naaktgeboren/"
+        //     }
+        // },
+        // {
+        //     "name": "Caroline Leman",
+        //     "isTrainer": true,
+        //     "designation": "Security Engineer",
+        //     "company": "ANSSI",
+        //     "image": require('../../images/speakers/caroline.JPG'),
+        // },
+        // {
+        //     "name": "Zoey Garvey",
+        //     "isTrainer": true,
+        //     "designation": "Consultant Software Engineer",
+        //     "company": "Federal Reserve Bank of San Francisco",
+        //     "image": require('../../images/speakers/zoey.jpg'),
+        //     "links": {
+        //         "linkedin": "https://www.linkedin.com/in/zoey-garvey-66982b34/"
+        //     }
+        // },
+        // {
+        //     "name": "Yarden Shafir",
+        //     "isTrainer": true,
+        //     "designation": "Software Engineer",
+        //     "company": "Crowdstrike",
+        //     "image": require('../../images/speakers/yarden_shafir.jpg'),
+        //     "links": {
+        //         "twitter": "https://twitter.com/yarden_shafir?lang=en"
+        //     }
+        // },
+        // {
+        //     "name": "Arya M Shankar",
+        //     "isTrainer": true,
+        //     "designation": "Product & Solution Security Professional",
+        //     "company": "Siemens",
+        //     "image": require('../../images/speakers/arya.JPG')
+        // },
     ];
 
     return <SpeakersContainer id="speakers">
-        <h2>Speakers & Trainers</h2>
+        <h2>Speakers</h2>
         <div className="row w-100 mx-0">
             {speakers.map((s, index) =>
                 <div key={shortid.generate()} className="col-xl-2 col-lg-3 col-md-4 col-6 p-2">
