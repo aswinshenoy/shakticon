@@ -269,12 +269,6 @@ const ConferenceSchedule = () => {
                     "title": "Panel Discussion: Cybercrime and Pathways Ahead",
                     "speakers": [
                         {
-                            "name": "Sundari Nanda",
-                            "designation": "CVO & Special Commissioner(Vigilance)",
-                            "organization": "Delhi Police",
-                            "avatar": require('../../images/speakers/sundarinanda.jpeg')
-                        },
-                        {
                             "name": "Liora Itkin",
                             "designation": "Head of Cybersecurity Department (of SOC and DFIR teams)",
                             "organization": " Israel Ministry of Defense",
@@ -290,7 +284,7 @@ const ConferenceSchedule = () => {
                             "name": "Anyesh Roy",
                             "designation": "IPS - DCP",
                             "organization": "Cyber Crime, Delhi Police",
-                            "avatar": require('../../images/speakers/anyeshroy.png')
+                            "avatar": require('../../images/speakers/anyeshroy.jpeg')
                         },
                         {
                             "name": "Dave Chatterjee",
@@ -412,13 +406,19 @@ const ConferenceSchedule = () => {
                 },
                 {
                     "time": "10:00 - 10:30 IST",
-                    "title": "Keynote",
+                    "title": "Interactive Session",
                     "speakers": [
                         {
                             "name": "Neeta Verma",
                             "designation": "Director General",
                             "organization": "National Informatics Centre",
                             "avatar": require('../../images/speakers/neetavarma.jpeg')
+                        },
+                        {
+                            "name": "Sundari Nanda",
+                            "designation": "CVO & Special Commissioner(Vigilance)",
+                            "organization": "Delhi Police",
+                            "avatar": require('../../images/speakers/sundarinanda.jpeg')
                         },
                     ],
                 },
@@ -451,9 +451,9 @@ const ConferenceSchedule = () => {
                     "title": "Secure Software",
                     "speakers": [
                         {
-                            "name": "Sarvajeet Kaur",
+                            "name": "Sarvjeet Kaur",
                             "designation": "Sc'G'",
-                            "organization": "Defence Research and Development Organization (DRDO)",
+                            "organization": "Defence Research and Development Organization(DRDO)",
                             "avatar": require('../../images/speakers/sarvajeetkaur.jpeg')
                         }
                     ],
@@ -483,8 +483,8 @@ const ConferenceSchedule = () => {
                     ],
                 },
                 {
-                    "time": "17:00 - 17:30 IST",
-                    "title": "Closing Ceremony",
+                    "time": "17:15 - 17:45 IST",
+                    "title": "Valedictory Ceremony",
                     "speakers": [
                         {
                             "name": "Micha Weis",

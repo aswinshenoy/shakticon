@@ -283,6 +283,26 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
             },
         },
         {
+            "slug": "panel-discussion",
+            "title": "Panel Discussion: Cybercrime and Pathways Ahead", 
+            "speaker": {
+                "name": "Anyesh Roy",
+                "designation": "DCP/Cyber Crime, Delhi Police",
+                "company": "Ministry of Home Affairs",
+                "image": require('../../../images/speakers/anyeshroy.jpeg'),
+                "bio": <p>
+                    Anyesh Roy has worked for 13 years in the field of law enforcement in Delhi Police and Andaman & Nicobar 
+                    Police. He heads the Cyber Crime Unit(CyPAD) of Delhi Police. He also handles the functioning of National Cyber 
+                    Forensic Lab as part of Indian Cybercrime Coordination Centre. He has undertaken various initiatives for:
+                    <ul>
+                        <li>Detection and prevention of cyber offences in the jurisdiction of Delhi.</li>
+                        <li>Training and capacity building of the Investigating Officers of Delhi Police in the field of cyber investigation.</li>
+                        <li>Intensive cyber safety awareness campaigns among the common public, esp. among the vulnerable sections.</li>
+                    </ul>
+                </p>
+            },
+        },
+        {
             "slug": "ctfs-and-cybersecurity-research",
             "title": "CTFs and cybersecurity research",
             "abstract": <>
@@ -967,7 +987,6 @@ military, finance and government sectors
                 "company": "Amrita University",
                 "image": require('../../../images/speakers/ppamritha.jpeg'),
                 "bio": <p>
-
                     Dr. Amritha P.P obtained her Ph.D (Steganalysis) from Amrita Vishwa Vidyapeetham. Currently, She is an Assistant 
                     Professor at TIFAC-CORE in Cybersecurity, Amrita Vishwa Vidyapeetham, Coimbatore. Her research interests are 
                     Steganography, Steganalysis, Watermarking, Software obfuscation and machine learning in cybersecurity.  

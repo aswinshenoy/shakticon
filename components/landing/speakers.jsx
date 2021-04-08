@@ -200,7 +200,7 @@ const ConferenceSpeakers = () => {
             "name": "Anyesh Roy",
             "designation": "IPS - DCP",
             "company": "Cyber Crime, Delhi Police",
-            "image": require('../../images/speakers/anyeshroy.png')
+            "image": require('../../images/speakers/anyeshroy.jpeg')
         },
         {
             "name": "Karine Ben-Simhon",
@@ -356,15 +356,6 @@ const ConferenceSpeakers = () => {
             "image": require('../../images/speakers/priyadharshini.jpg'),
         },
         {
-<<<<<<< HEAD
-            "name": "Mehrnoosh Monshizadeh",
-            "designation": "Cybersecurity Specialist",
-            "company": "Nokia Bell Labs",
-            "image": require('../../images/speakers/mehrnoosh.jpeg'),
-        },
-        {
-=======
->>>>>>> 534f311d389f1076e641494bfbacdb9da7a143fc
             "name": "Asha Poluru",
             "designation": "Seasoned HR Leader",
             "company": "Sophos Technologies Private Limited Regd.",
