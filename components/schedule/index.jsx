@@ -36,7 +36,7 @@ const ConferenceSchedule = () => {
             "title": "April 9",
             "events": [
                 {
-                    "time": "08:00 - 08:30 IST",
+                    "time": "08:00 - 08:45 IST",
                     "title": "Keynote",
                     "speakers": [
                         {
@@ -48,7 +48,7 @@ const ConferenceSchedule = () => {
                     ],
                 },
                 {
-                    "time": "08:30 - 09:30 IST",
+                    "time": "08:45 - 09:30 IST",
                     "title": "Keynote",
                     "speakers": [
                         {
