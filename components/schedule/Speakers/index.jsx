@@ -186,7 +186,12 @@ const ShaktiSpeakers = ({ hideTitle = false }) => {
                 "company": "The University of Georgia",
                 "image": require('../../../images/speakers/davechatterjee.jpg'),
                 "bio": <p>
-                   Dr. Chatterjee’s interest and expertise lies in the various facets of information technology management, with current focus on cybersecurity and enterprise digitization. He delivers talks around the world, conduct webinars and workshops, give expert interviews, and moderate CXO panels on cybersecurity, emerging technology trends, and other enterprise IT governance and value management issues. It is a passion and mission of mine to connect with all types of audience and engage in a thought-provoking and reflective discussion.
+                   Dr. Chatterjee’s interest and expertise lies in the various facets of information technology 
+                   management, with current focus on cybersecurity and enterprise digitization. He delivers 
+                   talks around the world, conduct webinars and workshops, give expert interviews, and moderate 
+                   CXO panels on cybersecurity, emerging technology trends, and other enterprise IT governance 
+                   and value management issues. It is a passion and mission of mine to connect with all types of 
+                   audience and engage in a thought-provoking and reflective discussion.
                 </p>,
             },
         },
@@ -690,7 +695,7 @@ military, finance and government sectors
             "title": "A pragmatic approach on software security",
             "speaker": {
                 "name": "Priti Shrivastav",
-                "designation": "General Manager Software Security",
+                "designation": "Former General Manager Software Security",
                 "company": "Intel Corporation",
                 "image": require('../../../images/speakers/priti.jpeg'),
                 "links": {

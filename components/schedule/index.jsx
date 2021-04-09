@@ -134,6 +134,18 @@ const ConferenceSchedule = () => {
                     ],
                 },
                 {
+                    "time": "15:00 - 16:00 IST",
+                    "title": "Cybersecurity Roadmap at Amrita University",
+                    "speakers": [
+                        {
+                            "name": "Krishnashree Achuthan",
+                            "designation": "Dean PG Programs",
+                            "organization": "Amrita Vishwa Vidyapeetham",
+                            "avatar": require('../../images/speakers/dr_krishnasree.jpg')                        
+                        }
+                    ],
+                },
+                {
                     "time": "16:30 - 17:00 IST",
                     "title": "Quantum safe solutions for Cybersecurity",
                     "speakers": [
