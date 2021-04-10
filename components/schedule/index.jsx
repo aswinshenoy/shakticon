@@ -28,7 +28,7 @@ const TabSwitcher = styled.div`
 
 const ConferenceSchedule = () => {
 
-    const [activeDay, setActiveDay] = useState(0);
+    const [activeDay, setActiveDay] = useState(1);
 
     const scheduleList = [
         {
@@ -338,18 +338,18 @@ const ConferenceSchedule = () => {
                         }
                     ],
                 },
-                {
-                    "time": "16:45 - 17:30 IST",
-                    "title": "Techniques and tooling with FLARE-ON'20",
-                    "speakers": [
-                        {
-                            "name": "Sreelakshmi Panangatt",
-                            "designation": "Security Engineer",
-                            "organization": "VMware",
-                            "avatar": require('../../images/speakers/sreelakshmi.JPG')
-                        }
-                    ],
-                },
+                // {
+                //     "time": "16:45 - 17:30 IST",
+                //     "title": "Techniques and tooling with FLARE-ON'20",
+                //     "speakers": [
+                //         {
+                //             "name": "Sreelakshmi Panangatt",
+                //             "designation": "Security Engineer",
+                //             "organization": "VMware",
+                //             "avatar": require('../../images/speakers/sreelakshmi.JPG')
+                //         }
+                //     ],
+                // },
                 {
                     "time": "20.30 - 21.30 IST",
                     "title": "Privacy preserving Data Analysis",
