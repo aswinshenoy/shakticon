@@ -28,7 +28,7 @@ const TabSwitcher = styled.div`
 
 const ConferenceSchedule = () => {
 
-    const [activeDay, setActiveDay] = useState(1);
+    const [activeDay, setActiveDay] = useState(2);
 
     const scheduleList = [
         {
@@ -435,7 +435,7 @@ const ConferenceSchedule = () => {
                     ],
                 },
                 {
-                    "time": "10:30 - 11:30 IST",
+                    "time": "10:45 - 11:15 IST",
                     "title": "Preventing cyber attacks together - The Power of Collaboration",
                     "speakers": [
                         {
