@@ -417,7 +417,7 @@ const ConferenceSchedule = () => {
                     ],
                 },
                 {
-                    "time": "10:00 - 10:30 IST",
+                    "time": "10:00 - 10:45 IST",
                     "title": "Interactive Session",
                     "speakers": [
                         {
@@ -443,7 +443,7 @@ const ConferenceSchedule = () => {
                             "designation": "VP, Cyber Intelligence Center and TLV Innovation",
                             "organization": "Citi, Israel",
                             "avatar": require('../../images/speakers/karinebensimhon.jpeg')
-                        },
+                        },  
                     ],
                 },
                 {
