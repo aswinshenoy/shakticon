@@ -14,7 +14,7 @@ const EventOrganizersSection = styled.section`
     }
 `;
 
-const VipinSirCard = styled.div`
+const OrganizerCard = styled.div`
     h2 {
       font-weight: 900;
       color: white;
@@ -28,7 +28,7 @@ const VipinSirCard = styled.div`
       color: #DDD;
       font-size: 14px;
     }
-    a {
+    .social_media {
         display: inline-block;
         text-decoration: none;
         color: #FFAB00;
@@ -208,7 +208,7 @@ const EventOrganizers = ({
     return <EventOrganizersSection>
         <div className="container-lg px-2">
             <h1>ShaktiCon Organizers</h1>
-            <VipinSirCard className="row mx-0">
+            <OrganizerCard className="row mx-0">
                 <Fade left>
                     <div className="col-md-4 p-2">
                         <img alt="Vipin Pavithran" draggable="false" src={require('../../images/crew/vipin_sir.jpg')} />
@@ -242,7 +242,145 @@ const EventOrganizers = ({
                         </div>
                     </Fade>
                 </div>
-            </VipinSirCard>
+            </OrganizerCard>
+            <OrganizerCard className="row mx-0">
+                <Fade left>
+                    <div className="col-md-4 p-2">
+                        <img alt="Sreepriya Chalakkal" draggable="false" src={require('../../images/crew/sreepriya.jpg')} />
+                    </div>
+                </Fade>
+                <div className="col-md-8 d-flex align-items-center p-2">
+                    <Fade right>
+                        <div>
+                            <h2 className="text-warning">Sreepriya Chalakkal</h2>
+                            <div className="mb-2" style={{ color: 'white', fontWeight: '600' }}>
+                                <div>Mentor - Team Shakti</div>
+                                <div>Organizer of ShaktiCon</div>
+                            </div>
+                            <p>
+                                Sreepriya is a Security Analyst at Siemens ProductCERT, where she focuses on vulnerability 
+                                handling and incident response. Previously she worked as a pentester at Ernw GmbH, Germany, 
+                                in the mobile security team. She enjoys playing with security challenges in applications, 
+                                networks and binaries. She is mentor of TeamShakti, a women CTF team from India. Also, core 
+                                organiser of <a href="https://shakticon.com">ShaktiCon</a>, a women only security conference. 
+                                Also serves as a board member of <a href="https://blackhoodie.re">BlackHoodie</a>. Completed 
+                                masters from Technical University of Berlin and University of Trento with major Computer Security 
+                                and Privacy in March 2017.
+                            </p>
+                            <div>
+                                <a class="social_media"  href="https://twitter.com/priyachalakkal" target="_blank" rel="nofollow noopener">
+                                    <i className="fab fa-twitter mr-1" /> Follow on Twitter
+                                </a>
+                                <a class="social_media"  href="https://www.linkedin.com/in/sreepriyac/" target="_blank">
+                                    <i className="fab fa-twitter mr-1" /> Connect on LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </Fade>
+                </div>
+            </OrganizerCard>
+            <OrganizerCard className="row mx-0">
+                <Fade left>
+                    <div className="col-md-4 p-2">
+                        <img alt="Sowmya Ravidas" draggable="false" src={require('../../images/crew/sowmyaravidas.jpg')} />
+                    </div>
+                </Fade>
+                <div className="col-md-8 d-flex align-items-center p-2">
+                    <Fade right>
+                        <div>
+                            <h2 className="text-warning">Sowmya Ravidas</h2>
+                            <div className="mb-2" style={{ color: 'white', fontWeight: '600' }}>
+                                <div>Organizer of ShaktiCon</div>
+                            </div>
+                            <p>
+                                Sowmya Ravidas is pursuing her PhD in the Security Group at Eindhoven University of Technology 
+                                in the Netherlands. Her research interests include various aspects of access control in the 
+                                domain of IoT. In particular, her works focus on understanding attribute retrieval in Attribute-based 
+                                access control (ABAC) and developing fine grained access control frameworks for distributed architectures 
+                                such as IoT. Previously she has also worked on cloud security and NFV. <br />
+                                <br />
+                                Prior to joining TU Eindhoven, she received her master's degree in 'Mobile Computing- Security and 
+                                Services' from Aalto University in Finland. She also worked with Nokia Bell Labs for a year as a Master 
+                                Thesis Student and as a research assistant at Aalto University. She received her bachelor degree in 
+                                'Computer Science and Engineering' from <a href="https://amrita.edu">Amrita University</a>, India.
+                            </p>
+                            <div>
+                                <a class="social_media"  href="https://twitter.com/ravidas_sowmya" target="_blank" rel="nofollow noopener">
+                                    <i className="fab fa-twitter mr-1" /> Follow on Twitter
+                                </a>
+                                <a class="social_media" href="https://www.linkedin.com/in/sowmya-ravidas-0a538036/" target="_blank">
+                                    <i className="fab fa-twitter mr-1" /> Connect on LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </Fade>
+                </div>
+            </OrganizerCard>
+            <OrganizerCard className="row mx-0">
+                <Fade left>
+                    <div className="col-md-4 p-2">
+                        <img alt="Savita Seetaraman" draggable="false" src={require('../../images/crew/savita.jpeg')} />
+                    </div>
+                </Fade>
+                <div className="col-md-8 d-flex align-items-center p-2">
+                    <Fade right>
+                        <div>
+                            <h2 className="text-warning"></h2>
+                            <div className="mb-2" style={{ color: 'white', fontWeight: '600' }}>
+                                <div>Organizer of ShaktiCon</div>
+                            </div>
+                            <p>
+                                Savita will soon start as a DevOps Engineer at <a href="https://taxy.io">Taxy.io</a>. Previously she worked 
+                                at Ericsson as a Cloud Open Source Developer. She was a Google Women TechMaker in the year 2016 - 2017.<br /> 
+                                <br />
+                                She did her Masters in Computer Science with a specialization in Security and Privacy and Innovation and 
+                                Entrepreneurship, from EIT Digital Master School. She completed her Masters thesis in SAP SE, Germany. She 
+                                received her bachelor degree in Computer Science and Engineering from <a href="https://amrita.edu">Amrita University</a>, India.
+                            </p>
+                            <div>
+                                <a class="social_media" href="https://twitter.com/savitats" target="_blank" rel="nofollow noopener">
+                                    <i className="fab fa-twitter mr-1" /> Follow on Twitter
+                                </a>
+                                <a class="social_media" href="https://www.linkedin.com/in/savitaseetaraman/" target="_blank">
+                                    <i className="fab fa-twitter mr-1" /> Connect on LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </Fade>
+                </div>
+            </OrganizerCard>
+            <OrganizerCard className="row mx-0">
+                <Fade left>
+                    <div className="col-md-4 p-2">
+                        <img alt="Surya Seetharaman" draggable="false" src={require('../../images/crew/surya.jpeg')} />
+                    </div>
+                </Fade>
+                <div className="col-md-8 d-flex align-items-center p-2">
+                    <Fade right>
+                        <div>
+                            <h2 className="text-warning">Surya Seetharaman</h2>
+                            <div className="mb-2" style={{ color: 'white', fontWeight: '600' }}>
+                                <div>Organizer of ShaktiCon</div>
+                            </div>
+                            <p>
+                                Surya Seetharaman is a Software Engineer working at RedHat, Berlin on Cloud Networking. 
+                                She is an avid advocate of OpenSource and OpenInfra. Prior to working at RedHat, she was 
+                                working at CERN in Geneva, Switzerland on cloud technologies. She holds a Masters' degree 
+                                in Networked Services and Systems from KTH Royal Institute of Technology, Stockholm, 
+                                Sweden and her bachelor degree in Computer Science and Engineering from <a href="https://amrita.edu">Amrita University</a>, India.
+                            </p>
+                            <div>
+                                <a class="social_media" href="https://twitter.com/ItsSuryaShining" target="_blank" rel="nofollow noopener">
+                                    <i className="fab fa-twitter mr-1" /> Follow on Twitter
+                                </a>
+                                <a class="social_media" href="https://www.linkedin.com/in/tssurya" target="_blank">
+                                    <i className="fab fa-twitter mr-1" /> Connect on LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </Fade>
+                </div>
+            </OrganizerCard>
             <div className="py-3">
                 <h3 className="mb-0">Student Organizers</h3>
                 <ScrollContainer vertical={false} hideScrollbars={false} className="scroll-container py-2">

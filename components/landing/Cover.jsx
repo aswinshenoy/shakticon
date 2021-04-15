@@ -97,26 +97,6 @@ const LandingCover = ({ query }) => {
                             </div>
                         </div>
                     </Fade>
-                    <Fade up>
-                        <div className="d-flex justify-content-center mt-3">
-                            <div>
-                                {/*<p className="d-none d-md-block" style={{ maxWidth: '700px' }}>*/}
-                                {/*    ShaktiCon is an annual global conference focused on inspiring, training, and upskilling women in cybersecurity,*/}
-                                {/*    <div className="d-inline-block">*/}
-                                {/*        organized by <span>Team Shakti</span>, <div className="d-inline-block">India's First & No.1 ranked Women-Only CTF team.</div>*/}
-                                {/*    </div>*/}
-                                {/*</p>*/}
-                                <div className="py-4">
-                                    <a
-                                        className="register-button" target="_blank" rel="noreferrer nofollow"
-                                        href={`/register/${(query && query['utm_source']) ? `?utm_source=${query['utm_source']}` : ''}`}
-                                    >
-                                        Register / Login for Conference
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </Fade>
                 </div>
             </CoverWrap>
         </CoverContainer>

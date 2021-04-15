@@ -93,14 +93,6 @@ const CTFCover = () => {
                                         It is organized by <span>Team Shakti</span>, <div className="d-inline-block">India's First & No.1 ranked Women-Only CTF team.</div>
                                     </div>
                                 </p>
-                                <div className="py-4">
-                                    <a
-                                        className="register-button" target="_blank" rel="noreferrer nofollow"
-                                        href="https://ctf.shakticon.com/register"
-                                    >
-                                        Register Now for CTF
-                                    </a>
-                                </div>
                             </div>
                         </div>
                     </Fade>
