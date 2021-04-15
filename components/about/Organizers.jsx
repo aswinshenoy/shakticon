@@ -325,7 +325,7 @@ const EventOrganizers = ({
                 <div className="col-md-8 d-flex align-items-center p-2">
                     <Fade right>
                         <div>
-                            <h2 className="text-warning"></h2>
+                            <h2 className="text-warning">Savita Seetaraman</h2>
                             <div className="mb-2" style={{ color: 'white', fontWeight: '600' }}>
                                 <div>Organizer of ShaktiCon</div>
                             </div>
