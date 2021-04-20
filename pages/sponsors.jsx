@@ -64,7 +64,7 @@ const SponsorsPage = () => {
                         <div className="col-md-7 p-2">
                             <h2 style={{ fontSize: "calc(1.75rem + 2.5vw)" }}>Siemens</h2>
                             <div className="p-2">
-                                Siemens is a technology company centered on the industries that form the backbone of economies –
+                                Siemens is a technology company centered around the industries that form the backbone of economies –
                                 manufacturing, infrastructure, and transport. Our technology empowers our customers to transform
                                 their industries - to create more agile and productive factories, more intelligent and efficient
                                 buildings and grids, more sustainable transit. We develop innovations to create impact for our
