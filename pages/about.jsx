@@ -11,7 +11,7 @@ import TeamShakti from "../components/about/Shakti";
 
 const AboutPage = () => {
 
-    return <Base meta={{title: 'About ShaktiCon'}}>
+    return <Base meta={{title: 'About  ShaktiCon'}}>
         <Topbar />
         <ShaktiConIntro />
         <CyberSecurityRelevance />
